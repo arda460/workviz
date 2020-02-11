@@ -21,7 +21,7 @@ function BarChart(props) {
     const x = d3
       .scaleBand()
       .range([0, width - margin.left - margin.right]) //range is the pixelsize of the svg element for said axis
-      .domain(data.map(x => x.name)) //domain is the range of values
+      .domain(data.map(x => x.name)) //domain is the range of values from the data
       .padding(0.1);
 
     const y = d3
