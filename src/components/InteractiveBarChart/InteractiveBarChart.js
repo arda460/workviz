@@ -9,8 +9,6 @@ function BarChart(props) {
 
   //draw the chart
   const draw = () => {
-    console.log(data[1].name);
-
     const svg = d3
       .select(svgRef.current)
       .style("width", width)
