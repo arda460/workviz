@@ -2,8 +2,8 @@ import csv
 import json
 
 # Global
-filename = ["VT20RAW.csv","HT20RAW.csv"]
-outputNames = ["VT20.json", "HT20.json"]
+filename = ["./rawData/VT20RAW.csv","HT20RAW.csv"]
+outputNames = [".rawData/VT20.json", "HT20.json"]
 
 # Deal with top line (1)
 def topLine(line, jsonCourses):

@@ -1,0 +1,2931 @@
+{
+    "Hannah Abbott": {
+        "Position": "Professor",
+        "Department": "MID",
+        "Kontering HCT (%)": "10.00%",
+        "Bemnnad HCT Gru (%)": "6.47%",
+        "VT Courses": [
+            {
+                "Course Code": "DA232-4X",
+                "Short Name": "exjobb",
+                "Work %": "3.3%"
+            },
+            {
+                "Course Code": "DM128-9X",
+                "Short Name": "mkand",
+                "Work %": "1.9%"
+            }
+        ],
+        "Gru VT (%)": "5.20%",
+        "HT Courses": [
+            {
+                "Course Code": "*DH2466",
+                "Short Name": "indmdi",
+                "Work %": "1.3%"
+            }
+        ],
+        "Gru HT (%)": "1.30%",
+        "Self-development &Friskvård (%)": "0",
+        "Extra (%)": "0",
+        "Balance (%)": "−3.53%",
+        "GRU balance 19": "5.35%",
+        "GRU balance 20": "1.82%",
+        "Årsarbetstid %": "100.00%"
+    },
+    "Ludo Bagman": {
+        "Position": "Lektor",
+        "Department": "MID",
+        "Kontering HCT (%)": "40.00%",
+        "Bemnnad HCT Gru (%)": "38.61%",
+        "VT Courses": [
+            {
+                "Course Code": "*DH2628",
+                "Short Name": "ixd-metod",
+                "Work %": "6.5%"
+            },
+            {
+                "Course Code": "*DH2629",
+                "Short Name": "ixd-reflect",
+                "Work %": "5.7%"
+            },
+            {
+                "Course Code": "DA232-4X",
+                "Short Name": "exjobb",
+                "Work %": "4.%"
+            }
+        ],
+        "Gru VT (%)": "16.20%",
+        "HT Courses": [
+            {
+                "Course Code": "*DM2630",
+                "Short Name": "uxdesign",
+                "Work %": "11.1%"
+            },
+            {
+                "Course Code": "DM2679",
+                "Short Name": "improint",
+                "Work %": "2.4%"
+            }
+        ],
+        "Gru HT (%)": "13.40%",
+        "Self-development &Friskvård (%)": "9.00%",
+        "Extra (%)": "0",
+        "Balance (%)": "−1.39%",
+        "GRU balance 19": "6.97%",
+        "GRU balance 20": "5.58%",
+        "Årsarbetstid %": "100.00%"
+    },
+    "Bathilda Bagshot": {
+        "Position": "Doktorand",
+        "Department": "MID",
+        "Kontering HCT (%)": "17.64%",
+        "Bemnnad HCT Gru (%)": "7.97%",
+        "VT Courses": [
+            {
+                "Course Code": "DH1620",
+                "Short Name": "mdid",
+                "Work %": "5.6%"
+            }
+        ],
+        "Gru VT (%)": "5.60%",
+        "HT Courses": [
+            {
+                "Course Code": "DM1578",
+                "Short Name": "proint",
+                "Work %": "2.3%"
+            }
+        ],
+        "Gru HT (%)": "2.30%",
+        "Self-development &Friskvård (%)": "0",
+        "Extra (%)": "0",
+        "Balance (%)": "−9.67%",
+        "GRU balance 19": "0",
+        "GRU balance 20": "−9.67%",
+        "Årsarbetstid %": "88.18%"
+    },
+    "Marcus Belby": {
+        "Position": "Lektor",
+        "Department": "MID",
+        "Kontering HCT (%)": "52.50%",
+        "Bemnnad HCT Gru (%)": "37.81%",
+        "VT Courses": [
+            {
+                "Course Code": "*DH2642",
+                "Short Name": "iprogd",
+                "Work %": "9.9%"
+            },
+            {
+                "Course Code": "DA232-4X",
+                "Short Name": "exjobb",
+                "Work %": "3.4%"
+            }
+        ],
+        "Gru VT (%)": "13.20%",
+        "HT Courses": [
+            {
+                "Course Code": "*DH2642",
+                "Short Name": "iprogdh",
+                "Work %": "9.3%"
+            },
+            {
+                "Course Code": "*DH2643",
+                "Short Name": "adviprog",
+                "Work %": "2.8%"
+            },
+            {
+                "Course Code": "DM2799",
+                "Short Name": "improj",
+                "Work %": ".6%"
+            }
+        ],
+        "Gru HT (%)": "12.80%",
+        "Self-development &Friskvård (%)": "11.81%",
+        "Extra (%)": "0",
+        "Balance (%)": "−14.69%",
+        "GRU balance 19": "47.88%",
+        "GRU balance 20": "33.19%",
+        "Årsarbetstid %": "100.00%"
+    },
+    "Katie Bell": {
+        "Position": "Professor",
+        "Department": "MID",
+        "Kontering HCT (%)": "25.00%",
+        "Bemnnad HCT Gru (%)": "22.17%",
+        "VT Courses": [
+            {
+                "Course Code": "*DT2300",
+                "Short Name": "ljudintv",
+                "Work %": "6.1%"
+            },
+            {
+                "Course Code": "DT2213",
+                "Short Name": "muscom",
+                "Work %": ".6%"
+            },
+            {
+                "Course Code": "DA232-4X",
+                "Short Name": "exjobb",
+                "Work %": "3.3%"
+            }
+        ],
+        "Gru VT (%)": "10.00%",
+        "HT Courses": [
+            {
+                "Course Code": "DM1578",
+                "Short Name": "proint",
+                "Work %": "1.5%"
+            },
+            {
+                "Course Code": "DM1581",
+                "Short Name": "intromedia",
+                "Work %": ".3%"
+            },
+            {
+                "Course Code": "DM2350",
+                "Short Name": "humper",
+                "Work %": "3.1%"
+            },
+            {
+                "Course Code": "DT2140",
+                "Short Name": "mintint",
+                "Work %": "1.7%"
+            }
+        ],
+        "Gru HT (%)": "6.50%",
+        "Self-development &Friskvård (%)": "5.63%",
+        "Extra (%)": "0",
+        "Balance (%)": "−2.83%",
+        "GRU balance 19": "0.57%",
+        "GRU balance 20": "−2.26%",
+        "Årsarbetstid %": "100.00%"
+    },
+    "Cuthbert Binns": {
+        "Position": "Lektor",
+        "Department": "MID",
+        "Kontering HCT (%)": "12.00%",
+        "Bemnnad HCT Gru (%)": "11.94%",
+        "VT Courses": [
+            {
+                "Course Code": "DA232-4X",
+                "Short Name": "exjobb",
+                "Work %": "3.3%"
+            },
+            {
+                "Course Code": "DM128-9X",
+                "Short Name": "mkand",
+                "Work %": "4.5%"
+            }
+        ],
+        "Gru VT (%)": "7.80%",
+        "HT Courses": [
+            {
+                "Course Code": "DM1578",
+                "Short Name": "proint",
+                "Work %": "1.5%"
+            }
+        ],
+        "Gru HT (%)": "1.50%",
+        "Self-development &Friskvård (%)": "2.70%",
+        "Extra (%)": "0",
+        "Balance (%)": "−0.06%",
+        "GRU balance 19": "0.38%",
+        "GRU balance 20": "0.32%",
+        "Årsarbetstid %": "100.00%"
+    },
+    "Phineas Nigellus Black": {
+        "Position": "Postdoc",
+        "Department": "MID",
+        "Kontering HCT (%)": "18.75%",
+        "Bemnnad HCT Gru (%)": "15.13%",
+        "VT Courses": [
+            {
+                "Course Code": "DM2720",
+                "Short Name": "halikt",
+                "Work %": "1.1%"
+            },
+            {
+                "Course Code": "DA232-4X",
+                "Short Name": "exjobb",
+                "Work %": "4.%"
+            },
+            {
+                "Course Code": "DM128-9X",
+                "Short Name": "mkand",
+                "Work %": "3.5%"
+            }
+        ],
+        "Gru VT (%)": "8.60%",
+        "HT Courses": [
+            {
+                "Course Code": "DM1578",
+                "Short Name": "proint",
+                "Work %": "1.5%"
+            },
+            {
+                "Course Code": "DM2573",
+                "Short Name": "hallutv",
+                "Work %": "5.1%"
+            }
+        ],
+        "Gru HT (%)": "6.50%",
+        "Self-development &Friskvård (%)": "0",
+        "Extra (%)": "0",
+        "Balance (%)": "−3.62%",
+        "GRU balance 19": "−3.54%",
+        "GRU balance 20": "−7.16%",
+        "Årsarbetstid %": "75.00%"
+    },
+    "Sirius Black": {
+        "Position": "Postdoc",
+        "Department": "MID",
+        "Kontering HCT (%)": "25.00%",
+        "Bemnnad HCT Gru (%)": "20.47%",
+        "VT Courses": [
+            {
+                "Course Code": "DH2628",
+                "Short Name": "ixd-metod",
+                "Work %": "6.3%"
+            },
+            {
+                "Course Code": "DA232-4X",
+                "Short Name": "exjobb",
+                "Work %": "4.%"
+            }
+        ],
+        "Gru VT (%)": "10.30%",
+        "HT Courses": [
+            {
+                "Course Code": "DM2799",
+                "Short Name": "improj",
+                "Work %": "4.6%"
+            }
+        ],
+        "Gru HT (%)": "4.60%",
+        "Self-development &Friskvård (%)": "5.63%",
+        "Extra (%)": "0",
+        "Balance (%)": "−4.53%",
+        "GRU balance 19": "−3.07%",
+        "GRU balance 20": "−7.60%",
+        "Årsarbetstid %": "100.00%"
+    },
+    "Amelia Bones": {
+        "Position": "Lektor",
+        "Department": "MID",
+        "Kontering HCT (%)": "28%",
+        "Bemnnad HCT Gru (%)": "23.97%",
+        "VT Courses": [
+            {
+                "Course Code": "*DH1609",
+                "Short Name": "komminf",
+                "Work %": "13.9%"
+            },
+            {
+                "Course Code": "DA232-4X",
+                "Short Name": "exjobb",
+                "Work %": "2.4%"
+            }
+        ],
+        "Gru VT (%)": "16.30%",
+        "HT Courses": [
+            {
+                "Course Code": "DM2575",
+                "Short Name": "mmproint",
+                "Work %": "1.5%"
+            }
+        ],
+        "Gru HT (%)": "1.50%",
+        "Self-development &Friskvård (%)": "6.19%",
+        "Extra (%)": "0",
+        "Balance (%)": "−3.53%",
+        "GRU balance 19": "−16.50%",
+        "GRU balance 20": "−20.03%",
+        "Årsarbetstid %": "55.00%"
+    },
+    "Susan Bones": {
+        "Position": "Professor",
+        "Department": "MID",
+        "Kontering HCT (%)": "52.50%",
+        "Bemnnad HCT Gru (%)": "45.34%",
+        "VT Courses": [
+            {
+                "Course Code": "*DM2556",
+                "Short Name": "intcom",
+                "Work %": "12.%"
+            },
+            {
+                "Course Code": "DH1609",
+                "Short Name": "komminf",
+                "Work %": ".5%"
+            },
+            {
+                "Course Code": "DA232-4X",
+                "Short Name": "exjobb",
+                "Work %": "12.%"
+            },
+            {
+                "Course Code": "DM128-9X",
+                "Short Name": "mkand",
+                "Work %": "3.8%"
+            }
+        ],
+        "Gru VT (%)": "28.20%",
+        "HT Courses": [
+            {
+                "Course Code": "*DM2575",
+                "Short Name": "mmproint",
+                "Work %": "3.9%"
+            },
+            {
+                "Course Code": "*DM2584",
+                "Short Name": "mmproj",
+                "Work %": "1.2%"
+            },
+            {
+                "Course Code": "DM2579",
+                "Short Name": "mep",
+                "Work %": ".3%"
+            }
+        ],
+        "Gru HT (%)": "5.40%",
+        "Self-development &Friskvård (%)": "11.81%",
+        "Extra (%)": "0",
+        "Balance (%)": "−7.16%",
+        "GRU balance 19": "23.72%",
+        "GRU balance 20": "16.56%",
+        "Årsarbetstid %": "100.00%"
+    },
+    "Terry Boot": {
+        "Position": "Adjunkt",
+        "Department": "MID",
+        "Kontering HCT (%)": "60.00%",
+        "Bemnnad HCT Gru (%)": "63.08%",
+        "VT Courses": [
+            {
+                "Course Code": "*DH1620",
+                "Short Name": "mdid",
+                "Work %": "14.9%"
+            },
+            {
+                "Course Code": "*DH2624",
+                "Short Name": "mdidcl",
+                "Work %": "3.5%"
+            },
+            {
+                "Course Code": "DM128-9X",
+                "Short Name": "mkand",
+                "Work %": "4.7%"
+            }
+        ],
+        "Gru VT (%)": "23.10%",
+        "HT Courses": [
+            {
+                "Course Code": "*DH1622",
+                "Short Name": "mdi-media",
+                "Work %": "15.9%"
+            },
+            {
+                "Course Code": "*DM2799",
+                "Short Name": "improj",
+                "Work %": "6.4%"
+            },
+            {
+                "Course Code": "DA232-4X",
+                "Short Name": "exjobb",
+                "Work %": "4.%"
+            },
+            {
+                "Course Code": "DM1581",
+                "Short Name": "intromedia",
+                "Work %": ".1%"
+            }
+        ],
+        "Gru HT (%)": "26.40%",
+        "Self-development &Friskvård (%)": "13.50%",
+        "Extra (%)": "0",
+        "Balance (%)": "3.08%",
+        "GRU balance 19": "5.00%",
+        "GRU balance 20": "8.08%",
+        "Årsarbetstid %": "100.00%"
+    },
+    "Lavender Brown": {
+        "Position": "Postdoc",
+        "Department": "MID",
+        "Kontering HCT (%)": "0.00%",
+        "Bemnnad HCT Gru (%)": "0.00%",
+        "VT Courses": [],
+        "Gru VT (%)": "0.00%",
+        "HT Courses": [],
+        "Gru HT (%)": "0.00%",
+        "Self-development &Friskvård (%)": "0",
+        "Extra (%)": "0",
+        "Balance (%)": "0.00%",
+        "GRU balance 19": "4.09%",
+        "GRU balance 20": "4.09%",
+        "Årsarbetstid %": "100.00%"
+    },
+    "Millicent Bulstrode": {
+        "Position": "Bitr Lektor",
+        "Department": "MID",
+        "Kontering HCT (%)": "30.00%",
+        "Bemnnad HCT Gru (%)": "28.92%",
+        "VT Courses": [
+            {
+                "Course Code": "*DM2720",
+                "Short Name": "halikt",
+                "Work %": "6.5%"
+            },
+            {
+                "Course Code": "DA232-4X",
+                "Short Name": "exjobb",
+                "Work %": "5.%"
+            }
+        ],
+        "Gru VT (%)": "11.50%",
+        "HT Courses": [
+            {
+                "Course Code": "DH2408",
+                "Short Name": "utvard",
+                "Work %": ".7%"
+            },
+            {
+                "Course Code": "DM1581",
+                "Short Name": "intromedia",
+                "Work %": ".3%"
+            },
+            {
+                "Course Code": "DM2573",
+                "Short Name": "hallutv",
+                "Work %": "7.7%"
+            },
+            {
+                "Course Code": "DM2799",
+                "Short Name": "improj",
+                "Work %": "1.9%"
+            }
+        ],
+        "Gru HT (%)": "10.60%",
+        "Self-development &Friskvård (%)": "6.75%",
+        "Extra (%)": "0",
+        "Balance (%)": "−1.08%",
+        "GRU balance 19": "8.48%",
+        "GRU balance 20": "7.40%",
+        "Årsarbetstid %": "100.00%"
+    },
+    "Charity Burbage": {
+        "Position": "Bitr Lektor",
+        "Department": "MID",
+        "Kontering HCT (%)": "30.00%",
+        "Bemnnad HCT Gru (%)": "36.45%",
+        "VT Courses": [
+            {
+                "Course Code": "*DM2624",
+                "Short Name": "itfunk",
+                "Work %": "11.2%"
+            },
+            {
+                "Course Code": "*DT2213",
+                "Short Name": "muscom",
+                "Work %": "9.4%"
+            },
+            {
+                "Course Code": "DT2300",
+                "Short Name": "ljudintv",
+                "Work %": ".4%"
+            },
+            {
+                "Course Code": "DA232-4X",
+                "Short Name": "exjobb",
+                "Work %": "4.%"
+            },
+            {
+                "Course Code": "DM128-9X",
+                "Short Name": "mkand",
+                "Work %": "4.7%"
+            }
+        ],
+        "Gru VT (%)": "29.70%",
+        "HT Courses": [],
+        "Gru HT (%)": "0.00%",
+        "Self-development &Friskvård (%)": "6.75%",
+        "Extra (%)": "0",
+        "Balance (%)": "6.45%",
+        "GRU balance 19": "−7.60%",
+        "GRU balance 20": "−1.15%",
+        "Årsarbetstid %": "100.00%"
+    },
+    "Frank Bryce": {
+        "Position": "Lektor",
+        "Department": "MID",
+        "Kontering HCT (%)": "43.75%",
+        "Bemnnad HCT Gru (%)": "42.77%",
+        "VT Courses": [
+            {
+                "Course Code": "*DH2400",
+                "Short Name": "interakv",
+                "Work %": "3.9%"
+            },
+            {
+                "Course Code": "DH2670",
+                "Short Name": "haptik",
+                "Work %": ".4%"
+            },
+            {
+                "Course Code": "DA232-4X",
+                "Short Name": "exjobb",
+                "Work %": "3.8%"
+            }
+        ],
+        "Gru VT (%)": "8.10%",
+        "HT Courses": [
+            {
+                "Course Code": "*DM2679",
+                "Short Name": "improint",
+                "Work %": "9.3%"
+            },
+            {
+                "Course Code": "DH2400",
+                "Short Name": "interak",
+                "Work %": "6.1%"
+            },
+            {
+                "Course Code": "DM2601",
+                "Short Name": "mixd",
+                "Work %": "7.2%"
+            },
+            {
+                "Course Code": "DM2799",
+                "Short Name": "improj",
+                "Work %": "2.3%"
+            }
+        ],
+        "Gru HT (%)": "24.80%",
+        "Self-development &Friskvård (%)": "9.84%",
+        "Extra (%)": "0",
+        "Balance (%)": "−0.98%",
+        "GRU balance 19": "14.53%",
+        "GRU balance 20": "13.55%",
+        "Årsarbetstid %": "87.50%"
+    },
+    "Alecto Carrow": {
+        "Position": "External",
+        "Department": "External",
+        "Kontering HCT (%)": "0",
+        "Bemnnad HCT Gru (%)": "1.06%",
+        "VT Courses": [
+            {
+                "Course Code": "DH2670",
+                "Short Name": "haptik",
+                "Work %": "1.1%"
+            }
+        ],
+        "Gru VT (%)": "1.10%",
+        "HT Courses": [],
+        "Gru HT (%)": "0.00%",
+        "Self-development &Friskvård (%)": "0",
+        "Extra (%)": "0",
+        "Balance (%)": "0",
+        "GRU balance 19": "0",
+        "GRU balance 20": "0",
+        "Årsarbetstid %": "0"
+    },
+    "Amycus Carrow": {
+        "Position": "Doktorand",
+        "Department": "MID",
+        "Kontering HCT (%)": "0.00%",
+        "Bemnnad HCT Gru (%)": "0.00%",
+        "VT Courses": [],
+        "Gru VT (%)": "0.00%",
+        "HT Courses": [],
+        "Gru HT (%)": "0.00%",
+        "Self-development &Friskvård (%)": "0",
+        "Extra (%)": "0",
+        "Balance (%)": "0.00%",
+        "GRU balance 19": "−9.03%",
+        "GRU balance 20": "−9.03%",
+        "Årsarbetstid %": "0"
+    },
+    "Reginald Cattermole": {
+        "Position": "Professor",
+        "Department": "MID",
+        "Kontering HCT (%)": "10.00%",
+        "Bemnnad HCT Gru (%)": "10.24%",
+        "VT Courses": [
+            {
+                "Course Code": "DH1620",
+                "Short Name": "mdid",
+                "Work %": ".5%"
+            },
+            {
+                "Course Code": "DM2624",
+                "Short Name": "itfunk",
+                "Work %": "1.1%"
+            },
+            {
+                "Course Code": "DA232-4X",
+                "Short Name": "exjobb",
+                "Work %": "3.8%"
+            }
+        ],
+        "Gru VT (%)": "5.40%",
+        "HT Courses": [
+            {
+                "Course Code": "*DH1621",
+                "Short Name": "mdi-intro",
+                "Work %": "4.4%"
+            },
+            {
+                "Course Code": "DH1622",
+                "Short Name": "mdi-media",
+                "Work %": ".5%"
+            }
+        ],
+        "Gru HT (%)": "4.90%",
+        "Self-development &Friskvård (%)": "0",
+        "Extra (%)": "0",
+        "Balance (%)": "0.24%",
+        "GRU balance 19": "2.15%",
+        "GRU balance 20": "2.38%",
+        "Årsarbetstid %": "100.00%"
+    },
+    "Mary Cattermole": {
+        "Position": "Lektor",
+        "Department": "MID",
+        "Kontering HCT (%)": "25.00%",
+        "Bemnnad HCT Gru (%)": "28.71%",
+        "VT Courses": [
+            {
+                "Course Code": "DA232-4X",
+                "Short Name": "exjobb",
+                "Work %": "2.%"
+            }
+        ],
+        "Gru VT (%)": "2.00%",
+        "HT Courses": [
+            {
+                "Course Code": "*DM1581",
+                "Short Name": "intromedia",
+                "Work %": "9.5%"
+            },
+            {
+                "Course Code": "*DM2500",
+                "Short Name": "distans",
+                "Work %": "8.6%"
+            },
+            {
+                "Course Code": "DM1578",
+                "Short Name": "proint",
+                "Work %": "2.9%"
+            }
+        ],
+        "Gru HT (%)": "21.10%",
+        "Self-development &Friskvård (%)": "5.63%",
+        "Extra (%)": "0",
+        "Balance (%)": "3.71%",
+        "GRU balance 19": "8.70%",
+        "GRU balance 20": "12.41%",
+        "Årsarbetstid %": "0"
+    },
+    "Cho Chang": {
+        "Position": "Adjunkt",
+        "Department": "MID",
+        "Kontering HCT (%)": "40.00%",
+        "Bemnnad HCT Gru (%)": "31.53%",
+        "VT Courses": [
+            {
+                "Course Code": "DA232-4X",
+                "Short Name": "exjobb",
+                "Work %": "6.%"
+            },
+            {
+                "Course Code": "DM128-9X",
+                "Short Name": "mkand",
+                "Work %": "3.5%"
+            }
+        ],
+        "Gru VT (%)": "9.50%",
+        "HT Courses": [
+            {
+                "Course Code": "*DM1578",
+                "Short Name": "proint",
+                "Work %": "13.%"
+            },
+            {
+                "Course Code": "*DM2517",
+                "Short Name": "xmlpub",
+                "Work %": ".%"
+            }
+        ],
+        "Gru HT (%)": "13.00%",
+        "Self-development &Friskvård (%)": "9.00%",
+        "Extra (%)": "0",
+        "Balance (%)": "−8.47%",
+        "GRU balance 19": "24.58%",
+        "GRU balance 20": "16.11%",
+        "Årsarbetstid %": "0"
+    },
+    "Penelope Clearwater": {
+        "Position": "Lektor",
+        "Department": "MID",
+        "Kontering HCT (%)": "77.50%",
+        "Bemnnad HCT Gru (%)": "68.65%",
+        "VT Courses": [
+            {
+                "Course Code": "*DM2585",
+                "Short Name": "aisoc",
+                "Work %": "5.8%"
+            },
+            {
+                "Course Code": "DM2582",
+                "Short Name": "mlabv",
+                "Work %": "4.1%"
+            },
+            {
+                "Course Code": "DM2583",
+                "Short Name": "bdatav",
+                "Work %": "2.%"
+            },
+            {
+                "Course Code": "DA232-4X",
+                "Short Name": "exjobb",
+                "Work %": "6.3%"
+            }
+        ],
+        "Gru VT (%)": "18.20%",
+        "HT Courses": [
+            {
+                "Course Code": "*DM2572",
+                "Short Name": "teori",
+                "Work %": "14.%"
+            },
+            {
+                "Course Code": "*Dm2712",
+                "Short Name": "vetmetimt2",
+                "Work %": "19.%"
+            }
+        ],
+        "Gru HT (%)": "33.00%",
+        "Self-development &Friskvård (%)": "17.44%",
+        "Extra (%)": "0",
+        "Balance (%)": "−8.85%",
+        "GRU balance 19": "12.00%",
+        "GRU balance 20": "3.15%",
+        "Årsarbetstid %": "0"
+    },
+    "Mrs. Cole": {
+        "Position": "Doktorand",
+        "Department": "MID",
+        "Kontering HCT (%)": "17.33%",
+        "Bemnnad HCT Gru (%)": "23.10%",
+        "VT Courses": [
+            {
+                "Course Code": "DH1620",
+                "Short Name": "mdid",
+                "Work %": "11.3%"
+            }
+        ],
+        "Gru VT (%)": "11.30%",
+        "HT Courses": [
+            {
+                "Course Code": "DA232-4X",
+                "Short Name": "exjobb",
+                "Work %": "4.3%"
+            },
+            {
+                "Course Code": "DM2601",
+                "Short Name": "mixd",
+                "Work %": "7.6%"
+            }
+        ],
+        "Gru HT (%)": "11.90%",
+        "Self-development &Friskvård (%)": "0",
+        "Extra (%)": "0",
+        "Balance (%)": "5.77%",
+        "GRU balance 19": "1.99%",
+        "GRU balance 20": "7.76%",
+        "Årsarbetstid %": "86.67%"
+    },
+    "Michael Corner": {
+        "Position": "Bitr Lektor",
+        "Department": "MID",
+        "Kontering HCT (%)": "30.00%",
+        "Bemnnad HCT Gru (%)": "33.58%",
+        "VT Courses": [
+            {
+                "Course Code": "DM1590",
+                "Short Name": "mlmed",
+                "Work %": "6.9%"
+            },
+            {
+                "Course Code": "DT2300",
+                "Short Name": "ljudintv",
+                "Work %": ".3%"
+            },
+            {
+                "Course Code": "DA232-4X",
+                "Short Name": "exjobb",
+                "Work %": "2.%"
+            }
+        ],
+        "Gru VT (%)": "9.20%",
+        "HT Courses": [
+            {
+                "Course Code": "*DM1135",
+                "Short Name": "mmss",
+                "Work %": "7.6%"
+            },
+            {
+                "Course Code": "*DM2350",
+                "Short Name": "humper",
+                "Work %": "9.9%"
+            }
+        ],
+        "Gru HT (%)": "17.60%",
+        "Self-development &Friskvård (%)": "6.75%",
+        "Extra (%)": "0",
+        "Balance (%)": "3.58%",
+        "GRU balance 19": "8.54%",
+        "GRU balance 20": "12.12%",
+        "Årsarbetstid %": "0"
+    },
+    "Arabella Figg": {
+        "Position": "Professor",
+        "Department": "MID",
+        "Kontering HCT (%)": "20.00%",
+        "Bemnnad HCT Gru (%)": "15.59%",
+        "VT Courses": [
+            {
+                "Course Code": "*DH2632",
+                "Short Name": "mdisemv",
+                "Work %": "4.%"
+            },
+            {
+                "Course Code": "DH1620",
+                "Short Name": "mdid",
+                "Work %": ".5%"
+            },
+            {
+                "Course Code": "DA232-4X",
+                "Short Name": "exjobb",
+                "Work %": "3.8%"
+            }
+        ],
+        "Gru VT (%)": "8.20%",
+        "HT Courses": [
+            {
+                "Course Code": "*DH2632",
+                "Short Name": "mdisemh",
+                "Work %": "6.6%"
+            },
+            {
+                "Course Code": "DH1622",
+                "Short Name": "mdi-media",
+                "Work %": ".5%"
+            },
+            {
+                "Course Code": "DM1581",
+                "Short Name": "intromedia",
+                "Work %": ".3%"
+            }
+        ],
+        "Gru HT (%)": "7.40%",
+        "Self-development &Friskvård (%)": "0",
+        "Extra (%)": "0",
+        "Balance (%)": "−4.41%",
+        "GRU balance 19": "−5.74%",
+        "GRU balance 20": "−10.16%",
+        "Årsarbetstid %": "0"
+    },
+    "Vincent Crabbe": {
+        "Position": "External",
+        "Department": "External",
+        "Kontering HCT (%)": "0",
+        "Bemnnad HCT Gru (%)": "7.52%",
+        "VT Courses": [],
+        "Gru VT (%)": "0.00%",
+        "HT Courses": [
+            {
+                "Course Code": "*DH2400",
+                "Short Name": "interak",
+                "Work %": "7.5%"
+            }
+        ],
+        "Gru HT (%)": "7.50%",
+        "Self-development &Friskvård (%)": "0",
+        "Extra (%)": "0",
+        "Balance (%)": "0",
+        "GRU balance 19": "0",
+        "GRU balance 20": "0",
+        "Årsarbetstid %": "0"
+    },
+    "Colin Creevey": {
+        "Position": "External",
+        "Department": "External",
+        "Kontering HCT (%)": "0",
+        "Bemnnad HCT Gru (%)": "18.37%",
+        "VT Courses": [
+            {
+                "Course Code": "DH1609",
+                "Short Name": "komminf",
+                "Work %": "11.3%"
+            },
+            {
+                "Course Code": "DM2556",
+                "Short Name": "intcom",
+                "Work %": "6.8%"
+            }
+        ],
+        "Gru VT (%)": "18.10%",
+        "HT Courses": [
+            {
+                "Course Code": "DM1581",
+                "Short Name": "intromedia",
+                "Work %": ".3%"
+            }
+        ],
+        "Gru HT (%)": "0.30%",
+        "Self-development &Friskvård (%)": "0",
+        "Extra (%)": "0",
+        "Balance (%)": "0",
+        "GRU balance 19": "0",
+        "GRU balance 20": "0",
+        "Årsarbetstid %": "0"
+    },
+    "Dennis Creevey": {
+        "Position": "External",
+        "Department": "External",
+        "Kontering HCT (%)": "0",
+        "Bemnnad HCT Gru (%)": "0.35%",
+        "VT Courses": [],
+        "Gru VT (%)": "0.00%",
+        "HT Courses": [
+            {
+                "Course Code": "DH2408",
+                "Short Name": "utvard",
+                "Work %": ".4%"
+            }
+        ],
+        "Gru HT (%)": "0.40%",
+        "Self-development &Friskvård (%)": "0",
+        "Extra (%)": "0",
+        "Balance (%)": "0",
+        "GRU balance 19": "0",
+        "GRU balance 20": "0",
+        "Årsarbetstid %": "0"
+    },
+    "Dirk Cresswell": {
+        "Position": "External",
+        "Department": "External",
+        "Kontering HCT (%)": "0",
+        "Bemnnad HCT Gru (%)": "11.41%",
+        "VT Courses": [
+            {
+                "Course Code": "*DM2518",
+                "Short Name": "mobut",
+                "Work %": "11.4%"
+            }
+        ],
+        "Gru VT (%)": "11.40%",
+        "HT Courses": [],
+        "Gru HT (%)": "0.00%",
+        "Self-development &Friskvård (%)": "0",
+        "Extra (%)": "0",
+        "Balance (%)": "0",
+        "GRU balance 19": "0",
+        "GRU balance 20": "0",
+        "Årsarbetstid %": "0"
+    },
+    "Marcus Flint": {
+        "Position": "Doktorand",
+        "Department": "MID",
+        "Kontering HCT (%)": "0.00%",
+        "Bemnnad HCT Gru (%)": "16.81%",
+        "VT Courses": [
+            {
+                "Course Code": "DH2632",
+                "Short Name": "mdisemv",
+                "Work %": "5.5%"
+            },
+            {
+                "Course Code": "DA232-4X",
+                "Short Name": "exjobb",
+                "Work %": "3.2%"
+            }
+        ],
+        "Gru VT (%)": "8.70%",
+        "HT Courses": [
+            {
+                "Course Code": "DH2632",
+                "Short Name": "mdisemh",
+                "Work %": "8.1%"
+            }
+        ],
+        "Gru HT (%)": "8.10%",
+        "Self-development &Friskvård (%)": "0",
+        "Extra (%)": "0",
+        "Balance (%)": "16.81%",
+        "GRU balance 19": "6.95%",
+        "GRU balance 20": "23.76%",
+        "Årsarbetstid %": "0"
+    },
+    "Mundungus Fletcher": {
+        "Position": "Adjunkt",
+        "Department": "MID",
+        "Kontering HCT (%)": "40.00%",
+        "Bemnnad HCT Gru (%)": "37.07%",
+        "VT Courses": [
+            {
+                "Course Code": "*DA232-4X",
+                "Short Name": "exjobb",
+                "Work %": "14.3%"
+            }
+        ],
+        "Gru VT (%)": "14.30%",
+        "HT Courses": [
+            {
+                "Course Code": "*DM2601",
+                "Short Name": "mixd",
+                "Work %": "13.%"
+            },
+            {
+                "Course Code": "DM1578",
+                "Short Name": "proint",
+                "Work %": ".7%"
+            }
+        ],
+        "Gru HT (%)": "13.80%",
+        "Self-development &Friskvård (%)": "9.00%",
+        "Extra (%)": "0",
+        "Balance (%)": "−2.93%",
+        "GRU balance 19": "30.22%",
+        "GRU balance 20": "27.29%",
+        "Årsarbetstid %": "0"
+    },
+    "Roger Davies": {
+        "Position": "Professor",
+        "Department": "MID",
+        "Kontering HCT (%)": "0",
+        "Bemnnad HCT Gru (%)": "0.00%",
+        "VT Courses": [],
+        "Gru VT (%)": "0.00%",
+        "HT Courses": [],
+        "Gru HT (%)": "0.00%",
+        "Self-development &Friskvård (%)": "0",
+        "Extra (%)": "0",
+        "Balance (%)": "0.00%",
+        "GRU balance 19": "−3.26%",
+        "GRU balance 20": "−3.26%",
+        "Årsarbetstid %": "0"
+    },
+    "Dawlish": {
+        "Position": "Doktorand",
+        "Department": "MID",
+        "Kontering HCT (%)": "20.00%",
+        "Bemnnad HCT Gru (%)": "17.93%",
+        "VT Courses": [
+            {
+                "Course Code": "DT2213",
+                "Short Name": "muscom",
+                "Work %": "4.2%"
+            },
+            {
+                "Course Code": "DT2300",
+                "Short Name": "ljudintv",
+                "Work %": "2.5%"
+            },
+            {
+                "Course Code": "DA232-4X",
+                "Short Name": "exjobb",
+                "Work %": "4.3%"
+            }
+        ],
+        "Gru VT (%)": "10.90%",
+        "HT Courses": [
+            {
+                "Course Code": "DM1581",
+                "Short Name": "intromedia",
+                "Work %": "1.8%"
+            },
+            {
+                "Course Code": "DM2350",
+                "Short Name": "humper",
+                "Work %": "1.7%"
+            },
+            {
+                "Course Code": "DT2140",
+                "Short Name": "mintint",
+                "Work %": "1.%"
+            }
+        ],
+        "Gru HT (%)": "4.50%",
+        "Self-development &Friskvård (%)": "0",
+        "Extra (%)": "3%",
+        "Balance (%)": "−2.07%",
+        "GRU balance 19": "3.69%",
+        "GRU balance 20": "1.62%",
+        "Årsarbetstid %": "0"
+    },
+    "Fleur Delacour": {
+        "Position": "Professor",
+        "Department": "MID",
+        "Kontering HCT (%)": "66.50%",
+        "Bemnnad HCT Gru (%)": "57.57%",
+        "VT Courses": [
+            {
+                "Course Code": "*DM1580",
+                "Short Name": "video",
+                "Work %": "12.9%"
+            },
+            {
+                "Course Code": "*DM2582",
+                "Short Name": "mlabv",
+                "Work %": "7.3%"
+            },
+            {
+                "Course Code": "*DM2583",
+                "Short Name": "bdatav",
+                "Work %": "8.2%"
+            },
+            {
+                "Course Code": "DD2258",
+                "Short Name": "visintro",
+                "Work %": "2.6%"
+            },
+            {
+                "Course Code": "DM2585",
+                "Short Name": "aisoc",
+                "Work %": "4.1%"
+            },
+            {
+                "Course Code": "DA232-4X",
+                "Short Name": "exjobb",
+                "Work %": "4.3%"
+            }
+        ],
+        "Gru VT (%)": "39.40%",
+        "HT Courses": [
+            {
+                "Course Code": "DM1578",
+                "Short Name": "proint",
+                "Work %": "2.9%"
+            },
+            {
+                "Course Code": "DM1581",
+                "Short Name": "intromedia",
+                "Work %": ".3%"
+            }
+        ],
+        "Gru HT (%)": "3.20%",
+        "Self-development &Friskvård (%)": "14.96%",
+        "Extra (%)": "0",
+        "Balance (%)": "−8.93%",
+        "GRU balance 19": "5.79%",
+        "GRU balance 20": "−3.14%",
+        "Årsarbetstid %": "0"
+    },
+    "Gabrielle Delacour": {
+        "Position": "Forskare",
+        "Department": "MID",
+        "Kontering HCT (%)": "14.58%",
+        "Bemnnad HCT Gru (%)": "19.14%",
+        "VT Courses": [
+            {
+                "Course Code": "*DM1588",
+                "Short Name": "sensmed",
+                "Work %": "12.8%"
+            },
+            {
+                "Course Code": "DA232-4X",
+                "Short Name": "exjobb",
+                "Work %": "4.%"
+            }
+        ],
+        "Gru VT (%)": "16.80%",
+        "HT Courses": [
+            {
+                "Course Code": "DM2350",
+                "Short Name": "humper",
+                "Work %": "2.4%"
+            }
+        ],
+        "Gru HT (%)": "2.40%",
+        "Self-development &Friskvård (%)": "0",
+        "Extra (%)": "0",
+        "Balance (%)": "4.56%",
+        "GRU balance 19": "−11.36%",
+        "GRU balance 20": "−6.80%",
+        "Årsarbetstid %": "58.33%"
+    },
+    "Dedalus Diggle": {
+        "Position": "External",
+        "Department": "External",
+        "Kontering HCT (%)": "0",
+        "Bemnnad HCT Gru (%)": "1.41%",
+        "VT Courses": [
+            {
+                "Course Code": "DH2670",
+                "Short Name": "haptik",
+                "Work %": "1.4%"
+            }
+        ],
+        "Gru VT (%)": "1.40%",
+        "HT Courses": [],
+        "Gru HT (%)": "0.00%",
+        "Self-development &Friskvård (%)": "0",
+        "Extra (%)": "0",
+        "Balance (%)": "0",
+        "GRU balance 19": "0",
+        "GRU balance 20": "0",
+        "Årsarbetstid %": "0"
+    },
+    "Justin Finch-Fletchley": {
+        "Position": "Doktorand",
+        "Department": "MID",
+        "Kontering HCT (%)": "20.00%",
+        "Bemnnad HCT Gru (%)": "22.09%",
+        "VT Courses": [
+            {
+                "Course Code": "DT2300",
+                "Short Name": "ljudintv",
+                "Work %": "4.5%"
+            },
+            {
+                "Course Code": "DA232-4X",
+                "Short Name": "exjobb",
+                "Work %": "4.3%"
+            }
+        ],
+        "Gru VT (%)": "8.70%",
+        "HT Courses": [
+            {
+                "Course Code": "DH1622",
+                "Short Name": "mdi-media",
+                "Work %": "6.2%"
+            },
+            {
+                "Course Code": "DM1579",
+                "Short Name": "meph",
+                "Work %": "4.1%"
+            },
+            {
+                "Course Code": "DM1581",
+                "Short Name": "intromedia",
+                "Work %": "2.1%"
+            },
+            {
+                "Course Code": "DT2140",
+                "Short Name": "mintint",
+                "Work %": "1.%"
+            }
+        ],
+        "Gru HT (%)": "13.40%",
+        "Self-development &Friskvård (%)": "0",
+        "Extra (%)": "0",
+        "Balance (%)": "2.09%",
+        "GRU balance 19": "0.44%",
+        "GRU balance 20": "2.53%",
+        "Årsarbetstid %": "0"
+    },
+    "Cedric Diggory": {
+        "Position": "Lektor",
+        "Department": "MID",
+        "Kontering HCT (%)": "40.00%",
+        "Bemnnad HCT Gru (%)": "39.83%",
+        "VT Courses": [
+            {
+                "Course Code": "DM128-9X",
+                "Short Name": "mkand",
+                "Work %": "15.2%"
+            }
+        ],
+        "Gru VT (%)": "15.20%",
+        "HT Courses": [
+            {
+                "Course Code": "*DM2573",
+                "Short Name": "hallutv",
+                "Work %": "12.1%"
+            },
+            {
+                "Course Code": "DM2679",
+                "Short Name": "improint",
+                "Work %": "2.4%"
+            },
+            {
+                "Course Code": "DM2799",
+                "Short Name": "improj",
+                "Work %": "1.2%"
+            }
+        ],
+        "Gru HT (%)": "15.70%",
+        "Self-development &Friskvård (%)": "9.00%",
+        "Extra (%)": "0",
+        "Balance (%)": "−0.17%",
+        "GRU balance 19": "−4.51%",
+        "GRU balance 20": "−4.68%",
+        "Årsarbetstid %": "0"
+    },
+    "Elphias Doge": {
+        "Position": "Lektor",
+        "Department": "MID",
+        "Kontering HCT (%)": "50.00%",
+        "Bemnnad HCT Gru (%)": "37.40%",
+        "VT Courses": [
+            {
+                "Course Code": "DT2300",
+                "Short Name": "ljudintv",
+                "Work %": "1.6%"
+            },
+            {
+                "Course Code": "DA232-4X",
+                "Short Name": "exjobb",
+                "Work %": "7.3%"
+            }
+        ],
+        "Gru VT (%)": "8.90%",
+        "HT Courses": [
+            {
+                "Course Code": "*DM1579",
+                "Short Name": "meph",
+                "Work %": "11.6%"
+            },
+            {
+                "Course Code": "*DM2579",
+                "Short Name": "mep",
+                "Work %": "4.1%"
+            },
+            {
+                "Course Code": "DM2350",
+                "Short Name": "humper",
+                "Work %": "1.6%"
+            }
+        ],
+        "Gru HT (%)": "17.30%",
+        "Self-development &Friskvård (%)": "11.25%",
+        "Extra (%)": "0",
+        "Balance (%)": "−12.60%",
+        "GRU balance 19": "0.37%",
+        "GRU balance 20": "−12.23%",
+        "Årsarbetstid %": "0"
+    },
+    "Antonin Dolohov": {
+        "Position": "External",
+        "Department": "External",
+        "Kontering HCT (%)": "0",
+        "Bemnnad HCT Gru (%)": "34.36%",
+        "VT Courses": [
+            {
+                "Course Code": "*DM2562",
+                "Short Name": "ledh",
+                "Work %": "12.1%"
+            },
+            {
+                "Course Code": "*DM2563",
+                "Short Name": "ledprojh",
+                "Work %": "13.3%"
+            },
+            {
+                "Course Code": "DA232-4X",
+                "Short Name": "exjobb",
+                "Work %": "9.%"
+            }
+        ],
+        "Gru VT (%)": "34.40%",
+        "HT Courses": [],
+        "Gru HT (%)": "0.00%",
+        "Self-development &Friskvård (%)": "0",
+        "Extra (%)": "0",
+        "Balance (%)": "0",
+        "GRU balance 19": "0",
+        "GRU balance 20": "0",
+        "Årsarbetstid %": "0"
+    },
+    "Argus Filch": {
+        "Position": "Lektor",
+        "Department": "MID",
+        "Kontering HCT (%)": "25.00%",
+        "Bemnnad HCT Gru (%)": "28.75%",
+        "VT Courses": [
+            {
+                "Course Code": "*DH2670",
+                "Short Name": "haptik",
+                "Work %": "8.4%"
+            }
+        ],
+        "Gru VT (%)": "8.40%",
+        "HT Courses": [
+            {
+                "Course Code": "*DH2408",
+                "Short Name": "utvard",
+                "Work %": "13.%"
+            },
+            {
+                "Course Code": "DT2140",
+                "Short Name": "mintint",
+                "Work %": "1.7%"
+            }
+        ],
+        "Gru HT (%)": "14.70%",
+        "Self-development &Friskvård (%)": "5.63%",
+        "Extra (%)": "0",
+        "Balance (%)": "3.75%",
+        "GRU balance 19": "−6.74%",
+        "GRU balance 20": "−2.99%",
+        "Årsarbetstid %": "0"
+    },
+    "Albus Dumbledore": {
+        "Position": "Postdoc",
+        "Department": "MID",
+        "Kontering HCT (%)": "10.42%",
+        "Bemnnad HCT Gru (%)": "5.82%",
+        "VT Courses": [],
+        "Gru VT (%)": "0.00%",
+        "HT Courses": [
+            {
+                "Course Code": "DH1622",
+                "Short Name": "mdi-media",
+                "Work %": "5.8%"
+            }
+        ],
+        "Gru HT (%)": "5.80%",
+        "Self-development &Friskvård (%)": "0",
+        "Extra (%)": "0",
+        "Balance (%)": "−4.59%",
+        "GRU balance 19": "−8.20%",
+        "GRU balance 20": "−12.79%",
+        "Årsarbetstid %": "41.67%"
+    },
+    "Dudley Dursley": {
+        "Position": "Postdoc",
+        "Department": "MID",
+        "Kontering HCT (%)": "22.92%",
+        "Bemnnad HCT Gru (%)": "17.29%",
+        "VT Courses": [
+            {
+                "Course Code": "DH1620",
+                "Short Name": "mdid",
+                "Work %": "5.3%"
+            },
+            {
+                "Course Code": "DA232-4X",
+                "Short Name": "exjobb",
+                "Work %": "3.%"
+            },
+            {
+                "Course Code": "DM128-9X",
+                "Short Name": "mkand",
+                "Work %": "3.5%"
+            }
+        ],
+        "Gru VT (%)": "11.80%",
+        "HT Courses": [
+            {
+                "Course Code": "DM2630",
+                "Short Name": "uxdesign",
+                "Work %": "5.5%"
+            }
+        ],
+        "Gru HT (%)": "5.50%",
+        "Self-development &Friskvård (%)": "0",
+        "Extra (%)": "0",
+        "Balance (%)": "−5.62%",
+        "GRU balance 19": "−1.40%",
+        "GRU balance 20": "−7.03%",
+        "Årsarbetstid %": "91.67%"
+    },
+    "Marjorie (Marge) Dursley": {
+        "Position": "Postdoc",
+        "Department": "MID",
+        "Kontering HCT (%)": "25.00%",
+        "Bemnnad HCT Gru (%)": "24.22%",
+        "VT Courses": [
+            {
+                "Course Code": "DH2400",
+                "Short Name": "interakv",
+                "Work %": ".5%"
+            },
+            {
+                "Course Code": "DH2629",
+                "Short Name": "ixd-reflect",
+                "Work %": "5.%"
+            },
+            {
+                "Course Code": "DA232-4X",
+                "Short Name": "exjobb",
+                "Work %": "12.6%"
+            }
+        ],
+        "Gru VT (%)": "18.10%",
+        "HT Courses": [
+            {
+                "Course Code": "DH2400",
+                "Short Name": "interak",
+                "Work %": ".5%"
+            }
+        ],
+        "Gru HT (%)": "0.50%",
+        "Self-development &Friskvård (%)": "5.63%",
+        "Extra (%)": "0",
+        "Balance (%)": "−0.78%",
+        "GRU balance 19": "−21.56%",
+        "GRU balance 20": "−22.35%",
+        "Årsarbetstid %": "100.00%"
+    },
+    "Petunia Dursley (née Evans)": {
+        "Position": "Bitr Lektor",
+        "Department": "MID",
+        "Kontering HCT (%)": "30.00%",
+        "Bemnnad HCT Gru (%)": "29.51%",
+        "VT Courses": [
+            {
+                "Course Code": "*DM128-9X",
+                "Short Name": "mkand",
+                "Work %": "9.6%"
+            },
+            {
+                "Course Code": "DA232-4X",
+                "Short Name": "exjobb",
+                "Work %": "4.%"
+            }
+        ],
+        "Gru VT (%)": "13.60%",
+        "HT Courses": [
+            {
+                "Course Code": "*DM2904-6",
+                "Short Name": "indmed",
+                "Work %": "8.5%"
+            },
+            {
+                "Course Code": "DM2799",
+                "Short Name": "improj",
+                "Work %": ".6%"
+            }
+        ],
+        "Gru HT (%)": "9.10%",
+        "Self-development &Friskvård (%)": "6.75%",
+        "Extra (%)": "0",
+        "Balance (%)": "−0.49%",
+        "GRU balance 19": "−18.39%",
+        "GRU balance 20": "−18.88%",
+        "Årsarbetstid %": "0"
+    },
+    "Vernon Dursley": {
+        "Position": "Doktorand",
+        "Department": "MID",
+        "Kontering HCT (%)": "0.00%",
+        "Bemnnad HCT Gru (%)": "18.00%",
+        "VT Courses": [
+            {
+                "Course Code": "DH1620",
+                "Short Name": "mdid",
+                "Work %": "11.3%"
+            },
+            {
+                "Course Code": "DA232-4X",
+                "Short Name": "exjobb",
+                "Work %": "4.3%"
+            }
+        ],
+        "Gru VT (%)": "15.50%",
+        "HT Courses": [],
+        "Gru HT (%)": "0.00%",
+        "Self-development &Friskvård (%)": "0.00%",
+        "Extra (%)": "3%",
+        "Balance (%)": "18.00%",
+        "GRU balance 19": "12.16%",
+        "GRU balance 20": "30.16%",
+        "Årsarbetstid %": "0"
+    },
+    "Marietta Edgecombe": {
+        "Position": "Doktorand",
+        "Department": "MID",
+        "Kontering HCT (%)": "0.00%",
+        "Bemnnad HCT Gru (%)": "0.00%",
+        "VT Courses": [],
+        "Gru VT (%)": "0.00%",
+        "HT Courses": [],
+        "Gru HT (%)": "0.00%",
+        "Self-development &Friskvård (%)": "0",
+        "Extra (%)": "0",
+        "Balance (%)": "0.00%",
+        "GRU balance 19": "−4.91%",
+        "GRU balance 20": "−4.91%",
+        "Årsarbetstid %": "0"
+    },
+    "Seamus Finnigan": {
+        "Position": "External",
+        "Department": "External",
+        "Kontering HCT (%)": "20,00%",
+        "Bemnnad HCT Gru (%)": "20,84%",
+        "VT Courses": [],
+        "Gru VT (%)": "0,0%",
+        "HT Courses": [
+            {
+                "Course Code": "*DH2465",
+                "Short Name": "del",
+                "Work %": "14,2%"
+            },
+            {
+                "Course Code": "DH2655",
+                "Short Name": "kid",
+                "Work %": "2,2%"
+            }
+        ],
+        "Gru HT (%)": "16,3%",
+        "Self-development &Friskvård (%)": "4,50%",
+        "Extra (%)": "0",
+        "Balance (%)": "0,84%",
+        "GRU balance 19": "0",
+        "GRU balance 20": "0,84%",
+        "Årsarbetstid %": "0"
+    },
+    "Filius Flitwick": {
+        "Position": "Professor",
+        "Department": "TMH",
+        "Kontering HCT (%)": "12,00%",
+        "Bemnnad HCT Gru (%)": "12,27%",
+        "VT Courses": [
+            {
+                "Course Code": "*DT2212",
+                "Short Name": "musak",
+                "Work %": "7,6%"
+            },
+            {
+                "Course Code": "DT1175",
+                "Short Name": "ljud",
+                "Work %": ",4%"
+            }
+        ],
+        "Gru VT (%)": "8,0%",
+        "HT Courses": [
+            {
+                "Course Code": "*DT2215",
+                "Short Name": "indmus",
+                "Work %": ",%"
+            },
+            {
+                "Course Code": "DM2350",
+                "Short Name": "humper",
+                "Work %": "1,6%"
+            }
+        ],
+        "Gru HT (%)": "1,6%",
+        "Self-development &Friskvård (%)": "2,70%",
+        "Extra (%)": "0",
+        "Balance (%)": "0,27%",
+        "GRU balance 19": "0",
+        "GRU balance 20": "0,27%",
+        "Årsarbetstid %": "0"
+    },
+    "Florean Fortescue": {
+        "Position": "Professor",
+        "Department": "TMH",
+        "Kontering HCT (%)": "30,00%",
+        "Bemnnad HCT Gru (%)": "20,04%",
+        "VT Courses": [],
+        "Gru VT (%)": "0,0%",
+        "HT Courses": [
+            {
+                "Course Code": "*DT2140",
+                "Short Name": "mintint",
+                "Work %": "13,3%"
+            }
+        ],
+        "Gru HT (%)": "13,3%",
+        "Self-development &Friskvård (%)": "6,75%",
+        "Extra (%)": "0",
+        "Balance (%)": "−9,96%",
+        "GRU balance 19": "0",
+        "GRU balance 20": "−9,96%",
+        "Årsarbetstid %": "0"
+    },
+    "Cornelius Fudge": {
+        "Position": "Professor",
+        "Department": "TMH",
+        "Kontering HCT (%)": "26,00%",
+        "Bemnnad HCT Gru (%)": "26,03%",
+        "VT Courses": [
+            {
+                "Course Code": "*DT1175",
+                "Short Name": "ljud",
+                "Work %": "10,1%"
+            },
+            {
+                "Course Code": "DT2212",
+                "Short Name": "musak",
+                "Work %": ",9%"
+            },
+            {
+                "Course Code": "DM128-9X",
+                "Short Name": "mkand",
+                "Work %": "2,1%"
+            }
+        ],
+        "Gru VT (%)": "13,2%",
+        "HT Courses": [
+            {
+                "Course Code": "*DT2410",
+                "Short Name": "autek",
+                "Work %": "6,8%"
+            },
+            {
+                "Course Code": "DM1581",
+                "Short Name": "intromedia",
+                "Work %": ",1%"
+            },
+            {
+                "Course Code": "DT2215",
+                "Short Name": "indmus",
+                "Work %": ",%"
+            }
+        ],
+        "Gru HT (%)": "7,0%",
+        "Self-development &Friskvård (%)": "5,85%",
+        "Extra (%)": "0",
+        "Balance (%)": "0,03%",
+        "GRU balance 19": "0",
+        "GRU balance 20": "0,03%",
+        "Årsarbetstid %": "0"
+    },
+    "Gellert Grindelwald": {
+        "Position": "Lektor",
+        "Department": "TMH",
+        "Kontering HCT (%)": "14%",
+        "Bemnnad HCT Gru (%)": "14,04%",
+        "VT Courses": [
+            {
+                "Course Code": "*DM1590",
+                "Short Name": "mlmed",
+                "Work %": "10,4%"
+            },
+            {
+                "Course Code": "DT2212",
+                "Short Name": "musak",
+                "Work %": ",5%"
+            }
+        ],
+        "Gru VT (%)": "10,9%",
+        "HT Courses": [],
+        "Gru HT (%)": "0,0%",
+        "Self-development &Friskvård (%)": "3,15%",
+        "Extra (%)": "0",
+        "Balance (%)": "0,04%",
+        "GRU balance 19": "0",
+        "GRU balance 20": "0,04%",
+        "Årsarbetstid %": "0"
+    },
+    "Frank Longbottom": {
+        "Position": "Professor",
+        "Department": "TMH",
+        "Kontering HCT (%)": "5%",
+        "Bemnnad HCT Gru (%)": "4,95%",
+        "VT Courses": [
+            {
+                "Course Code": "DA232-4X",
+                "Short Name": "exjobb",
+                "Work %": "3,8%"
+            }
+        ],
+        "Gru VT (%)": "3,8%",
+        "HT Courses": [],
+        "Gru HT (%)": "0,0%",
+        "Self-development &Friskvård (%)": "1,13%",
+        "Extra (%)": "0",
+        "Balance (%)": "−0,05%",
+        "GRU balance 19": "0",
+        "GRU balance 20": "−0,05%",
+        "Årsarbetstid %": "0"
+    },
+    "Rubeus Hagrid": {
+        "Position": "Professor",
+        "Department": "TMH",
+        "Kontering HCT (%)": "8%",
+        "Bemnnad HCT Gru (%)": "7,68%",
+        "VT Courses": [
+            {
+                "Course Code": "DA232-4X",
+                "Short Name": "exjobb",
+                "Work %": "2,4%"
+            }
+        ],
+        "Gru VT (%)": "2,4%",
+        "HT Courses": [
+            {
+                "Course Code": "DT2140",
+                "Short Name": "mintint",
+                "Work %": "3,5%"
+            }
+        ],
+        "Gru HT (%)": "3,5%",
+        "Self-development &Friskvård (%)": "1,80%",
+        "Extra (%)": "0",
+        "Balance (%)": "−0,32%",
+        "GRU balance 19": "0",
+        "GRU balance 20": "−0,32%",
+        "Årsarbetstid %": "0"
+    },
+    "Astoria Greengrass": {
+        "Position": "Lektor",
+        "Department": "TMH",
+        "Kontering HCT (%)": "1%",
+        "Bemnnad HCT Gru (%)": "0,58%",
+        "VT Courses": [],
+        "Gru VT (%)": "0,0%",
+        "HT Courses": [
+            {
+                "Course Code": "DM2350",
+                "Short Name": "humper",
+                "Work %": ",4%"
+            }
+        ],
+        "Gru HT (%)": "0,4%",
+        "Self-development &Friskvård (%)": "0,23%",
+        "Extra (%)": "0",
+        "Balance (%)": "−0,42%",
+        "GRU balance 19": "0",
+        "GRU balance 20": "−0,42%",
+        "Årsarbetstid %": "0"
+    },
+    "Ernie Macmillan": {
+        "Position": "Professor",
+        "Department": "TMH",
+        "Kontering HCT (%)": "0",
+        "Bemnnad HCT Gru (%)": "6,09%",
+        "VT Courses": [
+            {
+                "Course Code": "DT1175",
+                "Short Name": "ljud",
+                "Work %": ",4%"
+            }
+        ],
+        "Gru VT (%)": "0,4%",
+        "HT Courses": [
+            {
+                "Course Code": "DM1135",
+                "Short Name": "mmss",
+                "Work %": "5,7%"
+            }
+        ],
+        "Gru HT (%)": "5,7%",
+        "Self-development &Friskvård (%)": "0,00%",
+        "Extra (%)": "0",
+        "Balance (%)": "6,09%",
+        "GRU balance 19": "0",
+        "GRU balance 20": "6,09%",
+        "Årsarbetstid %": "0"
+    },
+    "Merope Gaunt": {
+        "Position": "Doktorand",
+        "Department": "TMH",
+        "Kontering HCT (%)": "1,00%",
+        "Bemnnad HCT Gru (%)": "0,00%",
+        "VT Courses": [],
+        "Gru VT (%)": "0,0%",
+        "HT Courses": [],
+        "Gru HT (%)": "0,0%",
+        "Self-development &Friskvård (%)": "0",
+        "Extra (%)": "0",
+        "Balance (%)": "−1,00%",
+        "GRU balance 19": "0",
+        "GRU balance 20": "−1,00%",
+        "Årsarbetstid %": "0"
+    },
+    "Morfin Gaunt": {
+        "Position": "Doktorand",
+        "Department": "TMH",
+        "Kontering HCT (%)": "4,50%",
+        "Bemnnad HCT Gru (%)": "0,00%",
+        "VT Courses": [],
+        "Gru VT (%)": "0,0%",
+        "HT Courses": [],
+        "Gru HT (%)": "0,0%",
+        "Self-development &Friskvård (%)": "0",
+        "Extra (%)": "0",
+        "Balance (%)": "−4,50%",
+        "GRU balance 19": "0",
+        "GRU balance 20": "−4,50%",
+        "Årsarbetstid %": "0"
+    },
+    "Anthony Goldstein": {
+        "Position": "Doktorand",
+        "Department": "TMH",
+        "Kontering HCT (%)": "3,25%",
+        "Bemnnad HCT Gru (%)": "0,00%",
+        "VT Courses": [],
+        "Gru VT (%)": "0,0%",
+        "HT Courses": [],
+        "Gru HT (%)": "0,0%",
+        "Self-development &Friskvård (%)": "0",
+        "Extra (%)": "0",
+        "Balance (%)": "−3,25%",
+        "GRU balance 19": "0",
+        "GRU balance 20": "−3,25%",
+        "Årsarbetstid %": "0"
+    },
+    "Fenrir Greyback": {
+        "Position": "Doktorand",
+        "Department": "TMH",
+        "Kontering HCT (%)": "1,88%",
+        "Bemnnad HCT Gru (%)": "0,00%",
+        "VT Courses": [],
+        "Gru VT (%)": "0,0%",
+        "HT Courses": [],
+        "Gru HT (%)": "0,0%",
+        "Self-development &Friskvård (%)": "0",
+        "Extra (%)": "0",
+        "Balance (%)": "−1,88%",
+        "GRU balance 19": "0",
+        "GRU balance 20": "−1,88%",
+        "Årsarbetstid %": "0"
+    },
+    "Gregory Goyle": {
+        "Position": "Doktorand",
+        "Department": "TMH",
+        "Kontering HCT (%)": "1,97%",
+        "Bemnnad HCT Gru (%)": "0,00%",
+        "VT Courses": [],
+        "Gru VT (%)": "0,0%",
+        "HT Courses": [],
+        "Gru HT (%)": "0,0%",
+        "Self-development &Friskvård (%)": "0",
+        "Extra (%)": "0",
+        "Balance (%)": "−1,97%",
+        "GRU balance 19": "0",
+        "GRU balance 20": "−1,97%",
+        "Årsarbetstid %": "0"
+    },
+    "Hermione Granger": {
+        "Position": "Doktorand",
+        "Department": "TMH",
+        "Kontering HCT (%)": "1,80%",
+        "Bemnnad HCT Gru (%)": "0,00%",
+        "VT Courses": [],
+        "Gru VT (%)": "0,0%",
+        "HT Courses": [],
+        "Gru HT (%)": "0,0%",
+        "Self-development &Friskvård (%)": "0",
+        "Extra (%)": "0",
+        "Balance (%)": "−1,80%",
+        "GRU balance 19": "0",
+        "GRU balance 20": "−1,80%",
+        "Årsarbetstid %": "0"
+    },
+    "Griselda Marchbanks": {
+        "Position": "Doktorand",
+        "Department": "TMH",
+        "Kontering HCT (%)": "2,00%",
+        "Bemnnad HCT Gru (%)": "1,81%",
+        "VT Courses": [],
+        "Gru VT (%)": "0,0%",
+        "HT Courses": [
+            {
+                "Course Code": "DT2140",
+                "Short Name": "mintint",
+                "Work %": "1,8%"
+            }
+        ],
+        "Gru HT (%)": "1,8%",
+        "Self-development &Friskvård (%)": "0",
+        "Extra (%)": "0",
+        "Balance (%)": "−0,19%",
+        "GRU balance 19": "0",
+        "GRU balance 20": "−0,19%",
+        "Årsarbetstid %": "0"
+    },
+    "Olympe Maxime": {
+        "Position": "Doktorand",
+        "Department": "TMH",
+        "Kontering HCT (%)": "2,00%",
+        "Bemnnad HCT Gru (%)": "1,81%",
+        "VT Courses": [],
+        "Gru VT (%)": "0,0%",
+        "HT Courses": [
+            {
+                "Course Code": "DT2140",
+                "Short Name": "mintint",
+                "Work %": "1,8%"
+            }
+        ],
+        "Gru HT (%)": "1,8%",
+        "Self-development &Friskvård (%)": "0",
+        "Extra (%)": "0",
+        "Balance (%)": "−0,19%",
+        "GRU balance 19": "0",
+        "GRU balance 20": "−0,19%",
+        "Årsarbetstid %": "0"
+    },
+    "Cormac McLaggen": {
+        "Position": "Doktorand",
+        "Department": "TMH",
+        "Kontering HCT (%)": "0",
+        "Bemnnad HCT Gru (%)": "0,00%",
+        "VT Courses": [],
+        "Gru VT (%)": "0,0%",
+        "HT Courses": [],
+        "Gru HT (%)": "0,0%",
+        "Self-development &Friskvård (%)": "0",
+        "Extra (%)": "0",
+        "Balance (%)": "0,00%",
+        "GRU balance 19": "0",
+        "GRU balance 20": "0,00%",
+        "Årsarbetstid %": "0"
+    },
+    "Lab handl Teknolog TMH": {
+        "Position": "Teknolog",
+        "Department": "TMH",
+        "Kontering HCT (%)": "0,00%",
+        "Bemnnad HCT Gru (%)": "13,18%",
+        "VT Courses": [
+            {
+                "Course Code": "DT1175",
+                "Short Name": "ljud",
+                "Work %": "3,2%"
+            },
+            {
+                "Course Code": "DT2212",
+                "Short Name": "musak",
+                "Work %": "1,8%"
+            }
+        ],
+        "Gru VT (%)": "4,9%",
+        "HT Courses": [
+            {
+                "Course Code": "DT2140",
+                "Short Name": "mintint",
+                "Work %": "3,3%"
+            },
+            {
+                "Course Code": "DT2410",
+                "Short Name": "autek",
+                "Work %": "4,9%"
+            }
+        ],
+        "Gru HT (%)": "8,2%",
+        "Self-development &Friskvård (%)": "0",
+        "Extra (%)": "0",
+        "Balance (%)": "13,18%",
+        "GRU balance 19": "0",
+        "GRU balance 20": "0",
+        "Årsarbetstid %": "0"
+    },
+    "Draco Malfoy": {
+        "Position": "Professor",
+        "Department": "RPL",
+        "Kontering HCT (%)": "1%",
+        "Bemnnad HCT Gru (%)": "0,35%",
+        "VT Courses": [],
+        "Gru VT (%)": "0,0%",
+        "HT Courses": [
+            {
+                "Course Code": "DT2140",
+                "Short Name": "mintint",
+                "Work %": ",4%"
+            }
+        ],
+        "Gru HT (%)": "0,4%",
+        "Self-development &Friskvård (%)": "0",
+        "Extra (%)": "0",
+        "Balance (%)": "−0,15%",
+        "GRU balance 19": "0",
+        "GRU balance 20": "0",
+        "Årsarbetstid %": "0"
+    },
+    "Garrick Ollivander": {
+        "Position": "Lektor",
+        "Department": "RPL",
+        "Kontering HCT (%)": "1%",
+        "Bemnnad HCT Gru (%)": "1,00%",
+        "VT Courses": [
+            {
+                "Course Code": "DA232-4X",
+                "Short Name": "exjobb",
+                "Work %": "1,%"
+            }
+        ],
+        "Gru VT (%)": "1,0%",
+        "HT Courses": [],
+        "Gru HT (%)": "0,0%",
+        "Self-development &Friskvård (%)": "0",
+        "Extra (%)": "0",
+        "Balance (%)": "0,00%",
+        "GRU balance 19": "0",
+        "GRU balance 20": "0",
+        "Årsarbetstid %": "0"
+    },
+    "Madam Hooch": {
+        "Position": "Lektor",
+        "Department": "CST",
+        "Kontering HCT (%)": "6,00%",
+        "Bemnnad HCT Gru (%)": "4,41%",
+        "VT Courses": [],
+        "Gru VT (%)": "0,0%",
+        "HT Courses": [
+            {
+                "Course Code": "DM2350",
+                "Short Name": "humper",
+                "Work %": "3,1%"
+            }
+        ],
+        "Gru HT (%)": "3,1%",
+        "Self-development &Friskvård (%)": "1,35%",
+        "Extra (%)": "0",
+        "Balance (%)": "−1,59%",
+        "GRU balance 19": "0",
+        "GRU balance 20": "−6,00%",
+        "Årsarbetstid %": "0"
+    },
+    "Mafalda Hopkirk": {
+        "Position": "Lektor",
+        "Department": "CST",
+        "Kontering HCT (%)": "17,00%",
+        "Bemnnad HCT Gru (%)": "20,22%",
+        "VT Courses": [
+            {
+                "Course Code": "*DH2323",
+                "Short Name": "dgi",
+                "Work %": "10,4%"
+            },
+            {
+                "Course Code": "DA232-4X",
+                "Short Name": "exjobb",
+                "Work %": "3,%"
+            }
+        ],
+        "Gru VT (%)": "13,4%",
+        "HT Courses": [
+            {
+                "Course Code": "DD2470",
+                "Short Name": "atcg",
+                "Work %": ",3%"
+            },
+            {
+                "Course Code": "DM2350",
+                "Short Name": "humper",
+                "Work %": ",7%"
+            },
+            {
+                "Course Code": "DM2799",
+                "Short Name": "improj",
+                "Work %": "1,1%"
+            },
+            {
+                "Course Code": "DT2140",
+                "Short Name": "mintint",
+                "Work %": ",9%"
+            }
+        ],
+        "Gru HT (%)": "3,0%",
+        "Self-development &Friskvård (%)": "3,83%",
+        "Extra (%)": "0",
+        "Balance (%)": "3,22%",
+        "GRU balance 19": "0",
+        "GRU balance 20": "−17,00%",
+        "Årsarbetstid %": "0"
+    },
+    "Helga Hufflepuff": {
+        "Position": "Adjunkt",
+        "Department": "CST",
+        "Kontering HCT (%)": "5,70%",
+        "Bemnnad HCT Gru (%)": "5,17%",
+        "VT Courses": [],
+        "Gru VT (%)": "0,0%",
+        "HT Courses": [
+            {
+                "Course Code": "DH2413",
+                "Short Name": "agi",
+                "Work %": "3,9%"
+            }
+        ],
+        "Gru HT (%)": "3,9%",
+        "Self-development &Friskvård (%)": "1,28%",
+        "Extra (%)": "0",
+        "Balance (%)": "−0,53%",
+        "GRU balance 19": "0",
+        "GRU balance 20": "−5,70%",
+        "Årsarbetstid %": "0"
+    },
+    "Angelina Johnson": {
+        "Position": "Lektor",
+        "Department": "CST",
+        "Kontering HCT (%)": "47,00%",
+        "Bemnnad HCT Gru (%)": "43,33%",
+        "VT Courses": [
+            {
+                "Course Code": "*DH2321",
+                "Short Name": "ivis",
+                "Work %": "14,2%"
+            },
+            {
+                "Course Code": "DA232-4X",
+                "Short Name": "exjobb",
+                "Work %": "5,4%"
+            }
+        ],
+        "Gru VT (%)": "19,6%",
+        "HT Courses": [
+            {
+                "Course Code": "*DH2413",
+                "Short Name": "agi",
+                "Work %": "10,1%"
+            },
+            {
+                "Course Code": "DD2470",
+                "Short Name": "atcg",
+                "Work %": ",3%"
+            },
+            {
+                "Course Code": "DM2799",
+                "Short Name": "improj",
+                "Work %": ",7%"
+            },
+            {
+                "Course Code": "DT2140",
+                "Short Name": "mintint",
+                "Work %": "2,1%"
+            }
+        ],
+        "Gru HT (%)": "13,2%",
+        "Self-development &Friskvård (%)": "10,58%",
+        "Extra (%)": "0",
+        "Balance (%)": "−3,67%",
+        "GRU balance 19": "0",
+        "GRU balance 20": "−47,00%",
+        "Årsarbetstid %": "0"
+    },
+    "Igor Karkaroff": {
+        "Position": "Forskare",
+        "Department": "CST",
+        "Kontering HCT (%)": "40,00%",
+        "Bemnnad HCT Gru (%)": "50,05%",
+        "VT Courses": [
+            {
+                "Course Code": "DH1620",
+                "Short Name": "mdid",
+                "Work %": "5,3%"
+            },
+            {
+                "Course Code": "DA232-4X",
+                "Short Name": "exjobb",
+                "Work %": "14,%"
+            }
+        ],
+        "Gru VT (%)": "19,3%",
+        "HT Courses": [
+            {
+                "Course Code": "*DH2650",
+                "Short Name": "spel",
+                "Work %": "9,5%"
+            },
+            {
+                "Course Code": "*DH2655",
+                "Short Name": "kid",
+                "Work %": "7,9%"
+            },
+            {
+                "Course Code": "DD2470",
+                "Short Name": "atcg",
+                "Work %": ",3%"
+            },
+            {
+                "Course Code": "DH2413",
+                "Short Name": "agi",
+                "Work %": "1,3%"
+            },
+            {
+                "Course Code": "DH2465",
+                "Short Name": "del",
+                "Work %": "1,%"
+            },
+            {
+                "Course Code": "DM2799",
+                "Short Name": "improj",
+                "Work %": ",4%"
+            },
+            {
+                "Course Code": "DT2140",
+                "Short Name": "mintint",
+                "Work %": "1,4%"
+            }
+        ],
+        "Gru HT (%)": "21,8%",
+        "Self-development &Friskvård (%)": "9,00%",
+        "Extra (%)": "0",
+        "Balance (%)": "10,05%",
+        "GRU balance 19": "0",
+        "GRU balance 20": "−7,28%",
+        "Årsarbetstid %": "0"
+    },
+    "Bertha Jorkins": {
+        "Position": "Professor",
+        "Department": "CST",
+        "Kontering HCT (%)": "38,00%",
+        "Bemnnad HCT Gru (%)": "41,23%",
+        "VT Courses": [
+            {
+                "Course Code": "*DD2258",
+                "Short Name": "visintro",
+                "Work %": ",3%"
+            },
+            {
+                "Course Code": "*DH2320",
+                "Short Name": "visgra",
+                "Work %": "8,3%"
+            },
+            {
+                "Course Code": "DA232-4X",
+                "Short Name": "exjobb",
+                "Work %": "8,5%"
+            }
+        ],
+        "Gru VT (%)": "17,1%",
+        "HT Courses": [
+            {
+                "Course Code": "*DD2257",
+                "Short Name": "viz",
+                "Work %": "8,6%"
+            },
+            {
+                "Course Code": "*DD2470",
+                "Short Name": "atcg",
+                "Work %": "4,7%"
+            },
+            {
+                "Course Code": "DM2679",
+                "Short Name": "improint",
+                "Work %": "2,4%"
+            }
+        ],
+        "Gru HT (%)": "15,6%",
+        "Self-development &Friskvård (%)": "8,55%",
+        "Extra (%)": "0",
+        "Balance (%)": "3,23%",
+        "GRU balance 19": "0",
+        "GRU balance 20": "0,38%",
+        "Årsarbetstid %": "0"
+    },
+    "Viktor Krum": {
+        "Position": "Doktorand",
+        "Department": "CST",
+        "Kontering HCT (%)": "17,50%",
+        "Bemnnad HCT Gru (%)": "18,99%",
+        "VT Courses": [
+            {
+                "Course Code": "DH2320",
+                "Short Name": "visgra",
+                "Work %": "9,9%"
+            },
+            {
+                "Course Code": "DH2323",
+                "Short Name": "dgi",
+                "Work %": "2,3%"
+            }
+        ],
+        "Gru VT (%)": "12,2%",
+        "HT Courses": [
+            {
+                "Course Code": "DD2257",
+                "Short Name": "viz",
+                "Work %": "6,8%"
+            }
+        ],
+        "Gru HT (%)": "6,8%",
+        "Self-development &Friskvård (%)": "0",
+        "Extra (%)": "0",
+        "Balance (%)": "1,49%",
+        "GRU balance 19": "0",
+        "GRU balance 20": "−17,50%",
+        "Årsarbetstid %": "0"
+    },
+    "Bellatrix Lestrange": {
+        "Position": "Doktorand",
+        "Department": "CST",
+        "Kontering HCT (%)": "20,00%",
+        "Bemnnad HCT Gru (%)": "21,97%",
+        "VT Courses": [
+            {
+                "Course Code": "DH2320",
+                "Short Name": "visgra",
+                "Work %": "9,9%"
+            },
+            {
+                "Course Code": "DH2321",
+                "Short Name": "ivis",
+                "Work %": "5,8%"
+            },
+            {
+                "Course Code": "DH2323",
+                "Short Name": "dgi",
+                "Work %": "2,1%"
+            }
+        ],
+        "Gru VT (%)": "17,7%",
+        "HT Courses": [
+            {
+                "Course Code": "DD2257",
+                "Short Name": "viz",
+                "Work %": "4,2%"
+            }
+        ],
+        "Gru HT (%)": "4,2%",
+        "Self-development &Friskvård (%)": "0",
+        "Extra (%)": "0",
+        "Balance (%)": "1,97%",
+        "GRU balance 19": "0",
+        "GRU balance 20": "−20,00%",
+        "Årsarbetstid %": "0"
+    },
+    "Gilderoy Lockhart": {
+        "Position": "Doktorand",
+        "Department": "CST",
+        "Kontering HCT (%)": "2%",
+        "Bemnnad HCT Gru (%)": "2,13%",
+        "VT Courses": [
+            {
+                "Course Code": "DH2323",
+                "Short Name": "dgi",
+                "Work %": "2,1%"
+            }
+        ],
+        "Gru VT (%)": "2,1%",
+        "HT Courses": [],
+        "Gru HT (%)": "0,0%",
+        "Self-development &Friskvård (%)": "0",
+        "Extra (%)": "0",
+        "Balance (%)": "0,13%",
+        "GRU balance 19": "0",
+        "GRU balance 20": "−2,00%",
+        "Årsarbetstid %": "0"
+    },
+    "Rodolphus Lestrange": {
+        "Position": "Doktorand",
+        "Department": "CST",
+        "Kontering HCT (%)": "8,50%",
+        "Bemnnad HCT Gru (%)": "10,77%",
+        "VT Courses": [
+            {
+                "Course Code": "DH2323",
+                "Short Name": "dgi",
+                "Work %": "6,5%"
+            }
+        ],
+        "Gru VT (%)": "6,5%",
+        "HT Courses": [
+            {
+                "Course Code": "DH2650",
+                "Short Name": "spel",
+                "Work %": ",9%"
+            },
+            {
+                "Course Code": "DM2350",
+                "Short Name": "humper",
+                "Work %": "3,3%"
+            }
+        ],
+        "Gru HT (%)": "4,3%",
+        "Self-development &Friskvård (%)": "0",
+        "Extra (%)": "0",
+        "Balance (%)": "2,27%",
+        "GRU balance 19": "0",
+        "GRU balance 20": "21,61%",
+        "Årsarbetstid %": "0"
+    },
+    "Lab handl Teknolog CST": {
+        "Position": "NA",
+        "Department": "NA",
+        "Kontering HCT (%)": "0,00%",
+        "Bemnnad HCT Gru (%)": "0,00%",
+        "VT Courses": [],
+        "Gru VT (%)": "0,0%",
+        "HT Courses": [],
+        "Gru HT (%)": "0,0%",
+        "Self-development &Friskvård (%)": "0",
+        "Extra (%)": "0",
+        "Balance (%)": "0,00%",
+        "GRU balance 19": "0,00%",
+        "GRU balance 20": "0,00%",
+        "Årsarbetstid %": "0"
+    },
+    "Neville Longbottom": {
+        "Position": "Lektor",
+        "Department": "COS",
+        "Kontering HCT (%)": "14,00%",
+        "Bemnnad HCT Gru (%)": "14,18%",
+        "VT Courses": [],
+        "Gru VT (%)": "0,0%",
+        "HT Courses": [
+            {
+                "Course Code": "*IC2005",
+                "Short Name": "ixd-IC",
+                "Work %": "11,%"
+            }
+        ],
+        "Gru HT (%)": "11,0%",
+        "Self-development &Friskvård (%)": "3,15%",
+        "Extra (%)": "0",
+        "Balance (%)": "0,18%",
+        "GRU balance 19": "0",
+        "GRU balance 20": "−14,00%",
+        "Årsarbetstid %": "0"
+    },
+    "Remus Lupin": {
+        "Position": "Lektor",
+        "Department": "SCS",
+        "Kontering HCT (%)": "25%",
+        "Bemnnad HCT Gru (%)": "0,00%",
+        "VT Courses": [],
+        "Gru VT (%)": "0,0%",
+        "HT Courses": [],
+        "Gru HT (%)": "0,0%",
+        "Self-development &Friskvård (%)": "0",
+        "Extra (%)": "0",
+        "Balance (%)": "−25,00%",
+        "GRU balance 19": "0",
+        "GRU balance 20": "−25,00%",
+        "Årsarbetstid %": "0"
+    },
+    "NN Doktorand": {
+        "Position": "Doktorand",
+        "Department": "MID",
+        "Kontering HCT (%)": "4%",
+        "Bemnnad HCT Gru (%)": "32,72%",
+        "VT Courses": [
+            {
+                "Course Code": "DM1590",
+                "Short Name": "mlmed",
+                "Work %": "2,8%"
+            },
+            {
+                "Course Code": "DT1175",
+                "Short Name": "ljud",
+                "Work %": "5,7%"
+            }
+        ],
+        "Gru VT (%)": "8,4%",
+        "HT Courses": [
+            {
+                "Course Code": "DA232-4X",
+                "Short Name": "exjobb",
+                "Work %": "8,5%"
+            },
+            {
+                "Course Code": "DH1622",
+                "Short Name": "mdi-media",
+                "Work %": "6,2%"
+            },
+            {
+                "Course Code": "DM1135",
+                "Short Name": "mmss",
+                "Work %": "5,3%"
+            },
+            {
+                "Course Code": "DM2579",
+                "Short Name": "mep",
+                "Work %": ",3%"
+            },
+            {
+                "Course Code": "DT2140",
+                "Short Name": "mintint",
+                "Work %": "4,%"
+            }
+        ],
+        "Gru HT (%)": "24,3%",
+        "Self-development &Friskvård (%)": "0",
+        "Extra (%)": "0",
+        "Balance (%)": "28,97%",
+        "GRU balance 19": "0",
+        "GRU balance 20": "−3,75%",
+        "Årsarbetstid %": "0"
+    },
+    "UNKNOWN MID": {
+        "Position": "Forskare",
+        "Department": "MID",
+        "Kontering HCT (%)": "0,00%",
+        "Bemnnad HCT Gru (%)": "38,38%",
+        "VT Courses": [
+            {
+                "Course Code": "DH1609",
+                "Short Name": "komminf",
+                "Work %": "1,6%"
+            },
+            {
+                "Course Code": "DH1620",
+                "Short Name": "mdid",
+                "Work %": "5,3%"
+            },
+            {
+                "Course Code": "DH2400",
+                "Short Name": "interakv",
+                "Work %": "7,1%"
+            },
+            {
+                "Course Code": "DM1588",
+                "Short Name": "sensmed",
+                "Work %": "1,8%"
+            },
+            {
+                "Course Code": "DM2624",
+                "Short Name": "itfunk",
+                "Work %": "1,7%"
+            }
+        ],
+        "Gru VT (%)": "17,5%",
+        "HT Courses": [
+            {
+                "Course Code": "*DM1595",
+                "Short Name": "progim",
+                "Work %": "5,3%"
+            },
+            {
+                "Course Code": "DM1135",
+                "Short Name": "mmss",
+                "Work %": "1,6%"
+            },
+            {
+                "Course Code": "DM1579",
+                "Short Name": "meph",
+                "Work %": "4,8%"
+            },
+            {
+                "Course Code": "DM2350",
+                "Short Name": "humper",
+                "Work %": ",4%"
+            },
+            {
+                "Course Code": "DM2584",
+                "Short Name": "mmproj",
+                "Work %": ",%"
+            },
+            {
+                "Course Code": "DM2679",
+                "Short Name": "improint",
+                "Work %": "2,4%"
+            },
+            {
+                "Course Code": "DM2799",
+                "Short Name": "improj",
+                "Work %": "2,7%"
+            }
+        ],
+        "Gru HT (%)": "17,1%",
+        "Self-development &Friskvård (%)": "3,80%",
+        "Extra (%)": "0",
+        "Balance (%)": "38,38%",
+        "GRU balance 19": "0",
+        "GRU balance 20": "0,00%",
+        "Årsarbetstid %": "0"
+    },
+    "Lab handl Teknolog MID": {
+        "Position": "Teknolog",
+        "Department": "MID",
+        "Kontering HCT (%)": "0,00%",
+        "Bemnnad HCT Gru (%)": "113,70%",
+        "VT Courses": [
+            {
+                "Course Code": "DH2400",
+                "Short Name": "interakv",
+                "Work %": "6,%"
+            },
+            {
+                "Course Code": "DH2642",
+                "Short Name": "iprogd",
+                "Work %": "27,6%"
+            },
+            {
+                "Course Code": "DH2670",
+                "Short Name": "haptik",
+                "Work %": "1,9%"
+            },
+            {
+                "Course Code": "DM1580",
+                "Short Name": "video",
+                "Work %": "6,7%"
+            },
+            {
+                "Course Code": "DM1588",
+                "Short Name": "sensmed",
+                "Work %": "6,%"
+            },
+            {
+                "Course Code": "DM2518",
+                "Short Name": "mobut",
+                "Work %": "6,9%"
+            },
+            {
+                "Course Code": "DM2583",
+                "Short Name": "bdatav",
+                "Work %": "2,2%"
+            }
+        ],
+        "Gru VT (%)": "57,3%",
+        "HT Courses": [
+            {
+                "Course Code": "DH2400",
+                "Short Name": "interak",
+                "Work %": "5,3%"
+            },
+            {
+                "Course Code": "DH2408",
+                "Short Name": "utvard",
+                "Work %": "2,2%"
+            },
+            {
+                "Course Code": "DH2642",
+                "Short Name": "iprogdh",
+                "Work %": "41,8%"
+            },
+            {
+                "Course Code": "DM1579",
+                "Short Name": "meph",
+                "Work %": "4,1%"
+            },
+            {
+                "Course Code": "DM1581",
+                "Short Name": "intromedia",
+                "Work %": "1,6%"
+            },
+            {
+                "Course Code": "DM2350",
+                "Short Name": "humper",
+                "Work %": ",4%"
+            },
+            {
+                "Course Code": "DM2500",
+                "Short Name": "distans",
+                "Work %": "1,1%"
+            },
+            {
+                "Course Code": "DM2579",
+                "Short Name": "mep",
+                "Work %": ",%"
+            }
+        ],
+        "Gru HT (%)": "56,4%",
+        "Self-development &Friskvård (%)": "0",
+        "Extra (%)": "0",
+        "Balance (%)": "113,70%",
+        "GRU balance 19": "0",
+        "GRU balance 20": "0,00%",
+        "Årsarbetstid %": "0"
+    },
+    "Fö Extern MID": {
+        "Position": "External",
+        "Department": "External",
+        "Kontering HCT (%)": "0,00%",
+        "Bemnnad HCT Gru (%)": "30,11%",
+        "VT Courses": [
+            {
+                "Course Code": "DH1609",
+                "Short Name": "komminf",
+                "Work %": "5,2%"
+            },
+            {
+                "Course Code": "DH1620",
+                "Short Name": "mdid",
+                "Work %": "5,3%"
+            },
+            {
+                "Course Code": "DH2400",
+                "Short Name": "interakv",
+                "Work %": ",9%"
+            },
+            {
+                "Course Code": "DH2629",
+                "Short Name": "ixd-reflect",
+                "Work %": "1,4%"
+            },
+            {
+                "Course Code": "DH2632",
+                "Short Name": "mdisemv",
+                "Work %": "1,1%"
+            },
+            {
+                "Course Code": "DH2642",
+                "Short Name": "iprogd",
+                "Work %": "1,2%"
+            },
+            {
+                "Course Code": "DH2670",
+                "Short Name": "haptik",
+                "Work %": ",4%"
+            },
+            {
+                "Course Code": "DM2556",
+                "Short Name": "intcom",
+                "Work %": ",7%"
+            },
+            {
+                "Course Code": "DT2213",
+                "Short Name": "muscom",
+                "Work %": ",6%"
+            },
+            {
+                "Course Code": "DA232-4X",
+                "Short Name": "exjobb",
+                "Work %": "2,%"
+            }
+        ],
+        "Gru VT (%)": "18,8%",
+        "HT Courses": [
+            {
+                "Course Code": "DH2400",
+                "Short Name": "interak",
+                "Work %": ",9%"
+            },
+            {
+                "Course Code": "DH2465",
+                "Short Name": "del",
+                "Work %": ",8%"
+            },
+            {
+                "Course Code": "DH2632",
+                "Short Name": "mdisemh",
+                "Work %": "1,4%"
+            },
+            {
+                "Course Code": "DH2642",
+                "Short Name": "iprogdh",
+                "Work %": "1,2%"
+            },
+            {
+                "Course Code": "DM1579",
+                "Short Name": "meph",
+                "Work %": "1,%"
+            },
+            {
+                "Course Code": "DM1581",
+                "Short Name": "intromedia",
+                "Work %": "1,2%"
+            },
+            {
+                "Course Code": "DM2500",
+                "Short Name": "distans",
+                "Work %": "2,1%"
+            },
+            {
+                "Course Code": "DM2572",
+                "Short Name": "teori",
+                "Work %": ",4%"
+            },
+            {
+                "Course Code": "DM2573",
+                "Short Name": "hallutv",
+                "Work %": "1,2%"
+            },
+            {
+                "Course Code": "DM2579",
+                "Short Name": "mep",
+                "Work %": ",9%"
+            },
+            {
+                "Course Code": "DM2799",
+                "Short Name": "improj",
+                "Work %": ",3%"
+            }
+        ],
+        "Gru HT (%)": "11,4%",
+        "Self-development &Friskvård (%)": "0",
+        "Extra (%)": "0",
+        "Balance (%)": "30,11%",
+        "GRU balance 19": "0",
+        "GRU balance 20": "0,00%",
+        "Årsarbetstid %": "0"
+    }
+}
