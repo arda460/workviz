@@ -1,0 +1,2040 @@
+{
+    "DH1620": {
+        "Period": [
+            "3",
+            "4"
+        ],
+        "Teachers": {
+            "Terry Boot": {
+                "Adm": "106",
+                "Frl": "36"
+            },
+            "Reginald Cattermole": {
+                "Frl": "8"
+            },
+            "Arabella Figg": {
+                "Frl": "8"
+            },
+            "Igor Karkaroff": {
+                "Ovn": "54",
+                "Ex": "36"
+            },
+            "Vernon Dursley": {
+                "Ovn": "108.0",
+                "Ex": "72.0"
+            },
+            "Dudley Dursley": {
+                "Ovn": "54",
+                "Ex": "36"
+            },
+            "Mrs. Cole": {
+                "Ovn": "108.0",
+                "Ex": "72.0"
+            },
+            "Bathilda Bagshot": {
+                "Ovn": "54",
+                "Ex": "36"
+            },
+            "Fö Extern MID": {
+                "Ovn": "54",
+                "Ex": "36"
+            },
+            "Fö Extern": {
+                "Ovn": "54",
+                "Ex": "36"
+            },
+            "UNKNOWN MID": {
+                "Ovn": "54",
+                "Ex": "36"
+            }
+        },
+        "% no 1": "100%",
+        "short name": "mdid",
+        "% no 2": "95%",
+        "Credits": "6",
+        "Financial Outcome": "973651",
+        "Course Dev Hours": "40",
+        "Lecture Hours": "13",
+        "Prep time per lecture hour": "3",
+        "Exercise Hours": "20",
+        "Prep time per exercise hour": "1.7",
+        "Lab Assistans (teacher included)": "",
+        "Lab Hours": "0",
+        "Prep time for labs in total": "",
+        "Exam Hours": "",
+        "Examination hours per student": "1.5",
+        "Written Exams": "10",
+        "General Subervision per student": "",
+        "Number of students": "288",
+        "Reporting hours per student": "0.2",
+        "Row 12 first": "52",
+        "Row 12 second": "52",
+        "Row 13 first": "540",
+        "Row 13 second": "540",
+        "Row 14 first": "0",
+        "Row 14 second": "0",
+        "Row 15 first": "0",
+        "Row 15 second": "0",
+        "Row 16 first": "432",
+        "Row 16 second": "432",
+        "Row 17 first": "40",
+        "Row 17 second": "40",
+        "Row 18 first": "106",
+        "Row 18 second": "106",
+        "Row 19 first": "1 170",
+        "Row 19 second": "1 170",
+        "Hour Avrg": "0.68",
+        "Don't Worry": "273110"
+    },
+    "DH2400": {
+        "Period": [
+            "3"
+        ],
+        "Teachers": {
+            "Frank Bryce": {
+                "Frl": "32",
+                "Ex": "23",
+                "Ovn": "12"
+            },
+            "Fö Extern MID": {
+                "Frl": "16"
+            },
+            "UNKNOWN MID": {
+                "Adm": "48",
+                "Ku": "30",
+                "Ovn": "8",
+                "La": "34"
+            },
+            "Lab handl Teknolog MID": {
+                "La": "102.0"
+            },
+            "Marjorie (Marge) Dursley": {
+                "Frl": "8"
+            }
+        },
+        "% no 1": "100%",
+        "short name": "interakv",
+        "% no 2": "95%",
+        "Credits": "7.5",
+        "Financial Outcome": "−145589",
+        "Course Dev Hours": "30",
+        "Lecture Hours": "14",
+        "Prep time per lecture hour": "3",
+        "Exercise Hours": "8",
+        "Prep time per exercise hour": "0",
+        "Lab Assistans (teacher included)": "4",
+        "Lab Hours": "24",
+        "Prep time for labs in total": "10",
+        "Exam Hours": "0",
+        "Examination hours per student": "1",
+        "Written Exams": "1",
+        "General Subervision per student": "0",
+        "Number of students": "23",
+        "Reporting hours per student": "0.4",
+        "Row 12 first": "56",
+        "Row 12 second": "56",
+        "Row 13 first": "8",
+        "Row 13 second": "20",
+        "Row 14 first": "136",
+        "Row 14 second": "136",
+        "Row 15 first": "0",
+        "Row 15 second": "0",
+        "Row 16 first": "23",
+        "Row 16 second": "23",
+        "Row 17 first": "30",
+        "Row 17 second": "30",
+        "Row 18 first": "48",
+        "Row 18 second": "48",
+        "Row 19 first": "301",
+        "Row 19 second": "313",
+        "Hour Avrg": "1.81",
+        "Don't Worry": "90064"
+    },
+    "DH2624": {
+        "Period": [
+            "4"
+        ],
+        "Teachers": {
+            "Terry Boot": {
+                "Frl": "5",
+                "Ovn": "16",
+                "Ex": "25",
+                "Ku": "3",
+                "Adm": "10"
+            }
+        },
+        "% no 1": "75%",
+        "short name": "mdidcl",
+        "% no 2": "95%",
+        "Credits": "1.5",
+        "Financial Outcome": "−28103",
+        "Course Dev Hours": "3",
+        "Lecture Hours": "2",
+        "Prep time per lecture hour": "1.5",
+        "Exercise Hours": "6",
+        "Prep time per exercise hour": "1.7",
+        "Lab Assistans (teacher included)": "",
+        "Lab Hours": "0",
+        "Prep time for labs in total": "0",
+        "Exam Hours": "",
+        "Examination hours per student": "1.1",
+        "Written Exams": "1",
+        "General Subervision per student": "",
+        "Number of students": "23",
+        "Reporting hours per student": "0.2",
+        "Row 12 first": "5",
+        "Row 12 second": "5",
+        "Row 13 first": "16",
+        "Row 13 second": "16",
+        "Row 14 first": "0",
+        "Row 14 second": "0",
+        "Row 15 first": "0",
+        "Row 15 second": "0",
+        "Row 16 first": "25",
+        "Row 16 second": "25",
+        "Row 17 first": "3",
+        "Row 17 second": "3",
+        "Row 18 first": "10",
+        "Row 18 second": "10",
+        "Row 19 first": "59",
+        "Row 19 second": "59",
+        "Hour Avrg": "1.72",
+        "Don't Worry": "16715"
+    },
+    "DT2300": {
+        "Period": [
+            "3"
+        ],
+        "Teachers": {
+            "Katie Bell": {
+                "Frl": "38",
+                "Ovn": "4",
+                "Ha": "6",
+                "Ex": "17",
+                "Ku": "30",
+                "Adm": "11"
+            },
+            "Michael Corner": {
+                "Frl": "5"
+            },
+            "Charity Burbage": {
+                "Frl": "7.5"
+            },
+            "Frl Gratis": {
+                "Frl": "5"
+            },
+            "Elphias Doge": {
+                "Frl": "5",
+                "Ha": "6",
+                "Ex": "17"
+            },
+            "Justin Finch-Fletchley": {
+                "Ovn": "4",
+                "La": "14",
+                "Ha": "6",
+                "Ex": "17",
+                "Adm": "32"
+            },
+            "Dawlish": {
+                "Ovn": "4",
+                "La": "14",
+                "Ha": "6",
+                "Ex": "17"
+            }
+        },
+        "% no 1": "100%",
+        "short name": "ljudintv",
+        "% no 2": "90%",
+        "Credits": "7.5",
+        "Financial Outcome": "−202618",
+        "Course Dev Hours": "30",
+        "Lecture Hours": "24",
+        "Prep time per lecture hour": "1.5",
+        "Exercise Hours": "4",
+        "Prep time per exercise hour": "0",
+        "Lab Assistans (teacher included)": "1",
+        "Lab Hours": "15",
+        "Prep time for labs in total": "12",
+        "Exam Hours": "",
+        "Examination hours per student": "3",
+        "Written Exams": "1",
+        "General Subervision per student": "1",
+        "Number of students": "22",
+        "Reporting hours per student": "0.2",
+        "Row 12 first": "60",
+        "Row 12 second": "60",
+        "Row 13 first": "4",
+        "Row 13 second": "12",
+        "Row 14 first": "27",
+        "Row 14 second": "27",
+        "Row 15 first": "22",
+        "Row 15 second": "22",
+        "Row 16 first": "66",
+        "Row 16 second": "66",
+        "Row 17 first": "30",
+        "Row 17 second": "30",
+        "Row 18 first": "43",
+        "Row 18 second": "43",
+        "Row 19 first": "252",
+        "Row 19 second": "260",
+        "Hour Avrg": "1.58",
+        "Don't Worry": "95739"
+    },
+    "DH2628": {
+        "Period": [
+            "3"
+        ],
+        "Teachers": {
+            "Ludo Bagman": {
+                "Frl": "18",
+                "Ovn": "38",
+                "Ha": "4",
+                "Ku": "8",
+                "Adm": "18",
+                "Ex": "27"
+            },
+            "Sirius Black": {
+                "Ovn": "38",
+                "Frl": "18",
+                "Adm": "18",
+                "Ex": "26.5",
+                "Ku": "8"
+            }
+        },
+        "% no 1": "100%",
+        "short name": "ixd-metod",
+        "% no 2": "95%",
+        "Credits": "7.5",
+        "Financial Outcome": "−125718",
+        "Course Dev Hours": "15",
+        "Lecture Hours": "12",
+        "Prep time per lecture hour": "2",
+        "Exercise Hours": "30",
+        "Prep time per exercise hour": "1.5",
+        "Lab Assistans (teacher included)": "",
+        "Lab Hours": "0",
+        "Prep time for labs in total": "0",
+        "Exam Hours": "",
+        "Examination hours per student": "2.5",
+        "Written Exams": "1",
+        "General Subervision per student": "0.2",
+        "Number of students": "21",
+        "Reporting hours per student": "0.2",
+        "Row 12 first": "36",
+        "Row 12 second": "36",
+        "Row 13 first": "75",
+        "Row 13 second": "75",
+        "Row 14 first": "0",
+        "Row 14 second": "0",
+        "Row 15 first": "4",
+        "Row 15 second": "4",
+        "Row 16 first": "53",
+        "Row 16 second": "53",
+        "Row 17 first": "15",
+        "Row 17 second": "15",
+        "Row 18 first": "35",
+        "Row 18 second": "35",
+        "Row 19 first": "218",
+        "Row 19 second": "218",
+        "Hour Avrg": "1.38",
+        "Don't Worry": "72131"
+    },
+    "DH2629": {
+        "Period": [
+            "4"
+        ],
+        "Teachers": {
+            "Ludo Bagman": {
+                "Adm": "17",
+                "Ovn": "28",
+                "Ex": "14",
+                "Ha": "6",
+                "Ku": "8",
+                "Frl": "24"
+            },
+            "Marjorie (Marge) Dursley": {
+                "Ovn": "14",
+                "Adm": "16.5",
+                "Ex": "29",
+                "Ha": "3",
+                "Ku": "8",
+                "Frl": "16"
+            },
+            "Fö Extern MID": {
+                "Frl": "24.0"
+            }
+        },
+        "% no 1": "100%",
+        "short name": "ixd-reflect",
+        "% no 2": "95%",
+        "Credits": "7.5",
+        "Financial Outcome": "−119893",
+        "Course Dev Hours": "15",
+        "Lecture Hours": "16",
+        "Prep time per lecture hour": "3",
+        "Exercise Hours": "14",
+        "Prep time per exercise hour": "2",
+        "Lab Assistans (teacher included)": "",
+        "Lab Hours": "0",
+        "Prep time for labs in total": "0",
+        "Exam Hours": "",
+        "Examination hours per student": "2.5",
+        "Written Exams": "1",
+        "General Subervision per student": "0.5",
+        "Number of students": "17",
+        "Reporting hours per student": "0.2",
+        "Row 12 first": "64",
+        "Row 12 second": "64",
+        "Row 13 first": "42",
+        "Row 13 second": "42",
+        "Row 14 first": "0",
+        "Row 14 second": "0",
+        "Row 15 first": "9",
+        "Row 15 second": "9",
+        "Row 16 first": "43",
+        "Row 16 second": "43",
+        "Row 17 first": "15",
+        "Row 17 second": "15",
+        "Row 18 first": "33",
+        "Row 18 second": "33",
+        "Row 19 first": "206",
+        "Row 19 second": "206",
+        "Hour Avrg": "1.62",
+        "Don't Worry": "58754"
+    },
+    "DH2632": {
+        "Period": [
+            "3",
+            "4"
+        ],
+        "Teachers": {
+            "Arabella Figg": {
+                "Frl": "12",
+                "Ex": "50",
+                "Ku": "6"
+            },
+            "Marcus Flint": {
+                "Ex": "50",
+                "Adm": "32",
+                "Frl": "6"
+            },
+            "Fö Extern MID": {
+                "Frl": "18"
+            }
+        },
+        "% no 1": "100%",
+        "short name": "mdisemv",
+        "% no 2": "95%",
+        "Credits": "3",
+        "Financial Outcome": "−75849",
+        "Course Dev Hours": "6",
+        "Lecture Hours": "12",
+        "Prep time per lecture hour": "2",
+        "Exercise Hours": "",
+        "Prep time per exercise hour": "",
+        "Lab Assistans (teacher included)": "",
+        "Lab Hours": "0",
+        "Prep time for labs in total": "0",
+        "Exam Hours": "",
+        "Examination hours per student": "2.5",
+        "Written Exams": "1",
+        "General Subervision per student": "0",
+        "Number of students": "40",
+        "Reporting hours per student": "0.1",
+        "Row 12 first": "36",
+        "Row 12 second": "36",
+        "Row 13 first": "0",
+        "Row 13 second": "0",
+        "Row 14 first": "0",
+        "Row 14 second": "0",
+        "Row 15 first": "0",
+        "Row 15 second": "0",
+        "Row 16 first": "100",
+        "Row 16 second": "100",
+        "Row 17 first": "6",
+        "Row 17 second": "6",
+        "Row 18 first": "32",
+        "Row 18 second": "32",
+        "Row 19 first": "174",
+        "Row 19 second": "174",
+        "Hour Avrg": "1.45",
+        "Don't Worry": "62329"
+    },
+    "DH2670": {
+        "Period": [
+            "4"
+        ],
+        "Teachers": {
+            "Argus Filch": {
+                "Frl": "18",
+                "Ku": "12",
+                "Adm": "46",
+                "Ex": "36",
+                "Ovn": "31"
+            },
+            "Dedalus Diggle": {
+                "Frl": "6",
+                "Ex": "18"
+            },
+            "Alecto Carrow": {
+                "Frl": "18"
+            },
+            "Fö Extern MID": {
+                "Frl": "6"
+            },
+            "Frank Bryce": {
+                "Frl": "6"
+            },
+            "Lab handl Teknolog MID": {
+                "Frl": "6",
+                "La": "16",
+                "Ovn": "10.0"
+            },
+            "Frl Gratis": {
+                "Frl": "6"
+            }
+        },
+        "% no 1": "100%",
+        "short name": "haptik",
+        "% no 2": "95%",
+        "Credits": "7.5",
+        "Financial Outcome": "−96210",
+        "Course Dev Hours": "12",
+        "Lecture Hours": "22",
+        "Prep time per lecture hour": "2",
+        "Exercise Hours": "8",
+        "Prep time per exercise hour": "0.7",
+        "Lab Assistans (teacher included)": "1",
+        "Lab Hours": "8",
+        "Prep time for labs in total": "8",
+        "Exam Hours": "",
+        "Examination hours per student": "1.8",
+        "Written Exams": "3",
+        "General Subervision per student": "0",
+        "Number of students": "30",
+        "Reporting hours per student": "0.2",
+        "Row 12 first": "66",
+        "Row 12 second": "66",
+        "Row 13 first": "41",
+        "Row 13 second": "41",
+        "Row 14 first": "16",
+        "Row 14 second": "16",
+        "Row 15 first": "0",
+        "Row 15 second": "0",
+        "Row 16 first": "54",
+        "Row 16 second": "54",
+        "Row 17 first": "12",
+        "Row 17 second": "12",
+        "Row 18 first": "46",
+        "Row 18 second": "46",
+        "Row 19 first": "235",
+        "Row 19 second": "235",
+        "Hour Avrg": "1.04",
+        "Don't Worry": "79235"
+    },
+    "DH2642": {
+        "Period": [
+            "3",
+            "4"
+        ],
+        "Teachers": {
+            "Marcus Belby": {
+                "Frl": "90",
+                "Ku": "60",
+                "Adm": "15",
+                "Ovn": "3"
+            },
+            "Fö Extern MID": {
+                "Frl": "20"
+            },
+            "Lab handl Teknolog MID": {
+                "La": "272.0",
+                "Ha": "20",
+                "Ex": "80",
+                "Adm": "44",
+                "Ku": "40",
+                "Ovn": "13"
+            }
+        },
+        "% no 1": "100%",
+        "short name": "iprogd",
+        "% no 2": "90%",
+        "Credits": "7.5",
+        "Financial Outcome": "348123",
+        "Course Dev Hours": "100",
+        "Lecture Hours": "22",
+        "Prep time per lecture hour": "4",
+        "Exercise Hours": "2",
+        "Prep time per exercise hour": "1",
+        "Lab Assistans (teacher included)": "8",
+        "Lab Hours": "20",
+        "Prep time for labs in total": "14",
+        "Exam Hours": "0",
+        "Examination hours per student": "0.8",
+        "Written Exams": "4",
+        "General Subervision per student": "0.2",
+        "Number of students": "100",
+        "Reporting hours per student": "0.2",
+        "Row 12 first": "110",
+        "Row 12 second": "110",
+        "Row 13 first": "16",
+        "Row 13 second": "16",
+        "Row 14 first": "272",
+        "Row 14 second": "272",
+        "Row 15 first": "20",
+        "Row 15 second": "20",
+        "Row 16 first": "80",
+        "Row 16 second": "80",
+        "Row 17 first": "100",
+        "Row 17 second": "100",
+        "Row 18 first": "59",
+        "Row 18 second": "59",
+        "Row 19 first": "657",
+        "Row 19 second": "657",
+        "Hour Avrg": "0.88",
+        "Don't Worry": "140489"
+    },
+    "DM128-9X": {
+        "Period": [
+            "3",
+            "4"
+        ],
+        "Teachers": {
+            "Petunia Dursley (née Evans)": {
+                "Adm": "58",
+                "Ku": "20",
+                "Ha": "80",
+                "Frl": "6"
+            },
+            "Cedric Diggory": {
+                "Frl": "18",
+                "Ovn": "24",
+                "Ex": "76",
+                "Ha": "140"
+            },
+            "Susan Bones": {
+                "Ex": "64"
+            },
+            "Cornelius Fudge": {
+                "Ex": "36"
+            },
+            "Hannah Abbott": {
+                "Ex": "32"
+            },
+            "Cuthbert Binns": {
+                "Ex": "76"
+            },
+            "Terry Boot": {
+                "Ha": "80"
+            },
+            "Phineas Nigellus Black": {
+                "Ha": "60"
+            },
+            "Dudley Dursley": {
+                "Ha": "60"
+            },
+            "Charity Burbage": {
+                "Ha": "80"
+            },
+            "Cho Chang": {
+                "Ha": "60"
+            }
+        },
+        "% no 1": "100%",
+        "short name": "mkand",
+        "% no 2": "97%",
+        "Credits": "15",
+        "Financial Outcome": "−355950",
+        "Course Dev Hours": "8",
+        "Lecture Hours": "6",
+        "Prep time per lecture hour": "2",
+        "Exercise Hours": "4",
+        "Prep time per exercise hour": "1",
+        "Lab Assistans (teacher included)": "",
+        "Lab Hours": "",
+        "Prep time for labs in total": "",
+        "Exam Hours": "",
+        "Examination hours per student": "4",
+        "Written Exams": "3",
+        "General Subervision per student": "10",
+        "Number of students": "57",
+        "Reporting hours per student": "0.5",
+        "Row 12 first": "18",
+        "Row 12 second": "24",
+        "Row 13 first": "24",
+        "Row 13 second": "24",
+        "Row 14 first": "0",
+        "Row 14 second": "0",
+        "Row 15 first": "570",
+        "Row 15 second": "560",
+        "Row 16 first": "228",
+        "Row 16 second": "284",
+        "Row 17 first": "8",
+        "Row 17 second": "20",
+        "Row 18 first": "58",
+        "Row 18 second": "58",
+        "Row 19 first": "906",
+        "Row 19 second": "970",
+        "Hour Avrg": "1.13",
+        "Don't Worry": "339079"
+    },
+    "DM1580": {
+        "Period": [
+            "3",
+            "4"
+        ],
+        "Teachers": {
+            "Fleur Delacour": {
+                "Frl": "57",
+                "Ha": "13",
+                "Ex": "65",
+                "Ku": "12",
+                "Adm": "52",
+                "Ovn": "20"
+            },
+            "Lab handl Teknolog MID": {
+                "La": "114"
+            }
+        },
+        "% no 1": "100%",
+        "short name": "video",
+        "% no 2": "95%",
+        "Credits": "6",
+        "Financial Outcome": "−88766",
+        "Course Dev Hours": "12",
+        "Lecture Hours": "19",
+        "Prep time per lecture hour": "2",
+        "Exercise Hours": "6",
+        "Prep time per exercise hour": "0.7",
+        "Lab Assistans (teacher included)": "3",
+        "Lab Hours": "28",
+        "Prep time for labs in total": "10",
+        "Exam Hours": "1",
+        "Examination hours per student": "1",
+        "Written Exams": "2",
+        "General Subervision per student": "0.2",
+        "Number of students": "65",
+        "Reporting hours per student": "0.2",
+        "Row 12 first": "57",
+        "Row 12 second": "57",
+        "Row 13 first": "20",
+        "Row 13 second": "20",
+        "Row 14 first": "114",
+        "Row 14 second": "114",
+        "Row 15 first": "13",
+        "Row 15 second": "13",
+        "Row 16 first": "65",
+        "Row 16 second": "65",
+        "Row 17 first": "12",
+        "Row 17 second": "12",
+        "Row 18 first": "52",
+        "Row 18 second": "52",
+        "Row 19 first": "333",
+        "Row 19 second": "333",
+        "Hour Avrg": "0.85",
+        "Don't Worry": "132070"
+    },
+    "DM2518": {
+        "Period": [
+            "4"
+        ],
+        "Teachers": {
+            "Dirk Cresswell": {
+                "Frl": "39",
+                "La": "36",
+                "Ha": "12",
+                "Ex": "45",
+                "Ku": "12",
+                "Adm": "50"
+            },
+            "Lab handl Teknolog MID": {
+                "La": "72",
+                "Ex": "45"
+            }
+        },
+        "% no 1": "100%",
+        "short name": "mobut",
+        "% no 2": "95%",
+        "Credits": "7.5",
+        "Financial Outcome": "315453",
+        "Course Dev Hours": "12",
+        "Lecture Hours": "13",
+        "Prep time per lecture hour": "2",
+        "Exercise Hours": "0",
+        "Prep time per exercise hour": "0.7",
+        "Lab Assistans (teacher included)": "3",
+        "Lab Hours": "21",
+        "Prep time for labs in total": "15",
+        "Exam Hours": "0",
+        "Examination hours per student": "1.5",
+        "Written Exams": "0",
+        "General Subervision per student": "0.2",
+        "Number of students": "60",
+        "Reporting hours per student": "0.2",
+        "Row 12 first": "39",
+        "Row 12 second": "39",
+        "Row 13 first": "0",
+        "Row 13 second": "0",
+        "Row 14 first": "108",
+        "Row 14 second": "108",
+        "Row 15 first": "12",
+        "Row 15 second": "12",
+        "Row 16 first": "90",
+        "Row 16 second": "90",
+        "Row 17 first": "12",
+        "Row 17 second": "12",
+        "Row 18 first": "50",
+        "Row 18 second": "50",
+        "Row 19 first": "311",
+        "Row 19 second": "311",
+        "Hour Avrg": "0.69",
+        "Don't Worry": "18720"
+    },
+    "DM2556": {
+        "Period": [
+            "3"
+        ],
+        "Teachers": {
+            "Susan Bones": {
+                "Frl": "32",
+                "Ovn": "118",
+                "Ku": "15",
+                "Adm": "38"
+            },
+            "Fö Extern MID": {
+                "Frl": "12"
+            },
+            "Colin Creevey": {
+                "Ex": "81",
+                "Frl": "4",
+                "Ku": "16",
+                "Ovn": "15"
+            },
+            "Fö Extern": {
+                "Ovn": "44"
+            }
+        },
+        "% no 1": "80%",
+        "short name": "intcom",
+        "% no 2": "95%",
+        "Credits": "7.5",
+        "Financial Outcome": "−354428",
+        "Course Dev Hours": "15",
+        "Lecture Hours": "24",
+        "Prep time per lecture hour": "1",
+        "Exercise Hours": "24",
+        "Prep time per exercise hour": "2.7",
+        "Lab Assistans (teacher included)": "",
+        "Lab Hours": "0",
+        "Prep time for labs in total": "0",
+        "Exam Hours": "0",
+        "Examination hours per student": "3",
+        "Written Exams": "2",
+        "General Subervision per student": "",
+        "Number of students": "27",
+        "Reporting hours per student": "0.2",
+        "Row 12 first": "48",
+        "Row 12 second": "48",
+        "Row 13 first": "178",
+        "Row 13 second": "178",
+        "Row 14 first": "0",
+        "Row 14 second": "0",
+        "Row 15 first": "0",
+        "Row 15 second": "0",
+        "Row 16 first": "81",
+        "Row 16 second": "81",
+        "Row 17 first": "15",
+        "Row 17 second": "31",
+        "Row 18 first": "38",
+        "Row 18 second": "38",
+        "Row 19 first": "360",
+        "Row 19 second": "376",
+        "Hour Avrg": "1.85",
+        "Don't Worry": "98063"
+    },
+    "DM2562": {
+        "Period": [
+            "3"
+        ],
+        "Teachers": {
+            "Antonin Dolohov": {
+                "Adm": "38",
+                "Ha": "5",
+                "Ex": "39",
+                "Ku": "15",
+                "Frl": "108"
+            }
+        },
+        "% no 1": "100%",
+        "short name": "ledh",
+        "% no 2": "99%",
+        "Credits": "7.5",
+        "Financial Outcome": "49093",
+        "Course Dev Hours": "15",
+        "Lecture Hours": "36",
+        "Prep time per lecture hour": "2",
+        "Exercise Hours": "",
+        "Prep time per exercise hour": "1.5",
+        "Lab Assistans (teacher included)": "2",
+        "Lab Hours": "",
+        "Prep time for labs in total": "8",
+        "Exam Hours": "1",
+        "Examination hours per student": "1.5",
+        "Written Exams": "1",
+        "General Subervision per student": "0.2",
+        "Number of students": "26",
+        "Reporting hours per student": "0.4",
+        "Row 12 first": "108",
+        "Row 12 second": "108",
+        "Row 13 first": "0",
+        "Row 13 second": "0",
+        "Row 14 first": "0",
+        "Row 14 second": "0",
+        "Row 15 first": "5",
+        "Row 15 second": "5",
+        "Row 16 first": "39",
+        "Row 16 second": "39",
+        "Row 17 first": "15",
+        "Row 17 second": "15",
+        "Row 18 first": "38",
+        "Row 18 second": "38",
+        "Row 19 first": "205",
+        "Row 19 second": "205",
+        "Hour Avrg": "1.05",
+        "Don't Worry": "0"
+    },
+    "DM2563": {
+        "Period": [
+            "4"
+        ],
+        "Teachers": {
+            "Antonin Dolohov": {
+                "Adm": "40",
+                "Ha": "32",
+                "Ex": "24",
+                "Ku": "15",
+                "Frl": "48",
+                "Ovn": "67"
+            }
+        },
+        "% no 1": "100%",
+        "short name": "ledprojh",
+        "% no 2": "99%",
+        "Credits": "7.5",
+        "Financial Outcome": "−64732",
+        "Course Dev Hours": "15",
+        "Lecture Hours": "16",
+        "Prep time per lecture hour": "2",
+        "Exercise Hours": "56",
+        "Prep time per exercise hour": "0.2",
+        "Lab Assistans (teacher included)": "2",
+        "Lab Hours": "",
+        "Prep time for labs in total": "8",
+        "Exam Hours": "",
+        "Examination hours per student": "1.5",
+        "Written Exams": "1",
+        "General Subervision per student": "2",
+        "Number of students": "16",
+        "Reporting hours per student": "0.4",
+        "Row 12 first": "48",
+        "Row 12 second": "48",
+        "Row 13 first": "67",
+        "Row 13 second": "67",
+        "Row 14 first": "0",
+        "Row 14 second": "0",
+        "Row 15 first": "32",
+        "Row 15 second": "32",
+        "Row 16 first": "24",
+        "Row 16 second": "24",
+        "Row 17 first": "15",
+        "Row 17 second": "15",
+        "Row 18 first": "40",
+        "Row 18 second": "40",
+        "Row 19 first": "226",
+        "Row 19 second": "226",
+        "Hour Avrg": "1.89",
+        "Don't Worry": "0"
+    },
+    "DM2578": {
+        "Period": [
+            "4"
+        ],
+        "Teachers": {
+            "Amelia Bones": {
+                "Adm": "",
+                "Ovn": "0",
+                "Ex": "0",
+                "Ku": "",
+                "Frl": ""
+            },
+            "Cedric Diggory": {
+                "Frl": ""
+            }
+        },
+        "% no 1": "100%",
+        "short name": "socmed",
+        "% no 2": "90%",
+        "Credits": "7.5",
+        "Financial Outcome": "0",
+        "Course Dev Hours": "40",
+        "Lecture Hours": "0",
+        "Prep time per lecture hour": "3.5",
+        "Exercise Hours": "0",
+        "Prep time per exercise hour": "0.7",
+        "Lab Assistans (teacher included)": "",
+        "Lab Hours": "0",
+        "Prep time for labs in total": "10",
+        "Exam Hours": "",
+        "Examination hours per student": "2.5",
+        "Written Exams": "",
+        "General Subervision per student": "0.2",
+        "Number of students": "0",
+        "Reporting hours per student": "0.5",
+        "Row 12 first": "0",
+        "Row 12 second": "0",
+        "Row 13 first": "0",
+        "Row 13 second": "0",
+        "Row 14 first": "0",
+        "Row 14 second": "0",
+        "Row 15 first": "0",
+        "Row 15 second": "0",
+        "Row 16 first": "0",
+        "Row 16 second": "0",
+        "Row 17 first": "40",
+        "Row 17 second": "0",
+        "Row 18 first": "28",
+        "Row 18 second": "0",
+        "Row 19 first": "68",
+        "Row 19 second": "0",
+        "Hour Avrg": "#DIV/0!",
+        "Don't Worry": "0"
+    },
+    "DM2582": {
+        "Period": [
+            "4"
+        ],
+        "Teachers": {
+            "Fleur Delacour": {
+                "Frl": "24",
+                "Ex": "22.5",
+                "Adm": "35",
+                "Ha": "15",
+                "Ovn": "8",
+                "Ku": "20"
+            },
+            "Penelope Clearwater": {
+                "Frl": "24",
+                "Ex": "22.5",
+                "Ha": "15",
+                "Ovn": "8"
+            }
+        },
+        "% no 1": "100%",
+        "short name": "mlabv",
+        "% no 2": "99%",
+        "Credits": "7.5",
+        "Financial Outcome": "−113549",
+        "Course Dev Hours": "20",
+        "Lecture Hours": "16",
+        "Prep time per lecture hour": "2",
+        "Exercise Hours": "6",
+        "Prep time per exercise hour": "1.5",
+        "Lab Assistans (teacher included)": "2",
+        "Lab Hours": "",
+        "Prep time for labs in total": "8",
+        "Exam Hours": "",
+        "Examination hours per student": "1.5",
+        "Written Exams": "1",
+        "General Subervision per student": "1",
+        "Number of students": "30",
+        "Reporting hours per student": "0.2",
+        "Row 12 first": "48",
+        "Row 12 second": "48",
+        "Row 13 first": "15",
+        "Row 13 second": "15",
+        "Row 14 first": "0",
+        "Row 14 second": "0",
+        "Row 15 first": "30",
+        "Row 15 second": "30",
+        "Row 16 first": "45",
+        "Row 16 second": "45",
+        "Row 17 first": "20",
+        "Row 17 second": "20",
+        "Row 18 first": "35",
+        "Row 18 second": "35",
+        "Row 19 first": "193",
+        "Row 19 second": "193",
+        "Hour Avrg": "0.86",
+        "Don't Worry": "87421"
+    },
+    "DM2583": {
+        "Period": [
+            "3"
+        ],
+        "Teachers": {
+            "Fleur Delacour": {
+                "Frl": "42",
+                "Ex": "18",
+                "Adm": "44",
+                "Ha": "5",
+                "Ovn": "10",
+                "Ku": "20"
+            },
+            "Penelope Clearwater": {
+                "Frl": "6",
+                "Ex": "18",
+                "Ovn": "10"
+            },
+            "Lab handl Teknolog MID": {
+                "La": "38"
+            }
+        },
+        "% no 1": "100%",
+        "short name": "bdatav",
+        "% no 2": "99%",
+        "Credits": "7.5",
+        "Financial Outcome": "−172777",
+        "Course Dev Hours": "20",
+        "Lecture Hours": "16",
+        "Prep time per lecture hour": "2",
+        "Exercise Hours": "8",
+        "Prep time per exercise hour": "1.5",
+        "Lab Assistans (teacher included)": "1",
+        "Lab Hours": "30",
+        "Prep time for labs in total": "8",
+        "Exam Hours": "1",
+        "Examination hours per student": "1.5",
+        "Written Exams": "1",
+        "General Subervision per student": "0.2",
+        "Number of students": "24",
+        "Reporting hours per student": "0.2",
+        "Row 12 first": "48",
+        "Row 12 second": "48",
+        "Row 13 first": "20",
+        "Row 13 second": "20",
+        "Row 14 first": "38",
+        "Row 14 second": "38",
+        "Row 15 first": "5",
+        "Row 15 second": "5",
+        "Row 16 first": "36",
+        "Row 16 second": "36",
+        "Row 17 first": "20",
+        "Row 17 second": "20",
+        "Row 18 first": "44",
+        "Row 18 second": "44",
+        "Row 19 first": "211",
+        "Row 19 second": "211",
+        "Hour Avrg": "1.17",
+        "Don't Worry": "89572"
+    },
+    "DM2720": {
+        "Period": [
+            "4"
+        ],
+        "Teachers": {
+            "Millicent Bulstrode": {
+                "Frl": "32",
+                "Ovn": "30",
+                "Ha": "1",
+                "Ex": "3",
+                "Adm": "30",
+                "Ku": "15"
+            },
+            "Frl Gratis": {
+                "Frl": "64"
+            },
+            "Phineas Nigellus Black": {
+                "Ex": "3",
+                "Ovn": "8",
+                "Ku": "8"
+            }
+        },
+        "% no 1": "100%",
+        "short name": "halikt",
+        "% no 2": "95%",
+        "Credits": "7.5",
+        "Financial Outcome": "−192151",
+        "Course Dev Hours": "15",
+        "Lecture Hours": "24",
+        "Prep time per lecture hour": "3",
+        "Exercise Hours": "14",
+        "Prep time per exercise hour": "1.7",
+        "Lab Assistans (teacher included)": "",
+        "Lab Hours": "0",
+        "Prep time for labs in total": "0",
+        "Exam Hours": "",
+        "Examination hours per student": "1.25",
+        "Written Exams": "1",
+        "General Subervision per student": "0.2",
+        "Number of students": "5",
+        "Reporting hours per student": "0.2",
+        "Row 12 first": "96",
+        "Row 12 second": "96",
+        "Row 13 first": "38",
+        "Row 13 second": "38",
+        "Row 14 first": "0",
+        "Row 14 second": "0",
+        "Row 15 first": "1",
+        "Row 15 second": "1",
+        "Row 16 first": "6",
+        "Row 16 second": "6",
+        "Row 17 first": "15",
+        "Row 17 second": "23",
+        "Row 18 first": "30",
+        "Row 18 second": "30",
+        "Row 19 first": "186",
+        "Row 19 second": "193",
+        "Hour Avrg": "5.15",
+        "Don't Worry": "42005"
+    },
+    "DT2213": {
+        "Period": [
+            "4"
+        ],
+        "Teachers": {
+            "Charity Burbage": {
+                "Frl": "30",
+                "Ovn": "23",
+                "Ku": "15",
+                "Adm": "43",
+                "Ha": "16",
+                "Ex": "32"
+            },
+            "Katie Bell": {
+                "Frl": "10"
+            },
+            "Dawlish": {
+                "La": "21",
+                "Lab": "35",
+                "Ovn": "12"
+            },
+            "Fö Extern MID": {
+                "Frl": "10.0"
+            },
+            "Frl Gratis": {
+                "Frl": "10"
+            }
+        },
+        "% no 1": "100%",
+        "short name": "muscom",
+        "% no 2": "85%",
+        "Credits": "7.5",
+        "Financial Outcome": "−161936",
+        "Course Dev Hours": "15",
+        "Lecture Hours": "24",
+        "Prep time per lecture hour": "1.5",
+        "Exercise Hours": "14",
+        "Prep time per exercise hour": "1.5",
+        "Lab Assistans (teacher included)": "1",
+        "Lab Hours": "9",
+        "Prep time for labs in total": "12",
+        "Exam Hours": "",
+        "Examination hours per student": "2",
+        "Written Exams": "1",
+        "General Subervision per student": "1",
+        "Number of students": "16",
+        "Reporting hours per student": "0.2",
+        "Row 12 first": "60",
+        "Row 12 second": "60",
+        "Row 13 first": "35",
+        "Row 13 second": "35",
+        "Row 14 first": "21",
+        "Row 14 second": "21",
+        "Row 15 first": "16",
+        "Row 15 second": "16",
+        "Row 16 first": "32",
+        "Row 16 second": "32",
+        "Row 17 first": "15",
+        "Row 17 second": "15",
+        "Row 18 first": "43",
+        "Row 18 second": "43",
+        "Row 19 first": "222",
+        "Row 19 second": "257",
+        "Hour Avrg": "2.14",
+        "Don't Worry": "73455"
+    },
+    "DM2624": {
+        "Period": [
+            "3"
+        ],
+        "Teachers": {
+            "Charity Burbage": {
+                "Frl": "16.0",
+                "Ku": "31",
+                "Adm": "33",
+                "Ex": "76.0",
+                "Ovn": "15",
+                "Ha": "19"
+            },
+            "Reginald Cattermole": {
+                "Ku": "6",
+                "Frl": "8",
+                "Ovn": "5"
+            },
+            "UNKNOWN MID": {
+                "Frl": "24.0",
+                "Ovn": "5"
+            }
+        },
+        "% no 1": "100%",
+        "short name": "itfunk",
+        "% no 2": "95%",
+        "Credits": "7.5",
+        "Financial Outcome": "−171398",
+        "Course Dev Hours": "60",
+        "Lecture Hours": "12",
+        "Prep time per lecture hour": "3",
+        "Exercise Hours": "10",
+        "Prep time per exercise hour": "1.5",
+        "Lab Assistans (teacher included)": "",
+        "Lab Hours": "",
+        "Prep time for labs in total": "",
+        "Exam Hours": "",
+        "Examination hours per student": "4",
+        "Written Exams": "1",
+        "General Subervision per student": "1",
+        "Number of students": "19",
+        "Reporting hours per student": "0.2",
+        "Row 12 first": "48",
+        "Row 12 second": "48",
+        "Row 13 first": "25",
+        "Row 13 second": "25",
+        "Row 14 first": "0",
+        "Row 14 second": "0",
+        "Row 15 first": "19",
+        "Row 15 second": "19",
+        "Row 16 first": "76",
+        "Row 16 second": "76",
+        "Row 17 first": "60",
+        "Row 17 second": "37",
+        "Row 18 first": "33",
+        "Row 18 second": "33",
+        "Row 19 first": "261",
+        "Row 19 second": "238",
+        "Hour Avrg": "1.67",
+        "Don't Worry": "88645"
+    },
+    "DM2077": {
+        "Period": [
+            "3"
+        ],
+        "Teachers": {
+            "NN Lektor": {
+                "Frl": "54",
+                "Ovn": "10",
+                "Ha": "22",
+                "Ex": "88",
+                "Ku": "15",
+                "Adm": "33"
+            }
+        },
+        "% no 1": "100%",
+        "short name": "medjur",
+        "% no 2": "95%",
+        "Credits": "7.5",
+        "Financial Outcome": "206154",
+        "Course Dev Hours": "15",
+        "Lecture Hours": "18",
+        "Prep time per lecture hour": "2",
+        "Exercise Hours": "4",
+        "Prep time per exercise hour": "1.5",
+        "Lab Assistans (teacher included)": "",
+        "Lab Hours": "",
+        "Prep time for labs in total": "",
+        "Exam Hours": "1",
+        "Examination hours per student": "4",
+        "Written Exams": "1",
+        "General Subervision per student": "1",
+        "Number of students": "22",
+        "Reporting hours per student": "0.2",
+        "Row 12 first": "54",
+        "Row 12 second": "54",
+        "Row 13 first": "10",
+        "Row 13 second": "10",
+        "Row 14 first": "0",
+        "Row 14 second": "0",
+        "Row 15 first": "22",
+        "Row 15 second": "22",
+        "Row 16 first": "88",
+        "Row 16 second": "88",
+        "Row 17 first": "15",
+        "Row 17 second": "15",
+        "Row 18 first": "33",
+        "Row 18 second": "33",
+        "Row 19 first": "222",
+        "Row 19 second": "222",
+        "Hour Avrg": "1.35",
+        "Don't Worry": "0"
+    },
+    "DH2320": {
+        "Period": [
+            "3"
+        ],
+        "Teachers": {
+            "Bertha Jorkins": {
+                "Frl": "60",
+                "Ku": "5",
+                "Ex": "64",
+                "Ha": "12"
+            },
+            "Bellatrix Lestrange": {
+                "Adm": "28",
+                "Ovn": "49",
+                "Ha": "12",
+                "Ku": "5",
+                "Ex": "64"
+            },
+            "Viktor Krum": {
+                "Ha": "12",
+                "Ovn": "49",
+                "Ku": "5",
+                "Adm": "28",
+                "Ex": "64"
+            }
+        },
+        "% no 1": "100%",
+        "short name": "visgra",
+        "% no 2": "90%",
+        "Credits": "6",
+        "Financial Outcome": "324034",
+        "Course Dev Hours": "15",
+        "Lecture Hours": "20",
+        "Prep time per lecture hour": "2",
+        "Exercise Hours": "18",
+        "Prep time per exercise hour": "1.7",
+        "Lab Assistans (teacher included)": "2",
+        "Lab Hours": "",
+        "Prep time for labs in total": "6",
+        "Exam Hours": "1",
+        "Examination hours per student": "1.6",
+        "Written Exams": "2",
+        "General Subervision per student": "0.3",
+        "Number of students": "120",
+        "Reporting hours per student": "0.2",
+        "Row 12 first": "60",
+        "Row 12 second": "60",
+        "Row 13 first": "97",
+        "Row 13 second": "97",
+        "Row 14 first": "0",
+        "Row 14 second": "0",
+        "Row 15 first": "36",
+        "Row 15 second": "36",
+        "Row 16 first": "192",
+        "Row 16 second": "192",
+        "Row 17 first": "15",
+        "Row 17 second": "15",
+        "Row 18 first": "56",
+        "Row 18 second": "56",
+        "Row 19 first": "456",
+        "Row 19 second": "456",
+        "Hour Avrg": "0.63",
+        "Don't Worry": "151975"
+    },
+    "DH2321": {
+        "Period": [
+            "3"
+        ],
+        "Teachers": {
+            "Angelina Johnson": {
+                "Frl": "48",
+                "La": "16",
+                "Ha": "18",
+                "Ex": "92",
+                "Ku": "12",
+                "Adm": "56"
+            },
+            "Bellatrix Lestrange": {
+                "Ex": "92"
+            }
+        },
+        "% no 1": "100%",
+        "short name": "ivis",
+        "% no 2": "90%",
+        "Credits": "6",
+        "Financial Outcome": "224869",
+        "Course Dev Hours": "12",
+        "Lecture Hours": "16",
+        "Prep time per lecture hour": "2",
+        "Exercise Hours": "0",
+        "Prep time per exercise hour": "1.7",
+        "Lab Assistans (teacher included)": "1",
+        "Lab Hours": "10",
+        "Prep time for labs in total": "6",
+        "Exam Hours": "",
+        "Examination hours per student": "2",
+        "Written Exams": "0",
+        "General Subervision per student": "0.2",
+        "Number of students": "92",
+        "Reporting hours per student": "0.2",
+        "Row 12 first": "48",
+        "Row 12 second": "48",
+        "Row 13 first": "0",
+        "Row 13 second": "0",
+        "Row 14 first": "16",
+        "Row 14 second": "16",
+        "Row 15 first": "18",
+        "Row 15 second": "18",
+        "Row 16 first": "184",
+        "Row 16 second": "184",
+        "Row 17 first": "12",
+        "Row 17 second": "12",
+        "Row 18 first": "56",
+        "Row 18 second": "56",
+        "Row 19 first": "334",
+        "Row 19 second": "334",
+        "Hour Avrg": "0.61",
+        "Don't Worry": "110697"
+    },
+    "DH2323": {
+        "Period": [
+            "4"
+        ],
+        "Teachers": {
+            "Mafalda Hopkirk": {
+                "Frl": "84",
+                "Ha": "20",
+                "Ex": "12",
+                "Ku": "2",
+                "Adm": "58"
+            },
+            "Rodolphus Lestrange": {
+                "La": "33",
+                "Frl": "20",
+                "Ex": "51"
+            },
+            "Bellatrix Lestrange": {
+                "La": "14",
+                "Ex": "20"
+            },
+            "Viktor Krum": {
+                "La": "1.666.666.667",
+                "Ex": "20"
+            },
+            "Gilderoy Lockhart": {
+                "La": "14",
+                "Ex": "20"
+            }
+        },
+        "% no 1": "100%",
+        "short name": "dgi",
+        "% no 2": "90%",
+        "Credits": "6",
+        "Financial Outcome": "306572",
+        "Course Dev Hours": "12",
+        "Lecture Hours": "26",
+        "Prep time per lecture hour": "3",
+        "Exercise Hours": "0",
+        "Prep time per exercise hour": "0.7",
+        "Lab Assistans (teacher included)": "2",
+        "Lab Hours": "14",
+        "Prep time for labs in total": "11",
+        "Exam Hours": "",
+        "Examination hours per student": "1",
+        "Written Exams": "0",
+        "General Subervision per student": "0.2",
+        "Number of students": "102",
+        "Reporting hours per student": "0.2",
+        "Row 12 first": "104",
+        "Row 12 second": "104",
+        "Row 13 first": "0",
+        "Row 13 second": "0",
+        "Row 14 first": "50",
+        "Row 14 second": "78",
+        "Row 15 first": "20",
+        "Row 15 second": "20",
+        "Row 16 first": "102",
+        "Row 16 second": "123",
+        "Row 17 first": "12",
+        "Row 17 second": "2",
+        "Row 18 first": "58",
+        "Row 18 second": "58",
+        "Row 19 first": "346",
+        "Row 19 second": "385",
+        "Hour Avrg": "0.63",
+        "Don't Worry": "120845"
+    },
+    "DD2258": {
+        "Period": [
+            "3"
+        ],
+        "Teachers": {
+            "Bertha Jorkins": {
+                "Adm": "5"
+            },
+            "Fleur Delacour": {
+                "Frl": "8",
+                "Ku": "3",
+                "Ha": "10",
+                "Ex": "24"
+            }
+        },
+        "% no 1": "100%",
+        "short name": "visintro",
+        "% no 2": "90%",
+        "Credits": "1.5",
+        "Financial Outcome": "−27069",
+        "Course Dev Hours": "3",
+        "Lecture Hours": "4",
+        "Prep time per lecture hour": "1",
+        "Exercise Hours": "1",
+        "Prep time per exercise hour": "0.7",
+        "Lab Assistans (teacher included)": "",
+        "Lab Hours": "",
+        "Prep time for labs in total": "",
+        "Exam Hours": "",
+        "Examination hours per student": "0.5",
+        "Written Exams": "1",
+        "General Subervision per student": "0.2",
+        "Number of students": "48",
+        "Reporting hours per student": "0.2",
+        "Row 12 first": "8",
+        "Row 12 second": "8",
+        "Row 13 first": "2",
+        "Row 13 second": "0",
+        "Row 14 first": "0",
+        "Row 14 second": "0",
+        "Row 15 first": "10",
+        "Row 15 second": "10",
+        "Row 16 first": "24",
+        "Row 16 second": "24",
+        "Row 17 first": "3",
+        "Row 17 second": "3",
+        "Row 18 first": "38",
+        "Row 18 second": "5",
+        "Row 19 first": "85",
+        "Row 19 second": "50",
+        "Hour Avrg": "0.69",
+        "Don't Worry": "26047"
+    },
+    "DT2212": {
+        "Period": [
+            "3"
+        ],
+        "Teachers": {
+            "Filius Flitwick": {
+                "Frl": "28",
+                "Ku": "30",
+                "Adm": "37",
+                "Ha": "7",
+                "Ex": "28"
+            },
+            "Lab handl Teknolog TMH": {
+                "La": "30"
+            },
+            "Cornelius Fudge": {
+                "Adm": "4",
+                "Frl": "12"
+            },
+            "Gellert Grindelwald": {
+                "Frl": "8"
+            }
+        },
+        "% no 1": "100%",
+        "short name": "musak",
+        "% no 2": "90%",
+        "Credits": "7.5",
+        "Financial Outcome": "−198086",
+        "Course Dev Hours": "30",
+        "Lecture Hours": "24",
+        "Prep time per lecture hour": "1",
+        "Exercise Hours": "0",
+        "Prep time per exercise hour": "0.7",
+        "Lab Assistans (teacher included)": "3",
+        "Lab Hours": "6",
+        "Prep time for labs in total": "4",
+        "Exam Hours": "",
+        "Examination hours per student": "2",
+        "Written Exams": "1",
+        "General Subervision per student": "0.5",
+        "Number of students": "14",
+        "Reporting hours per student": "0.2",
+        "Row 12 first": "48",
+        "Row 12 second": "48",
+        "Row 13 first": "0",
+        "Row 13 second": "0",
+        "Row 14 first": "30",
+        "Row 14 second": "30",
+        "Row 15 first": "7",
+        "Row 15 second": "7",
+        "Row 16 first": "28",
+        "Row 16 second": "28",
+        "Row 17 first": "30",
+        "Row 17 second": "30",
+        "Row 18 first": "41",
+        "Row 18 second": "41",
+        "Row 19 first": "184",
+        "Row 19 second": "184",
+        "Hour Avrg": "1.75",
+        "Don't Worry": "78275"
+    },
+    "DT2215": {
+        "Period": [
+            "1",
+            "2",
+            "3",
+            "4"
+        ],
+        "Teachers": {
+            "Filius Flitwick": {
+                "Adm": "",
+                "Ha": "0"
+            },
+            "Cornelius Fudge": {
+                "Ex": "0"
+            }
+        },
+        "% no 1": "100%",
+        "short name": "indmus",
+        "% no 2": "100%",
+        "Credits": "6",
+        "Financial Outcome": "0",
+        "Course Dev Hours": "",
+        "Lecture Hours": "0",
+        "Prep time per lecture hour": "0",
+        "Exercise Hours": "0",
+        "Prep time per exercise hour": "0.7",
+        "Lab Assistans (teacher included)": "",
+        "Lab Hours": "0",
+        "Prep time for labs in total": "0",
+        "Exam Hours": "",
+        "Examination hours per student": "10",
+        "Written Exams": "",
+        "General Subervision per student": "6",
+        "Number of students": "0",
+        "Reporting hours per student": "0.2",
+        "Row 12 first": "0",
+        "Row 12 second": "0",
+        "Row 13 first": "0",
+        "Row 13 second": "0",
+        "Row 14 first": "0",
+        "Row 14 second": "0",
+        "Row 15 first": "0",
+        "Row 15 second": "0",
+        "Row 16 first": "0",
+        "Row 16 second": "0",
+        "Row 17 first": "",
+        "Row 17 second": "0",
+        "Row 18 first": "28",
+        "Row 18 second": "0",
+        "Row 19 first": "28",
+        "Row 19 second": "0",
+        "Hour Avrg": "#DIV/0!",
+        "Don't Worry": "0"
+    },
+    "DM1590": {
+        "Period": [
+            "3"
+        ],
+        "Teachers": {
+            "Gellert Grindelwald": {
+                "Adm": "54",
+                "Ex": "38",
+                "Frl": "48",
+                "Ha": "8",
+                "Ku": "20",
+                "Ovn": "10"
+            },
+            "Michael Corner": {
+                "Ex": "38",
+                "Frl": "48",
+                "Ha": "8",
+                "Ku": "20",
+                "Ovn": "5"
+            },
+            "NN Doktorand": {
+                "La": "44.0"
+            }
+        },
+        "% no 1": "100%",
+        "short name": "mlmed",
+        "% no 2": "100%",
+        "Credits": "7.5",
+        "Financial Outcome": "309797",
+        "Course Dev Hours": "40",
+        "Lecture Hours": "24",
+        "Prep time per lecture hour": "3",
+        "Exercise Hours": "9",
+        "Prep time per exercise hour": "0.7",
+        "Lab Assistans (teacher included)": "2",
+        "Lab Hours": "12",
+        "Prep time for labs in total": "10",
+        "Exam Hours": "",
+        "Examination hours per student": "1",
+        "Written Exams": "1",
+        "General Subervision per student": "0.2",
+        "Number of students": "75",
+        "Reporting hours per student": "0.2",
+        "Row 12 first": "96",
+        "Row 12 second": "96",
+        "Row 13 first": "15",
+        "Row 13 second": "15",
+        "Row 14 first": "44",
+        "Row 14 second": "44",
+        "Row 15 first": "15",
+        "Row 15 second": "15",
+        "Row 16 first": "75",
+        "Row 16 second": "75",
+        "Row 17 first": "40",
+        "Row 17 second": "40",
+        "Row 18 first": "54",
+        "Row 18 second": "54",
+        "Row 19 first": "339",
+        "Row 19 second": "339",
+        "Hour Avrg": "0.6",
+        "Don't Worry": "107537"
+    },
+    "DM1588": {
+        "Period": [
+            "4"
+        ],
+        "Teachers": {
+            "Gabrielle Delacour": {
+                "Adm": "52",
+                "Ex": "30",
+                "Frl": "40",
+                "Ovn": "20.4",
+                "La": "35",
+                "Ku": "40"
+            },
+            "UNKNOWN MID": {
+                "Ex": "30"
+            },
+            "Lab handl Teknolog MID": {
+                "Ha": "12",
+                "Ovn": "20",
+                "La": "70.0"
+            }
+        },
+        "% no 1": "100%",
+        "short name": "sensmed",
+        "% no 2": "100%",
+        "Credits": "6",
+        "Financial Outcome": "146628",
+        "Course Dev Hours": "40",
+        "Lecture Hours": "10",
+        "Prep time per lecture hour": "3",
+        "Exercise Hours": "8",
+        "Prep time per exercise hour": "0.7",
+        "Lab Assistans (teacher included)": "3",
+        "Lab Hours": "20",
+        "Prep time for labs in total": "15",
+        "Exam Hours": "",
+        "Examination hours per student": "1",
+        "Written Exams": "3",
+        "General Subervision per student": "0.2",
+        "Number of students": "60",
+        "Reporting hours per student": "0.2",
+        "Row 12 first": "40",
+        "Row 12 second": "40",
+        "Row 13 first": "41",
+        "Row 13 second": "41",
+        "Row 14 first": "105",
+        "Row 14 second": "105",
+        "Row 15 first": "12",
+        "Row 15 second": "12",
+        "Row 16 first": "60",
+        "Row 16 second": "60",
+        "Row 17 first": "40",
+        "Row 17 second": "40",
+        "Row 18 first": "52",
+        "Row 18 second": "52",
+        "Row 19 first": "350",
+        "Row 19 second": "350",
+        "Hour Avrg": "0.97",
+        "Don't Worry": "89261"
+    },
+    "DH1609": {
+        "Period": [
+            "3",
+            "4"
+        ],
+        "Teachers": {
+            "Amelia Bones": {
+                "Frl": "40",
+                "Adm": "28",
+                "Ku": "17",
+                "Ex": "43",
+                "Ovn": "108"
+            },
+            "Fö Extern MID": {
+                "Frl": "24",
+                "Ovn": "65"
+            },
+            "Colin Creevey": {
+                "Frl": "24",
+                "Ex": "87",
+                "Ovn": "65",
+                "Ku": "16"
+            },
+            "UNKNOWN MID": {
+                "Adm": "28"
+            },
+            "Susan Bones": {
+                "Frl": "8"
+            }
+        },
+        "% no 1": "100%",
+        "short name": "komminf",
+        "% no 2": "95%",
+        "Credits": "7.5",
+        "Financial Outcome": "−117553",
+        "Course Dev Hours": "17",
+        "Lecture Hours": "24",
+        "Prep time per lecture hour": "3",
+        "Exercise Hours": "22",
+        "Prep time per exercise hour": "1.7",
+        "Lab Assistans (teacher included)": "",
+        "Lab Hours": "0",
+        "Prep time for labs in total": "0",
+        "Exam Hours": "0",
+        "Examination hours per student": "2",
+        "Written Exams": "4",
+        "General Subervision per student": "",
+        "Number of students": "65",
+        "Reporting hours per student": "0.3",
+        "Row 12 first": "96",
+        "Row 12 second": "96",
+        "Row 13 first": "238",
+        "Row 13 second": "238",
+        "Row 14 first": "0",
+        "Row 14 second": "0",
+        "Row 15 first": "0",
+        "Row 15 second": "0",
+        "Row 16 first": "130",
+        "Row 16 second": "130",
+        "Row 17 first": "17",
+        "Row 17 second": "33",
+        "Row 18 first": "56",
+        "Row 18 second": "56",
+        "Row 19 first": "537",
+        "Row 19 second": "553",
+        "Hour Avrg": "1.13",
+        "Don't Worry": "103978"
+    },
+    "DM2585": {
+        "Period": [
+            "3",
+            "4"
+        ],
+        "Teachers": {
+            "Penelope Clearwater": {
+                "Adm": "30",
+                "Ex": "3",
+                "Ha": "1",
+                "Frl": "40",
+                "Ovn": "6",
+                "Ku": "20"
+            },
+            "Fleur Delacour": {
+                "Frl": "40",
+                "Ovn": "6",
+                "Ku": "20",
+                "Ex": "3",
+                "Ha": "1"
+            }
+        },
+        "% no 1": "100%",
+        "short name": "aisoc",
+        "% no 2": "100%",
+        "Credits": "6",
+        "Financial Outcome": "−273145",
+        "Course Dev Hours": "40",
+        "Lecture Hours": "20",
+        "Prep time per lecture hour": "3",
+        "Exercise Hours": "8",
+        "Prep time per exercise hour": "0.5",
+        "Lab Assistans (teacher included)": "",
+        "Lab Hours": "0",
+        "Prep time for labs in total": "0",
+        "Exam Hours": "",
+        "Examination hours per student": "1",
+        "Written Exams": "1",
+        "General Subervision per student": "0.2",
+        "Number of students": "5",
+        "Reporting hours per student": "0.2",
+        "Row 12 first": "80",
+        "Row 12 second": "80",
+        "Row 13 first": "12",
+        "Row 13 second": "12",
+        "Row 14 first": "0",
+        "Row 14 second": "0",
+        "Row 15 first": "1",
+        "Row 15 second": "1",
+        "Row 16 first": "5",
+        "Row 16 second": "5",
+        "Row 17 first": "40",
+        "Row 17 second": "40",
+        "Row 18 first": "30",
+        "Row 18 second": "30",
+        "Row 19 first": "168",
+        "Row 19 second": "168",
+        "Hour Avrg": "5.6",
+        "Don't Worry": "68923"
+    },
+    "DT1175": {
+        "Period": [
+            "3"
+        ],
+        "Teachers": {
+            "Cornelius Fudge": {
+                "Frl": "60",
+                "Ovn": "20",
+                "Ex": "38",
+                "Ku": "15",
+                "Adm": "40"
+            },
+            "Filius Flitwick": {
+                "Frl": "6"
+            },
+            "Ernie Macmillan": {
+                "Frl": "6"
+            },
+            "NN Doktorand": {
+                "Ovn": "20",
+                "La": "18",
+                "Ha": "15",
+                "Ex": "38.0"
+            },
+            "Lab handl Teknolog TMH": {
+                "La": "54.0"
+            }
+        },
+        "% no 1": "100%",
+        "short name": "ljud",
+        "% no 2": "85%",
+        "Credits": "7.5",
+        "Financial Outcome": "204984",
+        "Course Dev Hours": "15",
+        "Lecture Hours": "24",
+        "Prep time per lecture hour": "2",
+        "Exercise Hours": "10",
+        "Prep time per exercise hour": "1",
+        "Lab Assistans (teacher included)": "3",
+        "Lab Hours": "9",
+        "Prep time for labs in total": "15",
+        "Exam Hours": "2",
+        "Examination hours per student": "1",
+        "Written Exams": "2",
+        "General Subervision per student": "0.2",
+        "Number of students": "75",
+        "Reporting hours per student": "0.3",
+        "Row 12 first": "72",
+        "Row 12 second": "72",
+        "Row 13 first": "40",
+        "Row 13 second": "40",
+        "Row 14 first": "72",
+        "Row 14 second": "72",
+        "Row 15 first": "15",
+        "Row 15 second": "15",
+        "Row 16 first": "75",
+        "Row 16 second": "75",
+        "Row 17 first": "15",
+        "Row 17 second": "15",
+        "Row 18 first": "63",
+        "Row 18 second": "40",
+        "Row 19 first": "352",
+        "Row 19 second": "329",
+        "Hour Avrg": "0.58",
+        "Don't Worry": "122866"
+    }
+}
