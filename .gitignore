@@ -6,7 +6,7 @@
 .pnp.js
 
 #sample data
-/SampleData
+*/SampleData
 
 # testing
 /coverage
