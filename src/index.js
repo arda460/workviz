@@ -6,7 +6,7 @@ import * as serviceWorker from "./serviceWorker";
 import * as firebase from "firebase";
 
 //Firebase Configuration Below
-var firebaseConfig = {
+var config = {
   apiKey: "AIzaSyAvpDPP3ObMeXohV8Fix-YE0Bs8MEISh_o",
   authDomain: "workwiz-2aee8.firebaseapp.com",
   databaseURL: "https://workwiz-2aee8.firebaseio.com",
@@ -18,7 +18,7 @@ var firebaseConfig = {
 };
 
 //Initialize Firebase
-//firebase.initializeApp(config);
+firebase.initializeApp(config);
 
 ReactDOM.render(<App />, document.getElementById("root"));
 
