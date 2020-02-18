@@ -3,3 +3,12 @@ svg.BarChartOverview {
   border: 2px solid #73ad21;
   padding: 20px;
 }
+svg rect.Positive {
+  fill: red;
+}
+svg rect.Negative {
+  fill: cadetblue;
+}
+svg rect.Small {
+  fill: #73ad21;
+}
