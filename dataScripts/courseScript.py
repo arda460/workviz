@@ -2,8 +2,8 @@ import csv
 import json
 
 # Global
-filename = ["./rawData/VT20RAW.csv","HT20RAW.csv"]
-outputNames = [".rawData/VT20.json", "HT20.json"]
+filename = ["./rawData/VT20RAW.csv","./rawData/HT20RAW.csv"]
+outputNames = ["VT20.json", "HT20.json"]
 
 # Deal with top line (1)
 def topLine(line, jsonCourses):
@@ -75,6 +75,24 @@ def linesWithLast2(k1,k2,line, jsonCourses):
         
         keyCount += 1  
 
+def getName(rNo):
+    if rNo == 12:
+        return "Föreläsning (Frl) "
+    elif rNo == 13:
+        return "Övning (Ovn) "
+    elif rNo == 14:
+        return "Laboration (La) "
+    elif rNo == 15:
+        return "Handledning (Ha) "
+    elif rNo == 16:
+        return "Examination (Ex) "
+    elif rNo == 17:
+        return "Kursutveckling (Ku) "
+    elif rNo == 18:
+        return "Administration (Adm) "
+    else:
+        return "Totalt "
+
 # hour distribution (12-19)
 def hourDistribution(rowNo,line, jsonCourses):
     # Do globaly
@@ -83,8 +101,8 @@ def hourDistribution(rowNo,line, jsonCourses):
     for i in range(4, len(line), 3):
         key = keyList[keyCount]
 
-        k1 = "Row {} first".format(rowNo)
-        k2 = "Row {} second".format(rowNo)
+        k1 = "{} Budgeted".format(getName(rowNo))
+        k2 = "{} Allocated".format(getName(rowNo))
 
         jsonCourses[key][k1] = line[i]
         jsonCourses[key][k2] = line[i+2]
@@ -150,9 +168,9 @@ def main():
                 elif rowNo == 9:
                     middleValLines("Written Exams", lineArray, jsonCourses)
                 elif rowNo == 20:
-                    middleValLines("Hour Avrg", lineArray, jsonCourses)
+                    middleValLines("Lärartimmar/elevpoäng", lineArray, jsonCourses)
                 elif rowNo == 21:
-                    middleValLines("Don't Worry", lineArray, jsonCourses)
+                    middleValLines("Emplyee cost+LKP", lineArray, jsonCourses)
                 elif rowNo == 5:
                     fullLines("Course Dev Hours","Lecture Hours","Prep time per lecture hour", lineArray, jsonCourses)
                 elif rowNo == 7:
