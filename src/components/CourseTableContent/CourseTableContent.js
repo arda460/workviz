@@ -8,12 +8,9 @@ function CourseTableContent(props) {
     const { autumnData = {}, springData = {} } = props.data ? props.data : {};
     const [over, setHover] = useState('');
 
-
     let per1 = [], per2 = [], per3 = [], per4 = [], per12 = [], per34 = [], per14 = [];
     let springColors = {};
     let autumnColors = {};
-    let autumnUN = {};
-    let springUN = {};
 
     const distributeAutumn = (data, key) => {
         const periods = data[key]['Period'];
@@ -99,6 +96,16 @@ function CourseTableContent(props) {
         distributeSpring(springData, key);
         setSpringColor(springData, key);
     });
+
+    // SORT in alphabetical order
+    per1.sort();
+    per2.sort();
+    per3.sort();
+    per4.sort();
+    per12.sort();
+    per34.sort();
+    per14.sort();
+
 
     return (
         <div className="courseTable">
