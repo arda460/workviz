@@ -20,7 +20,6 @@ function App() {
     setShowTeacherDetails(true);
   };
   const hideTeacherDetails = bool => {
-    console.log("cross clicked");
     setShowTeacherDetails(bool);
   };
 
@@ -34,7 +33,6 @@ function App() {
         <TeacherDetails
           selectedPerson={selectedPerson}
           crossClick={hideTeacherDetails}
-          isShowing={true}
         />
       )}
     </div>

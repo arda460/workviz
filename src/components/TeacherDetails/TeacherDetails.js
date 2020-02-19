@@ -37,9 +37,12 @@ function TeacherDetails({ selectedPerson, crossClick, isShowing }) {
         ></i>
         <div>
           <div>{name}</div>
-          <div>Overall Balance: {data["Balance (%)"]}</div>
+          <div>
+            <span>Kontering: {data["Kontering HCT (%)"]} </span>
+            <span>Overall Balance: {data["Balance (%)"]}</span>
+          </div>
         </div>
-        <div className="flexcontainer flexrow courselist">
+        <div className="flexinline flexrow courselist">
           <div>
             <span>Courses HT</span>
             {getCourses(htcourses)}
@@ -57,8 +60,9 @@ function TeacherDetails({ selectedPerson, crossClick, isShowing }) {
 
   useEffect(() => {
     handleData().then(draw);
-  }, [selectedPerson, isShowing]);
-  return isShowing && <>{table}</>;
+  }, [selectedPerson]);
+
+  return <>{table}</>;
 }
 
 export default TeacherDetails;
