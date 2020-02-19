@@ -1,11 +1,15 @@
 .flexcontainer {
   display: flex;
+  margin: 0;
+}
+.flexinline {
+  display: inline-flex;
 }
 .flexrow {
   flex-direction: row;
 }
-.courselist {
-  padding-left: 5em;
+.courselist > div {
+  padding: 2em;
 }
 .flexcol {
   flex-direction: column;
