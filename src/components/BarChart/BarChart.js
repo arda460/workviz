@@ -3,7 +3,15 @@ import * as d3 from "d3";
 import "./BarChart.css";
 
 const BarChart = props => {
-  const { margin, height, width, smallBarLimit, onHover, data } = props;
+  const {
+    margin,
+    height,
+    width,
+    smallBarLimit,
+    onHover,
+    onClick,
+    data
+  } = props;
   const svgRef = useRef(null);
 
   const draw = () => {
@@ -66,12 +74,13 @@ const BarChart = props => {
         return "Small";
       });
 
-    const barMouseover = g
+    const barMouseEvents = g
       .selectAll("rect")
       .on("mouseover", e => {
         onHover(e);
       })
-      .on("mouseleave", e => onHover(""));
+      .on("mouseleave", e => onHover(""))
+      .on("click", e => onClick(e.name));
 
     //prettier-ignore
     let line = `M ${margin.left} ${y(0) + margin.top} H ${width - margin.right} `;
@@ -83,10 +92,6 @@ const BarChart = props => {
       .attr("stroke", "black")
       .attr("stroke-width", "1px")
       .attr("d", line);
-
-    const barClicked = g.selectAll("rect").on("mouseup", e => {
-      console.log(e.name + " clicked");
-    });
   };
 
   useEffect(() => {
