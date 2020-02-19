@@ -13,7 +13,8 @@ def topLine(line, jsonCourses):
         if line[ i + 1 ]:
             # Split periods into Array and save under period KEY within course code key
             periods = line[i].split()
-            jsonCourses[ line[i + 1] ] = { "Period": periods,
+            course = line[ i + 1].upper()
+            jsonCourses[ course ] = { "Period": periods,
                                             "Teachers": {} }
 
 

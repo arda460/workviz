@@ -1,5 +1,7 @@
 import React, { useState, useEffect } from "react";
 import "./App.css";
+import BarChart from "./components/BarChart/BarChart";
+import CourseTable from "./components/CourseTable/CourseTable";
 import BarChartData from "./components/BarChart/BarChartData";
 import TeacherDetails from "./components/TeacherDetails/TeacherDetails";
 
@@ -28,7 +30,7 @@ function App() {
       <h3>WorkVis</h3>
       {`${barHover.name}, ${barHover.value} %`}
       <BarChartData selectPerson={updatebarHover} onClick={updateBarClick} />
-
+      <CourseTable />
       {showTeacherDetails && (
         <TeacherDetails
           selectedPerson={selectedPerson}
