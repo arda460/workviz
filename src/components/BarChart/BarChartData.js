@@ -12,7 +12,8 @@ function BarChartData(props) {
     smallBarLimit: 2,
     height: 300,
     width: 1600,
-    onHover: props.selectPerson
+    onHover: props.selectPerson,
+    onClick: props.onClick
   };
 
   const handleData = data => {
