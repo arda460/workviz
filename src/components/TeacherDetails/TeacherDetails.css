@@ -1,0 +1,20 @@
+.flexcontainer {
+  display: flex;
+}
+.flexrow {
+  flex-direction: row;
+}
+.courselist {
+  padding-left: 5em;
+}
+.flexcol {
+  flex-direction: column;
+}
+.txt-left {
+  text-align: left;
+}
+.round-borders {
+  border-radius: 25px;
+  border: 2px solid #73ad21;
+  padding: 20px;
+}
