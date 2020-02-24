@@ -4,7 +4,6 @@ import CourseTableObj from '../CourseTableObj/CourseTableObj';
 import "./CourseTableContent.css";
 
 function CourseTableContent(props) {
-
     const { autumnData = {}, springData = {} } = props.data ? props.data : {};
     const [over, setHover] = useState('');
 

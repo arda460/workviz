@@ -24,7 +24,7 @@ export default function CourseTable(props) {
 
     return (
         <div className="courseOverview">
-            <CourseTableContent {...props} data={data}></CourseTableContent>
+            <CourseTableContent {...props} data={data} ></CourseTableContent>
         </div>
     )
 }
