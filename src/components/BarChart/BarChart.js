@@ -44,7 +44,7 @@ const BarChart = props => {
       if (Math.abs(val) < smallBarLimit) {
         return height - y(smallBarLimit);
       }
-      return d.value < 0 ? y(0) : height - y(d.value);
+      return d.value < 0 ? y(0) + 20 : height - y(d.value) - 20;
     };
     const rectHeight = d => {
       let val = d.value;
@@ -72,18 +72,36 @@ const BarChart = props => {
           return "Negative";
         }
         return "Small";
+      })
+      .on("mouseenter", d => {
+        svg
+          .selectAll("tooltip")
+          .data([d])
+          .join(enter => enter.append("text"))
+          .attr("class", "tooltip")
+          .attr("x", x(d.name))
+          .attr("y", rectY(d))
+          .text(d.name)
+          .transition()
+          .attr("y", rectY(d) + 8)
+          .attr("opacity", 1);
+      })
+      .on("mouseover", d => {
+        onHover(d);
+      })
+      .on("mouseleave", d => {
+        onHover("");
+        svg.select(".tooltip").remove();
+      })
+      .on("click", d => {
+        onClick(d.name);
       });
 
-    const barMouseEvents = g
-      .selectAll("rect")
-      .on("mouseover", e => {
-        onHover(e);
-      })
-      .on("mouseleave", e => onHover(""))
-      .on("click", e => onClick(e.name));
-
-    //prettier-ignore
-    let line = `M ${margin.left} ${y(0) + margin.top} H ${width - margin.right} `;
+    //prettier-ignore-
+    let line = `M ${margin.left} ${y(0) + 20 + margin.top} H ${width -
+      margin.right} `;
+    let line2 = `M ${margin.left} ${y(0) - 20 + margin.top} H ${width -
+      margin.right} `;
 
     svg
       .append("g")
@@ -92,6 +110,14 @@ const BarChart = props => {
       .attr("stroke", "black")
       .attr("stroke-width", "1px")
       .attr("d", line);
+
+    svg
+      .append("g")
+      .append("path")
+      .attr("fill", "none")
+      .attr("stroke", "black")
+      .attr("stroke-width", "1px")
+      .attr("d", line2);
   };
 
   useEffect(() => {
