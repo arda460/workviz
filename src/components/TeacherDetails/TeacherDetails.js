@@ -9,7 +9,7 @@ function TeacherDetails({ selectedPerson, crossClick, isShowing }) {
   );
 
   const handleData = () => {
-    return d3.json("SampleData/summary20.json").then(d => {
+    return d3.json("Data/summary20.json").then(d => {
       return { name: selectedPerson, data: d[selectedPerson] };
     });
   };
