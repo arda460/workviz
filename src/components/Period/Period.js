@@ -8,10 +8,11 @@ export default function Period(props) {
             {toMap &&
                 toMap.map(course => {
                     const color = colors[course];
-                    const c1 = over === course ? 'button hover' : 'button';
-                    const c2 = c1 === 'button hover' ? c1 : color ? `button ${color}` : 'button';
+                    const c1 = color ? `button ${color}` : 'button'; 
+                    const c2 = over === course ? ' hover' : ''; 
+                    const cName = c1 + c2;
                     return (
-                        <button key={course} className={c2} data-id={course} onClick={ e => setCourseDetails(e.currentTarget.dataset.id)} onMouseEnter={() => setHover(course)} onMouseLeave={() => setHover('')}>{course}</button>
+                        <button key={course} className={cName} data-id={course} onClick={ e => setCourseDetails(e.currentTarget.dataset.id)} onMouseEnter={() => setHover(course)} onMouseLeave={() => setHover('')}>{course}</button>
                     )
                 })
             }
