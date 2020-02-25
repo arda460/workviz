@@ -9,9 +9,6 @@ export default function CourseDetails(props) {
     if (courseKey)
         d.current = data['autumnData'][courseKey] ? data['autumnData'][courseKey] : data['springData'][courseKey];
 
-
-    console.log(d);
-
     return (
         <div className="courseFlex">
             {d.current &&
