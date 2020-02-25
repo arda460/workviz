@@ -12,3 +12,6 @@ svg rect.Negative {
 svg rect.Small {
   fill: #73ad21;
 }
+.BarChartOverview rect:hover {
+  opacity: 0.5;
+}
