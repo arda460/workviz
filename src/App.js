@@ -10,8 +10,6 @@ function App() {
   const [selectedPerson, setSelectedPerson] = useState("");
   const [showTeacherDetails, setShowTeacherDetails] = useState(true);
 
-  const [test, settest] = useState(false);
-
   const updatebarHover = check => {
     if (typeof check.value != "undefined") {
       setBarHover(check);
@@ -30,7 +28,7 @@ function App() {
       <h3>WorkVis</h3>
       {`${barHover.name}, ${barHover.value} %`}
       <BarChartData selectPerson={updatebarHover} onClick={updateBarClick} />
-      <CourseTable />
+      <CourseTable/>
       {showTeacherDetails && (
         <TeacherDetails
           selectedPerson={selectedPerson}

@@ -1,11 +1,12 @@
 import React, { useState, useEffect } from "react";
 import CourseTableContent from '../CourseTableContent/CourseTableContent';
+import CourseDetails from '../CourseDetails/CourseDetails';
 
 import "./CourseTable.css";
 
 export default function CourseTable(props) {
-
     const [ data, setData ] = useState(null);
+    const [courseDetails, setCourseDetails] = useState(false);
 
     useEffect(() => {
         async function getData() {
@@ -23,8 +24,13 @@ export default function CourseTable(props) {
      },[])  
 
     return (
-        <div className="courseOverview">
-            <CourseTableContent {...props} data={data} ></CourseTableContent>
+        <div className="courseContainer">
+            <div className="courseOverview">
+                <CourseTableContent {...props} setCourseDetails={setCourseDetails} data={data} ></CourseTableContent>        
+            </div>
+            <div className="courseDetailsContainer">
+                <CourseDetails courseKey={courseDetails} data={data}></CourseDetails>
+            </div>
         </div>
     )
 }

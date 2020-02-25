@@ -1,0 +1,8 @@
+.courseDetails {
+    margin-top: 40px;
+    display: flex;
+}
+
+.detailsItem {
+    margin-left: 40px;
+}
