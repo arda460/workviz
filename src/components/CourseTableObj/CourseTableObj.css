@@ -16,45 +16,6 @@
     padding-left: 10px;
 }
 
-.period1D {
-    display: flex;
-    flex-wrap: wrap;
-
-}
-
-.period2D {
-    display: flex;
-    flex-wrap: wrap;
-
-}
-
-.period4D {
-    display: flex;
-    flex-wrap: wrap;
-
-}
-
-.button {
-    padding: 3px;
-    border: 1px solid black;
-    border-radius: 5px;
-    background-color: #F0F8FF;
-    font-size: 0.75rem;
-    margin: 0 2px 2px 0;
-  }
-
-.button.hover {
-  background-color: #DEB887;
-}
-
-.button.green {
-    background-color: green;
-}
-
-.button.red {
-    background-color: red;
-}
-
-.button.orange {
-    background-color: orange;
+.periodTitle {
+    margin-bottom: 10px;
 }

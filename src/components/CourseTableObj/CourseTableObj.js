@@ -1,48 +1,17 @@
 import React from "react";
+import Period from "../Period/Period";
 import "./CourseTableObj.css";
 
 function CourseTableObj(props) {
-    const { colors, title, inCol, spreadNext, spreadAll, over, setHover } = props;
+    const { colors, title, inCol, spreadNext, spreadAll, over, setHover, setCourseDetails } = props;
+    const mergedColors = {...colors[0],...colors[1]};
     return (
         <div className="courseColumn">
             <h5 className="periodTitle">{title}</h5>
             <div className="period">
-                <div className="period1D">
-                    {inCol &&
-                        inCol.map(course => {
-                            const color = colors[course];
-                            const c1 = over === course ? 'button hover' : 'button';
-                            const c2 = c1 === 'button hover' ? c1 : color ? `button ${color}` : 'button';
-                            return (
-                                <button key={course} className={c2} onMouseEnter={() => setHover(course)} onMouseLeave={() => setHover('')}>{course}</button>
-                            )
-                        })
-                    }
-                </div>
-                <div className="period2D">
-                    {spreadNext &&
-                        spreadNext.map(course => {
-                            const color = colors[course];
-                            const c1 = over === course ? 'button hover' : 'button';
-                            const c2 = c1 === 'button hover' ? c1 : color ? `button ${color}` : 'button';
-                            return (
-                                <button key={course} className={c2} onMouseEnter={() => setHover(course)} onMouseLeave={() => setHover('')}>{course}</button>
-                            )
-                    })
-                }
-                </div>
-                <div className="period4D">
-                    {spreadAll &&
-                        spreadAll.map(course => {
-                            const color = colors[course];
-                            const c1 = over === course ? 'button hover' : 'button';
-                            const c2 = c1 === 'button hover' ? c1 : color ? `button ${color}` : 'button';
-                            return (
-                                <button key={course} className={c2} onMouseEnter={() => setHover(course)} onMouseLeave={() => setHover('')}>{course}</button>
-                            )
-                        })
-                    }
-                </div>
+                <Period colors={colors[0]} setCourseDetails={setCourseDetails} toMap={inCol} classN='period1D' over={over} setHover={setHover}></Period>
+                <Period colors={colors[0]} setCourseDetails={setCourseDetails} toMap={spreadNext} classN='period2D' over={over} setHover={setHover}></Period>
+                <Period colors={mergedColors} setCourseDetails={setCourseDetails} toMap={spreadAll} classN='period4D' over={over} setHover={setHover}></Period>
             </div>
         </div>
     )

@@ -1,0 +1,53 @@
+.period1D {
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+.period2D {
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+.period4D {
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+.button {
+    padding: 7px;
+    background-color: #F0EDED;
+    font-size: 0.75rem;
+    margin: 0 3px 3px 0;
+    border-style: solid;
+  }
+
+.button.hover {
+    border: 2px solid black;
+    border-radius: 5px;
+}
+
+.button.red {
+    background-color: #F06E37;
+    border-color: #F06E37;
+}
+
+.button.orange {
+    background-color: #EDB761;
+    border-color: #EDB761;
+}
+.button.red.hover {
+    background-color: #F06E37;
+    border-color: #F06E37;
+    border: 2px solid black;
+    border-radius: 5px;
+}
+
+.button.orange.hover {
+    background-color: #EDB761;
+    border-color: #EDB761;
+    border: 2px solid black;
+    border-radius: 5px;
+}
