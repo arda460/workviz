@@ -1,18 +1,21 @@
-import React, { useState, useEffect } from "react";
+import React, { useState, useEffect, useContext } from "react";
 import BarChart from "./BarChart";
+import { DataContext } from "../../context/DataContext";
+import { GlobalStateContext } from "../../context/GlobalStateContext";
 import * as d3 from "d3";
 
 function BarChartData(props) {
-  let data = [];
-  const CSV_URL = "./Data/2020-small-dash.csv";
-  const [teacherData, setTeacherData] = useState(data);
+  const [personData, setPersonData] = useState([]);
+
+  const { teacherSimple, loading } = useContext(DataContext);
+  const { setPersonHover } = useContext(GlobalStateContext);
 
   const chartProps = {
-    margin: { top: 20, left: 10, bottom: 20, right: 10 },
+    margin: { top: 30, left: 10, bottom: 20, right: 10 },
     smallBarLimit: 2,
     height: 300,
     width: 1600,
-    onHover: props.selectPerson,
+    onHover: setPersonHover,
     onClick: props.onClick
   };
 
@@ -29,17 +32,12 @@ function BarChartData(props) {
       })
       .sort((a, b) => d3.descending(a.value, b.value));
   };
-  const getCSV = _ => {
-    d3.csv(CSV_URL)
-      .then(handleData)
-      .then(d => setTeacherData(d));
-  };
 
   useEffect(() => {
-    getCSV();
+    if (!loading) setPersonData(handleData(teacherSimple));
   }, []);
 
-  return <BarChart {...chartProps} data={teacherData} />;
+  return <BarChart {...chartProps} data={personData} />;
 }
 
 export default BarChartData;

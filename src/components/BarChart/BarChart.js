@@ -44,7 +44,7 @@ const BarChart = props => {
       if (Math.abs(val) < smallBarLimit) {
         return height - y(smallBarLimit);
       }
-      return d.value < 0 ? y(0) + 20 : height - y(d.value) - 20;
+      return d.value < 0 ? y(0) + 25 : height - y(d.value) - 25;
     };
     const rectHeight = d => {
       let val = d.value;
@@ -79,9 +79,10 @@ const BarChart = props => {
           .data([d])
           .join(enter => enter.append("text"))
           .attr("class", "tooltip")
-          .attr("x", x(d.name))
+          .attr("x", x(d.name) + x.bandwidth())
           .attr("y", rectY(d))
           .text(d.name)
+          .attr("text-anchor", "middle")
           .transition()
           .attr("y", rectY(d) + 8)
           .attr("opacity", 1);
@@ -90,17 +91,16 @@ const BarChart = props => {
         onHover(d);
       })
       .on("mouseleave", d => {
-        onHover("");
+        onHover(null);
         svg.select(".tooltip").remove();
       })
       .on("click", d => {
         onClick(d.name);
       });
 
-    //prettier-ignore-
-    let line = `M ${margin.left} ${y(0) + 20 + margin.top} H ${width -
+    let line = `M ${margin.left} ${y(0) + 25 + margin.top} H ${width -
       margin.right} `;
-    let line2 = `M ${margin.left} ${y(0) - 20 + margin.top} H ${width -
+    let line2 = `M ${margin.left} ${y(0) - 25 + margin.top} H ${width -
       margin.right} `;
 
     svg

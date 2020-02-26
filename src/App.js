@@ -1,38 +1,39 @@
-import React, { useState, useEffect } from "react";
+import React, { useState, useEffect, useContext } from "react";
 import "./App.css";
-import BarChart from "./components/BarChart/BarChart";
 import CourseTable from "./components/CourseTable/CourseTable";
 import BarChartData from "./components/BarChart/BarChartData";
 import TeacherDetails from "./components/TeacherDetails/TeacherDetails";
 
-function App() {
-  const [barHover, setBarHover] = useState("hover over bar to see employee");
-  const [selectedPerson, setSelectedPerson] = useState("");
-  const [showTeacherDetails, setShowTeacherDetails] = useState(true);
+import { DataContext } from "./context/DataContext";
+import { GlobalStateContext } from "./context/GlobalStateContext";
 
-  const updatebarHover = check => {
-    if (typeof check.value != "undefined") {
-      setBarHover(check);
-    }
-  };
+function App() {
+  const [selectedPerson, setSelectedPerson] = useState("");
+  const [showTeacherDetails, setShowTeacherDetails] = useState(false);
+  const { loading } = useContext(DataContext);
+
+  const { personHover } = useContext(GlobalStateContext);
+
   const updateBarClick = person => {
     setSelectedPerson(person);
     setShowTeacherDetails(true);
   };
-  const hideTeacherDetails = bool => {
-    setShowTeacherDetails(bool);
-  };
 
+  const checkPersonHover = () => {
+    return personHover == null
+      ? "Welcome"
+      : `${personHover.name}, ${personHover.value} %`;
+  };
   return (
     <div className="App">
       <h3>WorkVis</h3>
-      {`${barHover.name}, ${barHover.value} %`}
-      <BarChartData selectPerson={updatebarHover} onClick={updateBarClick} />
-      <CourseTable/>
+      {checkPersonHover()}
+      {!loading && <BarChartData onClick={updateBarClick} />}
+      <CourseTable />
       {showTeacherDetails && (
         <TeacherDetails
           selectedPerson={selectedPerson}
-          crossClick={hideTeacherDetails}
+          crossClick={setShowTeacherDetails}
         />
       )}
     </div>
