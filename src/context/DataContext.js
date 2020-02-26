@@ -14,7 +14,7 @@ const DataProvider = props => {
   });
   const [loading, setLoading] = useState(true);
   const [teacherSimple, setteacherSimple] = useState();
-  const [teacherData, setTeacherData] = useState();
+  const [summary20, setTeacherData] = useState();
   const [HT20, setHT20] = useState();
   const [VT20, setVT20] = useState();
 
@@ -46,7 +46,7 @@ const DataProvider = props => {
         highlightPerson,
         setHighlightPerson,
         teacherSimple,
-        teacherData,
+        summary20,
         HT20,
         VT20
       }}
