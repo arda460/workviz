@@ -10,11 +10,20 @@ function BarChartData(props) {
   const { teacherSimple, loading } = useContext(DataContext);
   const { setPersonHover } = useContext(GlobalStateContext);
 
+  const getWindowDimensions = () => {
+    const { outerWidth: width, outerHeight: height } = window;
+    console.log(width);
+    return { height, width };
+  };
+  const [windowDimensions, setWindowDimensions] = useState(
+    getWindowDimensions()
+  );
+
   const chartProps = {
-    margin: { top: 30, left: 10, bottom: 20, right: 10 },
+    margin: { top: 30, left: 30, bottom: 30, right: 30 },
     smallBarLimit: 2,
-    height: 300,
-    width: 1600,
+    height: windowDimensions.height / 3,
+    width: windowDimensions.width * 0.95,
     onHover: setPersonHover,
     onClick: props.onClick
   };
@@ -35,6 +44,14 @@ function BarChartData(props) {
 
   useEffect(() => {
     if (!loading) setPersonData(handleData(teacherSimple));
+  }, []);
+
+  useEffect(() => {
+    function handleResize() {
+      setWindowDimensions(getWindowDimensions());
+    }
+    window.addEventListener("resize", handleResize);
+    return () => window.removeEventListener("resize", handleResize);
   }, []);
 
   return <BarChart {...chartProps} data={personData} />;

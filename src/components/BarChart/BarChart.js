@@ -2,10 +2,9 @@ import React, { useRef, useEffect } from "react";
 import * as d3 from "d3";
 import "./BarChart.css";
 const BarChart = props => {
-  const margin = { top: 30, left: 30, bottom: 20, right: 30 };
   const axisOffset = 25;
   const {
-    //margin,
+    margin,
     height,
     width,
     smallBarLimit,
@@ -37,17 +36,16 @@ const BarChart = props => {
 
     const y = d3
       .scaleLinear()
-      .range([0, height])
+      .range([axisOffset + margin.top, height - axisOffset - margin.bottom])
       .domain([-max, max]);
 
     const rectY = d => {
       let val = d.value;
-      console.log(height);
-      console.log(y(0));
+
       if (Math.abs(val) < smallBarLimit) {
         return height - y(smallBarLimit);
       }
-      return d.value < 0 ? y(0) + 25 : height - y(d.value) - 25;
+      return d.value < 0 ? y(0) + axisOffset : height - y(d.value) - axisOffset;
       // axisOffset * 2;
     };
 
@@ -111,13 +109,7 @@ const BarChart = props => {
     let line2 = `M ${margin.left} ${y(0) - axisOffset + margin.top} H ${width -
       margin.right} `;
 
-    svg
-      .append("g")
-      .append("path")
-      .attr("fill", "none")
-      .attr("stroke", "black")
-      .attr("stroke-width", "1px")
-      .attr("d", line);
+    let y0 = `M ${margin.left} ${y(0) + margin.top} H ${width - margin.right} `;
 
     svg
       .append("g")
@@ -125,7 +117,26 @@ const BarChart = props => {
       .attr("fill", "none")
       .attr("stroke", "black")
       .attr("stroke-width", "1px")
-      .attr("d", line2);
+      .attr("d", line)
+      .style("stroke-dasharray", "3,3");
+
+    svg
+      .append("g")
+      .append("path")
+      .attr("fill", "none")
+      .attr("stroke", "black")
+      .attr("stroke-width", "1px")
+      .attr("d", line2)
+      .style("stroke-dasharray", "3,3");
+
+    // svg
+    //   .append("g")
+    //   .append("path")
+    //   .attr("fill", "none")
+    //   .attr("stroke", "black")
+    //   .attr("stroke-width", "1px")
+    //   .attr("d", y0)
+    //   .style("stroke-dasharray", "3,3");
   };
 
   useEffect(() => {
