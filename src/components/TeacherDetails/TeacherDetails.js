@@ -1,18 +1,15 @@
-import React, { useState, useEffect } from "react";
+import React, { useState, useEffect, useContext } from "react";
 import * as d3 from "d3";
 import "./TeacherDetails.css";
+import { DataContext } from "../../context/DataContext";
 
 function TeacherDetails({ selectedPerson, crossClick, isShowing }) {
+  const { summary20, loading } = useContext(DataContext);
+  console.log(summary20["Marcus Belby"]);
   const [person, setPerson] = useState("");
   const [table, setTable] = useState(
     <div>Click on a bar above for more information</div>
   );
-
-  const handleData = () => {
-    return d3.json("Data/summary20.json").then(d => {
-      return { name: selectedPerson, data: d[selectedPerson] };
-    });
-  };
 
   const getCourses = courses => {
     return courses.map((data, i) => {
@@ -25,10 +22,14 @@ function TeacherDetails({ selectedPerson, crossClick, isShowing }) {
     });
   };
 
-  const draw = ({ name, data }) => {
+  const draw = () => {
     if (selectedPerson === "") return;
+    let name = selectedPerson;
+    name = "Elphias Doge";
+    let data = summary20[name];
     let vtcourses = data["VT Courses"];
     let htcourses = data["HT Courses"];
+    console.log(htcourses);
     let out = (
       <div className="round-borders">
         <i
@@ -59,7 +60,7 @@ function TeacherDetails({ selectedPerson, crossClick, isShowing }) {
   };
 
   useEffect(() => {
-    handleData().then(draw);
+    if (!loading) draw();
   }, [selectedPerson]);
 
   return <>{table}</>;
