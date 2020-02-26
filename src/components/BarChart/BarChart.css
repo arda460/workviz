@@ -15,3 +15,67 @@ svg rect.Small {
 .BarChartOverview rect:hover {
   opacity: 0.5;
 }
+
+rect.Small:hover {
+  -webkit-animation-name: wiggle;
+  -ms-animation-name: wiggle;
+  -ms-animation-duration: 300ms;
+  -webkit-animation-duration: 300ms;
+  -webkit-animation-iteration-count: 1;
+  -ms-animation-iteration-count: 1;
+  -webkit-animation-timing-function: ease-in-out;
+  -ms-animation-timing-function: ease-in-out;
+}
+
+@-webkit-keyframes wiggle {
+  0% {
+    transform: translate(0, 0.2em);
+  }
+  25% {
+    transform: translate(0, -0.2em);
+  }
+  50% {
+    transform: translate(0, 0.2em);
+  }
+  75% {
+    transform: translate(0, -0.1em);
+  }
+  100% {
+    transform: translate(0, 0.1em);
+  }
+}
+@-ms-keyframes wiggle {
+  0% {
+    transform: translate(0, 0.2em);
+  }
+  25% {
+    transform: translate(0, -0.2em);
+  }
+  50% {
+    transform: translate(0, 0.2em);
+  }
+  75% {
+    transform: translate(0, -0.1em);
+  }
+  100% {
+    transform: translate(0, 0.1em);
+  }
+}
+
+@keyframes wiggle {
+  0% {
+    transform: translate(0, 0.2em);
+  }
+  25% {
+    transform: translate(0, -0.2em);
+  }
+  50% {
+    transform: translate(0, 0.2em);
+  }
+  75% {
+    transform: translate(0, -0.1em);
+  }
+  100% {
+    transform: translate(0, 0.1em);
+  }
+}

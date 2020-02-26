@@ -4,6 +4,8 @@ import "./index.css";
 import App from "./App";
 import * as serviceWorker from "./serviceWorker";
 import * as firebase from "firebase";
+import { DataProvider } from "./context/DataContext";
+import { GlobalStateProvider } from "./context/GlobalStateContext";
 
 //Firebase Configuration Below
 var config = {
@@ -20,7 +22,15 @@ var config = {
 //Initialize Firebase
 firebase.initializeApp(config);
 
-ReactDOM.render(<App />, document.getElementById("root"));
+ReactDOM.render(
+  <DataProvider>
+    <GlobalStateProvider>
+      <App />
+    </GlobalStateProvider>
+  </DataProvider>,
+
+  document.getElementById("root")
+);
 
 // If you want your app to work offline and load faster, you can change
 // unregister() to register() below. Note this comes with some pitfalls.
