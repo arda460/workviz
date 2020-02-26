@@ -27,7 +27,7 @@
 
 .button.hover {
 
-    border: 4px solid black;
+    border: 3px solid black;
     border-radius: 5px;
 }
 
@@ -56,13 +56,13 @@
 .button.red.hover {
     background-color: #F06E37;
     border-color: #F06E37;
-    border: 4px solid black;
+    border: 3px solid black;
     border-radius: 5px;
 }
 
 .button.orange.hover {
     background-color: #EDB761;
     border-color: #EDB761;
-    border: 4px solid black;
+    border: 3px solid black;
     border-radius: 5px;
 }
