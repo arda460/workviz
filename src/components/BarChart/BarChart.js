@@ -1,8 +1,8 @@
 import React, { useRef, useEffect } from "react";
 import * as d3 from "d3";
 import "./BarChart.css";
-
 const BarChart = props => {
+  const axisOffset = 25;
   const {
     margin,
     height,
@@ -18,7 +18,7 @@ const BarChart = props => {
     const svg = d3
       .select(svgRef.current)
       .style("width", width)
-      .style("height", height + 100);
+      .style("height", height);
 
     let max = d3.max(data, d => {
       return d.value;
@@ -36,16 +36,22 @@ const BarChart = props => {
 
     const y = d3
       .scaleLinear()
-      .range([0, height])
+      .range([axisOffset + margin.top, height - axisOffset - margin.bottom])
       .domain([-max, max]);
 
     const rectY = d => {
       let val = d.value;
+
       if (Math.abs(val) < smallBarLimit) {
         return height - y(smallBarLimit);
       }
-      return d.value < 0 ? y(0) + 25 : height - y(d.value) - 25;
+      return d.value < 0 ? y(0) + axisOffset : height - y(d.value) - axisOffset;
+      // axisOffset * 2;
     };
+
+    //vernon y = 50
+    //pos axis = y(0) - 37
+    //line = 118
     const rectHeight = d => {
       let val = d.value;
       if (Math.abs(val) < smallBarLimit) {
@@ -79,7 +85,7 @@ const BarChart = props => {
           .data([d])
           .join(enter => enter.append("text"))
           .attr("class", "tooltip")
-          .attr("x", x(d.name) + x.bandwidth())
+          .attr("x", x(d.name) + x.bandwidth() + margin.left)
           .attr("y", rectY(d))
           .text(d.name)
           .attr("text-anchor", "middle")
@@ -98,10 +104,12 @@ const BarChart = props => {
         onClick(d.name);
       });
 
-    let line = `M ${margin.left} ${y(0) + 25 + margin.top} H ${width -
+    let line = `M ${margin.left} ${y(0) + axisOffset + margin.top} H ${width -
       margin.right} `;
-    let line2 = `M ${margin.left} ${y(0) - 25 + margin.top} H ${width -
+    let line2 = `M ${margin.left} ${y(0) - axisOffset + margin.top} H ${width -
       margin.right} `;
+
+    let y0 = `M ${margin.left} ${y(0) + margin.top} H ${width - margin.right} `;
 
     svg
       .append("g")
@@ -109,7 +117,8 @@ const BarChart = props => {
       .attr("fill", "none")
       .attr("stroke", "black")
       .attr("stroke-width", "1px")
-      .attr("d", line);
+      .attr("d", line)
+      .style("stroke-dasharray", "3,3");
 
     svg
       .append("g")
@@ -117,7 +126,17 @@ const BarChart = props => {
       .attr("fill", "none")
       .attr("stroke", "black")
       .attr("stroke-width", "1px")
-      .attr("d", line2);
+      .attr("d", line2)
+      .style("stroke-dasharray", "3,3");
+
+    // svg
+    //   .append("g")
+    //   .append("path")
+    //   .attr("fill", "none")
+    //   .attr("stroke", "black")
+    //   .attr("stroke-width", "1px")
+    //   .attr("d", y0)
+    //   .style("stroke-dasharray", "3,3");
   };
 
   useEffect(() => {
