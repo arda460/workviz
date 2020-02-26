@@ -1,13 +1,14 @@
-import React, { useRef } from "react";
-
+import React, { useRef, useContext } from "react";
+import { GlobalStateContext } from "../../context/GlobalStateContext";
 import "./CourseDetails.css";
 
 export default function CourseDetails(props) {
-    const { courseKey, data } = props;
+    const { data } = props;
+    const { courseDetails } = useContext(GlobalStateContext);
     const d = useRef(null);
 
-    if (courseKey)
-        d.current = data['autumnData'][courseKey] ? data['autumnData'][courseKey] : data['springData'][courseKey];
+    if (courseDetails)
+        d.current = data['autumnData'][courseDetails] ? data['autumnData'][courseDetails] : data['springData'][courseDetails];
 
     return (
         <div className="courseFlex">
@@ -17,7 +18,7 @@ export default function CourseDetails(props) {
                         <div className="courseDetailsCourse">
                             <h5 className="courseDetailCourseLabel">Course</h5>
                             <div className="courseDetailInfo">
-                                <h4 className="courseDetailItem">{courseKey}</h4>
+                                <h4 className="courseDetailItem">{courseDetails}</h4>
                                 <h6 className="courseDetailItem">{d.current['short name']}</h6>
                             </div>
                         </div>

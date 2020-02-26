@@ -5,7 +5,6 @@ import "./CourseTableContent.css";
 
 function CourseTableContent(props) {
     const { autumnData = {}, springData = {} } = props.data ? props.data : {};
-    const [over, setHover] = useState('');
 
     let per1 = [], per2 = [], per3 = [], per4 = [], per12 = [], per34 = [], per14 = [];
     let springColors = {};
@@ -107,10 +106,10 @@ function CourseTableContent(props) {
 
     return (
         <div className="courseTable">
-            <CourseTableObj {...props} colors={[autumnColors, springColors]} title='Period 1' inCol={per1} spreadNext={per12} spreadAll={per14} over={over} setHover={setHover}></CourseTableObj>
-            <CourseTableObj {...props} colors={[autumnColors, springColors]} title='Period 2' inCol={per2} spreadNext={per12} spreadAll={per14} over={over} setHover={setHover}></CourseTableObj>
-            <CourseTableObj {...props} colors={[springColors, autumnColors]} title='Period 3' inCol={per3} spreadNext={per34} spreadAll={per14} over={over} setHover={setHover}></CourseTableObj>
-            <CourseTableObj {...props} colors={[springColors, autumnColors]} title='Period 4' inCol={per4} spreadNext={per34} spreadAll={per14} over={over} setHover={setHover}></CourseTableObj>
+            <CourseTableObj {...props} colors={[autumnColors, springColors]} title='Period 1' inCol={per1} spreadNext={per12} spreadAll={per14}></CourseTableObj>
+            <CourseTableObj {...props} colors={[autumnColors, springColors]} title='Period 2' inCol={per2} spreadNext={per12} spreadAll={per14}></CourseTableObj>
+            <CourseTableObj {...props} colors={[springColors, autumnColors]} title='Period 3' inCol={per3} spreadNext={per34} spreadAll={per14}></CourseTableObj>
+            <CourseTableObj {...props} colors={[springColors, autumnColors]} title='Period 4' inCol={per4} spreadNext={per34} spreadAll={per14}></CourseTableObj>
         </div>
     )
 }
