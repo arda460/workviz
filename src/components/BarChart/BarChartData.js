@@ -12,7 +12,7 @@ function BarChartData(props) {
 
   const getWindowDimensions = () => {
     const { outerWidth: width, outerHeight: height } = window;
-    console.log(width);
+
     return { height, width };
   };
   const [windowDimensions, setWindowDimensions] = useState(
