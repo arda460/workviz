@@ -4,7 +4,7 @@ const GlobalStateContext = React.createContext({});
 
 const GlobalStateProvider = ({ children }) => {
   const [personHover, setPersonHover] = useState(null);
-  const [isHoveringPerson, setIsHoveringPerson] = useState(false);
+  const [courseHover, setCourseHover] = useState(null);
   const [selectedPerson, setSelectedPerson] = useState(null);
   const [showTeacherDetails, setShowTeacherDetails] = useState(false);
 
@@ -13,8 +13,8 @@ const GlobalStateProvider = ({ children }) => {
       value={{
         personHover,
         setPersonHover,
-        isHoveringPerson,
-        setIsHoveringPerson,
+        courseHover,
+        setCourseHover,
         selectedPerson,
         setSelectedPerson,
         showTeacherDetails,

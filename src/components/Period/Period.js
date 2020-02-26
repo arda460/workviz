@@ -4,9 +4,10 @@ import { GlobalStateContext } from "../../context/GlobalStateContext";
 import { DataContext } from "../../context/DataContext";
 
 export default function Period(props) {
-    const { toMap, classN, colors, over, setHover, setCourseDetails } = props;
-    const { personHover } = useContext(GlobalStateContext); //get related value from  the global state
+    const { toMap, classN, colors, setCourseDetails } = props;
+    const { personHover, courseHover, setCourseHover } = useContext(GlobalStateContext); //get related value from  the global state
     const { summary20, loading } = useContext(DataContext); //get summary20Data which has the course data for each person
+
 
 
     return (
@@ -16,7 +17,7 @@ export default function Period(props) {
                     const color = colors[course];
                     const c1 = color ? `button ${color}` : 'button'; 
                     // If hovering on course overView
-                    const c2 = over === course ? ' hover' : '';
+                    const c2 = courseHover === course ? ' hover' : '';
 
                     let c3 = '';
                     // If hovering on techer overView
@@ -28,7 +29,7 @@ export default function Period(props) {
                     const c4 = c3 ? c3 : c2;
                     const cName = c1 + c4;
                     return (
-                        <button key={course} className={cName} data-id={course} onClick={ e => setCourseDetails(e.currentTarget.dataset.id)} onMouseEnter={() => setHover(course)} onMouseLeave={() => setHover('')}>{course}</button>
+                        <button key={course} className={cName} data-id={course} onClick={ e => setCourseDetails(e.currentTarget.dataset.id)} onMouseEnter={() => setCourseHover(course)} onMouseLeave={() => setCourseHover(null)}>{course}</button>
                     )
                 })
             }
