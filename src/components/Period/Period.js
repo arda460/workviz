@@ -4,8 +4,8 @@ import { GlobalStateContext } from "../../context/GlobalStateContext";
 import { DataContext } from "../../context/DataContext";
 
 export default function Period(props) {
-    const { toMap, classN, colors, setCourseDetails } = props;
-    const { personHover, courseHover, setCourseHover } = useContext(GlobalStateContext); //get related value from  the global state
+    const { toMap, classN, colors } = props;
+    const { personHover, courseHover, setCourseHover, setCourseDetails } = useContext(GlobalStateContext); //get related value from  the global state
     const { summary20, loading } = useContext(DataContext); //get summary20Data which has the course data for each person
 
     return (

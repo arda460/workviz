@@ -7,7 +7,6 @@ import "./CourseTable.css";
 
 export default function CourseTable(props) {
   const [data, setData] = useState(null);
-  const [courseDetails, setCourseDetails] = useState(false);
   const { HT20, VT20, loading } = useContext(DataContext);
 
   useEffect(() => {
@@ -25,12 +24,11 @@ export default function CourseTable(props) {
       <div className="courseOverview">
         <CourseTableContent
           {...props}
-          setCourseDetails={setCourseDetails}
           data={data}
         ></CourseTableContent>
       </div>
       <div className="courseDetailsContainer">
-        <CourseDetails courseKey={courseDetails} data={data}></CourseDetails>
+        <CourseDetails data={data}></CourseDetails>
       </div>
     </div>
   );

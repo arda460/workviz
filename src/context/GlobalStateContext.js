@@ -7,6 +7,7 @@ const GlobalStateProvider = ({ children }) => {
   const [courseHover, setCourseHover] = useState(null);
   const [selectedPerson, setSelectedPerson] = useState(null);
   const [showTeacherDetails, setShowTeacherDetails] = useState(false);
+  const [courseDetails, setCourseDetails] = useState(false);
 
   return (
     <GlobalStateContext.Provider
@@ -18,7 +19,9 @@ const GlobalStateProvider = ({ children }) => {
         selectedPerson,
         setSelectedPerson,
         showTeacherDetails,
-        setShowTeacherDetails
+        setShowTeacherDetails,
+        courseDetails,
+        setCourseDetails
       }}
     >
       {children}
