@@ -1,7 +1,6 @@
 svg.BarChartOverview {
   border-radius: 25px;
-  border: 2px solid #73ad21;
-  padding: 20px;
+  border: 1px solid black;
 }
 svg rect.Positive {
   fill: red;
@@ -29,13 +28,13 @@ rect.Small:hover {
 
 @-webkit-keyframes wiggle {
   0% {
-    transform: translate(0, 0.2em);
+    transform: translate(0, 0.15em);
   }
   25% {
-    transform: translate(0, -0.2em);
+    transform: translate(0, -0.15em);
   }
   50% {
-    transform: translate(0, 0.2em);
+    transform: translate(0, 0.15em);
   }
   75% {
     transform: translate(0, -0.1em);
@@ -46,13 +45,13 @@ rect.Small:hover {
 }
 @-ms-keyframes wiggle {
   0% {
-    transform: translate(0, 0.2em);
+    transform: translate(0, 0.15em);
   }
   25% {
-    transform: translate(0, -0.2em);
+    transform: translate(0, -0.15em);
   }
   50% {
-    transform: translate(0, 0.2em);
+    transform: translate(0, 0.15em);
   }
   75% {
     transform: translate(0, -0.1em);
@@ -64,13 +63,13 @@ rect.Small:hover {
 
 @keyframes wiggle {
   0% {
-    transform: translate(0, 0.2em);
+    transform: translate(0, 0.15em);
   }
   25% {
-    transform: translate(0, -0.2em);
+    transform: translate(0, -0.15em);
   }
   50% {
-    transform: translate(0, 0.2em);
+    transform: translate(0, 0.15em);
   }
   75% {
     transform: translate(0, -0.1em);
