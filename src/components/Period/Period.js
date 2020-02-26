@@ -8,8 +8,6 @@ export default function Period(props) {
     const { personHover, courseHover, setCourseHover } = useContext(GlobalStateContext); //get related value from  the global state
     const { summary20, loading } = useContext(DataContext); //get summary20Data which has the course data for each person
 
-
-
     return (
         <div className={classN}>
             {toMap &&
@@ -24,7 +22,7 @@ export default function Period(props) {
                     if (!loading && personHover) {
                         const vt = summary20[personHover.name]["VT Courses"].filter( c => course === c['Course Code']);
                         const ht = summary20[personHover.name]["HT Courses"].filter( c => course === c['Course Code']);
-                        c3 = vt.length > 0 || ht.length > 0 ? ' hover' : '';
+                        c3 = vt.length > 0 || ht.length > 0 ? ' hover' : ' notHovered';
                     }
                     const c4 = c3 ? c3 : c2;
                     const cName = c1 + c4;
