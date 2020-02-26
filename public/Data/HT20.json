@@ -196,7 +196,11 @@
         "Totalt  Budgeted": "3211",
         "Totalt  Allocated": "3498",
         "Lärartimmar/elevpoäng": "1.07",
-        "Emplyee cost+LKP": "1 210 751"
+        "Emplyee cost+LKP": "1 210 751",
+        "Responsible": [
+            "Mundungus Fletcher",
+            "Marjorie (Marge) Dursley"
+        ]
     },
     "DA234X": {
         "Period": [
@@ -274,7 +278,8 @@
         "Totalt  Budgeted": "28",
         "Totalt  Allocated": "0",
         "Lärartimmar/elevpoäng": "#DIV/0!",
-        "Emplyee cost+LKP": "0"
+        "Emplyee cost+LKP": "0",
+        "Responsible": []
     },
     "DM1579": {
         "Period": [
@@ -346,7 +351,10 @@
         "Totalt  Budgeted": "313",
         "Totalt  Allocated": "431",
         "Lärartimmar/elevpoäng": "0.96",
-        "Emplyee cost+LKP": "131 372"
+        "Emplyee cost+LKP": "131 372",
+        "Responsible": [
+            "Elphias Doge"
+        ]
     },
     "DH1621": {
         "Period": [
@@ -398,7 +406,10 @@
         "Totalt  Budgeted": "84",
         "Totalt  Allocated": "75",
         "Lärartimmar/elevpoäng": "6.25",
-        "Emplyee cost+LKP": "54 000"
+        "Emplyee cost+LKP": "54 000",
+        "Responsible": [
+            "Reginald Cattermole"
+        ]
     },
     "DH2400": {
         "Period": [
@@ -462,7 +473,10 @@
         "Totalt  Budgeted": "346",
         "Totalt  Allocated": "346",
         "Lärartimmar/elevpoäng": "0.84",
-        "Emplyee cost+LKP": "55 317"
+        "Emplyee cost+LKP": "55 317",
+        "Responsible": [
+            "Vincent Crabbe"
+        ]
     },
     "DH2408": {
         "Period": [
@@ -527,7 +541,10 @@
         "Totalt  Budgeted": "258",
         "Totalt  Allocated": "288",
         "Lärartimmar/elevpoäng": "0.91",
-        "Emplyee cost+LKP": "121 244"
+        "Emplyee cost+LKP": "121 244",
+        "Responsible": [
+            "Argus Filch"
+        ]
     },
     "DH2465": {
         "Period": [
@@ -587,7 +604,10 @@
         "Totalt  Budgeted": "241",
         "Totalt  Allocated": "272",
         "Lärartimmar/elevpoäng": "0.7",
-        "Emplyee cost+LKP": "99 099"
+        "Emplyee cost+LKP": "99 099",
+        "Responsible": [
+            "Seamus Finnigan"
+        ]
     },
     "DH2466": {
         "Period": [
@@ -640,7 +660,10 @@
         "Totalt  Budgeted": "30",
         "Totalt  Allocated": "22",
         "Lärartimmar/elevpoäng": "3.67",
-        "Emplyee cost+LKP": "11 677"
+        "Emplyee cost+LKP": "11 677",
+        "Responsible": [
+            "Hannah Abbott"
+        ]
     },
     "DH1622": {
         "Period": [
@@ -709,7 +732,10 @@
         "Totalt  Budgeted": "583",
         "Totalt  Allocated": "583",
         "Lärartimmar/elevpoäng": "0.65",
-        "Emplyee cost+LKP": "160 527"
+        "Emplyee cost+LKP": "160 527",
+        "Responsible": [
+            "Terry Boot"
+        ]
     },
     "DM2712": {
         "Period": [
@@ -760,7 +786,10 @@
         "Totalt  Budgeted": "323",
         "Totalt  Allocated": "323",
         "Lärartimmar/elevpoäng": "0.72",
-        "Emplyee cost+LKP": "108 072"
+        "Emplyee cost+LKP": "108 072",
+        "Responsible": [
+            "Penelope Clearwater"
+        ]
     },
     "DM2630": {
         "Period": [
@@ -819,7 +848,10 @@
         "Totalt  Budgeted": "281",
         "Totalt  Allocated": "281",
         "Lärartimmar/elevpoäng": "1.25",
-        "Emplyee cost+LKP": "97 256"
+        "Emplyee cost+LKP": "97 256",
+        "Responsible": [
+            "Ludo Bagman"
+        ]
     },
     "DH2632": {
         "Period": [
@@ -876,7 +908,10 @@
         "Totalt  Budgeted": "266",
         "Totalt  Allocated": "266",
         "Lärartimmar/elevpoäng": "1.18",
-        "Emplyee cost+LKP": "99 323"
+        "Emplyee cost+LKP": "99 323",
+        "Responsible": [
+            "Arabella Figg"
+        ]
     },
     "DH2655": {
         "Period": [
@@ -931,7 +966,10 @@
         "Totalt  Budgeted": "134",
         "Totalt  Allocated": "171",
         "Lärartimmar/elevpoäng": "1.27",
-        "Emplyee cost+LKP": "58 601"
+        "Emplyee cost+LKP": "58 601",
+        "Responsible": [
+            "Igor Karkaroff"
+        ]
     },
     "DM1581": {
         "Period": [
@@ -1023,7 +1061,10 @@
         "Totalt  Budgeted": "294",
         "Totalt  Allocated": "321",
         "Lärartimmar/elevpoäng": "0.71",
-        "Emplyee cost+LKP": "85 641"
+        "Emplyee cost+LKP": "85 641",
+        "Responsible": [
+            "Mary Cattermole"
+        ]
     },
     "DM1578": {
         "Period": [
@@ -1098,7 +1139,10 @@
         "Totalt  Budgeted": "436",
         "Totalt  Allocated": "446",
         "Lärartimmar/elevpoäng": "0.96",
-        "Emplyee cost+LKP": "162 448"
+        "Emplyee cost+LKP": "162 448",
+        "Responsible": [
+            "Cho Chang"
+        ]
     },
     "DM2500": {
         "Period": [
@@ -1156,7 +1200,10 @@
         "Totalt  Budgeted": "200",
         "Totalt  Allocated": "200",
         "Lärartimmar/elevpoäng": "1.11",
-        "Emplyee cost+LKP": "53 725"
+        "Emplyee cost+LKP": "53 725",
+        "Responsible": [
+            "Mary Cattermole"
+        ]
     },
     "DM2517": {
         "Period": [
@@ -1212,7 +1259,10 @@
         "Totalt  Budgeted": "134",
         "Totalt  Allocated": "0",
         "Lärartimmar/elevpoäng": "#DIV/0!",
-        "Emplyee cost+LKP": "0"
+        "Emplyee cost+LKP": "0",
+        "Responsible": [
+            "Cho Chang"
+        ]
     },
     "DM2572": {
         "Period": [
@@ -1267,7 +1317,10 @@
         "Totalt  Budgeted": "245",
         "Totalt  Allocated": "245",
         "Lärartimmar/elevpoäng": "1.42",
-        "Emplyee cost+LKP": "79 833"
+        "Emplyee cost+LKP": "79 833",
+        "Responsible": [
+            "Penelope Clearwater"
+        ]
     },
     "DM2573": {
         "Period": [
@@ -1336,7 +1389,10 @@
         "Totalt  Budgeted": "472",
         "Totalt  Allocated": "472",
         "Lärartimmar/elevpoäng": "0.93",
-        "Emplyee cost+LKP": "136 685"
+        "Emplyee cost+LKP": "136 685",
+        "Responsible": [
+            "Cedric Diggory"
+        ]
     },
     "DM2579": {
         "Period": [
@@ -1398,7 +1454,10 @@
         "Totalt  Budgeted": "85",
         "Totalt  Allocated": "95",
         "Lärartimmar/elevpoäng": "0.42",
-        "Emplyee cost+LKP": "30 127"
+        "Emplyee cost+LKP": "30 127",
+        "Responsible": [
+            "Elphias Doge"
+        ]
     },
     "DM2904-6": {
         "Period": [
@@ -1449,7 +1508,10 @@
         "Totalt  Budgeted": "144",
         "Totalt  Allocated": "144",
         "Lärartimmar/elevpoäng": "1.28",
-        "Emplyee cost+LKP": "46 758"
+        "Emplyee cost+LKP": "46 758",
+        "Responsible": [
+            "Petunia Dursley (née Evans)"
+        ]
     },
     "DM2601": {
         "Period": [
@@ -1511,7 +1573,10 @@
         "Totalt  Budgeted": "465",
         "Totalt  Allocated": "465",
         "Lärartimmar/elevpoäng": "0.83",
-        "Emplyee cost+LKP": "148 673"
+        "Emplyee cost+LKP": "148 673",
+        "Responsible": [
+            "Mundungus Fletcher"
+        ]
     },
     "DM2679": {
         "Period": [
@@ -1576,7 +1641,10 @@
         "Totalt  Budgeted": "318",
         "Totalt  Allocated": "318",
         "Lärartimmar/elevpoäng": "2.12",
-        "Emplyee cost+LKP": "124 786"
+        "Emplyee cost+LKP": "124 786",
+        "Responsible": [
+            "Frank Bryce"
+        ]
     },
     "DM2350": {
         "Period": [
@@ -1672,7 +1740,10 @@
         "Totalt  Budgeted": "445",
         "Totalt  Allocated": "477",
         "Lärartimmar/elevpoäng": "0.8",
-        "Emplyee cost+LKP": "170 288"
+        "Emplyee cost+LKP": "170 288",
+        "Responsible": [
+            "Michael Corner"
+        ]
     },
     "DM2575": {
         "Period": [
@@ -1729,7 +1800,10 @@
         "Totalt  Budgeted": "92",
         "Totalt  Allocated": "92",
         "Lärartimmar/elevpoäng": "1.28",
-        "Emplyee cost+LKP": "41 639"
+        "Emplyee cost+LKP": "41 639",
+        "Responsible": [
+            "Susan Bones"
+        ]
     },
     "DM2799": {
         "Period": [
@@ -1826,7 +1900,10 @@
         "Totalt  Budgeted": "390",
         "Totalt  Allocated": "390",
         "Lärartimmar/elevpoäng": "0.7",
-        "Emplyee cost+LKP": "124 555"
+        "Emplyee cost+LKP": "124 555",
+        "Responsible": [
+            "Terry Boot"
+        ]
     },
     "DM2584": {
         "Period": [
@@ -1880,7 +1957,10 @@
         "Totalt  Budgeted": "121",
         "Totalt  Allocated": "20",
         "Lärartimmar/elevpoäng": "0.13",
-        "Emplyee cost+LKP": "9 642"
+        "Emplyee cost+LKP": "9 642",
+        "Responsible": [
+            "Susan Bones"
+        ]
     },
     "DH2642": {
         "Period": [
@@ -1940,7 +2020,10 @@
         "Totalt  Budgeted": "888",
         "Totalt  Allocated": "888",
         "Lärartimmar/elevpoäng": "0.74",
-        "Emplyee cost+LKP": "175 164"
+        "Emplyee cost+LKP": "175 164",
+        "Responsible": [
+            "Marcus Belby"
+        ]
     },
     "IC1007": {
         "Period": [
@@ -1992,7 +2075,8 @@
         "Totalt  Budgeted": "204",
         "Totalt  Allocated": "0",
         "Lärartimmar/elevpoäng": "0",
-        "Emplyee cost+LKP": "0"
+        "Emplyee cost+LKP": "0",
+        "Responsible": []
     },
     "IC2005": {
         "Period": [
@@ -2044,7 +2128,10 @@
         "Totalt  Budgeted": "188",
         "Totalt  Allocated": "188",
         "Lärartimmar/elevpoäng": "1.04",
-        "Emplyee cost+LKP": "72 495"
+        "Emplyee cost+LKP": "72 495",
+        "Responsible": [
+            "Neville Longbottom"
+        ]
     },
     "DH2650": {
         "Period": [
@@ -2103,7 +2190,10 @@
         "Totalt  Budgeted": "205",
         "Totalt  Allocated": "205",
         "Lärartimmar/elevpoäng": "0.68",
-        "Emplyee cost+LKP": "57 192"
+        "Emplyee cost+LKP": "57 192",
+        "Responsible": [
+            "Igor Karkaroff"
+        ]
     },
     "DD2470": {
         "Period": [
@@ -2163,7 +2253,10 @@
         "Totalt  Budgeted": "93",
         "Totalt  Allocated": "93",
         "Lärartimmar/elevpoäng": "1.71",
-        "Emplyee cost+LKP": "47 569"
+        "Emplyee cost+LKP": "47 569",
+        "Responsible": [
+            "Bertha Jorkins"
+        ]
     },
     "DH2413": {
         "Period": [
@@ -2224,7 +2317,10 @@
         "Totalt  Budgeted": "261",
         "Totalt  Allocated": "261",
         "Lärartimmar/elevpoäng": "0.85",
-        "Emplyee cost+LKP": "83 469"
+        "Emplyee cost+LKP": "83 469",
+        "Responsible": [
+            "Angelina Johnson"
+        ]
     },
     "DD2257": {
         "Period": [
@@ -2286,7 +2382,10 @@
         "Totalt  Budgeted": "323",
         "Totalt  Allocated": "323",
         "Lärartimmar/elevpoäng": "0.68",
-        "Emplyee cost+LKP": "120 542"
+        "Emplyee cost+LKP": "120 542",
+        "Responsible": [
+            "Bertha Jorkins"
+        ]
     },
     "DT2140": {
         "Period": [
@@ -2381,7 +2480,10 @@
         "Totalt  Budgeted": "634",
         "Totalt  Allocated": "634",
         "Lärartimmar/elevpoäng": "0.7",
-        "Emplyee cost+LKP": "253 247"
+        "Emplyee cost+LKP": "253 247",
+        "Responsible": [
+            "Florean Fortescue"
+        ]
     },
     "DT2410": {
         "Period": [
@@ -2440,7 +2542,10 @@
         "Totalt  Budgeted": "246",
         "Totalt  Allocated": "220",
         "Lärartimmar/elevpoäng": "2.1",
-        "Emplyee cost+LKP": "71 403"
+        "Emplyee cost+LKP": "71 403",
+        "Responsible": [
+            "Cornelius Fudge"
+        ]
     },
     "DM1135": {
         "Period": [
@@ -2508,7 +2613,10 @@
         "Totalt  Budgeted": "340",
         "Totalt  Allocated": "340",
         "Lärartimmar/elevpoäng": "0.6",
-        "Emplyee cost+LKP": "106 950"
+        "Emplyee cost+LKP": "106 950",
+        "Responsible": [
+            "Michael Corner"
+        ]
     },
     "DH2643": {
         "Period": [
@@ -2566,7 +2674,10 @@
         "Totalt  Budgeted": "331",
         "Totalt  Allocated": "48",
         "Lärartimmar/elevpoäng": "0.16",
-        "Emplyee cost+LKP": "18 703"
+        "Emplyee cost+LKP": "18 703",
+        "Responsible": [
+            "Marcus Belby"
+        ]
     },
     "DM1595": {
         "Period": [
@@ -2624,6 +2735,9 @@
         "Totalt  Budgeted": "380",
         "Totalt  Allocated": "90",
         "Lärartimmar/elevpoäng": "0.16",
-        "Emplyee cost+LKP": "34 941"
+        "Emplyee cost+LKP": "34 941",
+        "Responsible": [
+            "UNKNOWN MID"
+        ]
     }
 }
