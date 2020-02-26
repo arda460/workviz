@@ -1,10 +1,11 @@
 import React, { useRef, useEffect } from "react";
 import * as d3 from "d3";
 import "./BarChart.css";
-
 const BarChart = props => {
+  const margin = { top: 30, left: 30, bottom: 20, right: 30 };
+  const axisOffset = 25;
   const {
-    margin,
+    //margin,
     height,
     width,
     smallBarLimit,
@@ -18,7 +19,7 @@ const BarChart = props => {
     const svg = d3
       .select(svgRef.current)
       .style("width", width)
-      .style("height", height + 100);
+      .style("height", height);
 
     let max = d3.max(data, d => {
       return d.value;
@@ -41,11 +42,18 @@ const BarChart = props => {
 
     const rectY = d => {
       let val = d.value;
+      console.log(height);
+      console.log(y(0));
       if (Math.abs(val) < smallBarLimit) {
         return height - y(smallBarLimit);
       }
       return d.value < 0 ? y(0) + 25 : height - y(d.value) - 25;
+      // axisOffset * 2;
     };
+
+    //vernon y = 50
+    //pos axis = y(0) - 37
+    //line = 118
     const rectHeight = d => {
       let val = d.value;
       if (Math.abs(val) < smallBarLimit) {
@@ -79,7 +87,7 @@ const BarChart = props => {
           .data([d])
           .join(enter => enter.append("text"))
           .attr("class", "tooltip")
-          .attr("x", x(d.name) + x.bandwidth())
+          .attr("x", x(d.name) + x.bandwidth() + margin.left)
           .attr("y", rectY(d))
           .text(d.name)
           .attr("text-anchor", "middle")
@@ -98,9 +106,9 @@ const BarChart = props => {
         onClick(d.name);
       });
 
-    let line = `M ${margin.left} ${y(0) + 25 + margin.top} H ${width -
+    let line = `M ${margin.left} ${y(0) + axisOffset + margin.top} H ${width -
       margin.right} `;
-    let line2 = `M ${margin.left} ${y(0) - 25 + margin.top} H ${width -
+    let line2 = `M ${margin.left} ${y(0) - axisOffset + margin.top} H ${width -
       margin.right} `;
 
     svg
