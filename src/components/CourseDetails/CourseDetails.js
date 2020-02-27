@@ -1,11 +1,16 @@
 import React, { useRef, useContext } from "react";
 import { GlobalStateContext } from "../../context/GlobalStateContext";
+import CourseWorksplitChart from "../CourseWorksplitChart/CourseWorksplitChart";
 import "./CourseDetails.css";
 
 export default function CourseDetails(props) {
     const { data } = props;
     const { courseDetails } = useContext(GlobalStateContext);
     const d = useRef(null);
+
+    const margin = { top: 10, left: 10, bottom: 10, right: 10 };
+    const height = 250;
+    const width = 650;
 
     if (courseDetails)
         d.current = data['autumnData'][courseDetails] ? data['autumnData'][courseDetails] : data['springData'][courseDetails];
@@ -67,7 +72,9 @@ export default function CourseDetails(props) {
             }
             {d.current &&
                 <div className="detailsCol">
-                    <div className="detailsRow"></div>
+                    <div className="detailsRow">
+                        <CourseWorksplitChart d={d.current}></CourseWorksplitChart>
+                    </div>
                     <div className="detailsRow"></div>
                 </div>
             }
