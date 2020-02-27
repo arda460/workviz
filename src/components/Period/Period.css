@@ -19,6 +19,11 @@
     font-size: 0.75rem;
     margin: 0 3px 3px 0;
     border-style: solid;
+    -webkit-transition: opacity 0.3s ease-in-out;
+    -moz-transition: opacity 0.3s ease-in-out;
+    -ms-transition: opacity 0.3s ease-in-out;
+    -o-transition: opacity 0.3s ease-in-out;
+    transition: opacity 0.3s ease-in-out;
 }
 
 .button.notHovered {

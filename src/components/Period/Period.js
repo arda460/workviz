@@ -15,7 +15,11 @@ export default function Period(props) {
                     const color = colors[course];
                     const c1 = color ? `button ${color}` : 'button'; 
                     // If hovering on course overView
-                    const c2 = courseHover === course ? ' hover' : '';
+                    let c2 = courseHover === course ? ' hover' : ' ';
+                    if(courseHover) {
+                        c2 = courseHover === course ? ' hover' : ' notHovered';
+                    }
+                    
 
                     let c3 = '';
                     // If hovering on techer overView
