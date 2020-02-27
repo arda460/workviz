@@ -12,7 +12,6 @@ function BarChartData(props) {
 
   const getWindowDimensions = () => {
     const { outerWidth: width, outerHeight: height } = window;
-    console.log(width);
     return { height, width };
   };
   const [windowDimensions, setWindowDimensions] = useState(
@@ -44,7 +43,7 @@ function BarChartData(props) {
 
   useEffect(() => {
     if (!loading) setPersonData(handleData(teacherSimple));
-  }, []);
+  }, [loading, teacherSimple]);
 
   useEffect(() => {
     function handleResize() {

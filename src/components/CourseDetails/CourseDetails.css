@@ -4,13 +4,13 @@
     border: 1px dashed black;
     border-radius: 5px;
 
-    max-height: 400px;
+    height: 400px;
 }
 
 .detailsColInfo {
     display: flex;
     flex-direction: column;
-    width: 40%;
+    width: 30%;
 
     max-height: 100%;
 }

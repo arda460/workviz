@@ -1,5 +1,6 @@
 import React, { useRef, useContext } from "react";
 import { GlobalStateContext } from "../../context/GlobalStateContext";
+import CourseWorksplitChart from "../CourseWorksplitChart/CourseWorksplitChart";
 import "./CourseDetails.css";
 
 export default function CourseDetails(props) {
@@ -67,7 +68,9 @@ export default function CourseDetails(props) {
             }
             {d.current &&
                 <div className="detailsCol">
-                    <div className="detailsRow"></div>
+                    <div className="detailsRow">
+                        <CourseWorksplitChart d={d.current}></CourseWorksplitChart>
+                    </div>
                     <div className="detailsRow"></div>
                 </div>
             }
