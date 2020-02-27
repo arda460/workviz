@@ -1,168 +1,88 @@
-import React, { useRef, useState, useEffect } from "react";
+import React, { useRef, useEffect, useCallback } from "react";
 import * as d3 from "d3";
 import "./CourseWorksplitChart.css";
 
-const colors = d3.scaleOrdinal(d3.schemeCategory10);
-const format = d3.format(".2f");
-
-const XAxis = ({ top, bottom, left, right, height, scale }) => {
-    const axis = useRef(null);
-
-    useEffect(() => {
-        d3.select(axis.current).call(d3.axisBottom(scale));
-    });
-
-    return (
-        <g
-            className="axis x"
-            ref={axis}
-            transform={`translate(${left}, ${height - bottom})`}
-        />
-    );
-};
-
-const YAxis = ({ top, bottom, left, right, scale }) => {
-    const axis = useRef(null);
-
-    useEffect(() => {
-        d3.select(axis.current).call(d3.axisLeft(scale));
-    });
-
-    return (
-        <g className="axis y" ref={axis} transform={`translate(${left}, ${top})`} />
-    );
-};
-
-const RectContainer = ({ data, x, y, height, top, bottom }) => {
-    return (
-        <g transform={`translate(${x(data.name)}, ${y(data.value)})`}>
-            <rect
-                width={x.bandwidth()}
-                height={height - bottom - top - y(data.value)}
-                opacity={0.3}
-                fill={'#A9A9A9'}
-            />
-            <text
-                transform={`translate(${x.bandwidth() / 2}, ${-2})`}
-                textAnchor="middle"
-                alignmentBaseline="baseline"
-                fill="grey"
-                fontSize="10"
-            >
-                {format(data.value)}
-            </text>
-        </g>
-    );
-};
-
-const RectFill = ({ data, x, y, height, top, bottom }) => {
-    return (
-        <g transform={`translate(${x(data.name)}, ${y(data.value)})`}>
-            <rect
-                width={x.bandwidth()}
-                height={height - bottom - top - y(data.value)}
-                opacity={0.3}
-                fill={colors(data.name)}
-            />
-            <text
-                transform={`translate(${x.bandwidth() / 2}, ${-2})`}
-                textAnchor="middle"
-                alignmentBaseline="baseline"
-                fill="grey"
-                fontSize="10"
-            >
-                {format(data.value)}
-            </text>
-        </g>
-    );
-};
-
-
-
 export default function CourseWorksplitChart(props) {
     const { d } = props;
-    const height = 250;
-    const width = 650;
-    const top = 60;
-    const right = 30;
-    const bottom = 30;
-    const left = 30;
+    const height = 160;
+    const width = 900;
+    const margin = { top: 10, right: 10, bottom: 10, left: 20 };
+    const svgRef = useRef(null);
 
     const data = [
-        { id: 'barFöreläsning', name: 'Föreläsning', value: parseFloat(d['Föreläsning (Frl)  Budgeted']) },
-        { id: 'barÖvning', name: 'Övning', value: parseFloat(d['Övning (Ovn)  Budgeted']) },
-        { id: 'barLaboration', name: 'Laboration', value: parseFloat(d['Laboration (La)  Budgeted']) },
-        { id: 'barHandledning', name: 'Handledning', value: parseFloat(d['Handledning (Ha)  Budgeted']) },
-        { id: 'barExamination', name: 'Examination', value: parseFloat(d['Examination (Ex)  Budgeted']) },
-        { id: 'barKursutveckling', name: 'Kursutveckling', value: parseFloat(d['Kursutveckling (Ku)  Budgeted']) },
-        { id: 'barAdministration', name: 'Administration', value: parseFloat(d['Administration (Adm)  Budgeted']) },
+        { group: 'Föreläsning', Budgeted: parseFloat(d['Föreläsning (Frl)  Budgeted']), Allocated: parseFloat(d['Föreläsning (Frl)  Allocated']) },
+        { group: 'Övning', Budgeted: parseFloat(d['Övning (Ovn)  Budgeted']), Allocated: parseFloat(d['Övning (Ovn)  Allocated']) },
+        { group: 'Laboration', Budgeted: parseFloat(d['Övning (Ovn)  Budgeted']), Allocated: parseFloat(d['Övning (Ovn)  Allocated']) },
+        { group: 'Handledning', Budgeted: parseFloat(d['Handledning (Ha)  Budgeted']), Allocated: parseFloat(d['Handledning (Ha)  Allocated']) },
+        { group: 'Examination', Budgeted: parseFloat(d['Examination (Ex)  Budgeted']), Allocated: parseFloat(d['Examination (Ex)  Allocated']) },
+        { group: 'Kursutveckling', Budgeted: parseFloat(d['Kursutveckling (Ku)  Budgeted']), Allocated: parseFloat(d['Kursutveckling (Ku)  Allocated']) },
+        { group: 'Administration', Budgeted: parseFloat(d['Administration (Adm)  Budgeted']), Allocated: parseFloat(d['Administration (Adm)  Allocated']) }
     ];
 
-    const data2 = [
-        { id: 'barFöreläsning2', name: 'Föreläsning', value: parseFloat(d['Föreläsning (Frl)  Allocated']) },
-        { id: 'barÖvning2', name: 'Övning', value: parseFloat(d['Övning (Ovn)  Allocated']) },
-        { id: 'barLaboration2', name: 'Laboration', value: parseFloat(d['Laboration (La)  Allocated']) },
-        { id: 'barHandledning2', name: 'Handledning', value: parseFloat(d['Handledning (Ha)  Allocated']) },
-        { id: 'barExamination2', name: 'Examination', value: parseFloat(d['Examination (Ex)  Allocated']) },
-        { id: 'barKursutveckling2', name: 'Kursutveckling', value: parseFloat(d['Kursutveckling (Ku)  Allocated']) },
-        { id: 'barAdministration2', name: 'Administration', value: parseFloat(d['Administration (Adm)  Allocated']) },
-    ];
+    const subgroups = ['Budgeted', 'Allocated'];
+    const groups = ['Föreläsning', 'Övning', 'Laboration', 'Handledning', 'Examination', 'Kursutveckling', 'Administration'];
 
-    const x = d3
-        .scaleBand()
-        .range([0, width - left - right])
-        .domain(data.map(d => d.name))
-        .padding(0.1);
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+    const draw = useCallback(() => {
+        d3.select(svgRef.current).html(null);
 
-    const y = d3
-        .scaleLinear()
-        .range([height - top - bottom, 0])
-        .domain([0, d3.max(data, d => d.value)]);
+        const svg = d3.select(svgRef.current)
+            .style("width", width + margin.left + margin.right)
+            .style("height", height + margin.top + margin.bottom)
+            .append("g")
+            .attr("transform",
+                "translate(" + margin.left + "," + margin.top + ")");
 
+        const x = d3.scaleBand()
+            .domain(groups)
+            .range([0, width])
+            .padding(0.2);
 
+        svg.append("g")
+            .attr("transform", "translate(0," + height + ")")
+            .call(d3.axisBottom(x).tickSize(0));
 
+        const y = d3
+            .scaleLinear()
+            .domain([0, d3.max(data, d => d.Budgeted)])
+            .range([height, 0]);
+
+        svg.append("g")
+            .call(d3.axisLeft(y));
+
+        const xSubgroup = d3.scaleBand()
+            .domain(subgroups)
+            .range([0, x.bandwidth()])
+            .padding([0.05])
+
+        const color = d3.scaleOrdinal()
+            .domain(subgroups)
+            .range(['#e41a1c', '#377eb8']);
+
+        svg.append("g")
+            .selectAll("g")
+            // Enter in data = loop group per group
+            .data(data)
+            .enter()
+            .append("g")
+            .attr("transform", function (d) { return "translate(" + x(d.group) + ",0)"; })
+            .selectAll("rect")
+            .data(function (d) { return subgroups.map(function (key) { return { key: key, value: d[key] }; }); })
+            .enter().append("rect")
+            .attr("x", function (d) { return xSubgroup(d.key); })
+            .attr("y", function (d) { return y(d.value); })
+            .attr("width", xSubgroup.bandwidth())
+            .attr("height", function (d) { return height - y(d.value); })
+            .attr("fill", function (d) { return color(d.key); });
+    });
+
+    useEffect(() => {
+        draw();
+      }, [draw, svgRef]);
 
     return (
-        <>
-            <svg width={width} height={height}>
-                <XAxis
-                    scale={x}
-                    top={top}
-                    bottom={bottom}
-                    left={left}
-                    right={right}
-                    height={height}
-                />
-                <YAxis
-                    scale={y}
-                    top={top}
-                    bottom={bottom}
-                    left={left}
-                    right={right}
-                />
-                <g transform={`translate(${left}, ${top})`}>
-                    {data.map((d, i) => (
-                        <RectContainer
-                            data={d}
-                            x={x}
-                            y={y}
-                            top={top}
-                            bottom={bottom}
-                            height={height}
-                        />
-                    ))}
-                    {data2.map((d, i) => (
-                        <RectFill
-                            data={d}
-                            x={x}
-                            y={y}
-                            top={top}
-                            bottom={bottom}
-                            height={height}
-                        />
-                    ))}
-                </g>
-            </svg>
-        </>
+        <div className="coursewsContainer">
+            <svg className="coursewsChart" ref={svgRef}></svg>
+        </div>
     );
 }

@@ -8,10 +8,6 @@ export default function CourseDetails(props) {
     const { courseDetails } = useContext(GlobalStateContext);
     const d = useRef(null);
 
-    const margin = { top: 10, left: 10, bottom: 10, right: 10 };
-    const height = 250;
-    const width = 650;
-
     if (courseDetails)
         d.current = data['autumnData'][courseDetails] ? data['autumnData'][courseDetails] : data['springData'][courseDetails];
 

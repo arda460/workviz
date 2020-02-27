@@ -1,4 +1,4 @@
-import React, { useState, useEffect, useContext } from "react";
+import React, { useState, useContext } from "react";
 import "./App.css";
 import CourseTable from "./components/CourseTable/CourseTable";
 import BarChartData from "./components/BarChart/BarChartData";
