@@ -1,11 +1,15 @@
 import React, { useState, useEffect, useContext } from "react";
 import * as d3 from "d3";
 import "./TeacherDetails.css";
+import TeacherInfo from "./TeacherInfo";
+import StaffingInfo from "./StaffingInfo";
+import InfoChart from "./InfoChart";
 import { DataContext } from "../../context/DataContext";
 
 function TeacherDetails({ selectedPerson, crossClick, isShowing }) {
   const { summary20, loading } = useContext(DataContext);
-  console.log(summary20["Marcus Belby"]);
+  const [data, setData] = useState(null);
+
   const [person, setPerson] = useState("");
   const [table, setTable] = useState(
     <div>Click on a bar above for more information</div>
@@ -60,10 +64,20 @@ function TeacherDetails({ selectedPerson, crossClick, isShowing }) {
   };
 
   useEffect(() => {
-    if (!loading) draw();
-  }, [selectedPerson]);
+    if (!loading)
+      setData({ name: selectedPerson, data: summary20[selectedPerson] });
+  }, [selectedPerson, loading]);
 
-  return <>{table}</>;
+  return (
+    <>
+      {!loading && (
+        <TeacherInfo data={data}>
+          <InfoChart />
+        </TeacherInfo>
+      )}
+      <StaffingInfo />
+    </>
+  );
 }
 
 export default TeacherDetails;
