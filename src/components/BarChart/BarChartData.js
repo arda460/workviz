@@ -44,7 +44,7 @@ function BarChartData(props) {
 
   useEffect(() => {
     if (!loading) setPersonData(handleData(teacherSimple));
-  }, []);
+  }, [loading, teacherSimple]);
 
   useEffect(() => {
     function handleResize() {

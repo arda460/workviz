@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React from "react";
 import CourseTableObj from '../CourseTableObj/CourseTableObj';
 
 import "./CourseTableContent.css";
@@ -86,10 +86,12 @@ function CourseTableContent(props) {
 
     };
 
+    // eslint-disable-next-line array-callback-return
     Object.keys(autumnData).map(key => {
         distributeAutumn(autumnData, key);
         setAutumnColor(autumnData, key);
     });
+    // eslint-disable-next-line array-callback-return
     Object.keys(springData).map(key => {
         distributeSpring(springData, key);
         setSpringColor(springData, key);
