@@ -9,8 +9,8 @@ function CourseTableContent(props) {
     const { colorDist } = useContext(DataContext);
 
     let per1 = [], per2 = [], per3 = [], per4 = [], per12 = [], per34 = [], per14 = [];
-    const springColors = colorDist[1];
     const autumnColors = colorDist[0];
+    const springColors = colorDist[1];
 
     const distributeAutumn = (data, key) => {
         const periods = data[key]['Period'];
@@ -48,7 +48,6 @@ function CourseTableContent(props) {
             per14.push(key);
     };
 
-
     // eslint-disable-next-line array-callback-return
     Object.keys(autumnData).map(key => {
         distributeAutumn(autumnData, key);
@@ -57,7 +56,6 @@ function CourseTableContent(props) {
     Object.keys(springData).map(key => {
         distributeSpring(springData, key);
     });
-
 
     // SORT in alphabetical order
     per1.sort();

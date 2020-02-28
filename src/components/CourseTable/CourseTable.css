@@ -9,7 +9,7 @@
 }
 
 .courseSearch {
-    margin: 20px 0 10px 20px;
+    margin: 20px 20px 10px 20px;
     align-self: flex-start;
 
     display: flex;
@@ -17,10 +17,38 @@
 }
 
 .courseFilter {
-    align-self: flex-start;
-    margin-left: 20px;
+    margin: 20px 0 10px 40px;
+
+    display: flex;
+    flex-direction: column;
+}
+
+.searchLabel,
+.filterLabel {
+    font-size: 1rem;
+    margin-bottom: 5px;
+}
+
+.searchBar {
+    font-size: 1rem;
+    padding: 8px;
 }
 
 .filterButton {
     margin-right: 10px;
+
+    padding: 8px;
+    background-color: #F0EDED;
+    font-size: 1rem;
+    border-radius: 5px;
+}
+
+.filterButton.pressed {
+    
+    color: white;
+    background-color: #696969;
+}
+
+.courseControls {
+    display: flex;
 }

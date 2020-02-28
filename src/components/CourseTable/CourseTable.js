@@ -8,6 +8,7 @@ import "./CourseTable.css";
 export default function CourseTable(props) {
   const [data, setData] = useState(null);
   const { colorDist, HT20, VT20, loading } = useContext(DataContext);
+  const [ buttonName, setButtonName ] = useState(['filterButton', 'filterButton']);
 
 
   useEffect(() => {
@@ -65,13 +66,23 @@ export default function CourseTable(props) {
   };
 
   const handleFilter = (val) => {
-    // val = red OR orange 
-    // courseColors 0 = autumnColors 1 = springColors
     if (!loading) {
+
       const d = {
         autumnData: HT20,
         springData: VT20
       };
+
+      let bNames = ['filterButton', 'filterButton']
+
+      if( (val === 'red' && buttonName[0] === 'filterButton pressed') || (val === 'orange' && buttonName[1] === 'filterButton pressed') ) {
+        setData(d);
+        setButtonName(bNames);
+        return;
+      }
+
+      bNames[0] = val === 'red' ? 'filterButton pressed' : bNames[0]
+      bNames[1] = val === 'orange' ? 'filterButton pressed' : bNames[1]
 
       const courseColors = {...colorDist[0], ...colorDist[1]};
 
@@ -95,18 +106,24 @@ export default function CourseTable(props) {
         };
 
         setData(filtered);
+        setButtonName(bNames)
     };
   };
 
     return (
       <div className="courseContainer">
-        <div className="courseSearch">
-          <label>Search for course code/short name</label>
-          <input type="search" id="courseSeachInp" onKeyUp={e => handleKeyStroke(e.target.value)}></input>
-        </div>
-        <div className="courseFilter">
-          <button className="filterButton" onClick={() => handleFilter('red')}>Filter on Red</button>
-          <button className="filterButton" onClick={() => handleFilter('orange')}>Filter on Yellow</button>
+        <div className="courseControls">
+          <div className="courseSearch">
+            <label className="searchLabel">Search for course code/short name</label>
+            <input type="search" id="courseSeachInp" className="searchBar" onKeyUp={e => handleKeyStroke(e.target.value)}></input>
+          </div>
+          <div className="courseFilter">
+            <label className="filterLabel">Filter Options</label>
+            <div>
+              <button className={buttonName[0]} onClick={() => handleFilter('red')}>Filter on Red</button>
+              <button className={buttonName[1]} onClick={() => handleFilter('orange')}>Filter on Yellow</button>
+            </div>
+          </div>
         </div>
         <div className="courseOverview">
           <CourseTableContent
