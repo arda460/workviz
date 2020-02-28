@@ -125,6 +125,16 @@ export default function CourseTable(props) {
               <button className={buttonName[1]} onClick={() => handleFilter('orange')}>Filter on Yellow</button>
             </div>
           </div>
+          <div className="courseInfo">
+            <div className="redInfo">
+                <div className="redBox"></div>
+                <p className="reText">Task Hour Allocation Needed</p>
+            </div>
+            <div className="yellowInfo">
+                <div className="yellowBox"></div>
+                <p className="yellowText">Teacher Allocation Needed</p>
+            </div>
+          </div>
         </div>
         <div className="courseOverview">
           <CourseTableContent

@@ -23,6 +23,13 @@
     flex-direction: column;
 }
 
+.courseInfo {
+    margin: 20px 0 10px 40px;
+
+    display: flex;
+    flex-direction: column;
+}
+
 .searchLabel,
 .filterLabel {
     font-size: 1rem;
@@ -51,4 +58,26 @@
 
 .courseControls {
     display: flex;
+}
+
+.redInfo,
+.yellowInfo {
+    margin-top: 5px;
+    display: flex;
+}
+
+.redInfo {
+    margin-bottom: 10px;
+}
+
+.redBox,
+.yellowBox {
+    padding: 10px;
+    background-color: #F06E37;
+
+    margin-right: 10px;
+}
+
+.yellowBox {
+    background-color: #EDB761;
 }
