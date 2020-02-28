@@ -26,8 +26,6 @@ export default function CourseTable(props) {
         springData: VT20
       };
 
-      console.log(d);
-
       if (val === '') {
         setData(d);
       }

@@ -10,6 +10,10 @@ function CourseTableContent(props) {
     let springColors = {};
     let autumnColors = {};
 
+    const cols = ['Föreläsning (Frl)  Budgeted', 'Övning (Ovn)  Budgeted', 'Laboration (La)  Budgeted',
+                    'Handledning (Ha)  Budgeted', 'Examination (Ex)  Budgeted', 'Kursutveckling (Ku)  Budgeted',
+                    'Administration (Adm)  Budgeted', 'Totalt  Budgeted'];
+
     const distributeAutumn = (data, key) => {
         const periods = data[key]['Period'];
         if (periods.length === 1) {
@@ -62,14 +66,20 @@ function CourseTableContent(props) {
         const sum = teacherSum(data[key]['Teachers']);
         const totalBudg = isNaN(parseInt(data[key]['Totalt  Budgeted'])) ? 0 : parseInt(data[key]['Totalt  Budgeted']);
         const totalAllo = isNaN(parseInt(data[key]['Totalt  Allocated'])) ? 0 : parseInt(data[key]['Totalt  Allocated']);
+        
+        const check = cols.filter(k => {
+            const alloKey = k.replace('Budgeted', 'Allocated');
+            const budgVal = isNaN(parseInt(data[key][k])) ? 0 : parseInt(data[key][k]);
+            const alloVal = isNaN(parseInt(data[key][alloKey])) ? 0 : parseInt(data[key][alloKey]);
+            if(budgVal > alloVal)
+                return true;
+            return false;
+        });
 
-        if (totalBudg > totalAllo)
+        if ( totalBudg === 0 || check.length > 0)
             autumnColors[key] = 'red';
-        //else if (totalBudg < totalAllo)
-            //autumnColors[key] = 'green';
         else if (sum < totalAllo || 'UNKNOWN MID' in data[key]['Teachers'])
             autumnColors[key] = 'orange';
-
     };
 
     const setSpringColor = (data, key) => {
@@ -77,13 +87,19 @@ function CourseTableContent(props) {
         const totalBudg = isNaN(parseInt(data[key]['Totalt  Budgeted'])) ? 0 : parseInt(data[key]['Totalt  Budgeted']);
         const totalAllo = isNaN(parseInt(data[key]['Totalt  Allocated'])) ? 0 : parseInt(data[key]['Totalt  Allocated']);
 
-        if (totalBudg > totalAllo)
+        const check = cols.filter(k => {
+            const alloKey = k.replace('Budgeted', 'Allocated');
+            const budgVal = isNaN(parseInt(data[key][k])) ? 0 : parseInt(data[key][k]);
+            const alloVal = isNaN(parseInt(data[key][alloKey])) ? 0 : parseInt(data[key][alloKey]);
+            if(budgVal > alloVal)
+                return true;
+            return false;
+        });
+
+        if ( totalBudg === 0 || check.length > 0)
             springColors[key] = 'red';
-        //else if (totalBudg < totalAllo)
-            //springColors[key] = 'green';
         else if (sum < totalAllo || 'UNKNOWN MID' in data[key]['Teachers']) 
             springColors[key] = 'orange';
-
     };
 
     // eslint-disable-next-line array-callback-return
