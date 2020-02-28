@@ -26,22 +26,33 @@ export default function CourseTable(props) {
         springData: VT20
       };
 
+      console.log(d);
+
       if (val === '') {
         setData(d);
       }
       else {
-        const filterdAutumn = Object.keys(d['autumnData']).filter(key => key.includes(val.toUpperCase()))
+        const filterdAutumn = Object.keys(d['autumnData']).filter(key => {
+          if (key.includes(val.toUpperCase()) || d['autumnData'][key]['short name'].toUpperCase().includes(val.toUpperCase()))
+            return true
+          
+          return false;
+        })
           .reduce((obj, key) => {
             obj[key] = d['autumnData'][key];
             return obj;
           }, {});
-  
-        const filterdSpring = Object.keys(d['springData']).filter(key => key.includes(val.toUpperCase()))
+
+        const filterdSpring = Object.keys(d['springData']).filter(key => {
+          if (key.includes(val.toUpperCase()) || d['springData'][key]['short name'].toUpperCase().includes(val.toUpperCase()))
+            return true;
+          return false;
+        })
           .reduce((obj, key) => {
             obj[key] = d['springData'][key];
             return obj;
           }, {});
-  
+
         const filtered = {
           autumnData: filterdAutumn,
           springData: filterdSpring
