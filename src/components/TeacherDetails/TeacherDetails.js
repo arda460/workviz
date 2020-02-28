@@ -65,14 +65,14 @@ function TeacherDetails({ selectedPerson, crossClick, isShowing }) {
 
   useEffect(() => {
     if (!loading)
-      setData({ name: selectedPerson, data: summary20[selectedPerson] });
+      setData({ name: selectedPerson, summary: summary20[selectedPerson] });
   }, [selectedPerson, loading]);
 
   return (
     <>
       {!loading && (
         <TeacherInfo data={data}>
-          <InfoChart />
+          <InfoChart data={data} />
         </TeacherInfo>
       )}
       <StaffingInfo />
