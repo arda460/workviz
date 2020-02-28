@@ -60,6 +60,7 @@ export default function CourseTable(props) {
         };
 
         setData(filtered);
+        setButtonName(['filterButton', 'filterButton']);
       }
 
     }
