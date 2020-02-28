@@ -619,11 +619,11 @@
         "Kontering HCT (%)": 43.75,
         "Bemnnad HCT Gru (%)": 42.77,
         "Responsible VT": [
-            "DH2400"
+            "DH2400 V"
         ],
         "VT Courses": [
             {
-                "Course Code": "DH2400",
+                "Course Code": "DH2400 V",
                 "Short Name": "interakv",
                 "Work %": 3.9
             },
@@ -649,7 +649,7 @@
                 "Work %": 9.3
             },
             {
-                "Course Code": "DH2400",
+                "Course Code": "DH2400 H",
                 "Short Name": "interak",
                 "Work %": 6.1
             },
@@ -1048,11 +1048,11 @@
         "VT Courses": [],
         "Gru VT (%)": 0.0,
         "Responsible HT": [
-            "DH2400"
+            "DH2400 H"
         ],
         "HT Courses": [
             {
-                "Course Code": "DH2400",
+                "Course Code": "DH2400 H",
                 "Short Name": "interak",
                 "Work %": 7.5
             }
@@ -1707,7 +1707,7 @@
         ],
         "VT Courses": [
             {
-                "Course Code": "DH2400",
+                "Course Code": "DH2400 V",
                 "Short Name": "interakv",
                 "Work %": 0.5
             },
@@ -1726,7 +1726,7 @@
         "Responsible HT": [],
         "HT Courses": [
             {
-                "Course Code": "DH2400",
+                "Course Code": "DH2400 H",
                 "Short Name": "interak",
                 "Work %": 0.5
             }
@@ -2933,7 +2933,7 @@
                 "Work %": 5.3
             },
             {
-                "Course Code": "DH2400",
+                "Course Code": "DH2400 V",
                 "Short Name": "interakv",
                 "Work %": 7.1
             },
@@ -3005,7 +3005,7 @@
         "Responsible VT": [],
         "VT Courses": [
             {
-                "Course Code": "DH2400",
+                "Course Code": "DH2400 V",
                 "Short Name": "interakv",
                 "Work %": 6.0
             },
@@ -3044,7 +3044,7 @@
         "Responsible HT": [],
         "HT Courses": [
             {
-                "Course Code": "DH2400",
+                "Course Code": "DH2400 H",
                 "Short Name": "interak",
                 "Work %": 5.3
             },
@@ -3110,7 +3110,7 @@
                 "Work %": 5.3
             },
             {
-                "Course Code": "DH2400",
+                "Course Code": "DH2400 V",
                 "Short Name": "interakv",
                 "Work %": 0.9
             },
@@ -3154,7 +3154,7 @@
         "Responsible HT": [],
         "HT Courses": [
             {
-                "Course Code": "DH2400",
+                "Course Code": "DH2400 H",
                 "Short Name": "interak",
                 "Work %": 0.9
             },
