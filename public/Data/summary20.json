@@ -122,11 +122,11 @@
         "Kontering HCT (%)": 52.5,
         "Bemnnad HCT Gru (%)": 37.81,
         "Responsible VT": [
-            "DH2642"
+            "DH2642 V"
         ],
         "VT Courses": [
             {
-                "Course Code": "DH2642",
+                "Course Code": "DH2642 V",
                 "Short Name": "iprogd",
                 "Work %": 9.9
             },
@@ -138,12 +138,12 @@
         ],
         "Gru VT (%)": 13.2,
         "Responsible HT": [
-            "DH2642",
+            "DH2642 H",
             "DH2643"
         ],
         "HT Courses": [
             {
-                "Course Code": "DH2642",
+                "Course Code": "DH2642 H",
                 "Short Name": "iprogdh",
                 "Work %": 9.3
             },
@@ -991,11 +991,11 @@
         "Kontering HCT (%)": 20.0,
         "Bemnnad HCT Gru (%)": 15.59,
         "Responsible VT": [
-            "DH2632"
+            "DH2632 V"
         ],
         "VT Courses": [
             {
-                "Course Code": "DH2632",
+                "Course Code": "DH2632 V",
                 "Short Name": "mdisemv",
                 "Work %": 4.0
             },
@@ -1012,11 +1012,11 @@
         ],
         "Gru VT (%)": 8.2,
         "Responsible HT": [
-            "DH2632"
+            "DH2632 H"
         ],
         "HT Courses": [
             {
-                "Course Code": "DH2632",
+                "Course Code": "DH2632 H",
                 "Short Name": "mdisemh",
                 "Work %": 6.6
             },
@@ -1158,7 +1158,7 @@
         "Responsible VT": [],
         "VT Courses": [
             {
-                "Course Code": "DH2632",
+                "Course Code": "DH2632 V",
                 "Short Name": "mdisemv",
                 "Work %": 5.5
             },
@@ -1172,7 +1172,7 @@
         "Responsible HT": [],
         "HT Courses": [
             {
-                "Course Code": "DH2632",
+                "Course Code": "DH2632 H",
                 "Short Name": "mdisemh",
                 "Work %": 8.1
             }
@@ -3010,7 +3010,7 @@
                 "Work %": 6.0
             },
             {
-                "Course Code": "DH2642",
+                "Course Code": "DH2642 V",
                 "Short Name": "iprogd",
                 "Work %": 27.6
             },
@@ -3054,7 +3054,7 @@
                 "Work %": 2.2
             },
             {
-                "Course Code": "DH2642",
+                "Course Code": "DH2642 H",
                 "Short Name": "iprogdh",
                 "Work %": 41.8
             },
@@ -3120,12 +3120,12 @@
                 "Work %": 1.4
             },
             {
-                "Course Code": "DH2632",
+                "Course Code": "DH2632 V",
                 "Short Name": "mdisemv",
                 "Work %": 1.1
             },
             {
-                "Course Code": "DH2642",
+                "Course Code": "DH2642 V",
                 "Short Name": "iprogd",
                 "Work %": 1.2
             },
@@ -3164,12 +3164,12 @@
                 "Work %": 0.8
             },
             {
-                "Course Code": "DH2632",
+                "Course Code": "DH2632 H",
                 "Short Name": "mdisemh",
                 "Work %": 1.4
             },
             {
-                "Course Code": "DH2642",
+                "Course Code": "DH2642 H",
                 "Short Name": "iprogdh",
                 "Work %": 1.2
             },
