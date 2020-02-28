@@ -5,7 +5,6 @@ function TeacherInfo({ data, children }) {
     return <>loading...</>;
   }
   const { name, summary } = data;
-  console.log(summary);
 
   return (
     <div className="infoContainer">
@@ -44,7 +43,6 @@ function TeacherInfo({ data, children }) {
             </div>
           </div>
         </div>
-        {children}
       </div>
     </div>
   );

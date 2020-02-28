@@ -20,6 +20,14 @@ function InfoChart({ data }) {
     summary["HT Courses"].forEach(course => {
       activity[[course["Course Code"]]] = course["Work %"];
     });
+    summary["VT Courses"].forEach(course => {
+      let c = activity[[course["Course Code"]]];
+      if (c in activity) {
+        activity[`VT${c}`] = course["Work %"];
+      } else {
+        activity[[course["Course Code"]]] = course["Work %"];
+      }
+    });
     // let ht = summary["VT Courses"].map(c => {
     //   return {
     //     [c["Course Code"]]: c["Work %"],
@@ -30,9 +38,13 @@ function InfoChart({ data }) {
 
     // let activity = vt.concat(ht);
     // let activity = vt;
-    activity["Friskvård"] = summary["Self-development &Friskvård (%)"] || 1; // should be 0!
-    activity["Extra"] = summary["Extra (%)"] || 1; // should be 0!
-    activity["subgroup"] = "Workload";
+    if (summary["Self-development &Friskvård (%)"]) {
+      activity["Friskvård"] = summary["Self-development &Friskvård (%)"];
+    }
+    if (summary["Extra (%)"]) {
+      activity["Extra"] = summary["Extra (%)"] || 1; // should be 0!
+    }
+    activity["group"] = "Workload";
 
     setChartData([activity]);
   };

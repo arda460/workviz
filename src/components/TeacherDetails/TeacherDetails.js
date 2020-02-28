@@ -3,7 +3,7 @@ import * as d3 from "d3";
 import "./TeacherDetails.css";
 import TeacherInfo from "./TeacherInfo";
 import StaffingInfo from "./StaffingInfo";
-import InfoChart from "./InfoChart";
+import InfoChart from "./InfoChartData";
 import { DataContext } from "../../context/DataContext";
 
 function TeacherDetails({ selectedPerson, crossClick, isShowing }) {
@@ -72,7 +72,7 @@ function TeacherDetails({ selectedPerson, crossClick, isShowing }) {
     <>
       {!loading && (
         <TeacherInfo data={data}>
-          <InfoChart data={data} />
+          <InfoChart data={{ ...data }} />
         </TeacherInfo>
       )}
       <StaffingInfo />
