@@ -22,3 +22,38 @@
   border: 2px solid #73ad21;
   padding: 20px;
 }
+.teacherrow {
+  min-width: 100%;
+}
+.teacherInfo {
+  width: 25%;
+  display: flex;
+}
+.teacher-label {
+  margin-right: 10px;
+  border-right: 1px dashed black;
+}
+.InfoDetails {
+  float: left;
+}
+.teacher-item {
+  margin-bottom: 10px;
+  margin-right: 20px;
+}
+.w50 {
+  width: 50%;
+}
+.w30 {
+  width: 30%;
+}
+.w-fill {
+  justify-content: space-between;
+}
+.infoContainer {
+  width: 95%;
+  border: 1px dashed black;
+}
+
+.infoContainer svg {
+  border: 4px dashed palevioletred;
+}
