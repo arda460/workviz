@@ -5,8 +5,13 @@ import "./CourseDetails.css";
 
 export default function CourseDetails(props) {
     const { data } = props;
-    const { courseDetails } = useContext(GlobalStateContext);
+    const { courseDetails, setCourseDetails } = useContext(GlobalStateContext);
     const d = useRef(null);
+
+    const exitDetails = () => {
+        setCourseDetails(false);
+        d.current = null;
+    };
 
     if (courseDetails)
         d.current = data['autumnData'][courseDetails] ? data['autumnData'][courseDetails] : data['springData'][courseDetails];
@@ -15,6 +20,14 @@ export default function CourseDetails(props) {
         <div className="courseFlex">
             {d.current &&
                 <div className="detailsColInfo">
+                    <div className="detailsRow">
+                        <div className="courseDetailsCourse">
+                            <h5 className="courseDetailCourseLabel">Exit</h5>
+                            <div className="courseDetailInfo">
+                                <button onClick={() => exitDetails()}>Exit</button>
+                            </div>
+                        </div>
+                    </div>
                     <div className="detailsRow">
                         <div className="courseDetailsCourse">
                             <h5 className="courseDetailCourseLabel">Course</h5>
