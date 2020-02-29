@@ -22,14 +22,6 @@ export default function CourseDetails(props) {
                 <div className="detailsColInfo">
                     <div className="detailsRow">
                         <div className="courseDetailsCourse">
-                            <h5 className="courseDetailCourseLabel">Exit</h5>
-                            <div className="courseDetailInfo">
-                                <button onClick={() => exitDetails()}>Exit</button>
-                            </div>
-                        </div>
-                    </div>
-                    <div className="detailsRow">
-                        <div className="courseDetailsCourse">
                             <h5 className="courseDetailCourseLabel">Course</h5>
                             <div className="courseDetailInfo">
                                 <h4 className="courseDetailItem">{courseDetails}</h4>
@@ -81,7 +73,7 @@ export default function CourseDetails(props) {
             }
             {d.current &&
                 <div className="detailsCol">
-                    <div className="detailsRow">
+                    <div className="detailsRow teacherchart">
                         <CourseWorksplitChart d={d.current}></CourseWorksplitChart>
                     </div>
                     <div className="detailsRow"></div>
