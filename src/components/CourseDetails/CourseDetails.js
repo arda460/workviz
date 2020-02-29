@@ -79,6 +79,9 @@ export default function CourseDetails(props) {
                     <div className="detailsRow"></div>
                 </div>
             }
+            <div className="detailsCol">
+                <button className="exitDetailsButton" onClick={() => exitDetails()}>X</button>
+            </div>
         </div>
     )
 }
