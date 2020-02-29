@@ -3,9 +3,10 @@
     display: flex;
     border: 1px dashed black;
     border-radius: 5px;
-
-    min-height: 400px;
-    max-height: 400px;
+    
+    width: 95%;
+    min-height: 100%;
+    max-height: 100%;
 }
 
 .detailsColInfo {
@@ -108,3 +109,25 @@
 .teacherTableContent::-webkit-scrollbar-thumb:hover {
     background: #555; 
   }
+
+.detailsCol {
+    width: 100%;
+}
+
+.detailsRow.teacherchart {
+    width: 95%;
+    height: 60%;
+}
+
+.coursewsContainer {
+    width: 95%;
+    height: 100%;
+}
+
+.exitDetailsButton {
+    font-size: 1rem;
+    margin: 10px;
+    padding: 10px;
+}
+
+
