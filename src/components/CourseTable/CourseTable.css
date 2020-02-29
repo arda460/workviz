@@ -2,10 +2,16 @@
 
 .courseContainer {
     max-width: 95%;
+    height: 65%;
     margin: 0 auto;
 
     display: flex;
     flex-direction: column;
+}
+
+.courseDetailsContainer {
+    height: 100%;
+    width: 100%;
 }
 
 .courseSearch {
