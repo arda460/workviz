@@ -1,0 +1,6 @@
+.detailsRow.progress {
+
+
+    display: flex;
+    flex-direction: row;
+ }

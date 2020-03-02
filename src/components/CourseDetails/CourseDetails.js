@@ -1,6 +1,7 @@
 import React, { useRef, useContext } from "react";
 import { GlobalStateContext } from "../../context/GlobalStateContext";
 import CourseDetailsRow from "../CourseDetailsRow/CourseDetailsRow";
+import ProgressBars from "../ProgressBars/ProgressBars";
 import "./CourseDetails.css";
 
 export default function CourseDetails(props) {
@@ -29,7 +30,9 @@ export default function CourseDetails(props) {
                 </div>
             }
             {d.current && 
-                <div className="detailsCol"></div>
+                <div className="detailsCol">
+                    <ProgressBars data={d.current}></ProgressBars>
+                </div>
             }
             {d.current &&
                 <div className="detailsCol exit">
