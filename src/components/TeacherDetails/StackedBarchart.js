@@ -2,38 +2,42 @@ import React, { useRef, useEffect, useCallback } from "react";
 import * as d3 from "d3";
 import { DataContext } from "../../context/DataContext";
 
-function StackedBarchart({ data }) {
-  const margin = { top: 30, left: 30, bottom: 30, right: 30 };
-  const width = 200;
-  const height = 200;
-
+function StackedBarchart(props) {
+  const { data, margin, width, height } = props;
+  const divRef = useRef(null);
   const svgRef = useRef(null);
-  // const sum = d3.sum(data.map(d => d.value));
   const keys = Object.keys(data[0]).filter(k => k !== "group");
   const groups = data.map(d => d.group);
 
-  const svg = d3
-    .select(svgRef.current)
-    .append("svg")
-    .attr("width", width)
-    .attr("height", height);
+  // eslint-disable-next-line react-hooks/exhaustive-deps
+  const draw = useCallback(() => {
+    const svg = d3
+      .select(svgRef.current)
+      .html(null)
+      .attr("width", width)
+      .attr("height", height);
 
-  const draw = () => {
     let stack = d3.stack().keys(keys);
-    let series = stack(data);
-    let max = series[series.length - 1][0][1];
-    console.log(series);
 
-    const x = d3
-      .scaleBand()
-      .domain(groups)
-      .range([margin.left, width - margin.right])
-      .padding([0.2]);
+    const g = svg.append("g");
+
+    let series = stack(data);
+
+    if (series.length === 0) {
+      return <span>Values empty.</span>;
+    }
+    let max = series[series.length - 1][0][1];
 
     const y = d3
+      .scaleBand()
+      .domain(groups)
+      .range([margin.top, height - margin.bottom])
+      .padding([0.2]);
+
+    const x = d3
       .scaleLinear()
       .domain([0, max])
-      .range([height - margin.top, 0 + margin.bottom]);
+      .range([width - margin.right, margin.left]);
 
     const color = d3
       .scaleOrdinal()
@@ -41,67 +45,71 @@ function StackedBarchart({ data }) {
       .range(d3.schemeCategory10);
 
     // Show the bars
-    svg
-      .append("g")
-      .selectAll("g")
-      // Enter in the stack data = loop key per key = group per group
+    g.selectAll("g")
       .data(series)
-      .enter()
-      .append("g")
+      .join("g")
       .attr("fill", function(d) {
         return color(d.key);
       })
+      .attr("class", d => `${d.key} bar`)
+
       .selectAll("rect")
-      //   // enter a second time = loop subgroup per subgroup to add all rectangles
       .data(function(d) {
-        console.log(d);
         return d;
       })
       .enter()
       .append("rect")
-      .attr("x", function(d) {
-        return x(d.data.group);
-      })
       .attr("y", function(d) {
-        return y(d[1]);
+        return y(d.data.group);
       })
-      .attr("height", function(d) {
-        return y(d[0]) - y(d[1]);
+      .attr("x", function(d) {
+        return x(d[1]);
       })
-      .attr("width", x.bandwidth());
+      .attr("width", function(d) {
+        return x(d[0]) - x(d[1]);
+      })
+      .attr("height", y.bandwidth())
+      .exit()
+      .remove();
+    const legend = svg
+      .append("g")
+      .attr("font-family", "sans-serif")
+      .attr("font-size", 10)
+      .selectAll("g")
+      .data(keys.slice().reverse())
+      .enter()
+      .append("g")
+      .attr("transform", function(d, i) {
+        return `translate(${5 + i * 22},20)`;
+      });
 
-    // console.log(data);
-
-    // const x = d3
-    //   .scaleBand()
-    //   .range([0, width - margin.left - margin.right])
-    //   .domain([subgroups]);
-
-    // const stackedData = d3
-    //   .stack()
-    //   .keys(subgroups)
-    //   .value();
-    // // console.log(stackedData);
-    // // console.log(data);
-
-    // // var dataStack = d3.stack()(data..map(function(fruit) {
-    // //   return data.map(function(d) {
-    // //     return {x: parse(d.year), y: +d[fruit]};
-    // //   });
-    // // }));
-
-    // const y = d3
-    //   .scaleLinear()
-    //   .range([margin.top, height - margin.bottom])
-    //   .domain([0, sum]);
-  };
+    legend
+      .append("rect")
+      .attr("x", 19)
+      .attr("width", 19)
+      .attr("height", 19)
+      .attr("fill", color)
+      .on("mouseenter", d => {
+        console.log(window.pageXOffset);
+        svg.selectAll(`.bar:not(.${d})`).style("opacity", 0.5);
+        svg
+          .select(`.${d}`)
+          .attr("fill", "blue")
+          .style("opacity", 1);
+        // svg.select(".bar").attr("fill", "red");
+      })
+      .on("mouseleave", d => {
+        svg.select(`.${d}`).attr("fill", color(d));
+        svg.selectAll(".bar").style("opacity", 1);
+      });
+  });
   useEffect(() => {
     draw();
-  }, [data]);
+  }, [draw, svgRef]);
   return (
-    <>
+    <div>
       <svg ref={svgRef}></svg>
-    </>
+    </div>
   );
 }
 
