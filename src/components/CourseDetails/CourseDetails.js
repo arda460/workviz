@@ -18,7 +18,7 @@ export default function CourseDetails(props) {
         d.current = data['autumnData'][courseDetails] ? data['autumnData'][courseDetails] : data['springData'][courseDetails];
 
     return (
-        <div className="courseFlex">
+        <div id="courseFlex" className="courseFlex">
             {d.current &&
                 <div className="detailsColInfo">
                     <CourseDetailsRow cname="courseDetailInfo" label="Course" data={[courseDetails, d.current['short name']]}/>
