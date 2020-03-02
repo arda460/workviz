@@ -1,6 +1,7 @@
 import React, { useRef, useContext } from "react";
 import { GlobalStateContext } from "../../context/GlobalStateContext";
-import CourseWorksplitChart from "../CourseWorksplitChart/CourseWorksplitChart";
+import CourseDetailsRow from "../CourseDetailsRow/CourseDetailsRow";
+import ProgressBars from "../ProgressBars/ProgressBars";
 import "./CourseDetails.css";
 
 export default function CourseDetails(props) {
@@ -17,71 +18,27 @@ export default function CourseDetails(props) {
         d.current = data['autumnData'][courseDetails] ? data['autumnData'][courseDetails] : data['springData'][courseDetails];
 
     return (
-        <div className="courseFlex">
+        <div id="courseFlex" className="courseFlex">
             {d.current &&
                 <div className="detailsColInfo">
-                    <div className="detailsRow">
-                        <div className="courseDetailsCourse">
-                            <h5 className="courseDetailCourseLabel">Course</h5>
-                            <div className="courseDetailInfo">
-                                <h4 className="courseDetailItem">{courseDetails}</h4>
-                                <h6 className="courseDetailItem">{d.current['short name']}</h6>
-                            </div>
-                        </div>
-                    </div>
-                    <div className="detailsRow">
-                        <div className="courseDetailsCourse">
-                            <h5 className="courseDetailCourseLabel">Responsible</h5>
-                            <div className="courseDetailInfo">
-                                <h5 className="courseDetailItem">Name</h5>
-                                <h6 className="courseDetailItem">Status</h6>
-                                <h6 className="courseDetailItem">Department</h6>
-                            </div>
-                        </div>
-                    </div>
-                    <div className="detailsRow">
-                        <div className="courseDetailsCourse">
-                            <h5 className="courseDetailCourseLabel">Periods</h5>
-                            <div className="courseDetailInfoRow">
-                                {d.current['Period'].map(per => <h6 key={per} className="courseDetailItem">{per}</h6>)}
-                            </div>
-                        </div>
-                    </div>
-                    <div className="detailsRowFinal">
-                        <div className="courseDetailsTeachers">
-                            <div className="teacherTable">
-                                <div>
-                                    <div className="teacherTableTopRow">
-                                        <h6>Responsibility</h6>
-                                        <h6>Name</h6>
-                                    </div>
-                                </div>
-                                <div className="teacherTableContent">
-                                    {Object.keys(d.current['Teachers']).map(teach => {
-                                        return (
-                                            <div key={teach} className="teacherTableRow">
-                                                <p>{Object.keys(d.current['Teachers'][teach]).map(resp => `${resp} `)}</p>
-                                                <p>{teach}</p>
-                                            </div>
-                                        )
-                                    })}
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+                    <CourseDetailsRow cname="courseDetailInfo" label="Course" data={[courseDetails, d.current['short name']]}/>
+                    <CourseDetailsRow 
+                        cname="courseDetailInfo" 
+                        label="Responsible" 
+                        data={d.current['Responsible'].length > 0 ? d.current['Responsible'] : ['Not Available']}/>
+                    <CourseDetailsRow cname="courseDetailInfo row" label="Periods" data={d.current['Period']}/>
+                </div>
+            }
+            {d.current && 
+                <div className="detailsCol">
+                    <ProgressBars data={d.current}></ProgressBars>
                 </div>
             }
             {d.current &&
-                <div className="detailsCol">
-                    <div className="detailsRow teacherchart">
-                        <CourseWorksplitChart d={d.current}></CourseWorksplitChart>
-                    </div>
-                    <div className="detailsRow"></div>
+                <div className="detailsCol exit">
+                    <button className="exitDetailsButton" onClick={() => exitDetails()}>X</button>
                 </div>
             }
-            <div className="detailsCol">
-                <button className="exitDetailsButton" onClick={() => exitDetails()}>X</button>
-            </div>
         </div>
     )
 }

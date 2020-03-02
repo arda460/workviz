@@ -146,6 +146,7 @@ const BarChart = props => {
         .exit()
         .remove();
     };
+  // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [data]);
   return (
     <div>
