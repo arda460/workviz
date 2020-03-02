@@ -17,112 +17,13 @@
     max-height: 100%;
 }
 
-.detailsRow {
-   min-width: 100%;
-}
-.detailsRowFinal {
-   min-width: 100%; 
-   overflow: hidden;
-   margin-bottom: 10px;
-}
-
-.courseDetailsCourse {
-    margin: 5px 20px 0 20px;
-    display: flex;
-    flex-direction: row;
-
-    border-top: 1px solid black;
-    padding-top: 10px;
-}
-
-.courseDetailCourseLabel {
-    margin-right: 10px;
-    border-right: 1px dashed black;
-    padding-right: 20px;
-    align-self: stretch;
-
-    width: 30%;
-}
-
-.courseDetailInfo {
-    margin-left: 40px;
-}
-
-.courseDetailInfoRow {
-    display: flex;
-    margin-left: 40px;
-}
-
-.courseDetailItem {
-    margin-bottom: 10px;
-    margin-right: 20px;
-}
-
-.courseDetailsTeachers {
-    margin: 5px 20px 0 20px;
-    display: flex;
-    flex-direction: row;
-
-    border-top: 1px solid black;
-    padding-top: 10px;
-
-    height: 100%;
-}
-
-.teacherTable {
-    display: flex;
-    flex-direction: column;
-    width: 100%;
-
-}
-
-.teacherTableTopRow {
-    display: flex;
-    justify-content: space-between;
-    padding-right: 30px;
-}
-.teacherTableRow {
-    display: flex;
-    justify-content: space-between;
-}
-
-.teacherTableContent {
-    overflow: auto;
-    padding-right: 20px;
-}
-
-.teacherTableContent::-webkit-scrollbar {
-    width: 10px;
-  }
-  
-  /* Track */
-.teacherTableContent::-webkit-scrollbar-track {
-    background: #f1f1f1; 
-  }
-   
-  /* Handle */
-.teacherTableContent::-webkit-scrollbar-thumb {
-    background: #888; 
-  }
-  
-  /* Handle on hover */
-.teacherTableContent::-webkit-scrollbar-thumb:hover {
-    background: #555; 
-  }
-
 .detailsCol {
     width: 100%;
 }
 
-.detailsRow.teacherchart {
-    width: 95%;
-    height: 60%;
-}
-
-.coursewsContainer {
-    width: 95%;
-    height: 100%;
-}
+.detailsCol.exit {
+    width: 5%;
+} 
 
 .exitDetailsButton {
     font-size: 1rem;
