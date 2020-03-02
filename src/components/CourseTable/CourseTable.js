@@ -116,7 +116,7 @@ export default function CourseTable(props) {
         <div className="courseControls">
           <div className="courseSearch">
             <label className="searchLabel">Search for course code/short name</label>
-            <input type="search" id="courseSeachInp" className="searchBar" onKeyUp={e => handleKeyStroke(e.target.value)}></input>
+            <input type="search" id="courseSeachInp" className="searchBar" onChange={e => handleKeyStroke(e.target.value)}></input>
           </div>
           <div className="courseFilter">
             <label className="filterLabel">Filter Options</label>

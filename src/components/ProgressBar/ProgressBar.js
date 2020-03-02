@@ -7,7 +7,7 @@ export default function ProgressBar(props) {
     const svgRef = useRef(null);
 
     const width = height;
-    const arcWidth = 5;
+    const arcWidth = height * 0.045;
     const arcOuterOuterRadious = width / 2.5 + arcWidth;
     const arcOuterRadius = width / 2.5;
     const arcInnerRadius = width / 2.5 - arcWidth;
