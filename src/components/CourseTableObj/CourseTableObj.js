@@ -5,6 +5,7 @@ import "./CourseTableObj.css";
 function CourseTableObj(props) {
     const { colors, title, inCol, spreadNext, spreadAll, setCourseDetails } = props;
     const mergedColors = {...colors[0],...colors[1]};
+
     return (
         <div className="courseColumn">
             <h5 className="periodTitle">{title}</h5>

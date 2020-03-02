@@ -5,8 +5,13 @@ import "./CourseDetails.css";
 
 export default function CourseDetails(props) {
     const { data } = props;
-    const { courseDetails } = useContext(GlobalStateContext);
+    const { courseDetails, setCourseDetails } = useContext(GlobalStateContext);
     const d = useRef(null);
+
+    const exitDetails = () => {
+        setCourseDetails(false);
+        d.current = null;
+    };
 
     if (courseDetails)
         d.current = data['autumnData'][courseDetails] ? data['autumnData'][courseDetails] : data['springData'][courseDetails];
@@ -68,12 +73,15 @@ export default function CourseDetails(props) {
             }
             {d.current &&
                 <div className="detailsCol">
-                    <div className="detailsRow">
+                    <div className="detailsRow teacherchart">
                         <CourseWorksplitChart d={d.current}></CourseWorksplitChart>
                     </div>
                     <div className="detailsRow"></div>
                 </div>
             }
+            <div className="detailsCol">
+                <button className="exitDetailsButton" onClick={() => exitDetails()}>X</button>
+            </div>
         </div>
     )
 }
