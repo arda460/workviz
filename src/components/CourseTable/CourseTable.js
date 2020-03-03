@@ -161,11 +161,8 @@ return (
         </div>
       </div>
       <div className="courseFilter">
-        <label className="filterLabel">Filter Options</label>
-        <div>
           <button className={buttonName[0]} onClick={() => handleFilter('red')}>Filter on Red</button>
           <button className={buttonName[1]} onClick={() => handleFilter('orange')}>Filter on Yellow</button>
-        </div>
       </div>
       <div className="courseInfo">
         <div className="redInfo">

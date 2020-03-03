@@ -3,7 +3,7 @@ import * as d3 from "d3";
 import "./ProgressBar.css";
 
 export default function ProgressBar(props) {
-    const { percentage, label, height, bHours, aHours } = props;
+    const { percentage, percentage2, percentage3, label, height, bHours, aHours, tHours, uHours } = props;
     const svgRef = useRef(null);
 
     const width = height;
@@ -24,7 +24,7 @@ export default function ProgressBar(props) {
         });
 
     const getColor = (p) => {
-        return p < 1 ? '#F06E37' : '#82d982';
+        return p < 1 ? '#F06E37' : '#56bf56';
     }
 
     const draw = () => {
@@ -64,7 +64,7 @@ export default function ProgressBar(props) {
         // Otherwise fill the progressbar
         else {
             // Circle in middle
-            if(bHours > 0 && aHours === 0) {
+            if (bHours > 0 && aHours === 0) {
                 circle.style('fill', 'red')
                     .style("opacity", 0.2)
             }
@@ -83,7 +83,7 @@ export default function ProgressBar(props) {
                 .duration(1000)
                 .attrTween('d', () => {
                     return (t) => {
-                        return progressArc(arcInnerRadius+3, arcOuterRadius, 1 * t);
+                        return progressArc(arcInnerRadius + 3, arcOuterRadius, 1 * t);
                     }
                 });
 
@@ -98,27 +98,62 @@ export default function ProgressBar(props) {
                 .duration(1000)
                 .attrTween('d', () => {
                     return (t) => {
-                        return progressArc(arcInnerRadius-1, arcOuterRadius+1, percentage * t);
+                        return progressArc(arcInnerRadius - 1, arcOuterRadius + 1, percentage * t);
                     }
                 });
 
 
             // If allocated hours > budgeted then add the extra outer line
             if (percentage > 1) {
+                const toMuchAllo = svg.append("g")
+                    .attr("transform", "translate(" + width / 2 + "," + height / 2 + ")")
+                    .append("path")
+                    .style("fill", '#2e662e');
+
+                // Transition for toMuchAllo
+                toMuchAllo.transition()
+                    .duration(1000)
+                    .attrTween('d', () => {
+                        return (t) => {
+                            return progressArc(arcInnerRadius, arcOuterRadius, (percentage - 1) * t);
+                        }
+                    });
+            }
+
+            // Outer line -> compares techer hours to allocated, only display if not enough teachers allocated
+            if (tHours < aHours) {
+
                 const outerProgress = svg.append("g")
                     .attr("transform", "translate(" + width / 2 + "," + height / 2 + ")")
                     .append("path")
-                    .style("fill", '#538c53');
+                    .style("fill", '#EDB761');
 
                 // Transition for outer progress
                 outerProgress.transition()
                     .duration(1000)
                     .attrTween('d', () => {
                         return (t) => {
-                            return progressArc(arcOuterRadius, arcOuterOuterRadious, (percentage-1) * t);
+                            return progressArc(arcOuterRadius, arcOuterOuterRadious, percentage2 * t);
                         }
                     });
             }
+            // Deals with UNKNOWN MID hours
+            else if (uHours > 0) {
+                const outerProgress = svg.append("g")
+                    .attr("transform", "translate(" + width / 2 + "," + height / 2 + ")")
+                    .append("path")
+                    .style("fill", '#EDB761');
+
+                // Transition for outer progress
+                outerProgress.transition()
+                    .duration(1000)
+                    .attrTween('d', () => {
+                        return (t) => {
+                            return progressArc(arcOuterRadius, arcOuterOuterRadious, percentage3 * t);
+                        }
+                    });
+            }
+
         }
 
 
@@ -127,13 +162,14 @@ export default function ProgressBar(props) {
     useEffect(() => {
         draw();
         // eslint-disable-next-line react-hooks/exhaustive-deps
-    }, [svgRef, percentage, height]);
-
+    }, [svgRef,percentage, percentage2, height, bHours, aHours, tHours]);
 
     return (
         <div className="progressCol">
             <svg className="progressBar" ref={svgRef}></svg>
             <h5>{label}</h5>
+            {tHours < aHours && <p className="specialHours">{`${aHours - tHours} teacher hours missing`}</p>}
+            {uHours > 0 && <p className="specialHours">{`${uHours} UNKNOWN MID hours`}</p>}
         </div>
     )
 }
