@@ -6,12 +6,15 @@ export default function ProgressBar(props) {
     const { percentage, budgeted, label, height } = props;
     const svgRef = useRef(null);
 
+    console.log(height);
+
+    
     const width = height;
     const arcWidth = height * 0.045;
     const arcOuterOuterRadious = width / 2.5 + arcWidth;
     const arcOuterRadius = width / 2.5;
     const arcInnerRadius = width / 2.5 - arcWidth;
-
+    
     const arcGenerator = d3.arc()
         .startAngle(0)
         .cornerRadius(5);

@@ -21,9 +21,9 @@ export default function ProgressBars(props) {
     
     window.addEventListener("resize", () => {
         const container = document.getElementById('courseFlex');
-        setProgressHeight(container.clientHeight * 0.334);
+        const size = Math.min(container.clientWidth/4.5, container.clientHeight)
+        setProgressHeight(size * 0.334);
     });
-
 
     return (
         <div className="detailsRow progress">
