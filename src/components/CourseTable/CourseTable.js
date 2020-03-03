@@ -128,7 +128,7 @@ export default function CourseTable(props) {
     <div className="courseContainer">
       <div className="courseControls">
         <div className="courseSearch">
-          <label className="searchLabel">Search for course code/short name</label>
+          <label className="searchLabel">Search for{!sliderStatus ? ' course code/short name' : ' teacher'}</label>
           <div className="searchToggle">
             <input type="search" id="courseSeachInp" className="searchBar" onChange={e => handleKeyStroke(e.target.value)}></input>
             <div className="toggler">
