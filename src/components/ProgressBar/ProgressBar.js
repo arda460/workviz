@@ -5,13 +5,13 @@ import "./ProgressBar.css";
 export default function ProgressBar(props) {
     const { percentage, budgeted, label, height } = props;
     const svgRef = useRef(null);
-    
+
     const width = height;
     const arcWidth = height * 0.045;
     const arcOuterOuterRadious = width / 2.5 + arcWidth;
     const arcOuterRadius = width / 2.5;
     const arcInnerRadius = width / 2.5 - arcWidth;
-    
+
     const arcGenerator = d3.arc()
         .startAngle(0)
         .cornerRadius(5);
@@ -47,10 +47,12 @@ export default function ProgressBar(props) {
             .attr('dx', '35%')
             .attr('dy', '55%');
 
-        // Set inner circle red a finish if there are no budgeted hours
+        // Set border dashed and inner color to none if no budgeted hours
         if (budgeted <= 0) {
-            circle.style("opacity", 0.3)
-                .style("fill", 'red');
+            circle.style('fill', 'none')
+                .style('stroke', 'black')
+                .style('stroke-width', 2)
+                .style('stroke-dasharray', 3);
         }
         // Otherwise fill the progressbar
         else {
