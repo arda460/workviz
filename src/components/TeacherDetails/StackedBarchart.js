@@ -43,7 +43,15 @@ function StackedBarchart(props) {
       .scaleOrdinal()
       .domain(keys)
       .range(d3.schemeCategory10);
+    const highlightBar = d => {
+      console.log(d);
 
+      svg.selectAll(`.bar`).style("opacity", 0.5);
+      svg
+        .select(`.${d}`)
+
+        .style("opacity", 1);
+    };
     // Show the bars
     g.selectAll("g")
       .data(series)
@@ -52,7 +60,10 @@ function StackedBarchart(props) {
         return color(d.key);
       })
       .attr("class", d => `${d.key} bar`)
-
+      .on("mouseenter", d => highlightBar(d.key))
+      .on("mouseleave", d => {
+        svg.selectAll(".bar").style("opacity", 1);
+      })
       .selectAll("rect")
       .data(function(d) {
         return d;
@@ -80,7 +91,8 @@ function StackedBarchart(props) {
       .enter()
       .append("g")
       .attr("transform", function(d, i) {
-        return `translate(${5 + i * 22},20)`;
+        let n = height / keys.length;
+        return `translate(${width - margin.right},${20 + i * (n - n / 2)})`;
       });
 
     legend
@@ -90,16 +102,10 @@ function StackedBarchart(props) {
       .attr("height", 19)
       .attr("fill", color)
       .on("mouseenter", d => {
-        console.log(window.pageXOffset);
-        svg.selectAll(`.bar:not(.${d})`).style("opacity", 0.5);
-        svg
-          .select(`.${d}`)
-          .attr("fill", "blue")
-          .style("opacity", 1);
+        highlightBar(d);
         // svg.select(".bar").attr("fill", "red");
       })
       .on("mouseleave", d => {
-        svg.select(`.${d}`).attr("fill", color(d));
         svg.selectAll(".bar").style("opacity", 1);
       });
   });

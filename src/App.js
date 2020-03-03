@@ -8,11 +8,15 @@ import { DataContext } from "./context/DataContext";
 import { GlobalStateContext } from "./context/GlobalStateContext";
 
 function App() {
-  const [selectedPerson, setSelectedPerson] = useState("");
-  const [showTeacherDetails, setShowTeacherDetails] = useState(false);
   const { loading } = useContext(DataContext);
 
-  const { personHover } = useContext(GlobalStateContext);
+  const {
+    personHover,
+    setSelectedPerson,
+    selectedPerson,
+    setShowTeacherDetails,
+    showTeacherDetails
+  } = useContext(GlobalStateContext);
 
   const updateBarClick = person => {
     setSelectedPerson(person);
@@ -20,22 +24,24 @@ function App() {
   };
 
   const checkPersonHover = () => {
-    return personHover == null
-      ? "Welcome"
-      : `${personHover.name}, ${personHover.value} %`;
+    return personHover == null ? (
+      <br />
+    ) : (
+      `${personHover.name}, ${personHover.value} %`
+    );
   };
   return (
     <div className="App">
       <h3>WorkVis</h3>
       {checkPersonHover()}
       {!loading && <BarChartData onClick={updateBarClick} />}
+      <CourseTable />
       {showTeacherDetails && (
         <TeacherDetails
           selectedPerson={selectedPerson}
           crossClick={setShowTeacherDetails}
         />
       )}
-      <CourseTable />
     </div>
   );
 }

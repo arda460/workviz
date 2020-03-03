@@ -26,6 +26,24 @@ rect.Small:hover {
   -ms-animation-timing-function: ease-in-out;
 }
 
+.hidden {
+  display: none;
+}
+
+foreignObject.tooltip {
+  color: #222;
+  background: rgb(167, 167, 167);
+  border-radius: 3px;
+  box-shadow: 0px 0px 2px 0px #a6a6a6;
+  padding: 0.2em;
+  text-shadow: #f5f5f5 0 1px 0;
+  opacity: 0.9;
+  transition: 0.2;
+}
+.fade-in {
+  transition: opacity 0;
+}
+
 @-webkit-keyframes wiggle {
   0% {
     transform: translate(0, 0.15em);

@@ -7,7 +7,7 @@ function TeacherInfo({ data, children }) {
   const { name, summary } = data;
 
   return (
-    <div className="infoContainer">
+    <div className="infoContainer flexrow">
       <div className="flexcontainer flexcol">
         <div className="teacher-row">
           <div className="teacherInfo">
@@ -21,7 +21,16 @@ function TeacherInfo({ data, children }) {
         <div className="teacher-row">
           <div className="teacherInfo">
             <h5 className="teacher-label w30">Staffing</h5>
-            <div className="flexcol">{children}</div>
+            <div className="flexcol">
+              <div>
+                <h6>
+                  <strong>Gru Balance 19: </strong>
+                  {summary["GRU balance 19"]}%<strong> Gru Balance 20: </strong>
+                  {summary["GRU balance 20"]} %
+                </h6>
+              </div>
+              <div className="flexcol">{children[0]}</div>
+            </div>
           </div>
         </div>
         <div className="teacher-row">
@@ -44,6 +53,7 @@ function TeacherInfo({ data, children }) {
           </div>
         </div>
       </div>
+      <div>{children[1]}</div>
     </div>
   );
 }

@@ -1,14 +1,17 @@
-import React, { useEffect, useState } from "react";
+import React, { useEffect, useState, useCallback } from "react";
 import StackedBarchart from "./StackedBarchart";
 import * as d3 from "d3";
 
 function InfoChart({ data }) {
   const [chartData, setChartData] = useState(null);
+  const chartProps = {
+    margin: { top: 10, left: 30, bottom: 110, right: 100 },
+    width: 300,
+    height: 150
+  };
   const handleData = () => {
     const summary = data.summary;
-    const kontering = summary["Kontering HCT (%)"];
 
-    let grubalans = summary["Bemnnad HCT Gru (%)"];
     let activity = {};
     let vt = summary["HT Courses"].map(c => {
       return {
@@ -28,16 +31,7 @@ function InfoChart({ data }) {
         activity[[course["Course Code"]]] = course["Work %"];
       }
     });
-    // let ht = summary["VT Courses"].map(c => {
-    //   return {
-    //     [c["Course Code"]]: c["Work %"],
-    //     type: "VT",
-    //     subgroup: "workload"
-    //   };
-    // });
 
-    // let activity = vt.concat(ht);
-    // let activity = vt;
     if (summary["Self-development &Friskvård (%)"]) {
       activity["Friskvård"] = summary["Self-development &Friskvård (%)"];
     }
@@ -54,7 +48,7 @@ function InfoChart({ data }) {
     }
   }, [data]);
   if (chartData) {
-    return <StackedBarchart data={chartData} />;
+    return <StackedBarchart {...chartProps} data={chartData} />;
   } else {
     return <div>Loading InfoChart</div>;
   }

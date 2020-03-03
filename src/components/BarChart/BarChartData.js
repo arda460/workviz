@@ -7,11 +7,11 @@ import * as d3 from "d3";
 function BarChartData(props) {
   const [personData, setPersonData] = useState([]);
 
-  const { teacherSimple, loading } = useContext(DataContext);
-  const { setPersonHover } = useContext(GlobalStateContext);
+  const { summary20, loading } = useContext(DataContext);
+  const { setPersonHover, courseHover } = useContext(GlobalStateContext);
 
   const getWindowDimensions = () => {
-    const { outerWidth: width, outerHeight: height } = window;
+    const { innerWidth: width, innerHeight: height } = window;
 
     return { height, width };
   };
@@ -25,26 +25,33 @@ function BarChartData(props) {
     height: windowDimensions.height / 3,
     width: windowDimensions.width * 0.95,
     onHover: setPersonHover,
-    onClick: props.onClick
+    onClick: props.onClick,
+    courseHover
   };
 
-  const handleData = data => {
-    return data
-      .filter(teacher => teacher.Name !== "")
-      .filter(teacher => teacher["Balance ()"] !== "")
-      .map(row => {
+  const handleData = sum20 => {
+    //these are not hired people and thus removed, it might be interesting later to add them back in some other visualisation
+    delete sum20["Lab handl Teknolog MID"];
+    delete sum20["UNKNOWN MID"];
+    delete sum20["Fö Extern MID"];
+    delete sum20["NN Doktorand"];
+    delete sum20["Lab handl Teknolog TMH"];
+
+    return Object.entries(sum20)
+      .map(p => {
         return {
-          id: "bar" + row.Name.replace(" ", ""),
-          name: row.Name,
-          value: Number(row["Balance ()"])
+          name: p[0],
+          value: p[1]["Balance (%)"],
+          vt: p[1]["VT Courses"].map(c => c["Course Code"]),
+          ht: p[1]["HT Courses"].map(c => c["Course Code"])
         };
       })
       .sort((a, b) => d3.descending(a.value, b.value));
   };
 
   useEffect(() => {
-    if (!loading) setPersonData(handleData(teacherSimple));
-  }, [loading, teacherSimple]);
+    if (!loading) setPersonData(handleData(summary20));
+  }, [loading, summary20, courseHover]);
 
   useEffect(() => {
     function handleResize() {
