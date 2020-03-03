@@ -24,7 +24,7 @@ export default function ProgressBar(props) {
         });
 
     const getColor = (p) => {
-        return p < 1 ? 'red' : '#7CFC00';
+        return p < 1 ? '#F06E37' : '#82d982';
     }
 
     const draw = () => {
@@ -51,6 +51,7 @@ export default function ProgressBar(props) {
             .attr('id', 'percentageText')
             .attr('dx', xPos)
             .attr('dy', '55%')
+            .style('font-weight', 'bold')
             .style('font-size', tSize);
 
         // Set border dashed and inner color to none if no budgeted hours
@@ -62,9 +63,13 @@ export default function ProgressBar(props) {
         }
         // Otherwise fill the progressbar
         else {
-            // Make circle in middle gray
-            circle.style("opacity", 0.2)
-                .style("fill", 'grey');
+            // Circle in middle
+            if(bHours > 0 && aHours === 0) {
+                circle.style('fill', 'red')
+                    .style("opacity", 0.2)
+            }
+            else
+                circle.style("fill", 'none');
 
             // Grey contrainer bar (grey bar indicating budgeted hours)
             const progressContainer = svg.append("g")
@@ -78,7 +83,7 @@ export default function ProgressBar(props) {
                 .duration(1000)
                 .attrTween('d', () => {
                     return (t) => {
-                        return progressArc(arcInnerRadius, arcOuterRadius, 1 * t);
+                        return progressArc(arcInnerRadius+3, arcOuterRadius, 1 * t);
                     }
                 });
 
@@ -86,7 +91,6 @@ export default function ProgressBar(props) {
             const progress = svg.append("g")
                 .attr("transform", "translate(" + width / 2 + "," + height / 2 + ")")
                 .append("path")
-                .style("opacity", 0.3)
                 .style("fill", getColor(percentage));
 
             // Transition for inner progress
@@ -94,7 +98,7 @@ export default function ProgressBar(props) {
                 .duration(1000)
                 .attrTween('d', () => {
                     return (t) => {
-                        return progressArc(arcInnerRadius, arcOuterRadius, percentage * t);
+                        return progressArc(arcInnerRadius-1, arcOuterRadius+1, percentage * t);
                     }
                 });
 
@@ -104,7 +108,7 @@ export default function ProgressBar(props) {
                 const outerProgress = svg.append("g")
                     .attr("transform", "translate(" + width / 2 + "," + height / 2 + ")")
                     .append("path")
-                    .style("fill", '#008000');
+                    .style("fill", '#538c53');
 
                 // Transition for outer progress
                 outerProgress.transition()
