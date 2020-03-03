@@ -60,8 +60,15 @@ export default function CourseTable(props) {
           springData: filterdSpring
         };
 
-        setData(filtered);
-        setButtonName(['filterButton', 'filterButton']);
+        
+        if(!sliderStatus) {
+          setData(filtered);
+          setButtonName(['filterButton', 'filterButton']);
+        }
+        else {
+          // TODO
+          // If "sliderStatus" then the data needs to be passed to the teacher overview
+        }
       }
 
     }
