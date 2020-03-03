@@ -36,8 +36,9 @@ export default function ProgressBars(props) {
                 return (
                     <ProgressBar 
                         key={key} 
-                        percentage={percentage} 
-                        budgeted={budgetedHours}
+                        percentage={percentage}
+                        bHours = {budgetedHours}
+                        aHours = {allocatedHours}
                         height={progressHeight}
                         label={label}/>
                 )

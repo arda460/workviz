@@ -3,7 +3,7 @@ import * as d3 from "d3";
 import "./ProgressBar.css";
 
 export default function ProgressBar(props) {
-    const { percentage, budgeted, label, height } = props;
+    const { percentage, label, height, bHours, aHours } = props;
     const svgRef = useRef(null);
 
     const width = height;
@@ -40,15 +40,21 @@ export default function ProgressBar(props) {
             .style('cy', '50%')
             .style('r', height * 0.30)
 
+        // Text in center
+        const text = bHours > 0 ? `${aHours} / ${bHours}` : '0';
+        const xPos = bHours === 0 ? '47%' : aHours < 9 ? '40%' : aHours > 9 && aHours < 100 ? '30%' : '27%';
+        const tSize = bHours > 999 ? '0.6rem' : '0.8rem';
+
         // Text indicating % inside progress bar
         svg.append('text')
-            .text(`${(percentage * 100).toFixed()}%`)
+            .text(text)
             .attr('id', 'percentageText')
-            .attr('dx', '35%')
-            .attr('dy', '55%');
+            .attr('dx', xPos)
+            .attr('dy', '55%')
+            .style('font-size', tSize);
 
         // Set border dashed and inner color to none if no budgeted hours
-        if (budgeted <= 0) {
+        if (bHours <= 0) {
             circle.style('fill', 'none')
                 .style('stroke', 'black')
                 .style('stroke-width', 2)
@@ -64,7 +70,6 @@ export default function ProgressBar(props) {
             const progressContainer = svg.append("g")
                 .attr("transform", "translate(" + width / 2 + "," + height / 2 + ")")
                 .append("path")
-                .attr("d", progressArc(arcInnerRadius, arcOuterRadius, 1))
                 .style("opacity", 0.5)
                 .style("fill", 'grey');
 
@@ -73,7 +78,7 @@ export default function ProgressBar(props) {
                 .duration(1000)
                 .attrTween('d', () => {
                     return (t) => {
-                        return progressArc(arcInnerRadius, arcOuterRadius, percentage * t);
+                        return progressArc(arcInnerRadius, arcOuterRadius, 1 * t);
                     }
                 });
 
@@ -81,7 +86,6 @@ export default function ProgressBar(props) {
             const progress = svg.append("g")
                 .attr("transform", "translate(" + width / 2 + "," + height / 2 + ")")
                 .append("path")
-                //.attr("d", progressArc(arcInnerRadius, arcOuterRadius, percentage))
                 .style("opacity", 0.3)
                 .style("fill", getColor(percentage));
 
@@ -100,7 +104,6 @@ export default function ProgressBar(props) {
                 const outerProgress = svg.append("g")
                     .attr("transform", "translate(" + width / 2 + "," + height / 2 + ")")
                     .append("path")
-                    .attr("d", progressArc(arcOuterRadius, arcOuterOuterRadious, percentage - 1))
                     .style("fill", '#008000');
 
                 // Transition for outer progress
@@ -108,7 +111,7 @@ export default function ProgressBar(props) {
                     .duration(1000)
                     .attrTween('d', () => {
                         return (t) => {
-                            return progressArc(arcOuterRadius, arcOuterOuterRadious, percentage * t);
+                            return progressArc(arcOuterRadius, arcOuterOuterRadious, (percentage-1) * t);
                         }
                     });
             }
