@@ -142,7 +142,7 @@
                 "Ha": "68"
             },
             "NN Doktorand": {
-                "HaH": "136.0"
+                "HaH": "136"
             },
             "Mafalda Hopkirk": {
                 "Ha": "51"
@@ -157,7 +157,7 @@
                 "Ha": "17"
             },
             "Fö Extern MID": {
-                "Ha": "34.0"
+                "Ha": "34"
             }
         },
         "% no 1": "100%",
@@ -292,14 +292,14 @@
                 "Ha": "8",
                 "Ex": "35",
                 "Ku": "12",
-                "Adm": "74.0",
+                "Adm": "74",
                 "Ovn": "10",
                 "La": "23"
             },
             "UNKNOWN MID": {
                 "Ha": "8",
                 "Frl": "11",
-                "Ovn": "6.0",
+                "Ovn": "6",
                 "La": "23",
                 "Ex": "35"
             },
@@ -312,7 +312,7 @@
                 "Frl": "18"
             },
             "Lab handl Teknolog MID": {
-                "La": "69.0"
+                "La": "69"
             }
         },
         "% no 1": "100%",
@@ -431,10 +431,10 @@
             },
             "Frank Bryce": {
                 "Adm": "61",
-                "Ex": "43.0"
+                "Ex": "43"
             },
             "Lab handl Teknolog MID": {
-                "La": "90.0"
+                "La": "90"
             }
         },
         "% no 1": "100%",
@@ -674,7 +674,7 @@
                 "Adm": "60",
                 "Frl": "36",
                 "Ovn": "54",
-                "Ex": "105.0",
+                "Ex": "105",
                 "Ku": "15"
             },
             "Reginald Cattermole": {
@@ -1158,7 +1158,7 @@
                 "La": "6"
             },
             "Fö Extern MID": {
-                "Frl": "35.0"
+                "Frl": "35"
             },
             "Lab handl Teknolog MID": {
                 "La": "18"
@@ -1328,7 +1328,7 @@
         ],
         "Teachers": {
             "Cedric Diggory": {
-                "Frl": "80.0",
+                "Frl": "80",
                 "Ovn": "76",
                 "Ha": "14",
                 "Ex": "28",
@@ -1343,7 +1343,7 @@
                 "Frl": "20"
             },
             "Millicent Bulstrode": {
-                "Adm": "48.0",
+                "Adm": "48",
                 "Frl": "10",
                 "Ku": "8",
                 "Ovn": "38",
@@ -1659,7 +1659,7 @@
                 "Ku": "15",
                 "Ovn": "3",
                 "Ha": "4",
-                "Ex": "18.285714286"
+                "Ex": "18"
             },
             "Astoria Greengrass": {
                 "Frl": "6"
@@ -1824,8 +1824,8 @@
                 "Ovn": "22.5"
             },
             "UNKNOWN MID": {
-                "Ha": "32.0",
-                "Ex": "13.0"
+                "Ha": "32",
+                "Ex": "13"
             },
             "Angelina Johnson": {
                 "Ha": "9",
@@ -2426,7 +2426,7 @@
             },
             "NN Doktorand": {
                 "La": "16",
-                "Ha": "48.0"
+                "Ha": "48"
             },
             "Justin Finch-Fletchley": {
                 "La": "16"
@@ -2491,7 +2491,7 @@
         ],
         "Teachers": {
             "Cornelius Fudge": {
-                "Frl": "46.0",
+                "Frl": "46",
                 "Ovn": "18",
                 "La": "0",
                 "Ha": "3",
@@ -2503,7 +2503,7 @@
                 "Frl": "20"
             },
             "Lab handl Teknolog TMH": {
-                "La": "84.0"
+                "La": "84"
             }
         },
         "% no 1": "100%",
@@ -2573,7 +2573,7 @@
                 "Ex": ""
             },
             "NN Doktorand": {
-                "Ovn": "60.0",
+                "Ovn": "60",
                 "La": "25"
             }
         },

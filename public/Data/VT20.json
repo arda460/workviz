@@ -20,16 +20,16 @@
                 "Ex": "36"
             },
             "Vernon Dursley": {
-                "Ovn": "108.0",
-                "Ex": "72.0"
+                "Ovn": "108",
+                "Ex": "72"
             },
             "Dudley Dursley": {
                 "Ovn": "54",
                 "Ex": "36"
             },
             "Mrs. Cole": {
-                "Ovn": "108.0",
-                "Ex": "72.0"
+                "Ovn": "108",
+                "Ex": "72"
             },
             "Bathilda Bagshot": {
                 "Ovn": "54",
@@ -109,7 +109,7 @@
                 "La": "34"
             },
             "Lab handl Teknolog MID": {
-                "La": "102.0"
+                "La": "102"
             },
             "Marjorie (Marge) Dursley": {
                 "Frl": "8"
@@ -376,7 +376,7 @@
                 "Frl": "16"
             },
             "Fö Extern MID": {
-                "Frl": "24.0"
+                "Frl": "24"
             }
         },
         "% no 1": "100%",
@@ -509,7 +509,7 @@
             "Lab handl Teknolog MID": {
                 "Frl": "6",
                 "La": "16",
-                "Ovn": "10.0"
+                "Ovn": "10"
             },
             "Frl Gratis": {
                 "Frl": "6"
@@ -572,7 +572,7 @@
                 "Frl": "20"
             },
             "Lab handl Teknolog MID": {
-                "La": "272.0",
+                "La": "272",
                 "Ha": "20",
                 "Ex": "80",
                 "Adm": "44",
@@ -1264,7 +1264,7 @@
                 "Ovn": "12"
             },
             "Fö Extern MID": {
-                "Frl": "10.0"
+                "Frl": "10"
             },
             "Frl Gratis": {
                 "Frl": "10"
@@ -1317,10 +1317,10 @@
         ],
         "Teachers": {
             "Charity Burbage": {
-                "Frl": "16.0",
+                "Frl": "16",
                 "Ku": "31",
                 "Adm": "33",
-                "Ex": "76.0",
+                "Ex": "76",
                 "Ovn": "15",
                 "Ha": "19"
             },
@@ -1330,7 +1330,7 @@
                 "Ovn": "5"
             },
             "UNKNOWN MID": {
-                "Frl": "24.0",
+                "Frl": "24",
                 "Ovn": "5"
             }
         },
@@ -1822,7 +1822,7 @@
                 "Ovn": "5"
             },
             "NN Doktorand": {
-                "La": "44.0"
+                "La": "44"
             }
         },
         "% no 1": "100%",
@@ -1885,7 +1885,7 @@
             "Lab handl Teknolog MID": {
                 "Ha": "12",
                 "Ovn": "20",
-                "La": "70.0"
+                "La": "70"
             }
         },
         "% no 1": "100%",
@@ -2085,10 +2085,10 @@
                 "Ovn": "20",
                 "La": "18",
                 "Ha": "15",
-                "Ex": "38.0"
+                "Ex": "38"
             },
             "Lab handl Teknolog TMH": {
-                "La": "54.0"
+                "La": "54"
             }
         },
         "% no 1": "100%",
