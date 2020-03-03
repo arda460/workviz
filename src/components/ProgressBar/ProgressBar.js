@@ -5,9 +5,6 @@ import "./ProgressBar.css";
 export default function ProgressBar(props) {
     const { percentage, budgeted, label, height } = props;
     const svgRef = useRef(null);
-
-    console.log(height);
-
     
     const width = height;
     const arcWidth = height * 0.045;
