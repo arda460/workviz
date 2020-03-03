@@ -27,6 +27,7 @@ export default function CourseDetails(props) {
                         label="Responsible" 
                         data={d.current['Responsible'].length > 0 ? d.current['Responsible'] : ['Not Available']}/>
                     <CourseDetailsRow cname="courseDetailInfo row" label="Periods" data={d.current['Period']}/>
+                    <CourseDetailsRow cname="courseDetailInfo" label="Students" data={[d.current['Number of students']]} />
                 </div>
             }
             {d.current && 
