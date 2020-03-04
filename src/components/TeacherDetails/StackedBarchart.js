@@ -44,14 +44,13 @@ function StackedBarchart(props) {
       .domain(keys)
       .range(d3.schemeCategory10);
     const highlightBar = d => {
-      console.log(d);
-
       svg.selectAll(`.bar`).style("opacity", 0.5);
       svg
         .select(`.${d}`)
 
         .style("opacity", 1);
     };
+
     // Show the bars
     g.selectAll("g")
       .data(series)
@@ -70,7 +69,7 @@ function StackedBarchart(props) {
       })
       .enter()
       .append("rect")
-      .attr("y", function(d) {
+      .attr("y", d => {
         return y(d.data.group);
       })
       .attr("x", function(d) {

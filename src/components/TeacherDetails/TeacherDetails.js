@@ -8,7 +8,7 @@ import InfoChart from "./InfoChartData";
 import { DataContext } from "../../context/DataContext";
 
 function TeacherDetails({ selectedPerson }) {
-  const { summary20, loading } = useContext(DataContext);
+  const { summary20, VT20, HT20, loading } = useContext(DataContext);
   const [data, setData] = useState(null);
 
   useEffect(() => {
@@ -16,7 +16,8 @@ function TeacherDetails({ selectedPerson }) {
       setData({
         name: selectedPerson,
         summary: summary20[selectedPerson],
-        sum20: summary20
+        sum20: summary20,
+        courses: { VT20, HT20 }
       });
     }
   }, [selectedPerson, loading]);
@@ -25,10 +26,9 @@ function TeacherDetails({ selectedPerson }) {
     <>
       {!loading && (
         <>
-          ¨
           <TeacherInfo data={data}>
             <InfoChart data={{ ...data }} />
-            <TeacherCourseAllocation data={{ data }} />>
+            <TeacherCourseAllocation data={data} />>
           </TeacherInfo>
         </>
       )}

@@ -23,7 +23,7 @@ function StackedBarchartVertical(props) {
     "#8CAECC"
   ];
   /* 
-  example
+  structure
   group: "DH2632 H"
   keys: {Frl: "12", Ex: "94", Ku: "6"}
   
