@@ -117,16 +117,17 @@ export default function CourseTable(props) {
       let bNames = ["filterButton", "filterButton"];
 
       if (
-        (val === "red" && buttonName[0] === "filterButton pressed") ||
-        (val === "orange" && buttonName[1] === "filterButton pressed")
+        (val === "red" && buttonName[0] === "filterButton pressed bg-red") ||
+        (val === "orange" && buttonName[1] === "filterButton pressed bg-orange")
       ) {
         setData(d);
         setButtonName(bNames);
         return;
       }
 
-      bNames[0] = val === "red" ? "filterButton pressed" : bNames[0];
-      bNames[1] = val === "orange" ? "filterButton pressed" : bNames[1];
+      bNames[0] = val === "red" ? "filterButton pressed bg-red" : bNames[0];
+      bNames[1] =
+        val === "orange" ? "filterButton pressed bg-orange" : bNames[1];
 
       const courseColors = { ...colorDist[0], ...colorDist[1] };
 
