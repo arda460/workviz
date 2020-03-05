@@ -36,8 +36,10 @@ const BarChart = props => {
     onHover,
     onClick,
     courseHover,
+    searchData,
     data
   } = props;
+
   const svgRef = useRef(null);
   const divRef = useRef(null);
 
@@ -68,7 +70,7 @@ const BarChart = props => {
       .append("g")
       .attr("transform", "translate(" + margin.left + "," + margin.top + ")");
 
-    const checkCourse = d => {
+    const checkFocus = d => {
       if (courseHover) {
         let ht = d.ht.filter(c => c === courseHover);
         let vt = d.vt.filter(c => c === courseHover);
@@ -76,6 +78,13 @@ const BarChart = props => {
           return 1;
         }
         return 0.2;
+      }
+      if (searchData) {
+        if (searchData[d.name]) {
+          return 1;
+        } else {
+          return 0.2;
+        }
       }
       return 1;
     };
@@ -120,7 +129,7 @@ const BarChart = props => {
         }
         return "Small";
       })
-      .style("opacity", checkCourse)
+      .style("opacity", checkFocus)
       .on("mouseover", d => {
         setTooltipText(d);
         setTooltip(true);
@@ -181,15 +190,6 @@ const BarChart = props => {
       .duration(200)
       .attr("y", 50)
       .attr("opacity", 1);
-
-    // svg
-    //   .append("g")
-    //   .append("path")
-    //   .attr("fill", "none")
-    //   .attr("stroke", "black")
-    //   .attr("stroke-width", "1px")
-    //   .attr("d", y0)
-    //   .style("stroke-dasharray", "3,3");
   };
 
   useEffect(() => {
@@ -199,7 +199,7 @@ const BarChart = props => {
         .exit()
         .remove();
     };
-  // eslint-disable-next-line react-hooks/exhaustive-deps
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [data]);
   return (
     <div>
