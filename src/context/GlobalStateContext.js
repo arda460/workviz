@@ -6,6 +6,7 @@ const GlobalStateProvider = ({ children }) => {
   const [personHover, setPersonHover] = useState(null);
   const [courseHover, setCourseHover] = useState(null);
   const [selectedPerson, setSelectedPerson] = useState(null);
+  const [filterTeachers, setFilterTeachers] = useState(null);
   const [showTeacherDetails, setShowTeacherDetails] = useState(false);
   const [courseDetails, setCourseDetails] = useState(false);
 
@@ -21,7 +22,9 @@ const GlobalStateProvider = ({ children }) => {
         showTeacherDetails,
         setShowTeacherDetails,
         courseDetails,
-        setCourseDetails
+        setCourseDetails,
+        filterTeachers,
+        setFilterTeachers
       }}
     >
       {children}
