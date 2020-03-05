@@ -35,13 +35,13 @@ function App() {
       <h3>WorkVis</h3>
       {checkPersonHover()}
       {!loading && <BarChartData onClick={updateBarClick} />}
-      <CourseTable />
       {showTeacherDetails && (
         <TeacherDetails
           selectedPerson={selectedPerson}
           crossClick={setShowTeacherDetails}
         />
       )}
+      <CourseTable />
     </div>
   );
 }
