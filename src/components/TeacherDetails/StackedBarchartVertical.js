@@ -1,6 +1,6 @@
 import React, { useRef, useEffect, useCallback } from "react";
 import * as d3 from "d3";
-
+import "./StackedBarchartVertical.css";
 function StackedBarchartVertical(props) {
   const { data, margin, width = 200, height = 200 } = props;
 
@@ -14,12 +14,12 @@ function StackedBarchartVertical(props) {
   const values = data.map(v => v.keys);
 
   let hexcolors = [
-    "#5CCCBD",
+    "#255650",
     "#179988",
     "#8CFFAF",
     "#FFCCE4",
     "#CC5CC8",
-    "#5A1ACC",
+    "#b58cff",
     "#8CAECC"
   ];
   /* 
@@ -41,8 +41,7 @@ function StackedBarchartVertical(props) {
     });
 
   const stackedData = stack(data);
-  // console.log(stackedData);
-  // console.log(data);
+
   const draw = useCallback(() => {
     const svg = d3
       .select(svgRef.current)
@@ -86,6 +85,7 @@ function StackedBarchartVertical(props) {
         return d;
       })
       .enter()
+
       .append("rect")
       .attr("x", d => {
         return x(d.data.group);
@@ -95,6 +95,19 @@ function StackedBarchartVertical(props) {
       .attr("height", d => y(d[0]) - y(d[1]))
       .exit()
       .remove();
+    console.log(groups);
+
+    svg
+      .append("g")
+      .attr("class", "course-lables")
+      .selectAll("g")
+      .data(groups)
+      .enter()
+      .append("text")
+      .attr("y", y(0) + 15)
+      .attr("x", d => x(d) + x.bandwidth() / 2)
+      .attr("text-length", `${x.bandwidth()}px`)
+      .text(d => d);
 
     // svg
     //   .append("g")
