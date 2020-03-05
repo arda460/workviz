@@ -15,8 +15,8 @@ function TeacherCourseAllocation({ data }) {
     let vt = summary["VT Courses"].map(c => c["Course Code"]);
     let ht = summary["HT Courses"].map(c => c["Course Code"]);
     let courseArray = ht.concat(vt);
-    let keys = { Adm: 0, Frl: 0, Ex: 0, Ku: 0, Ovn: 0, Ha: 0, La: 0 };
-    let roles = ["Adm", "Frl", "Ex", "Ku", "Ovn", "Ha", "La"];
+    let keys = { Adm: 0, Frl: 0, Ex: 0, Ku: 0, Ovn: 0, Ha: 0, La: 0, HaH: 0 };
+    let roles = ["Adm", "Frl", "Ex", "Ku", "Ovn", "Ha", "La", "HaH"];
     let period = { 1: [], 2: [], 3: [], 4: [] };
 
     let teachervt = vt.map(course => {
