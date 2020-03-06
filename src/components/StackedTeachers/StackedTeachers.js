@@ -8,7 +8,7 @@ export default function StackedTeachers(props) {
 
     const margin = { top: 10, right: 20, bottom: 20, left: 50 };
     const width = Math.max(45 * Object.keys(d).length, 1100);
-    const height = 210 - margin.top - margin.bottom;
+    const height = 190 - margin.top - margin.bottom;
 
     const handleData = () => {
         return Object.keys(d).map( key => {
