@@ -5,9 +5,10 @@ import * as d3 from "d3";
 function InfoChart({ data }) {
   const [chartData, setChartData] = useState(null);
   const chartProps = {
-    margin: { top: 10, left: 30, bottom: 110, right: 100 },
-    width: 300,
-    height: 150
+    margin: { top: 40, left: 30, bottom: 30, right: 200 },
+    width: 400,
+    height: 150,
+    barWidth: 15
   };
   const handleData = () => {
     const summary = data.summary;
@@ -21,27 +22,47 @@ function InfoChart({ data }) {
       };
     });
     summary["HT Courses"].forEach(course => {
-      activity[[course["Course Code"]]] = course["Work %"];
+      activity[[course["Course Code"]]] = {
+        work: course["Work %"],
+        type: "ht"
+      };
     });
     summary["VT Courses"].forEach(course => {
       let c = activity[[course["Course Code"]]];
       if (c in activity) {
-        activity[`VT${c}`] = course["Work %"];
+        activity[`VT${c}`] = { work: course["Work %"], type: "vt" };
       } else {
-        activity[[course["Course Code"]]] = course["Work %"];
+        activity[[course["Course Code"]]] = {
+          work: course["Work %"],
+          type: "vt"
+        };
       }
     });
 
     if (summary["Self-development &Friskvård (%)"]) {
-      activity["Friskvård"] = summary["Self-development &Friskvård (%)"];
+      activity["Friskvård"] = {
+        work: summary["Self-development &Friskvård (%)"],
+        type: "other"
+      };
     }
     if (summary["Extra (%)"]) {
-      activity["Extra"] = summary["Extra (%)"] || 1; // should be 0!
+      activity["Extra"] = { work: summary["Extra (%)"] || 0, type: "other" };
     }
+    activity["Kontering"] = {
+      work: summary["Kontering HCT (%)"],
+      type: "kontering"
+    };
+    // activity["Employed HCT"] = {
+    //   work: summary["Bemnnad HCT Gru (%)"],
+    //   type: "kontering"
+    // };
     activity["group"] = "Workload";
 
     setChartData([activity]);
   };
+
+  //DH2650: {work:0.9,type:'VT'}, DM2350: 3.3, DH2323: 6.5, group: "Workload"}
+
   useEffect(() => {
     if (data) {
       handleData();
