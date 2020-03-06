@@ -9,6 +9,7 @@ const GlobalStateProvider = ({ children }) => {
   const [filterTeachers, setFilterTeachers] = useState(null);
   const [showTeacherDetails, setShowTeacherDetails] = useState(false);
   const [courseDetails, setCourseDetails] = useState(false);
+  const [courseOverview, setCourseOverview] = useState(null);
 
   const updateBarClick = person => {
     setSelectedPerson(person);
@@ -29,8 +30,10 @@ const GlobalStateProvider = ({ children }) => {
         courseDetails,
         setCourseDetails,
         filterTeachers,
-        setFilterTeachers,
         updateBarClick
+        setFilterTeachers,
+        courseOverview,
+        setCourseOverview
       }}
     >
       {children}

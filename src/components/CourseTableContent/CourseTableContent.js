@@ -67,11 +67,13 @@ function CourseTableContent(props) {
     per14.sort();
 
     return (
-        <div className="courseTable">
-            <CourseTableObj {...props} colors={[autumnColors, springColors]} title='Period 1' inCol={per1} spreadNext={per12} spreadAll={per14}></CourseTableObj>
-            <CourseTableObj {...props} colors={[autumnColors, springColors]} title='Period 2' inCol={per2} spreadNext={per12} spreadAll={per14}></CourseTableObj>
-            <CourseTableObj {...props} colors={[springColors, autumnColors]} title='Period 3' inCol={per3} spreadNext={per34} spreadAll={per14}></CourseTableObj>
-            <CourseTableObj {...props} colors={[springColors, autumnColors]} title='Period 4' inCol={per4} spreadNext={per34} spreadAll={per14}></CourseTableObj>
+        <div className="courseOverview">
+            <div className="courseTable">
+                <CourseTableObj {...props} colors={[autumnColors, springColors]} title='Period 1' inCol={per1} spreadNext={per12} spreadAll={per14}></CourseTableObj>
+                <CourseTableObj {...props} colors={[autumnColors, springColors]} title='Period 2' inCol={per2} spreadNext={per12} spreadAll={per14}></CourseTableObj>
+                <CourseTableObj {...props} colors={[springColors, autumnColors]} title='Period 3' inCol={per3} spreadNext={per34} spreadAll={per14}></CourseTableObj>
+                <CourseTableObj {...props} colors={[springColors, autumnColors]} title='Period 4' inCol={per4} spreadNext={per34} spreadAll={per14}></CourseTableObj>
+            </div>
         </div>
     )
 }

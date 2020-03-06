@@ -1,6 +1,7 @@
 import React, { useState, useContext } from "react";
 import "./App.css";
 import CourseTable from "./components/CourseTable/CourseTable";
+import CourseDetails from "./components/CourseDetails/CourseDetails";
 import BarChartData from "./components/BarChart/BarChartData";
 import TeacherDetails from "./components/TeacherDetails/TeacherDetails";
 import DetailView from "./components/DetailView/DetailView";
@@ -10,6 +11,7 @@ import { GlobalStateContext } from "./context/GlobalStateContext";
 
 function App() {
   const { loading } = useContext(DataContext);
+  const { courseDetails, courseOverview } = useContext(GlobalStateContext);
 
   const {
     selectedPerson,
@@ -25,14 +27,31 @@ function App() {
       </div>
     );
   }
+  /*
+  <h3>WorkVis</h3>
+  {checkPersonHover()}
+  {!loading && <BarChartData onClick={updateBarClick} />}
+  <CourseTable />
+  {showTeacherDetails && (
+    <TeacherDetails
+      selectedPerson={selectedPerson}
+      crossClick={setShowTeacherDetails}
+    />
+  )}
+  */
+
+  // TODO toggle details -> if coursedetails true then teacherdetails false and other way around
+
   return (
-    <div className="App fade-in">
-      <h3>WorkVis</h3>
-      <BarChartData onClick={updateBarClick} />
-      {showTeacherDetails && <DetailView view="DetailTeacher" />}
-      {courseDetails && <DetailView view="DetailCourse" />}
-      {showTeacherDetails && <TeacherDetails selectedPerson={selectedPerson} />}
-      <CourseTable />
+    <div className="App">
+      <div className="container1">
+        {courseDetails && <CourseDetails data={courseOverview}></CourseDetails>}
+        {!courseDetails && checkPersonHover()}
+        {!courseDetails && !loading && <BarChartData onClick={updateBarClick} />}
+      </div>
+      <div className="container2">
+        <CourseTable />
+      </div>
     </div>
   );
 }
