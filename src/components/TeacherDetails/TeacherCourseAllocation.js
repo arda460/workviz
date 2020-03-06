@@ -35,6 +35,10 @@ function TeacherCourseAllocation({ data }) {
         };
     });
     let teacherht = ht.map(course => {
+      if (!(course in courses.HT20)) {
+        //only one course requires this...
+        return { group: course, keys: {}, period: [] };
+      }
       return {
         group: course,
         keys: courses.HT20[course].Teachers[name],

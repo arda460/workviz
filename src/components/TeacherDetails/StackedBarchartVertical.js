@@ -95,7 +95,7 @@ function StackedBarchartVertical(props) {
       .attr("height", d => y(d[0]) - y(d[1]))
       .exit()
       .remove();
-    console.log(groups);
+    // // // console.log(groups);
 
     svg
       .append("g")
@@ -124,7 +124,6 @@ function StackedBarchartVertical(props) {
   }, [data]);
   return (
     <div>
-      WIP
       <svg ref={svgRef}></svg>
     </div>
   );
