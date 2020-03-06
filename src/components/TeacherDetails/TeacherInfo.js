@@ -7,11 +7,11 @@ function TeacherInfo({ data, children }) {
   const { name, summary } = data;
 
   return (
-    <div className="infoContainer flexrow">
+    <div className="infoContainer flex">
       <div className="flexcontainer flexcol">
         <div className="teacher-row">
           <div className="teacherInfo">
-            <h5 className="teacher-label w30">{summary.Position}</h5>
+            <h5 className="teacher-label">{summary.Position}</h5>
             <div className="flexcol">
               <h3 className="teacherItem">{name}</h3>
               <span className="teacher-item">{summary.Department}</span>
@@ -20,7 +20,7 @@ function TeacherInfo({ data, children }) {
         </div>
         <div className="teacher-row">
           <div className="teacherInfo">
-            <h5 className="teacher-label w30">Staffing</h5>
+            <h5 className="teacher-label">Staffing</h5>
             <div className="flexcol">
               <div>
                 <h6>
@@ -35,15 +35,15 @@ function TeacherInfo({ data, children }) {
         </div>
         <div className="teacher-row">
           <div className="teacherInfo">
-            <h5 className="teacher-label w30">Courses</h5>
-            <div className=" flexcontainer flexrow w100">
-              <div className="flexcol">
+            <h5 className="teacher-label">Courses</h5>
+            <div className=" flexcontainer flexrow">
+              <div className="flexcol course-list">
                 <h5>HT</h5>
                 {summary["HT Courses"].map(c => {
                   return <h6>{c["Course Code"]}</h6>;
                 })}
               </div>
-              <div className="flexcol">
+              <div className="flexcol course-list">
                 <h5>VT</h5>
                 {summary["VT Courses"].map(c => {
                   return <h6>{c["Course Code"]}</h6>;
@@ -53,7 +53,9 @@ function TeacherInfo({ data, children }) {
           </div>
         </div>
       </div>
-      <div>{children[1]}</div>
+      <div className="flexcol">
+        <div>{children[1]}</div>
+      </div>
     </div>
   );
 }
