@@ -26,7 +26,6 @@ export default function CourseTable(props) {
     <div className="courseContainer">
       <Search></Search>
       <CourseTableContent data={courseOverview}></CourseTableContent>
-      <CourseDetails data={courseOverview}></CourseDetails>
     </div>
   );
 }
