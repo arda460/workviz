@@ -27,21 +27,30 @@ function App() {
     return personHover == null ? (
       <br />
     ) : (
-      `${personHover.name}, ${personHover.value} %`
-    );
+        `${personHover.name}, ${personHover.value} %`
+      );
   };
+  /*
+  <h3>WorkVis</h3>
+  {checkPersonHover()}
+  {!loading && <BarChartData onClick={updateBarClick} />}
+  <CourseTable />
+  {showTeacherDetails && (
+    <TeacherDetails
+      selectedPerson={selectedPerson}
+      crossClick={setShowTeacherDetails}
+    />
+  )}
+  */
   return (
     <div className="App">
-      <h3>WorkVis</h3>
-      {checkPersonHover()}
-      {!loading && <BarChartData onClick={updateBarClick} />}
-      <CourseTable />
-      {showTeacherDetails && (
-        <TeacherDetails
-          selectedPerson={selectedPerson}
-          crossClick={setShowTeacherDetails}
-        />
-      )}
+      <div className="container1">
+        {checkPersonHover()}
+        {!loading && <BarChartData onClick={updateBarClick} />}
+      </div>
+      <div className="container2">
+        <CourseTable />
+      </div>
     </div>
   );
 }
