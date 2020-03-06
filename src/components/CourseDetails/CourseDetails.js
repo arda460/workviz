@@ -2,6 +2,7 @@ import React, { useRef, useContext } from "react";
 import { GlobalStateContext } from "../../context/GlobalStateContext";
 import CourseDetailsRow from "../CourseDetailsRow/CourseDetailsRow";
 import ProgressBars from "../ProgressBars/ProgressBars";
+import StackedTeachers from "../StackedTeachers/StackedTeachers";
 import "./CourseDetails.css";
 
 export default function CourseDetails(props) {
@@ -33,6 +34,7 @@ export default function CourseDetails(props) {
             {d.current && 
                 <div className="detailsCol">
                     <ProgressBars data={d.current}></ProgressBars>
+                    <StackedTeachers d={d.current['Teachers']}></StackedTeachers>
                 </div>
             }
             {d.current &&

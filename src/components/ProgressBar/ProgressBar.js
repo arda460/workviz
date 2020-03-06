@@ -64,10 +64,8 @@ export default function ProgressBar(props) {
         // Otherwise fill the progressbar
         else {
             // Circle in middle
-            if (bHours > 0 && aHours === 0) {
-                circle.style('fill', 'red')
-                    .style("opacity", 0.2)
-            }
+            if (bHours > 0 && aHours === 0) 
+                circle.style('fill', '#F06E37')
             else
                 circle.style("fill", 'none');
 
