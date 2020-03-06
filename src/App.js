@@ -3,6 +3,7 @@ import "./App.css";
 import CourseTable from "./components/CourseTable/CourseTable";
 import BarChartData from "./components/BarChart/BarChartData";
 import TeacherDetails from "./components/TeacherDetails/TeacherDetails";
+import DetailView from "./components/DetailView/DetailView";
 
 import { DataContext } from "./context/DataContext";
 import { GlobalStateContext } from "./context/GlobalStateContext";
@@ -11,36 +12,26 @@ function App() {
   const { loading } = useContext(DataContext);
 
   const {
-    personHover,
-    setSelectedPerson,
     selectedPerson,
-    setShowTeacherDetails,
-    showTeacherDetails
+    showTeacherDetails,
+    updateBarClick,
+    courseDetails
   } = useContext(GlobalStateContext);
 
-  const updateBarClick = person => {
-    setSelectedPerson(person);
-    setShowTeacherDetails(true);
-  };
-
-  const checkPersonHover = () => {
-    return personHover == null ? (
-      <br />
-    ) : (
-      `${personHover.name}, ${personHover.value} %`
+  if (loading) {
+    return (
+      <div className="App">
+        <div class="spinner"></div>;
+      </div>
     );
-  };
+  }
   return (
-    <div className="App">
+    <div className="App fade-in">
       <h3>WorkVis</h3>
-      {checkPersonHover()}
-      {!loading && <BarChartData onClick={updateBarClick} />}
-      {showTeacherDetails && (
-        <TeacherDetails
-          selectedPerson={selectedPerson}
-          crossClick={setShowTeacherDetails}
-        />
-      )}
+      <BarChartData onClick={updateBarClick} />
+      {showTeacherDetails && <DetailView view="DetailTeacher" />}
+      {courseDetails && <DetailView view="DetailCourse" />}
+      {showTeacherDetails && <TeacherDetails selectedPerson={selectedPerson} />}
       <CourseTable />
     </div>
   );
