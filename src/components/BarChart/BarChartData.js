@@ -34,10 +34,11 @@ function BarChartData(props) {
   const handleData = sum20 => {
     //these are not hired people and thus removed, it might be interesting later to add them back in some other visualisation
     delete sum20["Lab handl Teknolog MID"];
+    delete sum20["Lab handl Teknolog TMH"];
+    delete sum20["Lab handl Teknolog CST"];
     delete sum20["UNKNOWN MID"];
     delete sum20["Fö Extern MID"];
     delete sum20["NN Doktorand"];
-    delete sum20["Lab handl Teknolog TMH"];
 
     return Object.entries(sum20)
       .map(p => {
