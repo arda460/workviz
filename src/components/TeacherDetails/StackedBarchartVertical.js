@@ -14,13 +14,13 @@ function StackedBarchartVertical(props) {
   const values = data.map(v => v.keys);
 
   let hexcolors = [
-    "#255650",
-    "#179988",
-    "#8CFFAF",
-    "#FFCCE4",
-    "#CC5CC8",
-    "#b58cff",
-    "#8CAECC"
+    "#EC9747",
+    "#FAAD5F",
+    "#FCD26C",
+    "#C9D897",
+    "#365780",
+    "#7BBFCC",
+    "#9DD0D1"
   ];
   /* 
   structure
@@ -95,7 +95,6 @@ function StackedBarchartVertical(props) {
       .attr("height", d => y(d[0]) - y(d[1]))
       .exit()
       .remove();
-    // // // console.log(groups);
 
     svg
       .append("g")
@@ -108,23 +107,46 @@ function StackedBarchartVertical(props) {
       .attr("x", d => x(d) + x.bandwidth() / 2)
       .attr("text-length", `${x.bandwidth()}px`)
       .text(d => d);
-
-    // svg
-    //   .append("g")
-    //   .selectAll("text")
-    //   .data(groups)
-    //   .append("text")
-    //   .attr("x", d => x(d))
-    //   .attr("y", y(0) - 5)
-    //   .text(d => d);
   });
 
   useEffect(() => {
     draw();
   }, [data]);
   return (
-    <div>
-      <svg ref={svgRef}></svg>
+    <div className="flex flexrow">
+      <div className="teacher-chart">
+        <svg ref={svgRef}></svg>
+      </div>
+      <div className="sLabels">
+        <div className="colorLabel">
+          <div className="labelFor"></div>
+          <p>Föreläsning</p>
+        </div>
+        <div className="colorLabel">
+          <div className="labelOvn"></div>
+          <p>Övning</p>
+        </div>
+        <div className="colorLabel">
+          <div className="labelLa"></div>
+          <p>Laboration</p>
+        </div>
+        <div className="colorLabel">
+          <div className="labelHa"></div>
+          <p>Handledning</p>
+        </div>
+        <div className="colorLabel">
+          <div className="labelEx"></div>
+          <p>Examination</p>
+        </div>
+        <div className="colorLabel">
+          <div className="labelKu"></div>
+          <p>Kursutveckling</p>
+        </div>
+        <div className="colorLabel">
+          <div className="labelAdm"></div>
+          <p>Administration</p>
+        </div>
+      </div>
     </div>
   );
 }
