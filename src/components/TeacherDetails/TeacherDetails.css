@@ -82,9 +82,23 @@ g.bar {
 
 /* https://leaverou.github.io/bubbly/ */
 .speech-bubble-right {
+  height: 35px;
   position: relative;
+  font-size: 13px;
+  color: wheat;
   background: #2a3b50;
-  border-radius: 0.4em;
+  border-radius: 0.2em;
+  margin-left: 13px;
+}
+
+.speech-bubble-left {
+  width: 80px;
+  height: 35px;
+  position: relative;
+  font-size: 13px;
+  color: wheat;
+  background: #2a3b50;
+  border-radius: 0.2em;
 }
 
 .speech-bubble-right:after {
@@ -94,21 +108,11 @@ g.bar {
   top: 50%;
   width: 0;
   height: 0;
-  border: 39px solid transparent;
+  border: 18px solid transparent;
   border-right-color: #2a3b50;
   border-left: 0;
-  margin-top: -39px;
-  margin-left: -39px;
-}
-
-.speech-bubble-left {
-  width: 60px;
-  height: 30px;
-  position: relative;
-  font-size: 13px;
-  color: wheat;
-  background: #2a3b50;
-  border-radius: 0.2em;
+  margin-top: -19px;
+  margin-left: -16px;
 }
 
 .speech-bubble-left:after {
@@ -118,9 +122,9 @@ g.bar {
   top: 50%;
   width: 0;
   height: 0;
-  border: 15px solid transparent;
+  border: 18px solid transparent;
   border-left-color: #2a3b50;
   border-right: 0;
-  margin-top: -15px;
-  margin-right: -13px;
+  margin-top: -19px;
+  margin-right: -16px;
 }
