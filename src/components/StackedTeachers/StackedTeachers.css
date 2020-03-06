@@ -1,0 +1,76 @@
+.stackedTeachersRow {
+    margin-top: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+    width: 100%;
+}
+
+.sChart {
+    max-width: 85%;
+    overflow-x: auto;
+}
+
+.sLabels {
+}
+
+.colorLabel {
+    display: flex;
+    margin-bottom: 10px;
+}
+
+.labelFor {
+    padding: 10px;
+    margin-right: 10px;
+    background-color: #FCD26C;
+}
+.labelOvn {
+    padding: 10px;
+    margin-right: 10px;
+    background-color: #C9D897;
+}
+.labelLa {
+    padding: 10px;
+    margin-right: 10px;
+    background-color: #365780;
+}
+.labelHa {
+    padding: 10px;
+    margin-right: 10px;
+    background-color: #FAAD5F;
+}
+.labelEx {
+    padding: 10px;
+    margin-right: 10px;
+    background-color: #7BBFCC;
+}
+.labelKu {
+    padding: 10px;
+    margin-right: 10px;
+    background-color: #9DD0D1;
+}
+.labelAdm {
+    padding: 10px;
+    margin-right: 10px;
+    background-color: #EC9747;
+}
+
+.sChart::-webkit-scrollbar {
+    height: 10px;
+  }
+
+  /* Track */
+.sChart::-webkit-scrollbar-track {
+    background: #f1f1f1; 
+  }
+
+  /* Handle */
+.sChart::-webkit-scrollbar-thumb {
+    background: #888; 
+  }
+
+  /* Handle on hover */
+.sChart::-webkit-scrollbar-thumb:hover {
+    background: #555; 
+  }
