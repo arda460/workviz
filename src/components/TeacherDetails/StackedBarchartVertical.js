@@ -1,8 +1,9 @@
-import React, { useRef, useEffect, useCallback } from "react";
+import React, { useRef, useEffect, useState, useCallback } from "react";
 import * as d3 from "d3";
 import "./StackedBarchartVertical.css";
 function StackedBarchartVertical(props) {
   const { data, margin, width = 200, height = 200 } = props;
+  const [legendHover, setLegendHover] = useState(null);
 
   const divRef = useRef(null);
   const svgRef = useRef(null);
@@ -22,13 +23,18 @@ function StackedBarchartVertical(props) {
     "#7BBFCC",
     "#9DD0D1"
   ];
+  let colors = {
+    Adm: "#EC9747",
+    Ha: "#FAAD5F",
+    Frl: "#FCD26C",
+    Ovn: "#C9D897",
+    La: "#365780",
+    Ex: "#7BBFCC",
+    Ku: "#9DD0D1"
+  };
   /* 
-  structure
+  data structure
   group: "DH2632 H"
-  keys: {Frl: "12", Ex: "94", Ku: "6"}
-  
-
-
 
   keys: {Adm,Frl,Ex,Ku,Ovn,Ha,La}
   */
@@ -49,7 +55,7 @@ function StackedBarchartVertical(props) {
       .attr("width", width)
       .html(null);
 
-    const g = svg.append("g");
+    const g = svg.append("g").attr("class", "stacks");
     const findMax = d => {
       let m = 0;
       for (let index = 0; index < groups.length; index++) {
@@ -78,7 +84,7 @@ function StackedBarchartVertical(props) {
     g.selectAll("g")
       .data(stackedData)
       .join("g")
-      .attr("fill", d => color(d.key))
+      .attr("fill", d => colors[d.key])
       .attr("class", d => `${d.key} bar`)
       .selectAll("rect")
       .data(d => {
@@ -107,45 +113,77 @@ function StackedBarchartVertical(props) {
       .attr("x", d => x(d) + x.bandwidth() / 2)
       .attr("text-length", `${x.bandwidth()}px`)
       .text(d => d);
+
+    if (legendHover) {
+      g.selectAll(".bar").attr("opacity", 0.2);
+      g.select(`.${legendHover}`).attr("opacity", 1);
+    }
+    console.log(legendHover);
   });
 
   useEffect(() => {
     draw();
-  }, [data]);
+  }, [data, legendHover]);
+  function ColorLabel({ name, text, mouseEnter, mouseLeave }) {
+    return (
+      <div className="colorLabel">
+        <div
+          className={name}
+          onMouseEnter={_ => setLegendHover(mouseEnter)}
+          onMouseLeave={_ => setLegendHover(mouseLeave)}
+        ></div>
+        <p>{text}</p>
+      </div>
+    );
+  }
   return (
     <div className="flex flexrow">
       <div className="teacher-chart">
         <svg ref={svgRef}></svg>
       </div>
       <div className="sLabels">
-        <div className="colorLabel">
-          <div className="labelFor"></div>
-          <p>Föreläsning</p>
-        </div>
-        <div className="colorLabel">
-          <div className="labelOvn"></div>
-          <p>Övning</p>
-        </div>
-        <div className="colorLabel">
-          <div className="labelLa"></div>
-          <p>Laboration</p>
-        </div>
-        <div className="colorLabel">
-          <div className="labelHa"></div>
-          <p>Handledning</p>
-        </div>
-        <div className="colorLabel">
-          <div className="labelEx"></div>
-          <p>Examination</p>
-        </div>
-        <div className="colorLabel">
-          <div className="labelKu"></div>
-          <p>Kursutveckling</p>
-        </div>
-        <div className="colorLabel">
-          <div className="labelAdm"></div>
-          <p>Administration</p>
-        </div>
+        <ColorLabel
+          name="labelFor"
+          text="Föreläsning"
+          mouseEnter="Frl"
+          mouseLeave={null}
+        />
+        <ColorLabel
+          name="labelOvn"
+          text="Övning"
+          mouseEnter="Ovn"
+          mouseLeave={null}
+        />
+        <ColorLabel
+          name="labelLa"
+          text="Laboration"
+          mouseEnter="La"
+          mouseLeave={null}
+        />
+        <ColorLabel
+          name="labelHa"
+          text="Handledning"
+          mouseEnter="Ha"
+          mouseLeave={null}
+        />
+        <ColorLabel
+          name="labelEx"
+          text="Examination"
+          mouseEnter="Ex"
+          mouseLeave={null}
+        />
+        <ColorLabel
+          name="labelKu"
+          text="Kursutveckling"
+          mouseEnter="Ku"
+          mouseLeave={null}
+        />
+        <ColorLabel
+          name="labelAdm"
+          text="Administration"
+          mouseEnter="Adm"
+          mouseLeave={null}
+        />
       </div>
     </div>
   );
