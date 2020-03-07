@@ -9,16 +9,14 @@ export default function CourseDetails(props) {
   const { data } = props;
   const {
     courseDetails,
-    setCourseDetails,
-    setDetailView,
-    setDisplayDetails
+    setDisplayDetails,
+    setOverView
   } = useContext(GlobalStateContext);
   const d = useRef(null);
 
   const exitDetails = () => {
     setDisplayDetails(false);
-    // setDetailView(false);
-    // setCourseDetails(false);
+    setOverView(true);
     d.current = null;
   };
 
