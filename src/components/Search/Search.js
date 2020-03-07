@@ -5,7 +5,7 @@ import "./Search.css";
 
 export default function Search() {
   const { colorDist, HT20, VT20, summary20, loading } = useContext(DataContext);
-  const { courseOverview, setCourseOverview, setFilterTeachers } = useContext(GlobalStateContext);
+  const { courseOverview, setCourseOverview, setFilterTeachers, displayDetails, overView, setOverView } = useContext(GlobalStateContext);
   const [buttonName, setButtonName] = useState([
     "filterButton",
     "filterButton"
@@ -195,6 +195,11 @@ export default function Search() {
             <p className="yellowText">Teacher Allocation Needed</p>
           </div>
         </div>
+        {displayDetails && 
+          <div className="overViewToggle">
+            <button className="ovToggleButton" onClick={ () => setOverView(!overView)}>Change View</button>
+          </div>
+        }
       </div>
   );
 }
