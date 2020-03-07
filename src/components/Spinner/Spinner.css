@@ -129,7 +129,7 @@ html {
 body {
   min-height: 100vh;
   font-family: Roboto, Arial;
-  color: #adafb6;
+  /* color: #adafb6; */
   display: flex;
   justify-content: center;
   align-items: center;
