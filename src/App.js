@@ -6,6 +6,8 @@ import BarChartData from "./components/BarChart/BarChartData";
 import TeacherDetails from "./components/TeacherDetails/TeacherDetails";
 import DetailView from "./components/DetailView/DetailView";
 import Spinner from "./components/Spinner/Spinner";
+import OverView from "./components/OverView/OverView";
+
 import { DataContext } from "./context/DataContext";
 import { GlobalStateContext } from "./context/GlobalStateContext";
 
@@ -37,9 +39,7 @@ function App() {
         {!displayDetails && <BarChartData onClick={updateBarClick} />}
         {displayDetails && <DetailView view={detailView} />}
       </div>
-      <div className="container2">
-        <CourseTable />
-      </div>
+      <OverView />
     </div>
   );
 }

@@ -1,7 +1,5 @@
 import React, { useEffect, useContext } from "react";
-import Search from "../Search/Search"
 import CourseTableContent from "../CourseTableContent/CourseTableContent";
-import CourseDetails from "../CourseDetails/CourseDetails";
 import { DataContext } from "../../context/DataContext";
 import { GlobalStateContext } from "../../context/GlobalStateContext";
 
@@ -24,7 +22,6 @@ export default function CourseTable(props) {
 
   return (
     <div className="courseContainer">
-      <Search></Search>
       <CourseTableContent data={courseOverview}></CourseTableContent>
     </div>
   );
