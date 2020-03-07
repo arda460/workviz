@@ -58,7 +58,7 @@ const GlobalStateProvider = ({ children }) => {
         detailView,
         setDetailView,
         overView,
-        setOverView
+        setOverView,
         courseClicked
       }}
     >
