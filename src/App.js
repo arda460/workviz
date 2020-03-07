@@ -30,32 +30,11 @@ function App() {
       </div>
     );
   }
-  /*
-  <h3>WorkVis</h3>
-  {checkPersonHover()}
-  {!loading && <BarChartData onClick={updateBarClick} />}
-  <CourseTable />
-  {showTeacherDetails && (
-    <TeacherDetails
-      selectedPerson={selectedPerson}
-      crossClick={setShowTeacherDetails}
-    />
-  )}
-  */
 
-  // TODO toggle details -> if coursedetails true then teacherdetails false and other way around
-
-  {
-    /* {courseDetails && <CourseDetails data={courseOverview}></CourseDetails>} */
-  }
-  {
-    /* {!courseDetails && !loading && (
-    <BarChartData onClick={updateBarClick} />
-  )} */
-  }
   return (
     <div className="App fade-in">
       <div className="container1">
+        {/* {console.log(!displayDetails)} */}
         {!displayDetails && <BarChartData onClick={updateBarClick} />}
         {displayDetails && <DetailView view={detailView} />}
       </div>
