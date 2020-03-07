@@ -21,6 +21,13 @@ const GlobalStateProvider = ({ children }) => {
     setDisplayDetails(true);
   };
 
+  const courseClicked = e => {
+    if (e === false) return;
+    setDetailView("CourseDetails");
+    setCourseDetails(e);
+    setDisplayDetails(true);
+  };
+
   const swapDetails = _ => {
     if (detailView === "null") return;
     detailView === "TeacherDetails"
@@ -52,6 +59,7 @@ const GlobalStateProvider = ({ children }) => {
         setDetailView,
         overView,
         setOverView
+        courseClicked
       }}
     >
       {children}

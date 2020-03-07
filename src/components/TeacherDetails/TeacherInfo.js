@@ -1,11 +1,11 @@
-import React from "react";
-
+import React, { useContext } from "react";
+import { GlobalStateContext } from "../../context/GlobalStateContext";
 function TeacherInfo({ data, children }) {
+  const { setDisplayDetails } = useContext(GlobalStateContext);
   if (!data) {
     return <>loading...</>;
   }
   const { name, summary } = data;
-
   return (
     <div className="infoContainer flex">
       <div className="flexcontainer flexcol">
@@ -56,9 +56,18 @@ function TeacherInfo({ data, children }) {
       <div className="flexcol">
         <div>{children[1]}</div>
       </div>
+      <div className="flexcol">
+        <div className="detailsCol exit">
+          <button
+            className="exitDetailsButton"
+            onClick={() => setDisplayDetails(false)}
+          >
+            X
+          </button>
+        </div>
+      </div>
     </div>
   );
 }
 
 export default TeacherInfo;
-//container(block) - courseFlex(flex) - courseInfo(column w=25%) - row(min-w 100%) - detailCourse(flex-row)

@@ -7,20 +7,12 @@ function DetailView({ view }) {
   const { courseDetails, courseOverview, selectedPerson } = useContext(
     GlobalStateContext
   );
-
-  // switch (view) {
-  //   case "CourseDetails":
-  //     view = <CourseDetails data={courseDetails} />;
-  //     break;
-  //   case "TeacherDetails":
-  //     view = <TeacherDetails selectedPerson={selectedPerson} />;
-  //     break;
-  //   default:
-  //     throw Error("No Proper DetailView Specified");
-  // }
+  console.log(view);
   return (
     <div>
-      {view === "CourseDetails" ? <CourseDetails data={courseDetails} /> : null}
+      {view === "CourseDetails" ? (
+        <CourseDetails data={courseOverview} />
+      ) : null}
       {view === "TeacherDetails" ? (
         <TeacherDetails selectedPerson={selectedPerson} />
       ) : null}
