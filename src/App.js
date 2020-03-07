@@ -5,7 +5,7 @@ import CourseDetails from "./components/CourseDetails/CourseDetails";
 import BarChartData from "./components/BarChart/BarChartData";
 import TeacherDetails from "./components/TeacherDetails/TeacherDetails";
 import DetailView from "./components/DetailView/DetailView";
-
+import Spinner from "./components/Spinner/Spinner";
 import { DataContext } from "./context/DataContext";
 import { GlobalStateContext } from "./context/GlobalStateContext";
 
@@ -26,7 +26,7 @@ function App() {
   if (loading) {
     return (
       <div className="App">
-        <div class="spinner"></div>;
+        <Spinner />
       </div>
     );
   }
@@ -34,7 +34,6 @@ function App() {
   return (
     <div className="App fade-in">
       <div className="container1">
-        {/* {console.log(!displayDetails)} */}
         {!displayDetails && <BarChartData onClick={updateBarClick} />}
         {displayDetails && <DetailView view={detailView} />}
       </div>
