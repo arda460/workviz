@@ -1,7 +1,7 @@
 import React, { useContext } from "react";
 import { GlobalStateContext } from "../../context/GlobalStateContext";
 function TeacherInfo({ data, children }) {
-  const { setDisplayDetails } = useContext(GlobalStateContext);
+  const { setDisplayDetails, setOverView } = useContext(GlobalStateContext);
   if (!data) {
     return <>loading...</>;
   }
@@ -60,7 +60,10 @@ function TeacherInfo({ data, children }) {
         <div className="detailsCol exit">
           <button
             className="exitDetailsButton"
-            onClick={() => setDisplayDetails(false)}
+            onClick={() => { 
+              setDisplayDetails(false);
+              setOverView(true);
+            }}
           >
             X
           </button>
