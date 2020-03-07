@@ -20,8 +20,8 @@ function DetailView({ view }) {
   // }
   return (
     <div>
-      {view === "DetailCourse" ? <CourseDetails data={courseDetails} /> : null}
-      {view === "DetailTeacher" ? (
+      {view === "CourseDetails" ? <CourseDetails data={courseDetails} /> : null}
+      {view === "TeacherDetails" ? (
         <TeacherDetails selectedPerson={selectedPerson} />
       ) : null}
     </div>

@@ -18,7 +18,9 @@ function App() {
     showTeacherDetails,
     updateBarClick,
     courseDetails,
-    courseOverview
+    courseOverview,
+    displayDetails,
+    detailView
   } = useContext(GlobalStateContext);
 
   if (loading) {
@@ -43,13 +45,19 @@ function App() {
 
   // TODO toggle details -> if coursedetails true then teacherdetails false and other way around
 
+  {
+    /* {courseDetails && <CourseDetails data={courseOverview}></CourseDetails>} */
+  }
+  {
+    /* {!courseDetails && !loading && (
+    <BarChartData onClick={updateBarClick} />
+  )} */
+  }
   return (
     <div className="App fade-in">
       <div className="container1">
-        {courseDetails && <CourseDetails data={courseOverview}></CourseDetails>}
-        {!courseDetails && !loading && (
-          <BarChartData onClick={updateBarClick} />
-        )}
+        {!displayDetails && <BarChartData onClick={updateBarClick} />}
+        {displayDetails && <DetailView view={detailView} />}
       </div>
       <div className="container2">
         <CourseTable />

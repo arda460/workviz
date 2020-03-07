@@ -10,10 +10,21 @@ const GlobalStateProvider = ({ children }) => {
   const [showTeacherDetails, setShowTeacherDetails] = useState(false);
   const [courseDetails, setCourseDetails] = useState(false);
   const [courseOverview, setCourseOverview] = useState(null);
+  const [displayDetails, setDisplayDetails] = useState(false);
+  const [detailView, setDetailView] = useState(null);
 
   const updateBarClick = person => {
     setSelectedPerson(person);
     setShowTeacherDetails(true);
+    setDetailView("TeacherDetails");
+    setDisplayDetails(true);
+  };
+
+  const swapDetails = _ => {
+    if (detailView === "null") return;
+    detailView === "TeacherDetails"
+      ? setDetailView("CourseDetails")
+      : setDetailView("TeacherDetails");
   };
 
   return (
@@ -33,7 +44,11 @@ const GlobalStateProvider = ({ children }) => {
         updateBarClick,
         setFilterTeachers,
         courseOverview,
-        setCourseOverview
+        setCourseOverview,
+        displayDetails,
+        setDisplayDetails,
+        detailView,
+        setDetailView
       }}
     >
       {children}
