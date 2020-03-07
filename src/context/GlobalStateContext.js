@@ -12,6 +12,7 @@ const GlobalStateProvider = ({ children }) => {
   const [courseOverview, setCourseOverview] = useState(null);
   const [displayDetails, setDisplayDetails] = useState(false);
   const [detailView, setDetailView] = useState(null);
+  const [overView, setOverView] = useState(true);
 
   const updateBarClick = person => {
     setSelectedPerson(person);
@@ -48,7 +49,9 @@ const GlobalStateProvider = ({ children }) => {
         displayDetails,
         setDisplayDetails,
         detailView,
-        setDetailView
+        setDetailView,
+        overView,
+        setOverView
       }}
     >
       {children}
