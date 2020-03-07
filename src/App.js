@@ -11,13 +11,14 @@ import { GlobalStateContext } from "./context/GlobalStateContext";
 
 function App() {
   const { loading } = useContext(DataContext);
-  const { courseDetails, courseOverview } = useContext(GlobalStateContext);
+  // const { courseDetails, courseOverview } = useContext(GlobalStateContext);
 
   const {
     selectedPerson,
     showTeacherDetails,
     updateBarClick,
-    courseDetails
+    courseDetails,
+    courseOverview
   } = useContext(GlobalStateContext);
 
   if (loading) {
@@ -43,11 +44,12 @@ function App() {
   // TODO toggle details -> if coursedetails true then teacherdetails false and other way around
 
   return (
-    <div className="App">
+    <div className="App fade-in">
       <div className="container1">
         {courseDetails && <CourseDetails data={courseOverview}></CourseDetails>}
-        {!courseDetails && checkPersonHover()}
-        {!courseDetails && !loading && <BarChartData onClick={updateBarClick} />}
+        {!courseDetails && !loading && (
+          <BarChartData onClick={updateBarClick} />
+        )}
       </div>
       <div className="container2">
         <CourseTable />

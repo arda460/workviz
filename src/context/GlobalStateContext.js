@@ -30,7 +30,7 @@ const GlobalStateProvider = ({ children }) => {
         courseDetails,
         setCourseDetails,
         filterTeachers,
-        updateBarClick
+        updateBarClick,
         setFilterTeachers,
         courseOverview,
         setCourseOverview
