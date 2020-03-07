@@ -7,13 +7,17 @@ import "./CourseDetails.css";
 
 export default function CourseDetails(props) {
   const { data } = props;
-  const { courseDetails, setCourseDetails, setDetailView } = useContext(
-    GlobalStateContext
-  );
+  const {
+    courseDetails,
+    setCourseDetails,
+    setDetailView,
+    setDisplayDetails
+  } = useContext(GlobalStateContext);
   const d = useRef(null);
 
   const exitDetails = () => {
-    setDetailView(false);
+    setDisplayDetails(false);
+    // setDetailView(false);
     // setCourseDetails(false);
     d.current = null;
   };
