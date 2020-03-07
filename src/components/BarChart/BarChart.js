@@ -2,30 +2,10 @@ import React, { useRef, useEffect, useState } from "react";
 import * as d3 from "d3";
 import "./BarChart.css";
 
-const Tooltip = props => {
-  const { xScale, yScale, info, visible } = props;
-  console.log(info);
-  return (
-    visible && (
-      <foreignObject
-        className="tooltip"
-        x={xScale(info.name)}
-        y="40"
-        width="200"
-        height="100"
-      >
-        <div>
-          <strong>{info.name}</strong>
-          <br />
-          Workbalance:{info.value} %{" "}
-        </div>
-      </foreignObject>
-    )
-  );
-};
 const BarChart = props => {
   const [tooltip, setTooltip] = useState(false);
   const [tooltiptext, setTooltipText] = useState("");
+  const [hoverPerson, setHoverPerson] = useState(null);
 
   const axisOffset = 25;
   const {
@@ -148,10 +128,11 @@ const BarChart = props => {
           .attr("opacity", 1);
       })
       .on("mouseenter", d => {
+        setHoverPerson(d);
         onHover(d);
       })
       .on("mouseleave", d => {
-        setTooltip(false);
+        setHoverPerson(null);
         onHover(null);
         svg.select(".tooltip").remove();
       })
@@ -203,15 +184,13 @@ const BarChart = props => {
   }, [data]);
   return (
     <div>
+      {hoverPerson == null ? (
+        <br />
+      ) : (
+        `${hoverPerson.name}, ${hoverPerson.value} %`
+      )}
       <div ref={divRef}></div>
-      <svg className="BarChartOverview" ref={svgRef}>
-        {/* <Tooltip
-          visible={tooltip}
-          xScale={x}
-          yScale={y}
-          info={tooltiptext}
-        ></Tooltip> */}
-      </svg>
+      <svg className="BarChartOverview" ref={svgRef}></svg>
     </div>
   );
 };

@@ -12,7 +12,7 @@ svg rect.Small {
   fill: #73ad21;
 }
 .BarChartOverview rect:hover {
-  opacity: 0.5;
+  opacity: 0.5 !important;
 }
 
 rect.Small:hover {

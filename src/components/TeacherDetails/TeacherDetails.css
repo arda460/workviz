@@ -5,6 +5,9 @@
 .flexinline {
   display: inline-flex;
 }
+.flex {
+  display: flex;
+}
 .flexrow {
   flex-direction: row;
 }
@@ -26,12 +29,12 @@
   min-width: 100%;
 }
 .teacherInfo {
-  width: 25%;
   display: flex;
 }
 .teacher-label {
-  margin-right: 10px;
-  border-right: 1px dashed black;
+  margin: 0px 10px 0 10px;
+  /* margin-right: 10px; */
+  padding-right: 5px;
 }
 .InfoDetails {
   float: left;
@@ -52,12 +55,76 @@
 }
 .infoContainer {
   width: 95%;
+  margin: 0 auto;
   border: 1px dashed black;
 }
 .infoContainer > div {
-  border: solid 1px #000;
+  /* border: solid 1px #000; */
 }
 
 .infoContainer svg {
-  border: 4px dashed palevioletred;
+  /* border: 4px dashed palevioletred; */
+}
+g.bar {
+  stroke-width: 1px;
+  stroke: rgb(0, 0, 0);
+}
+.course-list {
+  padding-left: 1em;
+}
+
+.kontering-path,
+.workload-path {
+  stroke: "black";
+  stroke-width: 1.5px;
+  stroke-dasharray: 4, 2, 4;
+}
+
+/* https://leaverou.github.io/bubbly/ */
+.speech-bubble-right {
+  height: 35px;
+  position: relative;
+  font-size: 13px;
+  color: wheat;
+  background: #2a3b50;
+  border-radius: 0.2em;
+  margin-left: 13px;
+}
+
+.speech-bubble-left {
+  width: 80px;
+  height: 35px;
+  position: relative;
+  font-size: 13px;
+  color: wheat;
+  background: #2a3b50;
+  border-radius: 0.2em;
+}
+
+.speech-bubble-right:after {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 50%;
+  width: 0;
+  height: 0;
+  border: 18px solid transparent;
+  border-right-color: #2a3b50;
+  border-left: 0;
+  margin-top: -19px;
+  margin-left: -16px;
+}
+
+.speech-bubble-left:after {
+  content: "";
+  position: absolute;
+  right: 0;
+  top: 50%;
+  width: 0;
+  height: 0;
+  border: 18px solid transparent;
+  border-left-color: #2a3b50;
+  border-right: 0;
+  margin-top: -19px;
+  margin-right: -16px;
 }

@@ -11,6 +11,11 @@ const GlobalStateProvider = ({ children }) => {
   const [courseDetails, setCourseDetails] = useState(false);
   const [courseOverview, setCourseOverview] = useState(null);
 
+  const updateBarClick = person => {
+    setSelectedPerson(person);
+    setShowTeacherDetails(true);
+  };
+
   return (
     <GlobalStateContext.Provider
       value={{
@@ -25,6 +30,7 @@ const GlobalStateProvider = ({ children }) => {
         courseDetails,
         setCourseDetails,
         filterTeachers,
+        updateBarClick
         setFilterTeachers,
         courseOverview,
         setCourseOverview
