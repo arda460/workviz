@@ -5,7 +5,14 @@ import "./Search.css";
 
 export default function Search() {
   const { colorDist, HT20, VT20, summary20, loading } = useContext(DataContext);
-  const { courseOverview, setCourseOverview, setFilterTeachers, displayDetails, overView, setOverView } = useContext(GlobalStateContext);
+  const {
+    courseOverview,
+    setCourseOverview,
+    setFilterTeachers,
+    displayDetails,
+    overView,
+    setOverView
+  } = useContext(GlobalStateContext);
   const [buttonName, setButtonName] = useState([
     "filterButton",
     "filterButton"
@@ -97,16 +104,17 @@ export default function Search() {
       let bNames = ["filterButton", "filterButton"];
 
       if (
-        (val === "red" && buttonName[0] === "filterButton pressed") ||
-        (val === "orange" && buttonName[1] === "filterButton pressed")
+        (val === "red" && buttonName[0] === "filterButton pressed bg-red") ||
+        (val === "orange" && buttonName[1] === "filterButton pressed bg-orange")
       ) {
         setCourseOverview(d);
         setButtonName(bNames);
         return;
       }
 
-      bNames[0] = val === "red" ? "filterButton pressed" : bNames[0];
-      bNames[1] = val === "orange" ? "filterButton pressed" : bNames[1];
+      bNames[0] = val === "red" ? "filterButton pressed bg-red" : bNames[0];
+      bNames[1] =
+        val === "orange" ? "filterButton pressed bg-orange" : bNames[1];
 
       const courseColors = { ...colorDist[0], ...colorDist[1] };
 
@@ -150,56 +158,61 @@ export default function Search() {
   };
 
   return (
-      <div className="courseControls">
-        <div className="courseSearch">
-          <label className="searchLabel">
-            Search for{!sliderStatus ? " course code/short name" : " teacher"}
-          </label>
-          <div className="searchToggle">
-            <input
-              type="search"
-              id="courseSeachInp"
-              className="searchBar"
-              onChange={e => handleKeyStroke(e.target.value)}
-            ></input>
-            <div className="toggler">
-              <label className="switch">
-                <input
-                  type="checkbox"
-                  id="searchSlider"
-                  onClick={() => handleSlider()}
-                />
-                <span className="slider round"></span>
-              </label>
-            </div>
+    <div className="courseControls">
+      <div className="courseSearch">
+        <label className="searchLabel">
+          Search for{!sliderStatus ? " course code/short name" : " teacher"}
+        </label>
+        <div className="searchToggle">
+          <input
+            type="search"
+            id="courseSeachInp"
+            className="searchBar"
+            onChange={e => handleKeyStroke(e.target.value)}
+          ></input>
+          <div className="toggler">
+            <label className="switch">
+              <input
+                type="checkbox"
+                id="searchSlider"
+                onClick={() => handleSlider()}
+              />
+              <span className="slider round"></span>
+            </label>
           </div>
         </div>
-        <div className="courseFilter">
-          <button className={buttonName[0]} onClick={() => handleFilter("red")}>
-            Filter on Red
-          </button>
-          <button
-            className={buttonName[1]}
-            onClick={() => handleFilter("orange")}
-          >
-            Filter on Yellow
-          </button>
-        </div>
-        <div className="courseInfo">
-          <div className="redInfo">
-            <div className="redBox"></div>
-            <p className="reText">Task Hour Allocation Needed</p>
-          </div>
-          <div className="yellowInfo">
-            <div className="yellowBox"></div>
-            <p className="yellowText">Teacher Allocation Needed</p>
-          </div>
-        </div>
-        {displayDetails && 
-          <div className="overViewToggle">
-            <button className="ovToggleButton" onClick={ () => setOverView(!overView)}>Change View</button>
-          </div>
-        }
       </div>
+      <div className="courseFilter">
+        <button className={buttonName[0]} onClick={() => handleFilter("red")}>
+          Filter on Red
+        </button>
+        <button
+          className={buttonName[1]}
+          onClick={() => handleFilter("orange")}
+        >
+          Filter on Yellow
+        </button>
+      </div>
+      <div className="courseInfo">
+        <div className="redInfo">
+          <div className="redBox"></div>
+          <p className="reText">Task Hour Allocation Needed</p>
+        </div>
+        <div className="yellowInfo">
+          <div className="yellowBox"></div>
+          <p className="yellowText">Teacher Allocation Needed</p>
+        </div>
+      </div>
+      {displayDetails && (
+        <div className="overViewToggle">
+          <button
+            className="ovToggleButton"
+            onClick={() => setOverView(!overView)}
+          >
+            Change View
+          </button>
+        </div>
+      )}
+    </div>
   );
 }
