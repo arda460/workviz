@@ -42,7 +42,7 @@ foreignObject.tooltip {
   transition: opacity 0;
 }
 .BarChartOverview rect:hover {
-  opacity: 0.5 !important;
+  opacity: 0.6 !important;
 }
 .no-select {
   opacity: 1;

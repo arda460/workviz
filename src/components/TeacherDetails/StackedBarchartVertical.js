@@ -13,7 +13,7 @@ function StackedBarchartVertical(props) {
   data.forEach(c => Object.keys(c.keys).map(x => keys.add(x)));
 
   const groups = data.map(x => x.group);
-  const values = data.map(v => v.keys);
+  const NCourses = groups.length;
 
   let hexcolors = [
     "#EC9747",
@@ -64,13 +64,17 @@ function StackedBarchartVertical(props) {
       }
       return m;
     };
-
     const max = findMax(stackedData[stackedData.length - 1]);
     const x = d3
       .scaleBand()
       .domain(groups)
       .range([margin.left, width - margin.right])
       .padding(0.2);
+
+    // let barWidth;
+    // if (NCourses <9){
+    //   barWidth = 50
+    // }else{barWidth = x.bandwidth()}
 
     const y = d3
       .scaleLinear()
@@ -87,7 +91,10 @@ function StackedBarchartVertical(props) {
       .join("g")
       .attr("fill", d => colors[d.key])
       .attr("class", d => `${d.key} bar`)
-      .on("mouseenter", d => setGroupHover(d.key))
+      .on("mouseenter", d => {
+        setGroupHover(d.key);
+        console.log(d);
+      })
       .on("mouseleave", d => setGroupHover(null))
       .selectAll("rect")
       .data(d => {
@@ -102,10 +109,25 @@ function StackedBarchartVertical(props) {
       .attr("y", d => y(d[1]))
       .attr("width", x.bandwidth())
       .attr("height", d => y(d[0]) - y(d[1]))
-      .on("mouseenter", d => console.log(d))
+      .on("mouseenter", d => console.log(d[1] - d[0]))
       .exit()
       .remove();
 
+    svg
+      .append("g")
+      .attr("class", "yaxis")
+      .attr("transform", `translate(50,0)`)
+      .call(d3.axisLeft(y));
+
+    svg
+      .append("g")
+      .attr("class", "axis-label")
+      .append("text")
+      .attr("x", -height / 2)
+      .attr("y", 15)
+      .attr("transform", "rotate(-90)")
+      .attr("text-anchor", "middle")
+      .text("Hours");
     svg
       .append("g")
       .attr("class", "course-lables")

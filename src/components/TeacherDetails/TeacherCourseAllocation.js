@@ -4,9 +4,9 @@ import * as d3 from "d3";
 
 function TeacherCourseAllocation({ data }) {
   const chartProps = {
-    margin: { top: 50, bottom: 50, left: 20, right: 20 },
+    margin: { top: 50, bottom: 50, left: 40, right: 50 },
     height: 300,
-    width: 600
+    width: 700
   };
   const [chartData, setChartData] = useState(null);
 
