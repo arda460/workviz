@@ -1,6 +1,5 @@
-import React, { useEffect, useState, useCallback } from "react";
+import React, { useEffect, useState } from "react";
 import StackedBarchart from "./StackedBarchart";
-import * as d3 from "d3";
 
 function InfoChart({ data }) {
   const [chartData, setChartData] = useState(null);
@@ -46,22 +45,17 @@ function InfoChart({ data }) {
       };
     }
     if (summary["Extra (%)"]) {
-      activity["Extra"] = { work: summary["Extra (%)"] || 0, type: "other" };
+      activity["Extra"] = { work: summary["Extra (%)"] || 0, type: "extra" };
     }
     activity["Kontering"] = {
       work: summary["Kontering HCT (%)"],
       type: "kontering"
     };
-    // activity["Employed HCT"] = {
-    //   work: summary["Bemnnad HCT Gru (%)"],
-    //   type: "kontering"
-    // };
+
     activity["group"] = "Workload";
 
     setChartData([activity]);
   };
-
-  //DH2650: {work:0.9,type:'VT'}, DM2350: 3.3, DH2323: 6.5, group: "Workload"}
 
   useEffect(() => {
     if (data) {

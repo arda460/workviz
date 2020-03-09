@@ -17,9 +17,8 @@ function StackedBarchart(props) {
   const keys = Object.keys(data[0])
     .filter(k => k !== "group")
     .filter(k => k !== "Kontering");
-  // console.log(keys);
+
   const kontering = data[0].Kontering;
-  // console.log(data);
   const groups = data.map(d => d.group);
 
   // eslint-disable-next-line react-hooks/exhaustive-deps
