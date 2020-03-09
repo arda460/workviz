@@ -19,6 +19,7 @@ const GlobalStateProvider = ({ children }) => {
     setShowTeacherDetails(true);
     setDetailView("TeacherDetails");
     setDisplayDetails(true);
+    setCourseDetails(false);
   };
 
   const courseClicked = e => {
@@ -26,6 +27,7 @@ const GlobalStateProvider = ({ children }) => {
     setDetailView("CourseDetails");
     setCourseDetails(e);
     setDisplayDetails(true);
+    setSelectedPerson(null);
   };
 
   const exitTeacherDetails = () => {
