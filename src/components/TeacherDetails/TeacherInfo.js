@@ -1,7 +1,12 @@
 import React, { useContext } from "react";
 import { GlobalStateContext } from "../../context/GlobalStateContext";
 function TeacherInfo({ data, children }) {
-  const { setDisplayDetails, setOverView } = useContext(GlobalStateContext);
+  const {
+    setDisplayDetails,
+    setOverView,
+    setSelectedPerson,
+    exitTeacherDetails
+  } = useContext(GlobalStateContext);
   if (!data) {
     return <>loading...</>;
   }
@@ -24,9 +29,15 @@ function TeacherInfo({ data, children }) {
             <div className="flexcol">
               <div>
                 <h6>
-                  <strong>Gru Balance 19: </strong>
-                  {summary["GRU balance 19"]}%<strong> Gru Balance 20: </strong>
-                  {summary["GRU balance 20"]} %
+                  {/* //eslint-ignore */}
+                  <span className="info-title">
+                    <strong>Gru Balance 20: </strong>
+                    {summary["GRU balance 20"]}%
+                  </span>
+                  <span className="info-title">
+                    <strong> Workload Balance: </strong>
+                    {summary["Balance (%)"]} %
+                  </span>
                 </h6>
               </div>
               <div className="flexcol">{children[0]}</div>
@@ -60,9 +71,8 @@ function TeacherInfo({ data, children }) {
         <div className="detailsCol exit">
           <button
             className="exitDetailsButton"
-            onClick={() => { 
-              setDisplayDetails(false);
-              setOverView(true);
+            onClick={() => {
+              exitTeacherDetails();
             }}
           >
             X

@@ -8,9 +8,12 @@ function BarChartData(props) {
   const [personData, setPersonData] = useState([]);
 
   const { summary20, loading } = useContext(DataContext);
-  const { setPersonHover, courseHover, filterTeachers } = useContext(
-    GlobalStateContext
-  );
+  const {
+    setPersonHover,
+    courseHover,
+    filterTeachers,
+    selectedPerson
+  } = useContext(GlobalStateContext);
 
   const getWindowDimensions = () => {
     const { innerWidth: width, innerHeight: height } = window;
@@ -28,7 +31,8 @@ function BarChartData(props) {
     width: windowDimensions.width * 0.95,
     onHover: setPersonHover,
     onClick: props.onClick,
-    courseHover
+    courseHover,
+    selectedPerson
   };
 
   const handleData = sum20 => {
@@ -54,7 +58,7 @@ function BarChartData(props) {
 
   useEffect(() => {
     if (!loading) setPersonData(handleData(summary20));
-  }, [loading, summary20, courseHover, filterTeachers]);
+  }, [loading, summary20, courseHover, filterTeachers, selectedPerson]);
 
   useEffect(() => {
     function handleResize() {

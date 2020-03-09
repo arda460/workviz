@@ -12,9 +12,6 @@ svg rect.Negative {
 svg rect.Small {
   fill: #73ad21;
 }
-.BarChartOverview rect:hover {
-  opacity: 0.5 !important;
-}
 
 rect.Small:hover {
   -webkit-animation-name: wiggle;
@@ -43,6 +40,19 @@ foreignObject.tooltip {
 }
 .fade-in {
   transition: opacity 0;
+}
+.BarChartOverview rect:hover {
+  opacity: 0.5 !important;
+}
+.no-select {
+  opacity: 1;
+}
+.unfocus {
+  opacity: 0.2 !important;
+}
+rect.focus {
+  stroke-width: 2px;
+  stroke: rgb(0, 0, 0);
 }
 
 @-webkit-keyframes wiggle {

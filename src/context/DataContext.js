@@ -5,10 +5,6 @@ import * as d3 from "d3";
 const DataContext = React.createContext();
 
 const DataProvider = props => {
-  const [selectedPerson, setSelectedPerson] = useState({
-    name: "",
-    value: ""
-  });
   const [highlightPerson, setHighlightPerson] = useState({
     name: "",
     value: ""
@@ -18,7 +14,7 @@ const DataProvider = props => {
   const [summary20, setTeacherData] = useState();
   const [HT20, setHT20] = useState();
   const [VT20, setVT20] = useState();
-  const [colorDist, setColorDist] = useState([{},{}]);
+  const [colorDist, setColorDist] = useState([{}, {}]);
 
   const getData = async () => {
     try {
@@ -46,8 +42,6 @@ const DataProvider = props => {
     <DataContext.Provider
       value={{
         loading,
-        selectedPerson,
-        setSelectedPerson,
         highlightPerson,
         setHighlightPerson,
         teacherSimple,
