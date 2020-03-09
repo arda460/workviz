@@ -26,7 +26,7 @@ function App() {
 
   return (
     <div className="App fade-in">
-      <div className="container1">
+      <div className="view-container container1">
         {!displayDetails && <BarChartData onClick={updateBarClick} />}
         {displayDetails && <DetailView view={detailView} />}
       </div>

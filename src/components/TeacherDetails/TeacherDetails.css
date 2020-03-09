@@ -54,8 +54,8 @@
   justify-content: space-between;
 }
 .infoContainer {
-  width: 95%;
-  margin: 0 auto;
+  /* width: 95%; */
+  /* margin: 0 auto; */
   border: 1px dashed black;
 }
 .infoContainer > div {

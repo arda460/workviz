@@ -4,10 +4,8 @@ import TeacherDetails from "../TeacherDetails/TeacherDetails";
 import { GlobalStateContext } from "../../context/GlobalStateContext";
 
 function DetailView({ view }) {
-  const { courseDetails, courseOverview, selectedPerson } = useContext(
-    GlobalStateContext
-  );
-  console.log(view);
+  const { courseOverview, selectedPerson } = useContext(GlobalStateContext);
+
   return (
     <div>
       {view === "CourseDetails" ? (

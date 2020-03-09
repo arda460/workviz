@@ -183,7 +183,7 @@ const BarChart = props => {
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [data]);
   return (
-    <div>
+    <div className="TeacherBarChart">
       {hoverPerson == null ? (
         <br />
       ) : (

@@ -1,6 +1,7 @@
-svg.BarChartOverview {
+.TeacherBarChart {
   border-radius: 25px;
   border: 1px solid black;
+  padding-top: 1em;
 }
 svg rect.Positive {
   fill: red;
