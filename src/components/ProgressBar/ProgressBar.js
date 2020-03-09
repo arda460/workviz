@@ -3,10 +3,11 @@ import * as d3 from "d3";
 import "./ProgressBar.css";
 
 export default function ProgressBar(props) {
-    const { percentage, percentage2, percentage3, label, height, bHours, aHours, tHours, uHours } = props;
+    const { percentage, percentage2, percentage3, label, bHours, aHours, tHours, uHours } = props;
     const svgRef = useRef(null);
 
-    const width = (window.innerWidth - 60 - (0.25 * (window.innerWidth - 60))) * 0.075;
+    const height = 120;
+    const width = 120;
     const arcWidth = height * 0.045;
     const arcOuterOuterRadious = width / 2.5 + arcWidth;
     const arcOuterRadius = width / 2.5;

@@ -52,7 +52,6 @@ export default function StackedTeachers(props) {
             .attr("transform", "translate(0," + height + ")")
             .call(d3.axisBottom(x));
 
-
         /*
         // Lift every other label
         function liftOdd(d, i) {
@@ -113,32 +112,32 @@ export default function StackedTeachers(props) {
             </div>
             <div className="sLabels">
                 <div className="colorLabel">
-                    <div className="labelFor"></div>
-                    <p>Föreläsning</p>
-                </div>
-                <div className="colorLabel">
-                    <div className="labelOvn"></div>
-                    <p>Övning</p>
-                </div>
-                <div className="colorLabel">
-                    <div className="labelLa"></div>
-                    <p>Laboration</p>
-                </div>
-                <div className="colorLabel">
-                    <div className="labelHa"></div>
-                    <p>Handledning</p>
-                </div>
-                <div className="colorLabel">
-                    <div className="labelEx"></div>
-                    <p>Examination</p>
+                    <div className="labelAdm"></div>
+                    <p>Administration</p>
                 </div>
                 <div className="colorLabel">
                     <div className="labelKu"></div>
                     <p>Kursutveckling</p>
                 </div>
                 <div className="colorLabel">
-                    <div className="labelAdm"></div>
-                    <p>Administration</p>
+                    <div className="labelEx"></div>
+                    <p>Examination</p>
+                </div>
+                <div className="colorLabel">
+                    <div className="labelHa"></div>
+                    <p>Handledning</p>
+                </div>
+                <div className="colorLabel">
+                    <div className="labelLa"></div>
+                    <p>Laboration</p>
+                </div>
+                <div className="colorLabel">
+                    <div className="labelOvn"></div>
+                    <p>Övning</p>
+                </div>
+                <div className="colorLabel">
+                    <div className="labelFor"></div>
+                    <p>Föreläsning</p>
                 </div>
             </div>
         </div>

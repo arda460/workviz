@@ -4,7 +4,6 @@ import "./ProgressBars.css";
 
 export default function ProgressBars(props) {
     const { data } = props;
-    const [progressHeight, setProgressHeight] = useState(110);
     const [ teacherHoursSplit, setSplit ] = useState({ 'Frl': 0, 'Ovn': 0, 'La': 0, 'Ha': 0, 'Ex': 0, 'Ku': 0, 'Adm': 0, 'Totalt': 0 });
     const [ unknownHoursSplit, setUnknownSplit] = useState({});
 
@@ -31,13 +30,6 @@ export default function ProgressBars(props) {
                 return labels[i];
         }
     }
-
-    window.addEventListener("resize", () => {
-        const container = document.getElementById('courseFlex');
-        const size = Math.min(container.clientWidth / 4.5, container.clientHeight)
-        setProgressHeight(size * 0.334);
-    });
-
 
     useEffect(() => {
         const teacherHours = { 'Frl': 0, 'Ovn': 0, 'La': 0, 'Ha': 0, 'Ex': 0, 'Ku': 0, 'Adm': 0, 'Totalt': 0 };
@@ -92,7 +84,6 @@ export default function ProgressBars(props) {
                             aHours={allocatedHours}
                             tHours={tHours}
                             uHours={uHours}
-                            height={progressHeight}
                             label={label} />
                     )
                 })}

@@ -1,10 +1,10 @@
 .stackedTeachersRow {
-  margin-top: 20px;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-
-  width: 100%;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
 }
 
 .sChart {
@@ -14,8 +14,8 @@
 }
 
 .sLabels {
-  padding-left: 50px;
-  width: 20%;
+    padding-left: 60px;
+    width: 20%;
 }
 
 .colorLabel {

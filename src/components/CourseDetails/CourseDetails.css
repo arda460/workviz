@@ -17,13 +17,13 @@
 .detailsColInfo {
   display: flex;
   flex-direction: column;
-  width: 25%;
+  width: 20%;
 
   max-height: 100%;
 }
 
 .detailsCol {
-  width: 75%;
+  width: 80%;
 }
 
 .detailsCol.exit {
