@@ -1,0 +1,17 @@
+#instructions-container {
+  margin-block-start: 3em;
+  border-radius: 1em 1em 1em 1em;
+  background: #ebebeb;
+  box-shadow: 2px -1px 10px 1px rgba(0, 0, 0, 0.5);
+  max-width: 50%;
+  margin: auto;
+  font-family: "Helvetica Neue", sans-serif;
+  padding-left: 6px;
+  padding-right: 6px;
+}
+
+#instructions-container img {
+  box-shadow: -1px -1px 10px 1px rgba(0, 0, 0, 0.3);
+  max-width: 100%;
+  max-height: 100%;
+}
