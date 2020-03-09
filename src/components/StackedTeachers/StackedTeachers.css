@@ -18,6 +18,10 @@
     width: 20%;
 }
 
+.stackedTeachers {
+  float: left;
+}
+
 .colorLabel {
   display: flex;
   margin-bottom: 10px;

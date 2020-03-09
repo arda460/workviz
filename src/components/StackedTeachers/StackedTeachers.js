@@ -7,7 +7,7 @@ export default function StackedTeachers(props) {
     const svgRef = useRef(null);
 
     const margin = { top: 10, right: 20, bottom: 20, left: 50 };
-    const width = Math.max(45 * Object.keys(d).length, 1100);
+    const width = Math.max(60 * Object.keys(d).length, 900);
     const height = 190 - margin.top - margin.bottom;
 
     const handleData = () => {
@@ -30,8 +30,8 @@ export default function StackedTeachers(props) {
         const data = handleData();
 
         const svg = d3.select(svgRef.current)
-            .style("width", width)
-            .style("height", height+margin.bottom+margin.top)
+            .style("width", width+80)
+            .style("height", height+margin.bottom+margin.top+10)
             .append("g")
             .attr("transform", "translate(" + margin.left + "," + margin.top + ")");
 
@@ -52,7 +52,7 @@ export default function StackedTeachers(props) {
             .attr("transform", "translate(0," + height + ")")
             .call(d3.axisBottom(x));
 
-        /*
+        
         // Lift every other label
         function liftOdd(d, i) {
             const attrY = d3.select(this).attr('y');
@@ -61,7 +61,7 @@ export default function StackedTeachers(props) {
         }
 
         svg.selectAll('text').each(liftOdd);
-        */
+        
 
         // Add Y axis
         const y = d3.scaleLinear()
