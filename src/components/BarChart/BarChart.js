@@ -17,6 +17,7 @@ const BarChart = props => {
     onClick,
     courseHover,
     searchData,
+    selectedPerson,
     data
   } = props;
 
@@ -90,6 +91,24 @@ const BarChart = props => {
       return d.value < 0 ? y(0) - y(d.value) : y(d.value) - y(0);
     };
 
+    const fillBars = d => {
+      console.log(selectedPerson);
+      let check = "no-select";
+      if (!selectedPerson) {
+        check = "";
+      } else if (selectedPerson === d.name) {
+        check = "focus";
+      } else {
+        check = "unfocus";
+      }
+
+      if (d.value > smallBarLimit) {
+        return `Positive ${check}`;
+      } else if (d.value <= -smallBarLimit) {
+        return `Negative ${check}`;
+      }
+      return `Small ${check}`;
+    };
     const bars = g
       .selectAll("barchart")
       .data(data)
@@ -101,14 +120,7 @@ const BarChart = props => {
       .attr("y", d => rectY(d))
       .attr("width", x.bandwidth())
       .attr("height", d => rectHeight(d))
-      .attr("class", d => {
-        if (d.value > smallBarLimit) {
-          return "Positive";
-        } else if (d.value <= -smallBarLimit) {
-          return "Negative";
-        }
-        return "Small";
-      })
+      .attr("class", fillBars)
       .style("opacity", checkFocus)
       .on("mouseover", d => {
         setTooltipText(d);

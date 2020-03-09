@@ -4,6 +4,7 @@ import "./StackedBarchartVertical.css";
 function StackedBarchartVertical(props) {
   const { data, margin, width = 200, height = 200 } = props;
   const [legendHover, setLegendHover] = useState(null);
+  const [groupHover, setGroupHover] = useState(false);
 
   const divRef = useRef(null);
   const svgRef = useRef(null);
@@ -86,6 +87,8 @@ function StackedBarchartVertical(props) {
       .join("g")
       .attr("fill", d => colors[d.key])
       .attr("class", d => `${d.key} bar`)
+      .on("mouseenter", d => setGroupHover(d.key))
+      .on("mouseleave", d => setGroupHover(null))
       .selectAll("rect")
       .data(d => {
         return d;
@@ -99,6 +102,7 @@ function StackedBarchartVertical(props) {
       .attr("y", d => y(d[1]))
       .attr("width", x.bandwidth())
       .attr("height", d => y(d[0]) - y(d[1]))
+      .on("mouseenter", d => console.log(d))
       .exit()
       .remove();
 
@@ -118,19 +122,27 @@ function StackedBarchartVertical(props) {
       g.selectAll(".bar").attr("opacity", 0.2);
       g.select(`.${legendHover}`).attr("opacity", 1);
     }
-    console.log(legendHover);
   });
 
   useEffect(() => {
     draw();
   }, [data, legendHover]);
-  function ColorLabel({ name, text, mouseEnter, mouseLeave }) {
+
+  function ColorLabel({ text, keyword, isHover }) {
+    let classname = `label${keyword}`;
+    let style = { opacity: 1 };
+
+    if (isHover && isHover !== keyword) {
+      style.opacity = 0.2;
+    }
+
     return (
       <div className="colorLabel">
         <div
-          className={name}
-          onMouseEnter={_ => setLegendHover(mouseEnter)}
-          onMouseLeave={_ => setLegendHover(mouseLeave)}
+          className={`${classname}`}
+          onMouseEnter={_ => setLegendHover(keyword)}
+          onMouseLeave={_ => setLegendHover(null)}
+          style={style}
         ></div>
         <p>{text}</p>
       </div>
@@ -141,49 +153,14 @@ function StackedBarchartVertical(props) {
       <div className="teacher-chart">
         <svg ref={svgRef}></svg>
       </div>
-      <div className="sLabels">
-        <ColorLabel
-          name="labelFor"
-          text="Föreläsning"
-          mouseEnter="Frl"
-          mouseLeave={null}
-        />
-        <ColorLabel
-          name="labelOvn"
-          text="Övning"
-          mouseEnter="Ovn"
-          mouseLeave={null}
-        />
-        <ColorLabel
-          name="labelLa"
-          text="Laboration"
-          mouseEnter="La"
-          mouseLeave={null}
-        />
-        <ColorLabel
-          name="labelHa"
-          text="Handledning"
-          mouseEnter="Ha"
-          mouseLeave={null}
-        />
-        <ColorLabel
-          name="labelEx"
-          text="Examination"
-          mouseEnter="Ex"
-          mouseLeave={null}
-        />
-        <ColorLabel
-          name="labelKu"
-          text="Kursutveckling"
-          mouseEnter="Ku"
-          mouseLeave={null}
-        />
-        <ColorLabel
-          name="labelAdm"
-          text="Administration"
-          mouseEnter="Adm"
-          mouseLeave={null}
-        />
+      <div className="teacher-legend sLabels">
+        <ColorLabel text="Föreläsning" keyword="Frl" isHover={groupHover} />
+        <ColorLabel text="Övning" keyword="Ovn" isHover={groupHover} />
+        <ColorLabel text="Laboration" keyword="La" isHover={groupHover} />
+        <ColorLabel text="Handledning" keyword="Ha" isHover={groupHover} />
+        <ColorLabel text="Examination" keyword="Ex" isHover={groupHover} />
+        <ColorLabel text="Kursutveckling" keyword="Ku" isHover={groupHover} />
+        <ColorLabel text="Administration" keyword="Adm" isHover={groupHover} />
       </div>
     </div>
   );

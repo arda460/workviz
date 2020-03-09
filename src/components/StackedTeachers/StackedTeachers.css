@@ -1,79 +1,85 @@
 .stackedTeachersRow {
-    margin-top: 20px;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
+  margin-top: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
 
-    width: 100%;
+  width: 100%;
 }
 
 .sChart {
-    padding-left: 20px;
-    width: 80%;
-    overflow-x: auto;
+  padding-left: 20px;
+  width: 80%;
+  overflow-x: auto;
 }
 
 .sLabels {
-    padding-left: 50px;
-    width: 20%;
+  padding-left: 50px;
+  width: 20%;
 }
 
 .colorLabel {
-    display: flex;
-    margin-bottom: 10px;
+  display: flex;
+  margin-bottom: 10px;
 }
 
 .labelFor {
-    padding: 10px;
-    margin-right: 10px;
-    background-color: #FCD26C;
+  opacity: 1;
+  padding: 10px;
+  margin-right: 10px;
+  background-color: #fcd26c;
+}
+.labelFrl {
+  padding: 10px;
+  margin-right: 10px;
+  background-color: #fcd26c;
 }
 .labelOvn {
-    padding: 10px;
-    margin-right: 10px;
-    background-color: #C9D897;
+  padding: 10px;
+  margin-right: 10px;
+  background-color: #c9d897;
 }
 .labelLa {
-    padding: 10px;
-    margin-right: 10px;
-    background-color: #365780;
+  padding: 10px;
+  margin-right: 10px;
+  background-color: #365780;
 }
 .labelHa {
-    padding: 10px;
-    margin-right: 10px;
-    background-color: #FAAD5F;
+  padding: 10px;
+  margin-right: 10px;
+  background-color: #faad5f;
 }
 .labelEx {
-    padding: 10px;
-    margin-right: 10px;
-    background-color: #7BBFCC;
+  padding: 10px;
+  margin-right: 10px;
+  background-color: #7bbfcc;
 }
 .labelKu {
-    padding: 10px;
-    margin-right: 10px;
-    background-color: #9DD0D1;
+  padding: 10px;
+  margin-right: 10px;
+  background-color: #9dd0d1;
 }
 .labelAdm {
-    padding: 10px;
-    margin-right: 10px;
-    background-color: #EC9747;
+  padding: 10px;
+  margin-right: 10px;
+  background-color: #ec9747;
 }
 
 .sChart::-webkit-scrollbar {
-    height: 10px;
-  }
+  height: 10px;
+}
 
-  /* Track */
+/* Track */
 .sChart::-webkit-scrollbar-track {
-    background: #f1f1f1; 
-  }
+  background: #f1f1f1;
+}
 
-  /* Handle */
+/* Handle */
 .sChart::-webkit-scrollbar-thumb {
-    background: #888; 
-  }
+  background: #888;
+}
 
-  /* Handle on hover */
+/* Handle on hover */
 .sChart::-webkit-scrollbar-thumb:hover {
-    background: #555; 
-  }
+  background: #555;
+}
