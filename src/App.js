@@ -4,6 +4,7 @@ import BarChartData from "./components/BarChart/BarChartData";
 import DetailView from "./components/DetailView/DetailView";
 import Spinner from "./components/Spinner/Spinner";
 import OverView from "./components/OverView/OverView";
+import Search from "./components/Search/Search";
 
 import { DataContext } from "./context/DataContext";
 import { GlobalStateContext } from "./context/GlobalStateContext";
@@ -11,11 +12,9 @@ import { GlobalStateContext } from "./context/GlobalStateContext";
 function App() {
   const { loading } = useContext(DataContext);
 
-  const {
-    updateBarClick,
-    displayDetails,
-    detailView
-  } = useContext(GlobalStateContext);
+  const { updateBarClick, displayDetails, detailView } = useContext(
+    GlobalStateContext
+  );
 
   if (loading) {
     return (
@@ -31,6 +30,7 @@ function App() {
         {!displayDetails && <BarChartData onClick={updateBarClick} />}
         {displayDetails && <DetailView view={detailView} />}
       </div>
+      <Search />
       <OverView />
     </div>
   );
