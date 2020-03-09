@@ -5,6 +5,7 @@ import DetailView from "./components/DetailView/DetailView";
 import Spinner from "./components/Spinner/Spinner";
 import OverView from "./components/OverView/OverView";
 import Search from "./components/Search/Search";
+import Header from "./components/Header/Header";
 
 import { DataContext } from "./context/DataContext";
 import { GlobalStateContext } from "./context/GlobalStateContext";
@@ -26,6 +27,7 @@ function App() {
 
   return (
     <div className="App fade-in">
+      <Header />
       <div className="view-container container1">
         {!displayDetails && <BarChartData onClick={updateBarClick} />}
         {displayDetails && <DetailView view={detailView} />}
