@@ -209,7 +209,7 @@ export default function Search() {
             className="ovToggleButton"
             onClick={() => setOverView(!overView)}
           >
-            Change View
+            Toggle Overview
           </button>
         </div>
       )}

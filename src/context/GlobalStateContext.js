@@ -19,6 +19,7 @@ const GlobalStateProvider = ({ children }) => {
     setShowTeacherDetails(true);
     setDetailView("TeacherDetails");
     setDisplayDetails(true);
+    setCourseDetails(false);
   };
 
   const courseClicked = e => {
@@ -26,6 +27,7 @@ const GlobalStateProvider = ({ children }) => {
     setDetailView("CourseDetails");
     setCourseDetails(e);
     setDisplayDetails(true);
+    setSelectedPerson(null);
   };
 
   const exitTeacherDetails = () => {
@@ -34,13 +36,6 @@ const GlobalStateProvider = ({ children }) => {
     setOverView(true);
     setCourseDetails(false);
     setPersonHover(null);
-  };
-
-  const swapDetails = _ => {
-    if (detailView === "null") return;
-    detailView === "TeacherDetails"
-      ? setDetailView("CourseDetails")
-      : setDetailView("TeacherDetails");
   };
 
   return (
