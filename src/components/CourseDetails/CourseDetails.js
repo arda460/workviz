@@ -18,7 +18,7 @@ export default function CourseDetails() {
     courseDetails,
     setDisplayDetails,
     setOverView,
-    setCourseDetails
+    setCourseDetails,
     setSelectedPerson
   } = useContext(GlobalStateContext);
   const d = useRef(null);
