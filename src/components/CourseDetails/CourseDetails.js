@@ -3,16 +3,26 @@ import { GlobalStateContext } from "../../context/GlobalStateContext";
 import CourseDetailsRow from "../CourseDetailsRow/CourseDetailsRow";
 import ProgressBars from "../ProgressBars/ProgressBars";
 import StackedTeachers from "../StackedTeachers/StackedTeachers";
+import { DataContext } from "../../context/DataContext";
+
 import "./CourseDetails.css";
 
 export default function CourseDetails(props) {
-  const { data } = props;
+  const { HT20, VT20 } = useContext(DataContext);
+
+  const data = {
+    autumnData: HT20,
+    springData: VT20
+  }
+  
   const {
     courseDetails,
     setDisplayDetails,
     setOverView
   } = useContext(GlobalStateContext);
   const d = useRef(null);
+
+  console.log(courseDetails);
 
   const exitDetails = () => {
     setDisplayDetails(false);

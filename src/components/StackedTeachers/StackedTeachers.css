@@ -1,5 +1,6 @@
 .stackedTeachersRow {
     margin-top: 20px;
+    margin-bottom: 10px;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -14,7 +15,7 @@
 }
 
 .sLabels {
-    padding-left: 50px;
+    padding-left: 60px;
     width: 20%;
 }
 
