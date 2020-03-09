@@ -10,7 +10,6 @@ export default function Period(props) {
     courseHover,
     setCourseHover,
     courseDetails,
-    setCourseDetails,
     courseClicked
   } = useContext(GlobalStateContext); //get related value from  the global state
   const { summary20, loading } = useContext(DataContext); //get summary20Data which has the course data for each person

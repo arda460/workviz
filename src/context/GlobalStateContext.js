@@ -32,6 +32,8 @@ const GlobalStateProvider = ({ children }) => {
     setSelectedPerson(null);
     setDisplayDetails(false);
     setOverView(true);
+    setCourseDetails(false);
+    setPersonHover(null);
   };
 
   const swapDetails = _ => {

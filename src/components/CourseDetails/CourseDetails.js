@@ -19,7 +19,8 @@ export default function CourseDetails() {
     setDisplayDetails,
     setOverView,
     setCourseDetails,
-    setSelectedPerson
+    setSelectedPerson,
+    setPersonHover
   } = useContext(GlobalStateContext);
   const d = useRef(null);
 
@@ -28,6 +29,7 @@ export default function CourseDetails() {
     setOverView(true);
     setCourseDetails(false);
     setSelectedPerson(null);
+    setPersonHover(null);
     d.current = null;
   };
 
