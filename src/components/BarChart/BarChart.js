@@ -79,10 +79,6 @@ const BarChart = props => {
       // axisOffset * 2;
     };
 
-    const getMousePos = e => {
-      console.log(d3.clientPoint(e.target, e));
-      console.log(d3.clientPoint(e.target, e));
-    };
     const rectHeight = d => {
       let val = d.value;
       if (Math.abs(val) < smallBarLimit) {
@@ -92,7 +88,6 @@ const BarChart = props => {
     };
 
     const fillBars = d => {
-      console.log(selectedPerson);
       let check = "no-select";
       if (!selectedPerson) {
         check = "";

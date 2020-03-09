@@ -36,13 +36,6 @@ const GlobalStateProvider = ({ children }) => {
     setPersonHover(null);
   };
 
-  const swapDetails = _ => {
-    if (detailView === "null") return;
-    detailView === "TeacherDetails"
-      ? setDetailView("CourseDetails")
-      : setDetailView("TeacherDetails");
-  };
-
   return (
     <GlobalStateContext.Provider
       value={{

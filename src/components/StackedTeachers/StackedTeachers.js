@@ -1,24 +1,26 @@
-import React, { useRef, useEffect } from "react";
+import React, { useRef, useEffect, useState } from "react";
 import * as d3 from "d3";
 import "./StackedTeachers.css";
 
 export default function StackedTeachers(props) {
     const { d } = props;
     const svgRef = useRef(null);
+    const [legendHover, setLegendHover] = useState(null);
+    const [groupHover, setGroupHover] = useState(false);
 
     const margin = { top: 10, right: 20, bottom: 20, left: 50 };
     const width = Math.max(60 * Object.keys(d).length, 900);
     const height = 190 - margin.top - margin.bottom;
 
     const handleData = () => {
-        return Object.keys(d).map( key => {
+        return Object.keys(d).map(key => {
             return {
                 group: key,
                 Frl: parseInt(d[key]['Frl']) ? parseInt(d[key]['Frl']) : 0,
                 Ovn: parseInt(d[key]['Ovn']) ? parseInt(d[key]['Ovn']) : 0,
-                La: parseInt(d[key]['La']) ? parseInt(d[key]['La']): 0,
-                Ha: parseInt(d[key]['Ha']) ? parseInt(d[key]['Ha']): 0,
-                Ex: parseInt(d[key]['Ex']) ? parseInt(d[key]['Ex']): 0,
+                La: parseInt(d[key]['La']) ? parseInt(d[key]['La']) : 0,
+                Ha: parseInt(d[key]['Ha']) ? parseInt(d[key]['Ha']) : 0,
+                Ex: parseInt(d[key]['Ex']) ? parseInt(d[key]['Ex']) : 0,
                 Ku: parseInt(d[key]['Ku']) ? parseInt(d[key]['Ku']) : 0,
                 Adm: parseInt(d[key]['Adm']) ? parseInt(d[key]['Adm']) : 0
             }
@@ -30,15 +32,15 @@ export default function StackedTeachers(props) {
         const data = handleData();
 
         const svg = d3.select(svgRef.current)
-            .style("width", width+80)
-            .style("height", height+margin.bottom+margin.top+10)
+            .style("width", width + 80)
+            .style("height", height + margin.bottom + margin.top + 10)
             .append("g")
             .attr("transform", "translate(" + margin.left + "," + margin.top + ")");
 
         const subgroups = ['Frl', 'Ovn', 'La', 'Ha', 'Ex', 'Ku', 'Adm'];
         const groups = Object.keys(d);
 
-        const maxVal = Math.max.apply(Math, data.map( obj => {
+        const maxVal = Math.max.apply(Math, data.map(obj => {
             return obj['Frl'] + obj['Ovn'] + obj['La'] + obj['Ha'] + obj['Ex'] + obj['Ku'] + obj['Adm'];
         }))
 
@@ -47,12 +49,12 @@ export default function StackedTeachers(props) {
             .domain(groups)
             .range([0, width])
             .padding([0.2]);
-        
+
         svg.append("g")
             .attr("transform", "translate(0," + height + ")")
             .call(d3.axisBottom(x));
 
-        
+
         // Lift every other label
         function liftOdd(d, i) {
             const attrY = d3.select(this).attr('y');
@@ -61,7 +63,6 @@ export default function StackedTeachers(props) {
         }
 
         svg.selectAll('text').each(liftOdd);
-        
 
         // Add Y axis
         const y = d3.scaleLinear()
@@ -76,12 +77,12 @@ export default function StackedTeachers(props) {
             .domain(subgroups)
             .range(['#FCD26C', '#C9D897', '#365780', '#FAAD5F', '#7BBFCC', '#9DD0D1', '#EC9747']);
 
-        
+
         //stack the data? --> stack per subgroup
         const stackedData = d3.stack()
             .keys(subgroups)
             (data)
-        
+
         // Show the bars
         svg.append("g")
             .selectAll("g")
@@ -89,6 +90,9 @@ export default function StackedTeachers(props) {
             .data(stackedData)
             .enter().append("g")
             .attr("fill", function (d) { return color(d.key); })
+            .attr("class", d => `${d.key} bar`)
+            .on("mouseenter", d => setGroupHover(d.key))
+            .on("mouseleave", d => setGroupHover(null))
             .selectAll("rect")
             // enter a second time = loop subgroup per subgroup to add all rectangles
             .data(function (d) { return d; })
@@ -98,12 +102,37 @@ export default function StackedTeachers(props) {
             .attr("height", function (d) { return y(d[0]) - y(d[1]); })
             .attr("width", x.bandwidth())
 
+            if (legendHover) {
+                svg.selectAll(".bar").attr("opacity", 0.2);
+                svg.select(`.${legendHover}`).attr("opacity", 1);
+              }
     };
 
     useEffect(() => {
         draw();
         // eslint-disable-next-line react-hooks/exhaustive-deps
-    }, [svgRef,d]);
+    }, [svgRef, d, legendHover]);
+
+    function ColorLabel({ text, keyword, isHover }) {
+        let classname = `label${keyword}`;
+        let style = { opacity: 1 };
+
+        if (isHover && isHover !== keyword) {
+            style.opacity = 0.2;
+        }
+
+        return (
+            <div className="colorLabel">
+                <div
+                    className={`${classname}`}
+                    onMouseEnter={_ => setLegendHover(keyword)}
+                    onMouseLeave={_ => setLegendHover(null)}
+                    style={style}
+                ></div>
+                <p>{text}</p>
+            </div>
+        );
+    }
 
     return (
         <div className="stackedTeachersRow">
@@ -111,34 +140,13 @@ export default function StackedTeachers(props) {
                 <svg className="stackedTeachers" ref={svgRef}></svg>
             </div>
             <div className="sLabels">
-                <div className="colorLabel">
-                    <div className="labelAdm"></div>
-                    <p>Administration</p>
-                </div>
-                <div className="colorLabel">
-                    <div className="labelKu"></div>
-                    <p>Kursutveckling</p>
-                </div>
-                <div className="colorLabel">
-                    <div className="labelEx"></div>
-                    <p>Examination</p>
-                </div>
-                <div className="colorLabel">
-                    <div className="labelHa"></div>
-                    <p>Handledning</p>
-                </div>
-                <div className="colorLabel">
-                    <div className="labelLa"></div>
-                    <p>Laboration</p>
-                </div>
-                <div className="colorLabel">
-                    <div className="labelOvn"></div>
-                    <p>Övning</p>
-                </div>
-                <div className="colorLabel">
-                    <div className="labelFor"></div>
-                    <p>Föreläsning</p>
-                </div>
+                <ColorLabel text="Administration" keyword="Adm" isHover={groupHover} />
+                <ColorLabel text="Kursutveckling" keyword="Ku" isHover={groupHover} />
+                <ColorLabel text="Examination" keyword="Ex" isHover={groupHover} />
+                <ColorLabel text="Handledning" keyword="Ha" isHover={groupHover} />
+                <ColorLabel text="Laboration" keyword="La" isHover={groupHover} />
+                <ColorLabel text="Övning" keyword="Ovn" isHover={groupHover} />
+                <ColorLabel text="Föreläsning" keyword="Frl" isHover={groupHover} />
             </div>
         </div>
     )
