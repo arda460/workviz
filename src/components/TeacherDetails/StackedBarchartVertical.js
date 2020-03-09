@@ -65,16 +65,19 @@ function StackedBarchartVertical(props) {
       return m;
     };
     const max = findMax(stackedData[stackedData.length - 1]);
-    const x = d3
+    let x = d3
       .scaleBand()
       .domain(groups)
       .range([margin.left, width - margin.right])
       .padding(0.2);
 
-    // let barWidth;
-    // if (NCourses <9){
-    //   barWidth = 50
-    // }else{barWidth = x.bandwidth()}
+    if (NCourses < 8) {
+      x = d3
+        .scaleBand()
+        .domain(groups)
+        .range([margin.left, NCourses * 100])
+        .padding(0.2);
+    }
 
     const y = d3
       .scaleLinear()
