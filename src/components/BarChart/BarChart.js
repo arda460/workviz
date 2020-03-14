@@ -18,6 +18,7 @@ const BarChart = props => {
     courseHover,
     searchData,
     selectedPerson,
+    courseDetails,
     data
   } = props;
 
@@ -49,12 +50,21 @@ const BarChart = props => {
 
     const g = svg
       .append("g")
-      .attr("transform", "translate(" + margin.left + "," + margin.top + ")");
+      .attr("transform", "translate(" + margin.left + "," + margin.top + ")")
+      .attr("class", "bars");
 
     const checkFocus = d => {
       if (courseHover) {
         let ht = d.ht.filter(c => c === courseHover);
         let vt = d.vt.filter(c => c === courseHover);
+        if (ht.length > 0 || vt.length > 0) {
+          return 1;
+        }
+        return 0.2;
+      }
+      if (courseDetails) {
+        let ht = d.ht.filter(c => c === courseDetails);
+        let vt = d.vt.filter(c => c === courseDetails);
         if (ht.length > 0 || vt.length > 0) {
           return 1;
         }
@@ -146,13 +156,61 @@ const BarChart = props => {
       .on("click", d => {
         onClick(d.name);
       });
+    const legend = svg
+      .append("g")
+      .attr("class", "legend")
+      .attr("transform", `translate(${width - 400},0)`);
+    let offset = 10;
+    legend
+      .append("rect")
+      .attr("class", "Positive")
+      .attr("x", 5)
+      .attr("y", 5)
+      .attr("height", 10)
+      .attr("width", 10);
+
+    legend
+      .append("text")
+      .attr("class", "legend-text")
+      .attr("x", 20)
+      .attr("y", 5 + offset)
+      .text("People with high workload Balance");
+
+    legend
+      .append("rect")
+      .attr("x", 5)
+      .attr("y", 20)
+      .attr("height", 10)
+      .attr("width", 10)
+      .attr("fill", "#73ad21");
+
+    legend
+      .append("text")
+      .attr("class", "legend-text")
+
+      .attr("x", 20)
+      .attr("y", 20 + offset)
+      .text("People with workload Balance within 2%");
+    legend
+      .append("rect")
+      .attr("class", "Negative")
+      .attr("x", 5)
+      .attr("y", 35)
+      .attr("height", 10)
+      .attr("width", 10);
+
+    legend
+      .append("text")
+      .attr("class", "legend-text")
+
+      .attr("x", 20)
+      .attr("y", 35 + offset)
+      .text("People with low workload Balance");
 
     let line = `M ${margin.left} ${y(0) + axisOffset + margin.top} H ${width -
       margin.right} `;
     let line2 = `M ${margin.left} ${y(0) - axisOffset + margin.top} H ${width -
       margin.right} `;
-
-    let y0 = `M ${margin.left} ${y(0) + margin.top} H ${width - margin.right} `;
 
     svg
       .append("g")

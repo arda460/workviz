@@ -28,6 +28,7 @@ const GlobalStateProvider = ({ children }) => {
     setCourseDetails(e);
     setDisplayDetails(true);
     setSelectedPerson(null);
+    setOverView(!overView);
   };
 
   const exitTeacherDetails = () => {

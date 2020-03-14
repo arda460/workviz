@@ -12,7 +12,8 @@ function BarChartData(props) {
     setPersonHover,
     courseHover,
     filterTeachers,
-    selectedPerson
+    selectedPerson,
+    courseDetails
   } = useContext(GlobalStateContext);
 
   const getWindowDimensions = () => {
@@ -32,10 +33,11 @@ function BarChartData(props) {
     onHover: setPersonHover,
     onClick: props.onClick,
     courseHover,
-    selectedPerson
+    selectedPerson,
+    courseDetails
   };
 
-  const handleData = sum20 => {
+  const handleData = (sum20, ht) => {
     //these are not hired people and thus removed, it might be interesting later to add them back in some other visualisation
     delete sum20["Lab handl Teknolog MID"];
     delete sum20["Lab handl Teknolog TMH"];
@@ -58,7 +60,14 @@ function BarChartData(props) {
 
   useEffect(() => {
     if (!loading) setPersonData(handleData(summary20));
-  }, [loading, summary20, courseHover, filterTeachers, selectedPerson]);
+  }, [
+    loading,
+    summary20,
+    courseHover,
+    filterTeachers,
+    selectedPerson,
+    courseDetails
+  ]);
 
   useEffect(() => {
     function handleResize() {

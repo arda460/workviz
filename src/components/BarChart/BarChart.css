@@ -13,6 +13,10 @@ svg rect.Small {
   fill: #73ad21;
 }
 
+.legend-text {
+  alignment-baseline: "middle";
+}
+
 rect.Small:hover {
   -webkit-animation-name: wiggle;
   -ms-animation-name: wiggle;
