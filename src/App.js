@@ -22,7 +22,7 @@ function App() {
   return (
     <div className="App fade-in">
       <Header />
-      <DetailView />}
+      <DetailView />
       <Search />
       <OverView />
     </div>
