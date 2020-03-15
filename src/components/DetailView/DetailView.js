@@ -4,7 +4,7 @@ import BarChartData from "../BarChart/BarChartData";
 import TeacherDetails from "../TeacherDetails/TeacherDetails";
 import { GlobalStateContext } from "../../context/GlobalStateContext";
 
-function DetailView({ view }) {
+function DetailView() {
   const {
     selectedPerson,
     displayDetails,
@@ -14,15 +14,15 @@ function DetailView({ view }) {
 
   // {!displayDetails && <BarChartData onClick={updateBarClick} />}
   // {displayDetails && <DetailView view={detailView} />}
+  const dViews = {
+    TeacherDetails: <TeacherDetails selectedPerson={selectedPerson} />,
+    CourseDetails: <CourseDetails />
+  };
   function getView() {
-    if (!displayDetails) {
-      return <BarChartData onClick={updateBarClick} />;
-    }
-
-    return detailView === "CourseDetails" ? (
-      <CourseDetails />
+    return displayDetails ? (
+      dViews[detailView]
     ) : (
-      <TeacherDetails selectedPerson={selectedPerson} />
+      <BarChartData onClick={updateBarClick} />
     );
   }
 
