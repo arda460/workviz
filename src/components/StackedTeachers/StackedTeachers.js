@@ -9,7 +9,7 @@ export default function StackedTeachers(props) {
     const [groupHover, setGroupHover] = useState(false);
 
     const margin = { top: 10, right: 20, bottom: 20, left: 50 };
-    const width = Math.max(60 * Object.keys(d).length, 900);
+    const width = 200 + (41 * Object.keys(d).length);
     const height = 190 - margin.top - margin.bottom;
 
     const handleData = () => {
@@ -47,7 +47,7 @@ export default function StackedTeachers(props) {
         // Add X axis
         const x = d3.scaleBand()
             .domain(groups)
-            .range([0, width])
+            .range([0, 200 + (groups.length * 41)])
             .padding([0.2]);
 
         svg.append("g")
