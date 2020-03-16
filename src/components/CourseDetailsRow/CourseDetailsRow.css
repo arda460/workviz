@@ -29,3 +29,7 @@
     margin-bottom: 10px;
     margin-right: 20px;
 }
+
+.courseDetailItem.click {
+    cursor: pointer;
+}
