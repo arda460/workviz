@@ -21,7 +21,7 @@ export default function CourseDetails() {
     setCourseDetails,
     setSelectedPerson,
     setPersonHover,
-    updateBarClick
+    personClick
   } = useContext(GlobalStateContext);
   const d = useRef(null);
 
@@ -50,7 +50,7 @@ export default function CourseDetails() {
               data={[courseDetails, d.current["short name"]]}
             />
             <CourseDetailsRow
-              onClick={updateBarClick}
+              onClick={personClick}
               cname="courseDetailInfo"
               label="Responsible"
               data={
