@@ -1,14 +1,10 @@
-.courseSearch {
-  margin: 20px 20px 10px 20px;
+.courseSearch,
+.courseFilter {
+  margin: 25px 20px 10px 50px;
   align-self: flex-start;
 
   display: flex;
   flex-direction: column;
-}
-
-.courseFilter {
-  margin: auto 10px auto 20px;
-  padding-top: 35px;
 }
 
 .courseInfo {
@@ -27,7 +23,7 @@
 }
 
 .filterLabel {
-  margin-bottom: 15px;
+  margin-bottom: 20px;
 }
 
 .searchBar {
@@ -63,7 +59,8 @@
 
 .courseControls {
   display: flex;
-  margin-left: 20px;
+  margin-left: 35px;
+  width: 100vw;
 }
 
 .redInfo,

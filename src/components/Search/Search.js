@@ -183,15 +183,18 @@ export default function Search() {
         </div>
       </div>
       <div className="courseFilter">
-        <button className={buttonName[0]} onClick={() => handleFilter("red")}>
-          Filter on Red
-        </button>
-        <button
-          className={buttonName[1]}
-          onClick={() => handleFilter("orange")}
-        >
-          Filter on Yellow
-        </button>
+          <label className="filterLabel">Filter on</label>
+          <div className="filterButtons">
+            <button className={buttonName[0]} onClick={() => handleFilter("red")}>
+              Task Allocation
+          </button>
+            <button
+              className={buttonName[1]}
+              onClick={() => handleFilter("orange")}
+            >
+              Teacher Allocation
+          </button>
+          </div>
       </div>
       <div className="courseInfo">
         <div className="redInfo">
