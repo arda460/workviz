@@ -71,7 +71,7 @@ export default function ProgressBars(props) {
             <div className="sLabels">
                 <RingLabel cname="lightGreen" text="Allication matches budget" />
                 <RingLabel cname="darkGreen" text="Allocation exceeds budget" />
-                <RingLabel cname="grey" text="Missing allocation" />
+                <RingLabel cname="red" text="Missing allocation" />
                 <RingLabel cname="yellow" text="Missing teacher allocation" />
                 <RingLabel cname="dotted" text="Not budgeted" />
             </div>
