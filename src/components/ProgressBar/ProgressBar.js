@@ -6,8 +6,8 @@ export default function ProgressBar(props) {
     const { percentage, percentage2, percentage3, label, bHours, aHours, tHours, uHours } = props;
     const svgRef = useRef(null);
 
-    const height = 120;
-    const width = 120;
+    const height = 115;
+    const width = 115;
     const arcWidth = height * 0.045;
     const arcOuterOuterRadious = width / 2.5 + arcWidth;
     const arcOuterRadius = width / 2.5;

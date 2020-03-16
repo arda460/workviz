@@ -1,4 +1,5 @@
-import React, { useState } from "react";
+import React, { useState, useContext } from "react";
+import { DataContext } from "./DataContext";
 
 const GlobalStateContext = React.createContext({});
 
@@ -13,6 +14,7 @@ const GlobalStateProvider = ({ children }) => {
   const [displayDetails, setDisplayDetails] = useState(false);
   const [detailView, setDetailView] = useState(null);
   const [overView, setOverView] = useState(true);
+  const { summary20, loading } = useContext(DataContext);
 
   const updateBarClick = person => {
     setSelectedPerson(person);
@@ -22,12 +24,25 @@ const GlobalStateProvider = ({ children }) => {
     setCourseDetails(false);
   };
 
+  const personClick = person => {
+    if(!loading) {
+      const tmp = {
+        name: person,
+        value: summary20[person]["Balance (%)"],
+        vt: summary20[person]["VT Courses"].map(c => c["Course Code"]),
+        ht: summary20[person]["HT Courses"].map(c => c["Course Code"])
+      }
+      setPersonHover(tmp);
+    }
+    updateBarClick(person);
+  };
+
   const courseClicked = e => {
     if (e === false) return;
+    setPersonHover(null);
     setDetailView("CourseDetails");
     setCourseDetails(e);
     setDisplayDetails(true);
-    setSelectedPerson(null);
   };
 
   const exitTeacherDetails = () => {
@@ -63,7 +78,8 @@ const GlobalStateProvider = ({ children }) => {
         overView,
         setOverView,
         courseClicked,
-        exitTeacherDetails
+        exitTeacherDetails,
+        personClick
       }}
     >
       {children}

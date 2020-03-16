@@ -12,8 +12,6 @@ function DetailView({ view }) {
     detailView
   } = useContext(GlobalStateContext);
 
-  // {!displayDetails && <BarChartData onClick={updateBarClick} />}
-  // {displayDetails && <DetailView view={detailView} />}
   function getView() {
     if (!displayDetails) {
       return <BarChartData onClick={updateBarClick} />;
