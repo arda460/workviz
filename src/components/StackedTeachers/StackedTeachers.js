@@ -1,4 +1,5 @@
-import React, { useRef, useEffect, useState } from "react";
+import React, { useRef, useEffect, useState, useContext } from "react";
+import { GlobalStateContext } from "../../context/GlobalStateContext";
 import * as d3 from "d3";
 import "./StackedTeachers.css";
 
@@ -7,6 +8,7 @@ export default function StackedTeachers(props) {
     const svgRef = useRef(null);
     const [legendHover, setLegendHover] = useState(null);
     const [groupHover, setGroupHover] = useState(false);
+    const { personClick } = useContext(GlobalStateContext);
 
     const margin = { top: 10, right: 20, bottom: 20, left: 50 };
     const width = 200 + (41 * Object.keys(d).length);
@@ -63,6 +65,15 @@ export default function StackedTeachers(props) {
         }
 
         svg.selectAll('text').each(liftOdd);
+        
+        // Add on click on teacher labels
+        function addClick(d,i) {
+            d3.select(this)
+                .on('click', () => personClick(d))
+                .style('cursor', 'pointer');
+        }
+        svg.selectAll('text').each(addClick);
+        
 
         // Add Y axis
         const y = d3.scaleLinear()
