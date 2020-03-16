@@ -80,6 +80,7 @@
 .yellowBox {
   padding: 10px;
   background-color: #f06e37;
+  max-height: 10px;
 
   margin-right: 10px;
 }
@@ -172,12 +173,15 @@ input:checked + .slider:before {
   padding: 10px 5px 10px 35px; /* make text start to the right of the image */
   vertical-align: middle; /* align the text vertically centered */
 
-  border: 2px solid black;
+  box-shadow: 1px 1px 1px black;
+  background-color: #d5d5db;
+
   border-radius: 15px;
-  font-weight: bold;
 }
 
 .ovToggleButton:hover {
-  background-color: #d5d5db;
+  background-color: #606060;
+  color: white;
   transition: 0.7s;
+  box-shadow: 1px 1px 1px white;
 }
