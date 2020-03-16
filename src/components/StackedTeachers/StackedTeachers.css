@@ -3,7 +3,7 @@
     margin-bottom: 10px;
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: flex-end;
     width: 100%;
 }
 
@@ -14,7 +14,8 @@
 }
 
 .sLabels {
-    padding-left: 60px;
+    margin-top: 30px;
+    padding-left: 40px;
     width: 20%;
 }
 
@@ -27,44 +28,48 @@
   margin-bottom: 10px;
 }
 
+.labelText {
+  font-size: 0.7em;
+}
+
 .labelFor {
   opacity: 1;
-  padding: 10px;
+  padding: 5px;
   margin-right: 10px;
   background-color: #fcd26c;
 }
 .labelFrl {
-  padding: 10px;
+  padding: 5px;
   margin-right: 10px;
   background-color: #fcd26c;
 }
 .labelOvn {
-  padding: 10px;
+  padding: 5px;
   margin-right: 10px;
   background-color: #c9d897;
 }
 .labelLa {
-  padding: 10px;
+  padding: 5px;
   margin-right: 10px;
   background-color: #365780;
 }
 .labelHa {
-  padding: 10px;
+  padding: 5px;
   margin-right: 10px;
   background-color: #faad5f;
 }
 .labelEx {
-  padding: 10px;
+  padding: 5px;
   margin-right: 10px;
   background-color: #7bbfcc;
 }
 .labelKu {
-  padding: 10px;
+  padding: 5px;
   margin-right: 10px;
   background-color: #9dd0d1;
 }
 .labelAdm {
-  padding: 10px;
+  padding: 5px;
   margin-right: 10px;
   background-color: #ec9747;
 }

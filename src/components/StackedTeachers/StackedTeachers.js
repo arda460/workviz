@@ -140,16 +140,13 @@ export default function StackedTeachers(props) {
                     onMouseLeave={_ => setLegendHover(null)}
                     style={style}
                 ></div>
-                <p>{text}</p>
+                <p className="labelText">{text}</p>
             </div>
         );
     }
 
     return (
         <div className="stackedTeachersRow">
-            <div className="sChart">
-                <svg className="stackedTeachers" ref={svgRef}></svg>
-            </div>
             <div className="sLabels">
                 <ColorLabel text="Administration" keyword="Adm" isHover={groupHover} />
                 <ColorLabel text="Kursutveckling" keyword="Ku" isHover={groupHover} />
@@ -158,6 +155,9 @@ export default function StackedTeachers(props) {
                 <ColorLabel text="Laboration" keyword="La" isHover={groupHover} />
                 <ColorLabel text="Övning" keyword="Ovn" isHover={groupHover} />
                 <ColorLabel text="Föreläsning" keyword="Frl" isHover={groupHover} />
+            </div>
+            <div className="sChart">
+                <svg className="stackedTeachers" ref={svgRef}></svg>
             </div>
         </div>
     )

@@ -5,7 +5,7 @@ export default function CourseDetails(props) {
     const { label, data, cname, onClick } = props;
 
     return (
-        <div className="detailsRow">
+        <div className="detailsRow info">
             <h4 className="courseDetailCourseLabel">{label}</h4>
             <div className={cname}>
                 {data.map((obj) => {

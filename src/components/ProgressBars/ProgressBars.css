@@ -1,6 +1,50 @@
+.progressRow {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    width: 100%;
+}
+
 .detailsRow.progress {
     display: flex;
     flex-direction: row;
-
+    width: 80%;
     justify-content: space-around;
  }
+
+ .ringLabel {
+    display: flex;
+    margin-bottom: 10px;
+  }
+
+  .ring {
+    padding: 10px;
+    margin-right: 10px;
+    border: 2px solid #56bf56;
+    border-radius: 15px;
+    max-height: 10px;
+  }
+
+  .ring.lightGreen {
+    border: 3px solid #56bf56;
+  }
+
+  .ring.darkGreen {
+    border: 3px solid #2e662e;
+  }
+
+  .ring.grey {
+    border: 3px solid grey;
+  }
+
+  .ring.yellow {
+    border: 3px solid #EDB761;
+  }
+
+  .ring.dotted {
+    border: 3px dashed black;
+  }
+
+  .labelText.ringLabel {
+      padding-top: 8px;
+  }

@@ -4,8 +4,8 @@ import "./ProgressBars.css";
 
 export default function ProgressBars(props) {
     const { data } = props;
-    const [ teacherHoursSplit, setSplit ] = useState({ 'Frl': 0, 'Ovn': 0, 'La': 0, 'Ha': 0, 'Ex': 0, 'Ku': 0, 'Adm': 0, 'Totalt': 0 });
-    const [ unknownHoursSplit, setUnknownSplit] = useState({});
+    const [teacherHoursSplit, setSplit] = useState({ 'Frl': 0, 'Ovn': 0, 'La': 0, 'Ha': 0, 'Ex': 0, 'Ku': 0, 'Adm': 0, 'Totalt': 0 });
+    const [unknownHoursSplit, setUnknownSplit] = useState({});
 
     const cols = ['Föreläsning (Frl)  Budgeted', 'Övning (Ovn)  Budgeted', 'Laboration (La)  Budgeted',
         'Handledning (Ha)  Budgeted', 'Examination (Ex)  Budgeted', 'Kursutveckling (Ku)  Budgeted',
@@ -44,7 +44,7 @@ export default function ProgressBars(props) {
 
         let unknownHours = {};
         if (data['Teachers']['UNKNOWN MID']) {
-            unknownHours = {...data['Teachers']['UNKNOWN MID']};
+            unknownHours = { ...data['Teachers']['UNKNOWN MID'] };
             const totalUnknown = Object.keys(data['Teachers']['UNKNOWN MID']).reduce((sum, k) => {
                 return sum + parseInt(data['Teachers']['UNKNOWN MID'][k])
             }, 0);
@@ -56,37 +56,54 @@ export default function ProgressBars(props) {
         // eslint-disable-next-line react-hooks/exhaustive-deps
     }, [data]);
 
+    function RingLabel({ cname, text }) {
 
+        return (
+            <div className="ringLabel">
+                <div className={`ring ${cname}`}></div>
+                <p className="labelText ringLabel">{text}</p>
+            </div>
+        );
+    }
 
     return (
-        <div className="detailsRow progress">
-            {
-                cols.map(key => {
-                    // From data
-                    const alloKey = key.replace('Budgeted', 'Allocated');
-                    const budgetedHours = parseInt(data[key]);
-                    const allocatedHours = parseInt(data[alloKey]);
-                    const percentage = allocatedHours === 0 ? 0 : allocatedHours / budgetedHours;
-                    const label = getLabel(key);
-                    // Teacher Hours
-                    const tHours = teacherHoursSplit[connection1[key]];
-                    const percentage2 = tHours === 0 ? 0 : tHours / allocatedHours;
-                    // "UNKNOWN MID" hours
-                    const uHours = unknownHoursSplit[connection1[key]] ? unknownHoursSplit[connection1[key]] : 0;
-                    const percentage3 = uHours === 0 ? 0 : uHours / allocatedHours;
-                    return (
-                        <ProgressBar
-                            key={key}
-                            percentage={percentage}
-                            percentage2={percentage2}
-                            percentage3={percentage3}
-                            bHours={budgetedHours}
-                            aHours={allocatedHours}
-                            tHours={tHours}
-                            uHours={uHours}
-                            label={label} />
-                    )
-                })}
+        <div className="progressRow">
+            <div className="sLabels">
+                <RingLabel cname="lightGreen" text="Allication matches budget" />
+                <RingLabel cname="darkGreen" text="Allocation exceeds budget" />
+                <RingLabel cname="grey" text="Missing allocation" />
+                <RingLabel cname="yellow" text="Missing teacher allocation" />
+                <RingLabel cname="dotted" text="Not budgeted" />
+            </div>
+            <div className="detailsRow progress">
+                {
+                    cols.map(key => {
+                        // From data
+                        const alloKey = key.replace('Budgeted', 'Allocated');
+                        const budgetedHours = parseInt(data[key]);
+                        const allocatedHours = parseInt(data[alloKey]);
+                        const percentage = allocatedHours === 0 ? 0 : allocatedHours / budgetedHours;
+                        const label = getLabel(key);
+                        // Teacher Hours
+                        const tHours = teacherHoursSplit[connection1[key]];
+                        const percentage2 = tHours === 0 ? 0 : tHours / allocatedHours;
+                        // "UNKNOWN MID" hours
+                        const uHours = unknownHoursSplit[connection1[key]] ? unknownHoursSplit[connection1[key]] : 0;
+                        const percentage3 = uHours === 0 ? 0 : uHours / allocatedHours;
+                        return (
+                            <ProgressBar
+                                key={key}
+                                percentage={percentage}
+                                percentage2={percentage2}
+                                percentage3={percentage3}
+                                bHours={budgetedHours}
+                                aHours={allocatedHours}
+                                tHours={tHours}
+                                uHours={uHours}
+                                label={label} />
+                        )
+                    })}
+            </div>
         </div>
     )
 }
