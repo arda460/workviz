@@ -4,7 +4,9 @@ function About({ display, onExit }) {
   const exit = _ => onExit(false);
   const test = d => console.log(d);
   return (
-    <div className="about-modal">{display && <AboutContent exit={test} />}</div>
+    <div className="about-modal">
+      {display && <AboutContent exit={onExit} />}
+    </div>
   );
 }
 

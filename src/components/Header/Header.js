@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import "./header.css";
 import About from "../About/About";
 function Header() {
-  const [displayModal, setDispModal] = useState(false);
+  const [displayModal, setDispModal] = useState(true);
   const test = _ => console.log("hello");
   return (
     <div className="header flex flexrow">
@@ -10,7 +10,7 @@ function Header() {
         <strong>Work Vis</strong>
         <button onClick={_ => setDispModal(!displayModal)}>About</button>
       </span>
-      <About display={displayModal} onExit={test} />
+      <About display={displayModal} onExit={setDispModal} />
     </div>
   );
 }

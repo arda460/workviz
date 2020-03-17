@@ -3,6 +3,10 @@
   z-index: 1;
 }
 
+.team {
+  display: flex;
+  flex-wrap: wrap;
+}
 #instructions-container {
   margin-block-start: 3em;
   border-radius: 1em 1em 1em 1em;

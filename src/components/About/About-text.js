@@ -1,6 +1,6 @@
 import React from "react";
 import "./about.css";
-function AboutContent(exit) {
+function AboutContent({ exit }) {
   const imgstyle = { width: "100%" };
   const clicked = _ => exit("no");
   return (
@@ -9,7 +9,7 @@ function AboutContent(exit) {
         <div className="flex flex-row">
           <div>
             <h3>What is StaffViz?</h3>
-            <button onClick={e => clicked()} className="exitDetailsButton">
+            <button onClick={e => exit(false)} className="exitDetailsButton">
               X
             </button>
           </div>
@@ -94,9 +94,10 @@ function AboutContent(exit) {
             school’s courses are sufficiently staffed.
           </p>
           <br />
+
           <h4>The Team</h4>
           <p></p>
-          <div className="row">
+          <div className="team">
             <div className="column">
               <div className="card"></div>
               <img src="leila.png" alt="Leila" style={imgstyle} />
@@ -114,90 +115,95 @@ function AboutContent(exit) {
                 </p>
               </div>
             </div>
-          </div>
 
-          <div className="column">
-            <div className="card">
-              <img src="arnar.png" alt="Arnar" style={imgstyle} />
-              <div className="container">
-                <h3>Arnar Pétursson</h3>
-                <p className="title">Front-end</p>
-                <p>
-                  Processed the raw data into a data structure more suitable to
-                  work with. General visual mappings and realizing user needs.
-                  Programmed frontend based on prototypes produced by the team.
-                </p>
-                <p>
-                  <i>arnarp@kth.se</i>
-                </p>
+            <div className="column">
+              <div className="card">
+                <img src="arnar.png" alt="Arnar" style={imgstyle} />
+                <div className="container">
+                  <h3>Arnar Pétursson</h3>
+                  <p className="title">Front-end</p>
+                  <p>
+                    Processed the raw data into a data structure more suitable
+                    to work with. General visual mappings and realizing user
+                    needs. Programmed frontend based on prototypes produced by
+                    the team.
+                  </p>
+                  <p>
+                    <i>arnarp@kth.se</i>
+                  </p>
+                </div>
               </div>
             </div>
-          </div>
 
-          <div className="column">
-            <div className="card">
-              <img src="arda.png" alt="Arda" style={imgstyle} />
-              <div className="container">
-                <h3>Arda Mutlu</h3>
-                <p className="title">Back-end</p>
-                <p>Some text that describes me lorem ipsum ipsum lorem.</p>
-                <p>
-                  <i>ardam@kth.se</i>
-                </p>
+            <div className="column">
+              <div className="card">
+                <img src="arda.png" alt="Arda" style={imgstyle} />
+                <div className="container">
+                  <h3>Arda Mutlu</h3>
+                  <p className="title">Back-end</p>
+                  <p>Some text that describes me lorem ipsum ipsum lorem.</p>
+                  <p>
+                    <i>ardam@kth.se</i>
+                  </p>
+                </div>
               </div>
             </div>
-          </div>
-        </div>
-        <div className="row">
-          <div className="column">
-            <div className="card">
-              <img src="axel.png" alt="Axel" style={imgstyle} />
-              <div className="container">
-                <h3>Axel Johansson</h3>
-                <p className="title">UX, prototype</p>
-                <p>
-                  Axel has been involved in the visual mappings and structures
-                  designs and layout, as well as created interactive prototypes
-                  to present these. He has also produced instructive content,
-                  contributed to the creation of the website and maintained
-                  stakeholder contact.
-                </p>
-                <p>
-                  <i>axj@kth.se</i>
-                </p>
+
+            <div className="column">
+              <div className="card">
+                <img src="axel.png" alt="Axel" style={imgstyle} />
+                <div className="container">
+                  <h3>Axel Johansson</h3>
+                  <p className="title">UX, prototype</p>
+                  <p>
+                    Axel has been involved in the visual mappings and structures
+                    designs and layout, as well as created interactive
+                    prototypes to present these. He has also produced
+                    instructive content, contributed to the creation of the
+                    website and maintained stakeholder contact.
+                  </p>
+                  <p>
+                    <i>axj@kth.se</i>
+                  </p>
+                </div>
               </div>
             </div>
-          </div>
 
-          <div className="column">
-            <div className="card">
-              <img src="alex.png" alt="Alex" style={imgstyle} />
-              <div className="container">
-                <h3>Alexander Heikinaho</h3>
-                <p className="title">Front-end</p>
-                <p>Some text that describes me lorem ipsum ipsum lorem.</p>
-                <p>
-                  <i>alehei@kth.se</i>
-                </p>
+            <div className="column">
+              <div className="card">
+                <img src="alex.png" alt="Alex" style={imgstyle} />
+                <div className="container">
+                  <h3>Alexander Heikinaho</h3>
+                  <p className="title">Front-end</p>
+                  <p>
+                    Alex has been helped with designing the inital visual
+                    structures as well as mapping data to its visual components.
+                    His main responsibility was developing the frontend of the f
+                  </p>
+                  <p>
+                    <i>alehei@kth.se</i>
+                  </p>
+                </div>
               </div>
             </div>
-          </div>
 
-          <div className="column">
-            <div className="card">
-              <img src="favio.png" alt="Favio" style={imgstyle} />
-              <div className="container">
-                <h3>Favio Andres Acosta David</h3>
-                <p className="title">Data</p>
-                <p>
-                  Helped the team to figure out how the data works and what will
-                  be the challenges to face based on the user needs (school
-                  coordinators). In the same way, Favio helped to rearrange the
-                  main data variables to deal with for the project purposes.
-                </p>
-                <p>
-                  <i>faad@kth.se</i>
-                </p>
+            <div className="column">
+              <div className="card">
+                <img src="favio.png" alt="Favio" style={imgstyle} />
+                <div className="container">
+                  <h3>Favio Andres Acosta David</h3>
+                  <p className="title">Data</p>
+                  <p>
+                    Helped the team to figure out how the data works and what
+                    will be the challenges to face based on the user needs
+                    (school coordinators). In the same way, Favio helped to
+                    rearrange the main data variables to deal with for the
+                    project purposes.
+                  </p>
+                  <p>
+                    <i>faad@kth.se</i>
+                  </p>
+                </div>
               </div>
             </div>
           </div>
