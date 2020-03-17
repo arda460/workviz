@@ -14,6 +14,7 @@ const GlobalStateProvider = ({ children }) => {
   const [displayDetails, setDisplayDetails] = useState(false);
   const [detailView, setDetailView] = useState(null);
   const [overView, setOverView] = useState(true);
+  const [displayAbout, setDisplayAbout] = useState(false);
   const { summary20, loading } = useContext(DataContext);
 
   const updateBarClick = person => {
@@ -25,13 +26,13 @@ const GlobalStateProvider = ({ children }) => {
   };
 
   const personClick = person => {
-    if(!loading) {
+    if (!loading) {
       const tmp = {
         name: person,
         value: summary20[person]["Balance (%)"],
         vt: summary20[person]["VT Courses"].map(c => c["Course Code"]),
         ht: summary20[person]["HT Courses"].map(c => c["Course Code"])
-      }
+      };
       setPersonHover(tmp);
     }
     updateBarClick(person);
@@ -79,7 +80,9 @@ const GlobalStateProvider = ({ children }) => {
         setOverView,
         courseClicked,
         exitTeacherDetails,
-        personClick
+        personClick,
+        displayAbout,
+        setDisplayAbout
       }}
     >
       {children}
