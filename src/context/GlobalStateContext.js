@@ -14,6 +14,7 @@ const GlobalStateProvider = ({ children }) => {
   const [displayDetails, setDisplayDetails] = useState(false);
   const [detailView, setDetailView] = useState(null);
   const [overView, setOverView] = useState(true);
+
   const { summary20, loading } = useContext(DataContext);
 
   const updateBarClick = person => {
@@ -36,7 +37,7 @@ const GlobalStateProvider = ({ children }) => {
         value: summary20[person]["Balance (%)"],
         vt: summary20[person]["VT Courses"].map(c => c["Course Code"]),
         ht: summary20[person]["HT Courses"].map(c => c["Course Code"])
-      }
+      };
       setPersonHover(tmp);
     }
     updateBarClick(person);

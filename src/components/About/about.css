@@ -1,0 +1,76 @@
+.about-modal {
+  position: absolute;
+  z-index: 1;
+}
+
+.team {
+  display: flex;
+  flex-wrap: wrap;
+}
+#instructions-container {
+  margin-block-start: 3em;
+  border-radius: 1em 1em 1em 1em;
+  background: #ebebeb;
+  box-shadow: 2px -1px 10px 1px rgba(0, 0, 0, 0.5);
+  max-width: 50%;
+  margin: auto;
+  font-family: "Lato", sans-serif;
+  padding-left: 6px;
+  padding-right: 6px;
+}
+
+#instructions-container img {
+  box-shadow: -1px -1px 10px 1px rgba(0, 0, 0, 0.3);
+  float: left;
+  width: 894px;
+  height: 330px;
+  background-size: cover;
+}
+
+ul {
+  list-style-type: disc;
+}
+
+.linespacing {
+  line-height: 22px;
+}
+
+/* Three columns side by side */
+.column {
+  float: left;
+  width: 31%;
+  margin-bottom: 16px;
+  padding: 0 8px;
+}
+
+/* Display the columns below each other instead of side by side on small screens */
+@media screen and (max-width: 650px) {
+  .column {
+    width: 100%;
+    display: block;
+  }
+}
+
+/* Add some shadows to create a card effect */
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+/* Some left and right padding inside the container */
+.container {
+  padding-top: 315px;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+/* Clear floats */
+.container::after,
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.title {
+  color: grey;
+}
