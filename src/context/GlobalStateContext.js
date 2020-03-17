@@ -27,6 +27,11 @@ const GlobalStateProvider = ({ children }) => {
 
   const personClick = person => {
     if(!loading) {
+      // All these "teachers" where removed from data, fix complete data before detail view of them is possible
+      const lowerP = person.toLowerCase();
+      if(lowerP.includes('lab handl') || lowerP.includes('unknown') || lowerP.includes('fö ext') || lowerP === 'nn doktorand' )
+        return
+
       const tmp = {
         name: person,
         value: summary20[person]["Balance (%)"],
