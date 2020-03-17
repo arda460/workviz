@@ -171,6 +171,9 @@ export default function Search() {
             onChange={e => handleKeyStroke(e.target.value)}
           ></input>
           <div className="toggler">
+            <span className="togglerTip">
+              Search for{sliderStatus ? " course" : " teacher"}
+            </span>
             <label className="switch">
               <input
                 type="checkbox"
@@ -183,18 +186,18 @@ export default function Search() {
         </div>
       </div>
       <div className="courseFilter">
-          <label className="filterLabel">Filter on</label>
-          <div className="filterButtons">
-            <button className={buttonName[0]} onClick={() => handleFilter("red")}>
-              Task Allocation
+        <label className="filterLabel">Filter on</label>
+        <div className="filterButtons">
+          <button className={buttonName[0]} onClick={() => handleFilter("red")}>
+            Task Allocation
           </button>
-            <button
-              className={buttonName[1]}
-              onClick={() => handleFilter("orange")}
-            >
-              Teacher Allocation
+          <button
+            className={buttonName[1]}
+            onClick={() => handleFilter("orange")}
+          >
+            Teacher Allocation
           </button>
-          </div>
+        </div>
       </div>
       <div className="courseInfo">
         <div className="redInfo">
