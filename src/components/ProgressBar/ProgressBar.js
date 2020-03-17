@@ -3,7 +3,7 @@ import * as d3 from "d3";
 import "./ProgressBar.css";
 
 export default function ProgressBar(props) {
-    const { percentage, percentage2, percentage3, label, bHours, aHours, tHours, uHours, h } = props;
+    const { percentage, percentage2, percentage3, label, bHours, aHours, tHours, uHours, h, totalMissingTH } = props;
     const svgRef = useRef(null);
 
     const height = h ? h : 115;
@@ -65,7 +65,7 @@ export default function ProgressBar(props) {
         // Otherwise fill the progressbar
         else {
             // Circle in middle
-            if (bHours > 0 && aHours === 0) 
+            if (bHours > 0 && aHours === 0)
                 circle.style('fill', '#F06E37')
             else
                 circle.style("fill", 'none');
@@ -119,9 +119,11 @@ export default function ProgressBar(props) {
                     });
             }
 
-            // Outer line -> compares techer hours to allocated, only display if not enough teachers allocated
-            if (tHours < aHours) {
-
+            const outerArc = label === 'Totalt' ? Math.max(totalMissingTH / aHours, percentage3)
+                                                : Math.max((1 - percentage2), percentage3);
+            // Outer Yellow line is only displayed if there are missing teacher hours or there are assigned UNKNOWN MID hours
+            // Do not need to display both, only display the one that is the "bigger" problem
+            if (outerArc > 0 && !(bHours > 0 && aHours === 0)) {
                 const outerProgress = svg.append("g")
                     .attr("transform", "translate(" + width / 2 + "," + height / 2 + ")")
                     .append("path")
@@ -132,25 +134,10 @@ export default function ProgressBar(props) {
                     .duration(1000)
                     .attrTween('d', () => {
                         return (t) => {
-                            return progressArc(arcOuterRadius, arcOuterOuterRadious, percentage2 * t);
+                            return progressArc(arcOuterRadius, arcOuterOuterRadious, outerArc * t);
                         }
                     });
-            }
-            // Deals with UNKNOWN MID hours
-            else if (uHours > 0) {
-                const outerProgress = svg.append("g")
-                    .attr("transform", "translate(" + width / 2 + "," + height / 2 + ")")
-                    .append("path")
-                    .style("fill", '#EDB761');
 
-                // Transition for outer progress
-                outerProgress.transition()
-                    .duration(1000)
-                    .attrTween('d', () => {
-                        return (t) => {
-                            return progressArc(arcOuterRadius, arcOuterOuterRadious, percentage3 * t);
-                        }
-                    });
             }
         }
     };
@@ -158,14 +145,25 @@ export default function ProgressBar(props) {
     useEffect(() => {
         draw();
         // eslint-disable-next-line react-hooks/exhaustive-deps
-    }, [svgRef,percentage, percentage2, height, bHours, aHours, tHours]);
+    }, [svgRef, percentage, percentage2, height, bHours, aHours, tHours]);
 
-    const style = label !== 'Totalt' ? {fontSize: '1em'} : { fontSize: '0.8em'};
+    let teacherCondition;
+    let teacherText;
+    if (label === 'Totalt') {
+        teacherCondition = totalMissingTH > 0;
+        teacherText = totalMissingTH;
+    }
+    else {
+        teacherCondition = tHours < aHours;
+        teacherText = aHours - tHours;
+    }
+
+    const style = label !== 'Totalt' ? { fontSize: '1em' } : { fontSize: '0.8em' };
     return (
         <div className="progressCol">
             <svg className="progressBar" ref={svgRef}></svg>
             <h5>{label}</h5>
-            {tHours < aHours && <p style={style} className="specialHours">{`${aHours - tHours} teacher hours missing`}</p>}
+            {teacherCondition && <p style={style} className="specialHours">{`${teacherText} teacher hours missing`}</p>}
             {uHours > 0 && <p style={style} className="specialHours">{`${uHours} UNKNOWN MID hours`}</p>}
         </div>
     )
