@@ -59,8 +59,10 @@
 
 .courseControls {
   display: flex;
-  margin-left: 35px;
-  width: 100vw;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-left: 35px;
+  padding-right: 35px;
 }
 
 .redInfo,
@@ -155,8 +157,26 @@ input:checked + .slider:before {
   padding-top: 3px;
 }
 
+.togglerTip {
+  visibility: hidden;
+  width: 120px;
+  background-color: black;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
+
+  position: absolute;
+  z-index: 1;
+  margin-top: 70px;
+}
+
+.toggler:hover .togglerTip {
+  visibility: visible;
+}
+
 .overViewToggle {
-  margin: 50px 0 10px 140px;
+  margin: 50px 50px 10px 0;
 }
 
 .ovToggleButton {

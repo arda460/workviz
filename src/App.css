@@ -5,6 +5,7 @@
 
 #root {
   height: 100%;
+  max-width: 100%;
 }
 
 .App-logo {
@@ -127,6 +128,7 @@
 }
 .view-container {
   width: 100vw;
+  max-width: 100%;
 }
 .view-container > div {
   width: 95%;

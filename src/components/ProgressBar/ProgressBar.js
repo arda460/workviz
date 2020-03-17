@@ -162,7 +162,7 @@ export default function ProgressBar(props) {
     return (
         <div className="progressCol">
             <svg className="progressBar" ref={svgRef}></svg>
-            <h5>{label}</h5>
+            {label !== 'Totalt' && <h5>{label}</h5>}
             {teacherCondition && <p style={style} className="specialHours">{`${teacherText} teacher hours missing`}</p>}
             {uHours > 0 && <p style={style} className="specialHours">{`${uHours} UNKNOWN MID hours`}</p>}
         </div>
