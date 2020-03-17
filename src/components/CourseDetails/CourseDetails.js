@@ -1,9 +1,11 @@
-import React, { useRef, useContext } from "react";
+import React, { useRef, useContext, useEffect, useState } from "react";
 import { GlobalStateContext } from "../../context/GlobalStateContext";
 import CourseDetailsRow from "../CourseDetailsRow/CourseDetailsRow";
 import ProgressBars from "../ProgressBars/ProgressBars";
 import StackedTeachers from "../StackedTeachers/StackedTeachers";
 import { DataContext } from "../../context/DataContext";
+import ProgressBar from "../ProgressBar/ProgressBar";
+
 import "./CourseDetails.css";
 
 export default function CourseDetails() {
@@ -21,7 +23,8 @@ export default function CourseDetails() {
     setCourseDetails,
     setSelectedPerson,
     setPersonHover,
-    personClick
+    personClick,
+    totalProgress
   } = useContext(GlobalStateContext);
   const d = useRef(null);
 
@@ -69,6 +72,24 @@ export default function CourseDetails() {
               label="Students"
               data={[d.current["Number of students"]]}
             />
+            {Object.keys(totalProgress).length > 0 &&
+              <div className="detailsRow info">
+                <h4 className="courseDetailCourseLabel">{totalProgress.label}</h4>
+                <div className="courseDetailInfo">
+                  <ProgressBar
+                    key={totalProgress.key}
+                    percentage={totalProgress.percentage}
+                    percentage2={totalProgress.percentage2}
+                    percentage3={totalProgress.percentage3}
+                    bHours={totalProgress.bHours}
+                    aHours={totalProgress.aHours}
+                    tHours={totalProgress.tHours}
+                    uHours={totalProgress.uHours}
+                    label={totalProgress.label} 
+                    h={100}/>
+                </div>
+              </div>
+            }
           </div>
         )}
         {d.current && (

@@ -3,11 +3,11 @@ import * as d3 from "d3";
 import "./ProgressBar.css";
 
 export default function ProgressBar(props) {
-    const { percentage, percentage2, percentage3, label, bHours, aHours, tHours, uHours } = props;
+    const { percentage, percentage2, percentage3, label, bHours, aHours, tHours, uHours, h } = props;
     const svgRef = useRef(null);
 
-    const height = 115;
-    const width = 115;
+    const height = h ? h : 115;
+    const width = h ? h : 115;
     const arcWidth = height * 0.045;
     const arcOuterOuterRadious = width / 2.5 + arcWidth;
     const arcOuterRadius = width / 2.5;
@@ -152,10 +152,7 @@ export default function ProgressBar(props) {
                         }
                     });
             }
-
         }
-
-
     };
 
     useEffect(() => {
@@ -163,12 +160,13 @@ export default function ProgressBar(props) {
         // eslint-disable-next-line react-hooks/exhaustive-deps
     }, [svgRef,percentage, percentage2, height, bHours, aHours, tHours]);
 
+    const style = label !== 'Totalt' ? {fontSize: '1em'} : { fontSize: '0.8em'};
     return (
         <div className="progressCol">
             <svg className="progressBar" ref={svgRef}></svg>
             <h5>{label}</h5>
-            {tHours < aHours && <p className="specialHours">{`${aHours - tHours} teacher hours missing`}</p>}
-            {uHours > 0 && <p className="specialHours">{`${uHours} UNKNOWN MID hours`}</p>}
+            {tHours < aHours && <p style={style} className="specialHours">{`${aHours - tHours} teacher hours missing`}</p>}
+            {uHours > 0 && <p style={style} className="specialHours">{`${uHours} UNKNOWN MID hours`}</p>}
         </div>
     )
 }

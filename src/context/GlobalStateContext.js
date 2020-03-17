@@ -14,6 +14,7 @@ const GlobalStateProvider = ({ children }) => {
   const [displayDetails, setDisplayDetails] = useState(false);
   const [detailView, setDetailView] = useState(null);
   const [overView, setOverView] = useState(true);
+  const [ totalProgress, setTotalProgress ] = useState({});
   const { summary20, loading } = useContext(DataContext);
 
   const updateBarClick = person => {
@@ -79,7 +80,9 @@ const GlobalStateProvider = ({ children }) => {
         setOverView,
         courseClicked,
         exitTeacherDetails,
-        personClick
+        personClick,
+        totalProgress,
+        setTotalProgress
       }}
     >
       {children}
