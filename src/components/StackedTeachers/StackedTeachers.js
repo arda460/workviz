@@ -1,4 +1,5 @@
-import React, { useRef, useEffect, useState } from "react";
+import React, { useRef, useEffect, useState, useContext } from "react";
+import { GlobalStateContext } from "../../context/GlobalStateContext";
 import * as d3 from "d3";
 import "./StackedTeachers.css";
 
@@ -7,9 +8,10 @@ export default function StackedTeachers(props) {
     const svgRef = useRef(null);
     const [legendHover, setLegendHover] = useState(null);
     const [groupHover, setGroupHover] = useState(false);
+    const { personClick } = useContext(GlobalStateContext);
 
     const margin = { top: 10, right: 20, bottom: 20, left: 50 };
-    const width = Math.max(60 * Object.keys(d).length, 900);
+    const width = 200 + (41 * Object.keys(d).length);
     const height = 190 - margin.top - margin.bottom;
 
     const handleData = () => {
@@ -47,7 +49,7 @@ export default function StackedTeachers(props) {
         // Add X axis
         const x = d3.scaleBand()
             .domain(groups)
-            .range([0, width])
+            .range([0, 200 + (groups.length * 41)])
             .padding([0.2]);
 
         svg.append("g")
@@ -63,6 +65,15 @@ export default function StackedTeachers(props) {
         }
 
         svg.selectAll('text').each(liftOdd);
+        
+        // Add on click on teacher labels
+        function addClick(d,i) {
+            d3.select(this)
+                .on('click', () => personClick(d))
+                .style('cursor', 'pointer');
+        }
+        svg.selectAll('text').each(addClick);
+        
 
         // Add Y axis
         const y = d3.scaleLinear()
@@ -129,16 +140,13 @@ export default function StackedTeachers(props) {
                     onMouseLeave={_ => setLegendHover(null)}
                     style={style}
                 ></div>
-                <p>{text}</p>
+                <p className="labelText">{text}</p>
             </div>
         );
     }
 
     return (
         <div className="stackedTeachersRow">
-            <div className="sChart">
-                <svg className="stackedTeachers" ref={svgRef}></svg>
-            </div>
             <div className="sLabels">
                 <ColorLabel text="Administration" keyword="Adm" isHover={groupHover} />
                 <ColorLabel text="Kursutveckling" keyword="Ku" isHover={groupHover} />
@@ -147,6 +155,9 @@ export default function StackedTeachers(props) {
                 <ColorLabel text="Laboration" keyword="La" isHover={groupHover} />
                 <ColorLabel text="Övning" keyword="Ovn" isHover={groupHover} />
                 <ColorLabel text="Föreläsning" keyword="Frl" isHover={groupHover} />
+            </div>
+            <div className="sChart">
+                <svg className="stackedTeachers" ref={svgRef}></svg>
             </div>
         </div>
     )

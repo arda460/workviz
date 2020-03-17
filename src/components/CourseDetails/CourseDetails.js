@@ -20,7 +20,8 @@ export default function CourseDetails() {
     setOverView,
     setCourseDetails,
     setSelectedPerson,
-    setPersonHover
+    setPersonHover,
+    personClick
   } = useContext(GlobalStateContext);
   const d = useRef(null);
 
@@ -49,6 +50,7 @@ export default function CourseDetails() {
               data={[courseDetails, d.current["short name"]]}
             />
             <CourseDetailsRow
+              onClick={personClick}
               cname="courseDetailInfo"
               label="Responsible"
               data={

@@ -3,7 +3,7 @@
     margin-bottom: 10px;
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: flex-end;
     width: 100%;
 }
 
@@ -14,7 +14,8 @@
 }
 
 .sLabels {
-    padding-left: 60px;
+    margin-top: 30px;
+    padding-left: 40px;
     width: 20%;
 }
 
@@ -27,46 +28,58 @@
   margin-bottom: 10px;
 }
 
+.labelText {
+  font-size: 0.85em;
+}
+
 .labelFor {
   opacity: 1;
-  padding: 10px;
+  padding: 7px;
   margin-right: 10px;
   background-color: #fcd26c;
+  max-height: 10px;
 }
 .labelFrl {
-  padding: 10px;
+  padding: 7px;
   margin-right: 10px;
   background-color: #fcd26c;
+  max-height: 10px;
 }
 .labelOvn {
-  padding: 10px;
+  padding: 7px;
   margin-right: 10px;
   background-color: #c9d897;
+  max-height: 10px;
 }
 .labelLa {
-  padding: 10px;
+  padding: 7px;
   margin-right: 10px;
   background-color: #365780;
+  max-height: 10px;
 }
 .labelHa {
-  padding: 10px;
+  padding: 7px;
   margin-right: 10px;
   background-color: #faad5f;
+  max-height: 10px;
 }
 .labelEx {
-  padding: 10px;
+  padding: 7px;
   margin-right: 10px;
   background-color: #7bbfcc;
+  max-height: 10px;
 }
 .labelKu {
-  padding: 10px;
+  padding: 7px;
   margin-right: 10px;
   background-color: #9dd0d1;
+  max-height: 10px;
 }
 .labelAdm {
-  padding: 10px;
+  padding: 7px;
   margin-right: 10px;
   background-color: #ec9747;
+  max-height: 10px;
 }
 
 .sChart::-webkit-scrollbar {

@@ -1,10 +1,13 @@
 .detailsRow {
-    min-width: 100%;
     margin: 5px 20px 0 20px;
     padding-top: 10px;
-
+    
     display: flex;
     flex-direction: column;
+}
+
+.detailsRow.info {
+    min-width: 100%;
  }
 
 .courseDetailCourseLabel {
@@ -28,4 +31,8 @@
 .courseDetailItem {
     margin-bottom: 10px;
     margin-right: 20px;
+}
+
+.courseDetailItem.click {
+    cursor: pointer;
 }

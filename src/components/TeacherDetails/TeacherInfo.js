@@ -1,15 +1,12 @@
 import React, { useContext } from "react";
 import { GlobalStateContext } from "../../context/GlobalStateContext";
 function TeacherInfo({ data, children }) {
-  const {
-    setDisplayDetails,
-    setOverView,
-    setSelectedPerson,
-    exitTeacherDetails
-  } = useContext(GlobalStateContext);
+  const { exitTeacherDetails } = useContext(GlobalStateContext);
+
   if (!data) {
     return <>loading...</>;
   }
+  
   const { name, summary } = data;
   return (
     <div className="infoContainer flex">

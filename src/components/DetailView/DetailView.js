@@ -12,8 +12,6 @@ function DetailView() {
     detailView
   } = useContext(GlobalStateContext);
 
-  // {!displayDetails && <BarChartData onClick={updateBarClick} />}
-  // {displayDetails && <DetailView view={detailView} />}
   const dViews = {
     TeacherDetails: <TeacherDetails selectedPerson={selectedPerson} />,
     CourseDetails: <CourseDetails />
