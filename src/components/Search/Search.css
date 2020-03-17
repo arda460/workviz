@@ -59,8 +59,10 @@
 
 .courseControls {
   display: flex;
+  flex-direction: row;
+  justify-content: space-between;
   margin-left: 35px;
-  width: 100vw;
+  margin-right: 35px;
 }
 
 .redInfo,
@@ -174,7 +176,7 @@ input:checked + .slider:before {
 }
 
 .overViewToggle {
-  margin: 50px 0 10px 140px;
+  margin: 50px 50px 10px 0;
 }
 
 .ovToggleButton {

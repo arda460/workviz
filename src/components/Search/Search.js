@@ -1,4 +1,4 @@
-import React, { useState, useContext } from "react";
+import React, { useState, useContext, useEffect } from "react";
 import { DataContext } from "../../context/DataContext";
 import { GlobalStateContext } from "../../context/GlobalStateContext";
 import "./Search.css";
@@ -11,13 +11,14 @@ export default function Search() {
     setFilterTeachers,
     displayDetails,
     overView,
-    setOverView
+    setOverView,
   } = useContext(GlobalStateContext);
   const [buttonName, setButtonName] = useState([
     "filterButton",
     "filterButton"
   ]);
   const [sliderStatus, setSliderStatus] = useState(false);
+  const [showSearch, setShowSearch] = useState(true);
 
   const handleKeyStroke = val => {
     if (courseOverview !== null) {
@@ -157,6 +158,22 @@ export default function Search() {
     }
   };
 
+  useEffect(() => {
+    if (displayDetails) {
+      if (overView) {
+        setSliderStatus(false);
+        setShowSearch(true);
+      }
+      else {
+        setSliderStatus(true);
+        setShowSearch(false);
+      }
+
+    }
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [displayDetails, overView]);
+
+
   return (
     <div className="courseControls">
       <div className="courseSearch">
@@ -170,45 +187,51 @@ export default function Search() {
             className="searchBar"
             onChange={e => handleKeyStroke(e.target.value)}
           ></input>
-          <div className="toggler">
-            <span className="togglerTip">
-              Search for{sliderStatus ? " course" : " teacher"}
-            </span>
-            <label className="switch">
-              <input
-                type="checkbox"
-                id="searchSlider"
-                onClick={() => handleSlider()}
-              />
-              <span className="slider round"></span>
-            </label>
+          {!displayDetails &&
+            <div className="toggler">
+              <span className="togglerTip">
+                Search for{sliderStatus ? " course" : " teacher"}
+              </span>
+              <label className="switch">
+                <input
+                  type="checkbox"
+                  id="searchSlider"
+                  onClick={() => handleSlider()}
+                />
+                <span className="slider round"></span>
+              </label>
+            </div>
+          }
+        </div>
+      </div>
+      {showSearch &&
+        <div className="courseFilter">
+          <label className="filterLabel">Filter on</label>
+          <div className="filterButtons">
+            <button className={buttonName[0]} onClick={() => handleFilter("red")}>
+              Task Allocation
+          </button>
+            <button
+              className={buttonName[1]}
+              onClick={() => handleFilter("orange")}
+            >
+              Teacher Allocation
+          </button>
           </div>
         </div>
-      </div>
-      <div className="courseFilter">
-        <label className="filterLabel">Filter on</label>
-        <div className="filterButtons">
-          <button className={buttonName[0]} onClick={() => handleFilter("red")}>
-            Task Allocation
-          </button>
-          <button
-            className={buttonName[1]}
-            onClick={() => handleFilter("orange")}
-          >
-            Teacher Allocation
-          </button>
+      }
+      {showSearch &&
+        <div className="courseInfo">
+          <div className="redInfo">
+            <div className="redBox"></div>
+            <p className="reText">Task Hour Allocation Needed</p>
+          </div>
+          <div className="yellowInfo">
+            <div className="yellowBox"></div>
+            <p className="yellowText">Teacher Allocation Needed</p>
+          </div>
         </div>
-      </div>
-      <div className="courseInfo">
-        <div className="redInfo">
-          <div className="redBox"></div>
-          <p className="reText">Task Hour Allocation Needed</p>
-        </div>
-        <div className="yellowInfo">
-          <div className="yellowBox"></div>
-          <p className="yellowText">Teacher Allocation Needed</p>
-        </div>
-      </div>
+      }
       {displayDetails && (
         <div className="overViewToggle">
           <button
