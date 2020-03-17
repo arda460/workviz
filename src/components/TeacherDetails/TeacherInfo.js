@@ -48,13 +48,13 @@ function TeacherInfo({ data, children }) {
               <div className="flexcol course-list">
                 <h5>HT</h5>
                 {summary["HT Courses"].map(c => {
-                  return <h6>{c["Course Code"]}</h6>;
+                  return <h6 key={c["Course Code"]}>{c["Course Code"]}</h6>;
                 })}
               </div>
               <div className="flexcol course-list">
                 <h5>VT</h5>
                 {summary["VT Courses"].map(c => {
-                  return <h6>{c["Course Code"]}</h6>;
+                  return <h6 key={c["Course Code"]}>{c["Course Code"]}</h6>;
                 })}
               </div>
             </div>

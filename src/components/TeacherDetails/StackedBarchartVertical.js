@@ -96,7 +96,6 @@ function StackedBarchartVertical(props) {
       .attr("class", d => `${d.key} bar`)
       .on("mouseenter", d => {
         setGroupHover(d.key);
-        console.log(d);
       })
       .on("mouseleave", d => setGroupHover(null))
       .selectAll("rect")
@@ -151,7 +150,7 @@ function StackedBarchartVertical(props) {
 
   useEffect(() => {
     draw();
-  }, [data, legendHover]);
+  }, [data, draw, legendHover]);
 
   function ColorLabel({ text, keyword, isHover }) {
     let classname = `label${keyword}`;
