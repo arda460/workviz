@@ -36,9 +36,7 @@ function StackedBarchart(props) {
 
     const g = svg.append("g");
     let series = stack(data);
-    // console.log(data);
-    // console.log(series);
-    // return;
+
     if (series.length === 0) {
       return <span>Values empty.</span>;
     }

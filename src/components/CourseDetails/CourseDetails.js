@@ -1,13 +1,18 @@
-import React, { useRef, useContext } from "react";
+import React, { useRef, useContext, useEffect, useState } from "react";
 import { GlobalStateContext } from "../../context/GlobalStateContext";
 import CourseDetailsRow from "../CourseDetailsRow/CourseDetailsRow";
 import ProgressBars from "../ProgressBars/ProgressBars";
 import StackedTeachers from "../StackedTeachers/StackedTeachers";
 import { DataContext } from "../../context/DataContext";
+import ProgressBar from "../ProgressBar/ProgressBar";
+import ProgressCalculations from "../../utils/ProgressCalculations";
+
 import "./CourseDetails.css";
 
 export default function CourseDetails() {
   const { HT20, VT20 } = useContext(DataContext);
+  const [progress, setProgress] = useState(null);
+  const [totalProgress, setTotalProgress] = useState(null);
 
   const data = {
     autumnData: HT20,
@@ -21,7 +26,7 @@ export default function CourseDetails() {
     setCourseDetails,
     setSelectedPerson,
     setPersonHover,
-    personClick
+    personClick,
   } = useContext(GlobalStateContext);
   const d = useRef(null);
 
@@ -34,10 +39,20 @@ export default function CourseDetails() {
     d.current = null;
   };
 
-  if (courseDetails)
+  if (courseDetails) {
     d.current = data["autumnData"][courseDetails]
       ? data["autumnData"][courseDetails]
       : data["springData"][courseDetails];
+  }
+
+  useEffect(() => {
+    const progressNumbers = ProgressCalculations(d.current);
+    setTotalProgress(progressNumbers['Totalt  Budgeted']);
+    delete progressNumbers['Totalt  Budgeted'];
+    setProgress(progressNumbers);
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [d.current]);
+
 
   return (
     <div className="courseDetailsContainer">
@@ -69,11 +84,30 @@ export default function CourseDetails() {
               label="Students"
               data={[d.current["Number of students"]]}
             />
+            {d.current && progress &&
+              <div className="detailsRow info">
+                <h4 className="courseDetailCourseLabel">{totalProgress.label}</h4>
+                <div className="courseDetailInfo">
+                  <ProgressBar
+                    key={totalProgress.key}
+                    percentage={totalProgress.percentage}
+                    percentage2={totalProgress.percentage2}
+                    percentage3={totalProgress.percentage3}
+                    bHours={totalProgress.bHours}
+                    aHours={totalProgress.aHours}
+                    tHours={totalProgress.tHours}
+                    uHours={totalProgress.uHours}
+                    label={totalProgress.label}
+                    h={100}
+                    totalMissingTH={totalProgress.TotalTeach} />
+                </div>
+              </div>
+            }
           </div>
         )}
-        {d.current && (
+        {progress !== null && (
           <div className="detailsCol">
-            <ProgressBars data={d.current}></ProgressBars>
+            <ProgressBars data={progress}></ProgressBars>
             <StackedTeachers d={d.current["Teachers"]}></StackedTeachers>
           </div>
         )}
