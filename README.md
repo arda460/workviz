@@ -10,6 +10,8 @@ This project visialized this data with the goal to get an better overview and he
 
 [The final result can be viewed here!](https://work-vis.firebaseapp.com/)
 
+![alt text](https://github.com/arda460/workviz/blob/master/screenshot.png "screenshot")
+
 #### Technologies
 
 - create-react-app
