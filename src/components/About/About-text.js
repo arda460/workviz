@@ -16,6 +16,7 @@ function AboutContent({ exit }) {
         </div>
 
         <p>VIDEO</p>
+        <iframe src="https://drive.google.com/file/d/1leabP75u5u6MbqEX2xo1pBGVKiq0oFMa/preview" width="640" height="480" allowfullscreen="true"></iframe>
         <br />
         <h4>Background</h4>
         <div>
@@ -141,7 +142,9 @@ function AboutContent({ exit }) {
                 <div className="container">
                   <h3>Arda Mutlu</h3>
                   <p className="title">Back-end</p>
-                  <p>Some text that describes me lorem ipsum ipsum lorem.</p>
+                  <p>Helped the team with Firebase installation and GitHub maintenance. 
+                    Arda also worked as a video editor and also actively involved in
+                    preparing slides and presenting.</p>
                   <p>
                     <i>ardam@kth.se</i>
                   </p>
