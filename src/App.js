@@ -5,7 +5,6 @@ import Spinner from "./components/Spinner/Spinner";
 import OverView from "./components/OverView/OverView";
 import Search from "./components/Search/Search";
 import Header from "./components/Header/Header";
-import About from "./components/About/About-text";
 
 import { DataContext } from "./context/DataContext";
 

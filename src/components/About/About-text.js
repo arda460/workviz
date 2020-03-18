@@ -7,17 +7,19 @@ function AboutContent({ exit }) {
     <div className="linespacing">
       <div id="instructions-container">
         <div className="flex flex-row">
-          <div>
-            <h3>What is StaffViz?</h3>
-            <button onClick={e => exit(false)} className="exitDetailsButton">
-              X
-            </button>
+          <div id="about-header">
+            <h3>What is WorkViz?</h3>
+            <div className="exit-btn">
+              <button onClick={e => exit(false)} className="exitDetailsButton">
+                X
+              </button>
+            </div>
           </div>
         </div>
 
         <p>VIDEO</p>
         <br />
-        <h4>Background</h4>
+        <h3>Background</h3>
         <div>
           <p>
             As director of studies, one of the tasks is to allocate teacher
@@ -36,7 +38,7 @@ function AboutContent({ exit }) {
             priorities hidden within the spreadsheet tables.
           </p>
           <br />
-          <h4>Goals</h4>
+          <h3>Goals</h3>
           <ul>
             <li>
               Provide a comprehensive overview of which courses need staffing
@@ -51,7 +53,7 @@ function AboutContent({ exit }) {
             </li>
           </ul>
           <br />
-          <h4>Challenges</h4>
+          <h3>Challenges</h3>
           <ul>
             <li>
               Translating the spreadsheet data into logical visualizations.
@@ -63,7 +65,7 @@ function AboutContent({ exit }) {
             </li>
           </ul>
           <br />
-          <h4>Visual structures</h4>
+          <h3>Visual structures</h3>
           <p>
             The teachers are represented with bars, which are color coded
             depending on the balance between each teacher’s allocated and
@@ -86,7 +88,7 @@ function AboutContent({ exit }) {
             circles inform about the status of each course component.
           </p>
           <br />
-          <h4>Learning objectives reached</h4>
+          <h3>Learning objectives reached</h3>
           <p>
             We have achieved our goal of translating a labyrinth of tabular
             spreadsheet data into comprehensive visualizations, thus
@@ -95,27 +97,27 @@ function AboutContent({ exit }) {
           </p>
           <br />
 
-          <h4>The Team</h4>
-          <p></p>
+          <h2 id="team">The Team</h2>
+
           <div className="team">
             <div className="column">
-              <div className="card"></div>
-              <img src="leila.png" alt="Leila" style={imgstyle} />
-              <div className="container">
-                <h3>Leila Englund</h3>
-                <p className="title">UX, prototype</p>
-                <p>
-                  Creating the interactive prototype and coming up with
-                  solutions to visualize the data in best possible way.
-                  Designing different elements to the website was also something
-                  that Leila contributed with.
-                </p>
-                <p>
-                  <i>leilae@kth.se</i>
-                </p>
+              <div className="card">
+                <img src="leila.png" alt="Leila" style={imgstyle} />
+                <div className="container">
+                  <h3>Leila Englund</h3>
+                  <p className="title">UX, prototype</p>
+                  <p>
+                    Creating the interactive prototype and coming up with
+                    solutions to visualize the data in best possible way.
+                    Designing different elements to the website was also
+                    something that Leila contributed with.
+                  </p>
+                  <p>
+                    <i>leilae@kth.se</i>
+                  </p>
+                </div>
               </div>
             </div>
-
             <div className="column">
               <div className="card">
                 <img src="arnar.png" alt="Arnar" style={imgstyle} />
@@ -178,7 +180,7 @@ function AboutContent({ exit }) {
                   <p>
                     Alex has been helped with designing the inital visual
                     structures as well as mapping data to its visual components.
-                    His main responsibility was developing the frontend of the f
+                    His main responsibility was developing the frontend.
                   </p>
                   <p>
                     <i>alehei@kth.se</i>

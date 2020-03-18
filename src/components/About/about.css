@@ -7,6 +7,24 @@
   display: flex;
   flex-wrap: wrap;
 }
+
+.card img {
+  filter: grayscale(100%);
+}
+#team-header {
+  padding-top: 1em;
+  padding-bottom: 1em;
+  font-size: 3em;
+}
+#about-header {
+  position: relative;
+  width: 100%;
+}
+.exit-btn {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
 #instructions-container {
   margin-block-start: 3em;
   border-radius: 1em 1em 1em 1em;
@@ -28,7 +46,7 @@
 }
 
 ul {
-  list-style-type: disc;
+  list-style-type: none;
 }
 
 .linespacing {
