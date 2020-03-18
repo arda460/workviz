@@ -1,0 +1,1935 @@
+{
+  "Hannah Abbott": {
+    "Position": "Professor",
+    "Department": "MID",
+    "Kontering HCT (%)": 10.0,
+    "Bemnnad HCT Gru (%)": 6.47,
+    "Responsible VT": [],
+    "VT Courses": [
+      { "Course Code": "XX1000", "Short Name": "Apple", "Work %": 3.3 },
+      { "Course Code": "XX1048", "Short Name": "Marionberry", "Work %": 1.9 }
+    ],
+    "Gru VT (%)": 5.2,
+    "Responsible HT": ["DH2466"],
+    "HT Courses": [
+      { "Course Code": "XX1007", "Short Name": "Blueberry", "Work %": 1.3 }
+    ],
+    "Gru HT (%)": 1.3,
+    "Self-development &Friskvård (%)": 0.0,
+    "Extra (%)": 0.0,
+    "Balance (%)": -3.53,
+    "GRU balance 19": 5.35,
+    "GRU balance 20": 1.82,
+    "Årsarbetstid %": 100.0
+  },
+  "Ludo Bagman": {
+    "Position": "Lektor",
+    "Department": "MID",
+    "Kontering HCT (%)": 40.0,
+    "Bemnnad HCT Gru (%)": 38.61,
+    "Responsible VT": ["DH2628", "DH2629"],
+    "VT Courses": [
+      { "Course Code": "XX1043", "Short Name": "Loquat", "Work %": 6.5 },
+      { "Course Code": "XX1044", "Short Name": "Longan", "Work %": 5.7 },
+      { "Course Code": "XX1000", "Short Name": "Apple", "Work %": 4.0 }
+    ],
+    "Gru VT (%)": 16.2,
+    "Responsible HT": ["DM2630"],
+    "HT Courses": [
+      { "Course Code": "XX1010", "Short Name": "Cherry", "Work %": 11.1 },
+      { "Course Code": "XX1022", "Short Name": "Elderberry", "Work %": 2.4 }
+    ],
+    "Gru HT (%)": 13.4,
+    "Self-development &Friskvård (%)": 9.0,
+    "Extra (%)": 0.0,
+    "Balance (%)": -1.39,
+    "GRU balance 19": 6.97,
+    "GRU balance 20": 5.58,
+    "Årsarbetstid %": 100.0
+  },
+  "Bathilda Bagshot": {
+    "Position": "Doktorand",
+    "Department": "MID",
+    "Kontering HCT (%)": 17.64,
+    "Bemnnad HCT Gru (%)": 7.97,
+    "Responsible VT": [],
+    "VT Courses": [
+      { "Course Code": "XX1039", "Short Name": "Kiwifruit", "Work %": 5.6 }
+    ],
+    "Gru VT (%)": 5.6,
+    "Responsible HT": [],
+    "HT Courses": [
+      { "Course Code": "XX1014", "Short Name": "Coconut", "Work %": 2.3 }
+    ],
+    "Gru HT (%)": 2.3,
+    "Self-development &Friskvård (%)": 0.0,
+    "Extra (%)": 0.0,
+    "Balance (%)": -9.67,
+    "GRU balance 19": 0.0,
+    "GRU balance 20": -9.67,
+    "Årsarbetstid %": 88.18
+  },
+  "Marcus Belby": {
+    "Position": "Lektor",
+    "Department": "MID",
+    "Kontering HCT (%)": 52.5,
+    "Bemnnad HCT Gru (%)": 37.81,
+    "Responsible VT": ["DH2642 V"],
+    "VT Courses": [
+      { "Course Code": "XX1047 V", "Short Name": "Mangosteen", "Work %": 9.9 },
+      { "Course Code": "XX1000", "Short Name": "Apple", "Work %": 3.4 }
+    ],
+    "Gru VT (%)": 13.2,
+    "Responsible HT": ["DH2642 H", "DH2643"],
+    "HT Courses": [
+      { "Course Code": "XX1027 H", "Short Name": "Grape", "Work %": 9.3 },
+      { "Course Code": "XX1037", "Short Name": "Juniper berry", "Work %": 2.8 },
+      { "Course Code": "XX1025", "Short Name": "Goji berry", "Work %": 0.6 }
+    ],
+    "Gru HT (%)": 12.8,
+    "Self-development &Friskvård (%)": 11.81,
+    "Extra (%)": 0.0,
+    "Balance (%)": -14.69,
+    "GRU balance 19": 47.88,
+    "GRU balance 20": 33.19,
+    "Årsarbetstid %": 100.0
+  },
+  "Katie Bell": {
+    "Position": "Professor",
+    "Department": "MID",
+    "Kontering HCT (%)": 25.0,
+    "Bemnnad HCT Gru (%)": 22.17,
+    "Responsible VT": ["DT2300"],
+    "VT Courses": [
+      { "Course Code": "XX1042", "Short Name": "Lime", "Work %": 6.1 },
+      { "Course Code": "XX1058", "Short Name": "Orange", "Work %": 0.6 },
+      { "Course Code": "XX1000", "Short Name": "Apple", "Work %": 3.3 }
+    ],
+    "Gru VT (%)": 10.0,
+    "Responsible HT": [],
+    "HT Courses": [
+      { "Course Code": "XX1014", "Short Name": "Coconut", "Work %": 1.5 },
+      { "Course Code": "XX1013", "Short Name": "Cloudberry", "Work %": 0.3 },
+      { "Course Code": "XX1023", "Short Name": "Feijoa", "Work %": 3.1 },
+      { "Course Code": "XX1034", "Short Name": "Jackfruit", "Work %": 1.7 }
+    ],
+    "Gru HT (%)": 6.5,
+    "Self-development &Friskvård (%)": 5.63,
+    "Extra (%)": 0.0,
+    "Balance (%)": -2.83,
+    "GRU balance 19": 0.57,
+    "GRU balance 20": -2.26,
+    "Årsarbetstid %": 100.0
+  },
+  "Cuthbert Binns": {
+    "Position": "Lektor",
+    "Department": "MID",
+    "Kontering HCT (%)": 12.0,
+    "Bemnnad HCT Gru (%)": 11.94,
+    "Responsible VT": [],
+    "VT Courses": [
+      { "Course Code": "XX1000", "Short Name": "Apple", "Work %": 3.3 },
+      { "Course Code": "XX1048", "Short Name": "Marionberry", "Work %": 4.5 }
+    ],
+    "Gru VT (%)": 7.8,
+    "Responsible HT": [],
+    "HT Courses": [
+      { "Course Code": "XX1014", "Short Name": "Coconut", "Work %": 1.5 }
+    ],
+    "Gru HT (%)": 1.5,
+    "Self-development &Friskvård (%)": 2.7,
+    "Extra (%)": 0.0,
+    "Balance (%)": -0.06,
+    "GRU balance 19": 0.38,
+    "GRU balance 20": 0.32,
+    "Årsarbetstid %": 100.0
+  },
+  "Phineas Nigellus Black": {
+    "Position": "Postdoc",
+    "Department": "MID",
+    "Kontering HCT (%)": 18.75,
+    "Bemnnad HCT Gru (%)": 15.13,
+    "Responsible VT": [],
+    "VT Courses": [
+      { "Course Code": "XX1057", "Short Name": "Olive", "Work %": 1.1 },
+      { "Course Code": "XX1000", "Short Name": "Apple", "Work %": 4.0 },
+      { "Course Code": "XX1048", "Short Name": "Marionberry", "Work %": 3.5 }
+    ],
+    "Gru VT (%)": 8.6,
+    "Responsible HT": [],
+    "HT Courses": [
+      { "Course Code": "XX1014", "Short Name": "Coconut", "Work %": 1.5 },
+      { "Course Code": "XX1018", "Short Name": "Damson", "Work %": 5.1 }
+    ],
+    "Gru HT (%)": 6.5,
+    "Self-development &Friskvård (%)": 0.0,
+    "Extra (%)": 0.0,
+    "Balance (%)": -3.62,
+    "GRU balance 19": -3.54,
+    "GRU balance 20": -7.16,
+    "Årsarbetstid %": 75.0
+  },
+  "Sirius Black": {
+    "Position": "Postdoc",
+    "Department": "MID",
+    "Kontering HCT (%)": 25.0,
+    "Bemnnad HCT Gru (%)": 20.47,
+    "Responsible VT": [],
+    "VT Courses": [
+      { "Course Code": "XX1043", "Short Name": "Loquat", "Work %": 6.3 },
+      { "Course Code": "XX1000", "Short Name": "Apple", "Work %": 4.0 }
+    ],
+    "Gru VT (%)": 10.3,
+    "Responsible HT": [],
+    "HT Courses": [
+      { "Course Code": "XX1025", "Short Name": "Goji berry", "Work %": 4.6 }
+    ],
+    "Gru HT (%)": 4.6,
+    "Self-development &Friskvård (%)": 5.63,
+    "Extra (%)": 0.0,
+    "Balance (%)": -4.53,
+    "GRU balance 19": -3.07,
+    "GRU balance 20": -7.6,
+    "Årsarbetstid %": 100.0
+  },
+  "Amelia Bones": {
+    "Position": "Lektor",
+    "Department": "MID",
+    "Kontering HCT (%)": 28.0,
+    "Bemnnad HCT Gru (%)": 23.97,
+    "Responsible VT": ["DH1609"],
+    "VT Courses": [
+      { "Course Code": "XX1069", "Short Name": "Plantain", "Work %": 13.9 },
+      { "Course Code": "XX1000", "Short Name": "Apple", "Work %": 2.4 }
+    ],
+    "Gru VT (%)": 16.3,
+    "Responsible HT": [],
+    "HT Courses": [
+      { "Course Code": "XX1024", "Short Name": "Fig", "Work %": 1.5 }
+    ],
+    "Gru HT (%)": 1.5,
+    "Self-development &Friskvård (%)": 6.19,
+    "Extra (%)": 0.0,
+    "Balance (%)": -3.53,
+    "GRU balance 19": -16.5,
+    "GRU balance 20": -20.03,
+    "Årsarbetstid %": 55.0
+  },
+  "Susan Bones": {
+    "Position": "Professor",
+    "Department": "MID",
+    "Kontering HCT (%)": 52.5,
+    "Bemnnad HCT Gru (%)": 45.34,
+    "Responsible VT": ["DM2556"],
+    "VT Courses": [
+      { "Course Code": "XX1051", "Short Name": "Honeydew", "Work %": 12.0 },
+      { "Course Code": "XX1069", "Short Name": "Plantain", "Work %": 0.5 },
+      { "Course Code": "XX1000", "Short Name": "Apple", "Work %": 12.0 },
+      { "Course Code": "XX1048", "Short Name": "Marionberry", "Work %": 3.8 }
+    ],
+    "Gru VT (%)": 28.2,
+    "Responsible HT": ["DM2575", "DM2584"],
+    "HT Courses": [
+      { "Course Code": "XX1024", "Short Name": "Fig", "Work %": 3.9 },
+      { "Course Code": "XX1026", "Short Name": "Gooseberry", "Work %": 1.2 },
+      { "Course Code": "XX1019", "Short Name": "Date", "Work %": 0.3 }
+    ],
+    "Gru HT (%)": 5.4,
+    "Self-development &Friskvård (%)": 11.81,
+    "Extra (%)": 0.0,
+    "Balance (%)": -7.16,
+    "GRU balance 19": 23.72,
+    "GRU balance 20": 16.56,
+    "Årsarbetstid %": 100.0
+  },
+  "Terry Boot": {
+    "Position": "Adjunkt",
+    "Department": "MID",
+    "Kontering HCT (%)": 60.0,
+    "Bemnnad HCT Gru (%)": 63.08,
+    "Responsible VT": ["DH1620", "DH2624"],
+    "VT Courses": [
+      { "Course Code": "XX1039", "Short Name": "Kiwifruit", "Work %": 14.9 },
+      { "Course Code": "XX1041", "Short Name": "Lemon", "Work %": 3.5 },
+      { "Course Code": "XX1048", "Short Name": "Marionberry", "Work %": 4.7 }
+    ],
+    "Gru VT (%)": 23.1,
+    "Responsible HT": ["DH1622", "DM2799"],
+    "HT Courses": [
+      { "Course Code": "XX1008", "Short Name": "Boysenberry", "Work %": 15.9 },
+      { "Course Code": "XX1025", "Short Name": "Goji berry", "Work %": 6.4 },
+      { "Course Code": "XX1000", "Short Name": "Apple", "Work %": 4.0 },
+      { "Course Code": "XX1013", "Short Name": "Cloudberry", "Work %": 0.1 }
+    ],
+    "Gru HT (%)": 26.4,
+    "Self-development &Friskvård (%)": 13.5,
+    "Extra (%)": 0.0,
+    "Balance (%)": 3.08,
+    "GRU balance 19": 5.0,
+    "GRU balance 20": 8.08,
+    "Årsarbetstid %": 100.0
+  },
+  "Lavender Brown": {
+    "Position": "Postdoc",
+    "Department": "MID",
+    "Kontering HCT (%)": 0.0,
+    "Bemnnad HCT Gru (%)": 0.0,
+    "Responsible VT": [],
+    "VT Courses": [],
+    "Gru VT (%)": 0.0,
+    "Responsible HT": [],
+    "HT Courses": [],
+    "Gru HT (%)": 0.0,
+    "Self-development &Friskvård (%)": 0.0,
+    "Extra (%)": 0.0,
+    "Balance (%)": 0.0,
+    "GRU balance 19": 4.09,
+    "GRU balance 20": 4.09,
+    "Årsarbetstid %": 100.0
+  },
+  "Millicent Bulstrode": {
+    "Position": "Bitr Lektor",
+    "Department": "MID",
+    "Kontering HCT (%)": 30.0,
+    "Bemnnad HCT Gru (%)": 28.92,
+    "Responsible VT": ["DM2720"],
+    "VT Courses": [
+      { "Course Code": "XX1057", "Short Name": "Olive", "Work %": 6.5 },
+      { "Course Code": "XX1000", "Short Name": "Apple", "Work %": 5.0 }
+    ],
+    "Gru VT (%)": 11.5,
+    "Responsible HT": [],
+    "HT Courses": [
+      { "Course Code": "XX1005", "Short Name": "Blackberry", "Work %": 0.7 },
+      { "Course Code": "XX1013", "Short Name": "Cloudberry", "Work %": 0.3 },
+      { "Course Code": "XX1018", "Short Name": "Damson", "Work %": 7.7 },
+      { "Course Code": "XX1025", "Short Name": "Goji berry", "Work %": 1.9 }
+    ],
+    "Gru HT (%)": 10.6,
+    "Self-development &Friskvård (%)": 6.75,
+    "Extra (%)": 0.0,
+    "Balance (%)": -1.08,
+    "GRU balance 19": 8.48,
+    "GRU balance 20": 7.4,
+    "Årsarbetstid %": 100.0
+  },
+  "Charity Burbage": {
+    "Position": "Bitr Lektor",
+    "Department": "MID",
+    "Kontering HCT (%)": 30.0,
+    "Bemnnad HCT Gru (%)": 36.45,
+    "Responsible VT": ["DM2624", "DT2213"],
+    "VT Courses": [
+      { "Course Code": "XX1059", "Short Name": "Blood orange", "Work %": 11.2 },
+      { "Course Code": "XX1058", "Short Name": "Orange", "Work %": 9.4 },
+      { "Course Code": "XX1042", "Short Name": "Lime", "Work %": 0.4 },
+      { "Course Code": "XX1000", "Short Name": "Apple", "Work %": 4.0 },
+      { "Course Code": "XX1048", "Short Name": "Marionberry", "Work %": 4.7 }
+    ],
+    "Gru VT (%)": 29.7,
+    "Responsible HT": [],
+    "HT Courses": [],
+    "Gru HT (%)": 0.0,
+    "Self-development &Friskvård (%)": 6.75,
+    "Extra (%)": 0.0,
+    "Balance (%)": 6.45,
+    "GRU balance 19": -7.6,
+    "GRU balance 20": -1.15,
+    "Årsarbetstid %": 100.0
+  },
+  "Frank Bryce": {
+    "Position": "Lektor",
+    "Department": "MID",
+    "Kontering HCT (%)": 43.75,
+    "Bemnnad HCT Gru (%)": 42.77,
+    "Responsible VT": ["DH2400 V"],
+    "VT Courses": [
+      { "Course Code": "XX1040 V", "Short Name": "Kumquat", "Work %": 3.9 },
+      { "Course Code": "XX1046", "Short Name": "Mango", "Work %": 0.4 },
+      { "Course Code": "XX1000", "Short Name": "Apple", "Work %": 3.8 }
+    ],
+    "Gru VT (%)": 8.1,
+    "Responsible HT": ["DM2679"],
+    "HT Courses": [
+      { "Course Code": "XX1022", "Short Name": "Elderberry", "Work %": 9.3 },
+      { "Course Code": "XX1004 H", "Short Name": "Bilberry", "Work %": 6.1 },
+      { "Course Code": "XX1021", "Short Name": "Durian", "Work %": 7.2 },
+      { "Course Code": "XX1025", "Short Name": "Goji berry", "Work %": 2.3 }
+    ],
+    "Gru HT (%)": 24.8,
+    "Self-development &Friskvård (%)": 9.84,
+    "Extra (%)": 0.0,
+    "Balance (%)": -0.98,
+    "GRU balance 19": 14.53,
+    "GRU balance 20": 13.55,
+    "Årsarbetstid %": 87.5
+  },
+  "Alecto Carrow": {
+    "Position": "External",
+    "Department": "External",
+    "Kontering HCT (%)": 0.0,
+    "Bemnnad HCT Gru (%)": 1.06,
+    "Responsible VT": [],
+    "VT Courses": [
+      { "Course Code": "XX1046", "Short Name": "Mango", "Work %": 1.1 }
+    ],
+    "Gru VT (%)": 1.1,
+    "Responsible HT": [],
+    "HT Courses": [],
+    "Gru HT (%)": 0.0,
+    "Self-development &Friskvård (%)": 0.0,
+    "Extra (%)": 0.0,
+    "Balance (%)": 0.0,
+    "GRU balance 19": 0.0,
+    "GRU balance 20": 0.0,
+    "Årsarbetstid %": 0.0
+  },
+  "Amycus Carrow": {
+    "Position": "Doktorand",
+    "Department": "MID",
+    "Kontering HCT (%)": 0.0,
+    "Bemnnad HCT Gru (%)": 0.0,
+    "Responsible VT": [],
+    "VT Courses": [],
+    "Gru VT (%)": 0.0,
+    "Responsible HT": [],
+    "HT Courses": [],
+    "Gru HT (%)": 0.0,
+    "Self-development &Friskvård (%)": 0.0,
+    "Extra (%)": 0.0,
+    "Balance (%)": 0.0,
+    "GRU balance 19": -9.03,
+    "GRU balance 20": -9.03,
+    "Årsarbetstid %": 0.0
+  },
+  "Reginald Cattermole": {
+    "Position": "Professor",
+    "Department": "MID",
+    "Kontering HCT (%)": 10.0,
+    "Bemnnad HCT Gru (%)": 10.24,
+    "Responsible VT": [],
+    "VT Courses": [
+      { "Course Code": "XX1039", "Short Name": "Kiwifruit", "Work %": 0.5 },
+      { "Course Code": "XX1059", "Short Name": "Blood orange", "Work %": 1.1 },
+      { "Course Code": "XX1000", "Short Name": "Apple", "Work %": 3.8 }
+    ],
+    "Gru VT (%)": 5.4,
+    "Responsible HT": ["DH1621"],
+    "HT Courses": [
+      { "Course Code": "XX1003", "Short Name": "Banana", "Work %": 4.4 },
+      { "Course Code": "XX1008", "Short Name": "Boysenberry", "Work %": 0.5 }
+    ],
+    "Gru HT (%)": 4.9,
+    "Self-development &Friskvård (%)": 0.0,
+    "Extra (%)": 0.0,
+    "Balance (%)": 0.24,
+    "GRU balance 19": 2.15,
+    "GRU balance 20": 2.38,
+    "Årsarbetstid %": 100.0
+  },
+  "Mary Cattermole": {
+    "Position": "Lektor",
+    "Department": "MID",
+    "Kontering HCT (%)": 25.0,
+    "Bemnnad HCT Gru (%)": 28.71,
+    "Responsible VT": [],
+    "VT Courses": [
+      { "Course Code": "XX1000", "Short Name": "Apple", "Work %": 2.0 }
+    ],
+    "Gru VT (%)": 2.0,
+    "Responsible HT": ["DM1581", "DM2500"],
+    "HT Courses": [
+      { "Course Code": "XX1013", "Short Name": "Cloudberry", "Work %": 9.5 },
+      { "Course Code": "XX1015", "Short Name": "Cranberry", "Work %": 8.6 },
+      { "Course Code": "XX1014", "Short Name": "Coconut", "Work %": 2.9 }
+    ],
+    "Gru HT (%)": 21.1,
+    "Self-development &Friskvård (%)": 5.63,
+    "Extra (%)": 0.0,
+    "Balance (%)": 3.71,
+    "GRU balance 19": 8.7,
+    "GRU balance 20": 12.41,
+    "Årsarbetstid %": 0.0
+  },
+  "Cho Chang": {
+    "Position": "Adjunkt",
+    "Department": "MID",
+    "Kontering HCT (%)": 40.0,
+    "Bemnnad HCT Gru (%)": 31.53,
+    "Responsible VT": [],
+    "VT Courses": [
+      { "Course Code": "XX1000", "Short Name": "Apple", "Work %": 6.0 },
+      { "Course Code": "XX1048", "Short Name": "Marionberry", "Work %": 3.5 }
+    ],
+    "Gru VT (%)": 9.5,
+    "Responsible HT": ["DM1578", "DM2517"],
+    "HT Courses": [
+      { "Course Code": "XX1014", "Short Name": "Coconut", "Work %": 13.0 },
+      { "Course Code": "XX1016", "Short Name": "Cucumber", "Work %": 0.0 }
+    ],
+    "Gru HT (%)": 13.0,
+    "Self-development &Friskvård (%)": 9.0,
+    "Extra (%)": 0.0,
+    "Balance (%)": -8.47,
+    "GRU balance 19": 24.58,
+    "GRU balance 20": 16.11,
+    "Årsarbetstid %": 0.0
+  },
+  "Penelope Clearwater": {
+    "Position": "Lektor",
+    "Department": "MID",
+    "Kontering HCT (%)": 77.5,
+    "Bemnnad HCT Gru (%)": 68.65,
+    "Responsible VT": ["DM2585"],
+    "VT Courses": [
+      { "Course Code": "XX1070", "Short Name": "Plum", "Work %": 5.8 },
+      { "Course Code": "XX1055", "Short Name": "Nectarine", "Work %": 4.1 },
+      { "Course Code": "XX1056", "Short Name": "Nance", "Work %": 2.0 },
+      { "Course Code": "XX1000", "Short Name": "Apple", "Work %": 6.3 }
+    ],
+    "Gru VT (%)": 18.2,
+    "Responsible HT": ["DM2572", "DM2712"],
+    "HT Courses": [
+      {
+        "Course Code": "XX1017",
+        "Short Name": "Custard apple",
+        "Work %": 14.0
+      },
+      { "Course Code": "XX1009", "Short Name": "Currant", "Work %": 19.0 }
+    ],
+    "Gru HT (%)": 33.0,
+    "Self-development &Friskvård (%)": 17.44,
+    "Extra (%)": 0.0,
+    "Balance (%)": -8.85,
+    "GRU balance 19": 12.0,
+    "GRU balance 20": 3.15,
+    "Årsarbetstid %": 0.0
+  },
+  "Mrs. Cole": {
+    "Position": "Doktorand",
+    "Department": "MID",
+    "Kontering HCT (%)": 17.33,
+    "Bemnnad HCT Gru (%)": 23.1,
+    "Responsible VT": [],
+    "VT Courses": [
+      { "Course Code": "XX1039", "Short Name": "Kiwifruit", "Work %": 11.3 }
+    ],
+    "Gru VT (%)": 11.3,
+    "Responsible HT": [],
+    "HT Courses": [
+      { "Course Code": "XX1000", "Short Name": "Apple", "Work %": 4.3 },
+      { "Course Code": "XX1021", "Short Name": "Durian", "Work %": 7.6 }
+    ],
+    "Gru HT (%)": 11.9,
+    "Self-development &Friskvård (%)": 0.0,
+    "Extra (%)": 0.0,
+    "Balance (%)": 5.77,
+    "GRU balance 19": 1.99,
+    "GRU balance 20": 7.76,
+    "Årsarbetstid %": 86.67
+  },
+  "Michael Corner": {
+    "Position": "Bitr Lektor",
+    "Department": "MID",
+    "Kontering HCT (%)": 30.0,
+    "Bemnnad HCT Gru (%)": 33.58,
+    "Responsible VT": [],
+    "VT Courses": [
+      { "Course Code": "XX1067", "Short Name": "Persimmon", "Work %": 6.9 },
+      { "Course Code": "XX1042", "Short Name": "Lime", "Work %": 0.3 },
+      { "Course Code": "XX1000", "Short Name": "Apple", "Work %": 2.0 }
+    ],
+    "Gru VT (%)": 9.2,
+    "Responsible HT": ["DM1135", "DM2350"],
+    "HT Courses": [
+      { "Course Code": "XX1036", "Short Name": "Jujube", "Work %": 7.6 },
+      { "Course Code": "XX1023", "Short Name": "Feijoa", "Work %": 9.9 }
+    ],
+    "Gru HT (%)": 17.6,
+    "Self-development &Friskvård (%)": 6.75,
+    "Extra (%)": 0.0,
+    "Balance (%)": 3.58,
+    "GRU balance 19": 8.54,
+    "GRU balance 20": 12.12,
+    "Årsarbetstid %": 0.0
+  },
+  "Arabella Figg": {
+    "Position": "Professor",
+    "Department": "MID",
+    "Kontering HCT (%)": 20.0,
+    "Bemnnad HCT Gru (%)": 15.59,
+    "Responsible VT": ["DH2632 V"],
+    "VT Courses": [
+      { "Course Code": "XX1045 V", "Short Name": "Lychee", "Work %": 4.0 },
+      { "Course Code": "XX1039", "Short Name": "Kiwifruit", "Work %": 0.5 },
+      { "Course Code": "XX1000", "Short Name": "Apple", "Work %": 3.8 }
+    ],
+    "Gru VT (%)": 8.2,
+    "Responsible HT": ["DH2632 H"],
+    "HT Courses": [
+      { "Course Code": "XX1011 H", "Short Name": "Cherimoya", "Work %": 6.6 },
+      { "Course Code": "XX1008", "Short Name": "Boysenberry", "Work %": 0.5 },
+      { "Course Code": "XX1013", "Short Name": "Cloudberry", "Work %": 0.3 }
+    ],
+    "Gru HT (%)": 7.4,
+    "Self-development &Friskvård (%)": 0.0,
+    "Extra (%)": 0.0,
+    "Balance (%)": -4.41,
+    "GRU balance 19": -5.74,
+    "GRU balance 20": -10.16,
+    "Årsarbetstid %": 0.0
+  },
+  "Vincent Crabbe": {
+    "Position": "External",
+    "Department": "External",
+    "Kontering HCT (%)": 0.0,
+    "Bemnnad HCT Gru (%)": 7.52,
+    "Responsible VT": [],
+    "VT Courses": [],
+    "Gru VT (%)": 0.0,
+    "Responsible HT": ["DH2400 H"],
+    "HT Courses": [
+      { "Course Code": "XX1004 H", "Short Name": "Bilberry", "Work %": 7.5 }
+    ],
+    "Gru HT (%)": 7.5,
+    "Self-development &Friskvård (%)": 0.0,
+    "Extra (%)": 0.0,
+    "Balance (%)": 0.0,
+    "GRU balance 19": 0.0,
+    "GRU balance 20": 0.0,
+    "Årsarbetstid %": 0.0
+  },
+  "Colin Creevey": {
+    "Position": "External",
+    "Department": "External",
+    "Kontering HCT (%)": 0.0,
+    "Bemnnad HCT Gru (%)": 18.37,
+    "Responsible VT": [],
+    "VT Courses": [
+      { "Course Code": "XX1069", "Short Name": "Plantain", "Work %": 11.3 },
+      { "Course Code": "XX1051", "Short Name": "Honeydew", "Work %": 6.8 }
+    ],
+    "Gru VT (%)": 18.1,
+    "Responsible HT": [],
+    "HT Courses": [
+      { "Course Code": "XX1013", "Short Name": "Cloudberry", "Work %": 0.3 }
+    ],
+    "Gru HT (%)": 0.3,
+    "Self-development &Friskvård (%)": 0.0,
+    "Extra (%)": 0.0,
+    "Balance (%)": 0.0,
+    "GRU balance 19": 0.0,
+    "GRU balance 20": 0.0,
+    "Årsarbetstid %": 0.0
+  },
+  "Dennis Creevey": {
+    "Position": "External",
+    "Department": "External",
+    "Kontering HCT (%)": 0.0,
+    "Bemnnad HCT Gru (%)": 0.35,
+    "Responsible VT": [],
+    "VT Courses": [],
+    "Gru VT (%)": 0.0,
+    "Responsible HT": [],
+    "HT Courses": [
+      { "Course Code": "XX1005", "Short Name": "Blackberry", "Work %": 0.4 }
+    ],
+    "Gru HT (%)": 0.4,
+    "Self-development &Friskvård (%)": 0.0,
+    "Extra (%)": 0.0,
+    "Balance (%)": 0.0,
+    "GRU balance 19": 0.0,
+    "GRU balance 20": 0.0,
+    "Årsarbetstid %": 0.0
+  },
+  "Dirk Cresswell": {
+    "Position": "External",
+    "Department": "External",
+    "Kontering HCT (%)": 0.0,
+    "Bemnnad HCT Gru (%)": 11.41,
+    "Responsible VT": ["DM2518"],
+    "VT Courses": [
+      { "Course Code": "XX1050", "Short Name": "Cantaloupe", "Work %": 11.4 }
+    ],
+    "Gru VT (%)": 11.4,
+    "Responsible HT": [],
+    "HT Courses": [],
+    "Gru HT (%)": 0.0,
+    "Self-development &Friskvård (%)": 0.0,
+    "Extra (%)": 0.0,
+    "Balance (%)": 0.0,
+    "GRU balance 19": 0.0,
+    "GRU balance 20": 0.0,
+    "Årsarbetstid %": 0.0
+  },
+  "Marcus Flint": {
+    "Position": "Doktorand",
+    "Department": "MID",
+    "Kontering HCT (%)": 0.0,
+    "Bemnnad HCT Gru (%)": 16.81,
+    "Responsible VT": [],
+    "VT Courses": [
+      { "Course Code": "XX1045 V", "Short Name": "Lychee", "Work %": 5.5 },
+      { "Course Code": "XX1000", "Short Name": "Apple", "Work %": 3.2 }
+    ],
+    "Gru VT (%)": 8.7,
+    "Responsible HT": [],
+    "HT Courses": [
+      { "Course Code": "XX1011 H", "Short Name": "Cherimoya", "Work %": 8.1 }
+    ],
+    "Gru HT (%)": 8.1,
+    "Self-development &Friskvård (%)": 0.0,
+    "Extra (%)": 0.0,
+    "Balance (%)": 16.81,
+    "GRU balance 19": 6.95,
+    "GRU balance 20": 23.76,
+    "Årsarbetstid %": 0.0
+  },
+  "Mundungus Fletcher": {
+    "Position": "Adjunkt",
+    "Department": "MID",
+    "Kontering HCT (%)": 40.0,
+    "Bemnnad HCT Gru (%)": 37.07,
+    "Responsible VT": ["DA232-4X"],
+    "VT Courses": [
+      { "Course Code": "XX1000", "Short Name": "Apple", "Work %": 14.3 }
+    ],
+    "Gru VT (%)": 14.3,
+    "Responsible HT": ["DM2601"],
+    "HT Courses": [
+      { "Course Code": "XX1021", "Short Name": "Durian", "Work %": 13.0 },
+      { "Course Code": "XX1014", "Short Name": "Coconut", "Work %": 0.7 }
+    ],
+    "Gru HT (%)": 13.8,
+    "Self-development &Friskvård (%)": 9.0,
+    "Extra (%)": 0.0,
+    "Balance (%)": -2.93,
+    "GRU balance 19": 30.22,
+    "GRU balance 20": 27.29,
+    "Årsarbetstid %": 0.0
+  },
+  "Roger Davies": {
+    "Position": "Professor",
+    "Department": "MID",
+    "Kontering HCT (%)": 0.0,
+    "Bemnnad HCT Gru (%)": 0.0,
+    "Responsible VT": [],
+    "VT Courses": [],
+    "Gru VT (%)": 0.0,
+    "Responsible HT": [],
+    "HT Courses": [],
+    "Gru HT (%)": 0.0,
+    "Self-development &Friskvård (%)": 0.0,
+    "Extra (%)": 0.0,
+    "Balance (%)": 0.0,
+    "GRU balance 19": -3.26,
+    "GRU balance 20": -3.26,
+    "Årsarbetstid %": 0.0
+  },
+  "Dawlish": {
+    "Position": "Doktorand",
+    "Department": "MID",
+    "Kontering HCT (%)": 20.0,
+    "Bemnnad HCT Gru (%)": 17.93,
+    "Responsible VT": [],
+    "VT Courses": [
+      { "Course Code": "XX1058", "Short Name": "Orange", "Work %": 4.2 },
+      { "Course Code": "XX1042", "Short Name": "Lime", "Work %": 2.5 },
+      { "Course Code": "XX1000", "Short Name": "Apple", "Work %": 4.3 }
+    ],
+    "Gru VT (%)": 10.9,
+    "Responsible HT": [],
+    "HT Courses": [
+      { "Course Code": "XX1013", "Short Name": "Cloudberry", "Work %": 1.8 },
+      { "Course Code": "XX1023", "Short Name": "Feijoa", "Work %": 1.7 },
+      { "Course Code": "XX1034", "Short Name": "Jackfruit", "Work %": 1.0 }
+    ],
+    "Gru HT (%)": 4.5,
+    "Self-development &Friskvård (%)": 0.0,
+    "Extra (%)": 3.0,
+    "Balance (%)": -2.07,
+    "GRU balance 19": 3.69,
+    "GRU balance 20": 1.62,
+    "Årsarbetstid %": 0.0
+  },
+  "Fleur Delacour": {
+    "Position": "Professor",
+    "Department": "MID",
+    "Kontering HCT (%)": 66.5,
+    "Bemnnad HCT Gru (%)": 57.57,
+    "Responsible VT": ["DM1580", "DM2582", "DM2583"],
+    "VT Courses": [
+      { "Course Code": "XX1049", "Short Name": "Melon", "Work %": 12.9 },
+      { "Course Code": "XX1055", "Short Name": "Nectarine", "Work %": 7.3 },
+      { "Course Code": "XX1056", "Short Name": "Nance", "Work %": 8.2 },
+      { "Course Code": "XX1064", "Short Name": "Passionfruit", "Work %": 2.6 },
+      { "Course Code": "XX1070", "Short Name": "Plum", "Work %": 4.1 },
+      { "Course Code": "XX1000", "Short Name": "Apple", "Work %": 4.3 }
+    ],
+    "Gru VT (%)": 39.4,
+    "Responsible HT": [],
+    "HT Courses": [
+      { "Course Code": "XX1014", "Short Name": "Coconut", "Work %": 2.9 },
+      { "Course Code": "XX1013", "Short Name": "Cloudberry", "Work %": 0.3 }
+    ],
+    "Gru HT (%)": 3.2,
+    "Self-development &Friskvård (%)": 14.96,
+    "Extra (%)": 0.0,
+    "Balance (%)": -8.93,
+    "GRU balance 19": 5.79,
+    "GRU balance 20": -3.14,
+    "Årsarbetstid %": 0.0
+  },
+  "Gabrielle Delacour": {
+    "Position": "Forskare",
+    "Department": "MID",
+    "Kontering HCT (%)": 14.58,
+    "Bemnnad HCT Gru (%)": 19.14,
+    "Responsible VT": ["DM1588"],
+    "VT Courses": [
+      { "Course Code": "XX1068", "Short Name": "Physalis", "Work %": 12.8 },
+      { "Course Code": "XX1000", "Short Name": "Apple", "Work %": 4.0 }
+    ],
+    "Gru VT (%)": 16.8,
+    "Responsible HT": [],
+    "HT Courses": [
+      { "Course Code": "XX1023", "Short Name": "Feijoa", "Work %": 2.4 }
+    ],
+    "Gru HT (%)": 2.4,
+    "Self-development &Friskvård (%)": 0.0,
+    "Extra (%)": 0.0,
+    "Balance (%)": 4.56,
+    "GRU balance 19": -11.36,
+    "GRU balance 20": -6.8,
+    "Årsarbetstid %": 58.33
+  },
+  "Dedalus Diggle": {
+    "Position": "External",
+    "Department": "External",
+    "Kontering HCT (%)": 0.0,
+    "Bemnnad HCT Gru (%)": 1.41,
+    "Responsible VT": [],
+    "VT Courses": [
+      { "Course Code": "XX1046", "Short Name": "Mango", "Work %": 1.4 }
+    ],
+    "Gru VT (%)": 1.4,
+    "Responsible HT": [],
+    "HT Courses": [],
+    "Gru HT (%)": 0.0,
+    "Self-development &Friskvård (%)": 0.0,
+    "Extra (%)": 0.0,
+    "Balance (%)": 0.0,
+    "GRU balance 19": 0.0,
+    "GRU balance 20": 0.0,
+    "Årsarbetstid %": 0.0
+  },
+  "Justin Finch-Fletchley": {
+    "Position": "Doktorand",
+    "Department": "MID",
+    "Kontering HCT (%)": 20.0,
+    "Bemnnad HCT Gru (%)": 22.09,
+    "Responsible VT": [],
+    "VT Courses": [
+      { "Course Code": "XX1042", "Short Name": "Lime", "Work %": 4.5 },
+      { "Course Code": "XX1000", "Short Name": "Apple", "Work %": 4.3 }
+    ],
+    "Gru VT (%)": 8.7,
+    "Responsible HT": [],
+    "HT Courses": [
+      { "Course Code": "XX1008", "Short Name": "Boysenberry", "Work %": 6.2 },
+      { "Course Code": "XX1002", "Short Name": "Avocado", "Work %": 4.1 },
+      { "Course Code": "XX1013", "Short Name": "Cloudberry", "Work %": 2.1 },
+      { "Course Code": "XX1034", "Short Name": "Jackfruit", "Work %": 1.0 }
+    ],
+    "Gru HT (%)": 13.4,
+    "Self-development &Friskvård (%)": 0.0,
+    "Extra (%)": 0.0,
+    "Balance (%)": 2.09,
+    "GRU balance 19": 0.44,
+    "GRU balance 20": 2.53,
+    "Årsarbetstid %": 0.0
+  },
+  "Cedric Diggory": {
+    "Position": "Lektor",
+    "Department": "MID",
+    "Kontering HCT (%)": 40.0,
+    "Bemnnad HCT Gru (%)": 39.83,
+    "Responsible VT": [],
+    "VT Courses": [
+      { "Course Code": "XX1048", "Short Name": "Marionberry", "Work %": 15.2 }
+    ],
+    "Gru VT (%)": 15.2,
+    "Responsible HT": ["DM2573"],
+    "HT Courses": [
+      { "Course Code": "XX1018", "Short Name": "Damson", "Work %": 12.1 },
+      { "Course Code": "XX1022", "Short Name": "Elderberry", "Work %": 2.4 },
+      { "Course Code": "XX1025", "Short Name": "Goji berry", "Work %": 1.2 }
+    ],
+    "Gru HT (%)": 15.7,
+    "Self-development &Friskvård (%)": 9.0,
+    "Extra (%)": 0.0,
+    "Balance (%)": -0.17,
+    "GRU balance 19": -4.51,
+    "GRU balance 20": -4.68,
+    "Årsarbetstid %": 0.0
+  },
+  "Elphias Doge": {
+    "Position": "Lektor",
+    "Department": "MID",
+    "Kontering HCT (%)": 50.0,
+    "Bemnnad HCT Gru (%)": 37.4,
+    "Responsible VT": [],
+    "VT Courses": [
+      { "Course Code": "XX1042", "Short Name": "Lime", "Work %": 1.6 },
+      { "Course Code": "XX1000", "Short Name": "Apple", "Work %": 7.3 }
+    ],
+    "Gru VT (%)": 8.9,
+    "Responsible HT": ["DM1579", "DM2579"],
+    "HT Courses": [
+      { "Course Code": "XX1002", "Short Name": "Avocado", "Work %": 11.6 },
+      { "Course Code": "XX1019", "Short Name": "Date", "Work %": 4.1 },
+      { "Course Code": "XX1023", "Short Name": "Feijoa", "Work %": 1.6 }
+    ],
+    "Gru HT (%)": 17.3,
+    "Self-development &Friskvård (%)": 11.25,
+    "Extra (%)": 0.0,
+    "Balance (%)": -12.6,
+    "GRU balance 19": 0.37,
+    "GRU balance 20": -12.23,
+    "Årsarbetstid %": 0.0
+  },
+  "Antonin Dolohov": {
+    "Position": "External",
+    "Department": "External",
+    "Kontering HCT (%)": 0.0,
+    "Bemnnad HCT Gru (%)": 34.36,
+    "Responsible VT": ["DM2562", "DM2563"],
+    "VT Courses": [
+      { "Course Code": "XX1052", "Short Name": "Watermelon", "Work %": 12.1 },
+      {
+        "Course Code": "XX1053",
+        "Short Name": "Miracle fruit",
+        "Work %": 13.3
+      },
+      { "Course Code": "XX1000", "Short Name": "Apple", "Work %": 9.0 }
+    ],
+    "Gru VT (%)": 34.4,
+    "Responsible HT": [],
+    "HT Courses": [],
+    "Gru HT (%)": 0.0,
+    "Self-development &Friskvård (%)": 0.0,
+    "Extra (%)": 0.0,
+    "Balance (%)": 0.0,
+    "GRU balance 19": 0.0,
+    "GRU balance 20": 0.0,
+    "Årsarbetstid %": 0.0
+  },
+  "Argus Filch": {
+    "Position": "Lektor",
+    "Department": "MID",
+    "Kontering HCT (%)": 25.0,
+    "Bemnnad HCT Gru (%)": 28.75,
+    "Responsible VT": ["DH2670"],
+    "VT Courses": [
+      { "Course Code": "XX1046", "Short Name": "Mango", "Work %": 8.4 }
+    ],
+    "Gru VT (%)": 8.4,
+    "Responsible HT": ["DH2408"],
+    "HT Courses": [
+      { "Course Code": "XX1005", "Short Name": "Blackberry", "Work %": 13.0 },
+      { "Course Code": "XX1034", "Short Name": "Jackfruit", "Work %": 1.7 }
+    ],
+    "Gru HT (%)": 14.7,
+    "Self-development &Friskvård (%)": 5.63,
+    "Extra (%)": 0.0,
+    "Balance (%)": 3.75,
+    "GRU balance 19": -6.74,
+    "GRU balance 20": -2.99,
+    "Årsarbetstid %": 0.0
+  },
+  "Albus Dumbledore": {
+    "Position": "Postdoc",
+    "Department": "MID",
+    "Kontering HCT (%)": 10.42,
+    "Bemnnad HCT Gru (%)": 5.82,
+    "Responsible VT": [],
+    "VT Courses": [],
+    "Gru VT (%)": 0.0,
+    "Responsible HT": [],
+    "HT Courses": [
+      { "Course Code": "XX1008", "Short Name": "Boysenberry", "Work %": 5.8 }
+    ],
+    "Gru HT (%)": 5.8,
+    "Self-development &Friskvård (%)": 0.0,
+    "Extra (%)": 0.0,
+    "Balance (%)": -4.59,
+    "GRU balance 19": -8.2,
+    "GRU balance 20": -12.79,
+    "Årsarbetstid %": 41.67
+  },
+  "Dudley Dursley": {
+    "Position": "Postdoc",
+    "Department": "MID",
+    "Kontering HCT (%)": 22.92,
+    "Bemnnad HCT Gru (%)": 17.29,
+    "Responsible VT": [],
+    "VT Courses": [
+      { "Course Code": "XX1039", "Short Name": "Kiwifruit", "Work %": 5.3 },
+      { "Course Code": "XX1000", "Short Name": "Apple", "Work %": 3.0 },
+      { "Course Code": "XX1048", "Short Name": "Marionberry", "Work %": 3.5 }
+    ],
+    "Gru VT (%)": 11.8,
+    "Responsible HT": [],
+    "HT Courses": [
+      { "Course Code": "XX1010", "Short Name": "Cherry", "Work %": 5.5 }
+    ],
+    "Gru HT (%)": 5.5,
+    "Self-development &Friskvård (%)": 0.0,
+    "Extra (%)": 0.0,
+    "Balance (%)": -5.62,
+    "GRU balance 19": -1.4,
+    "GRU balance 20": -7.03,
+    "Årsarbetstid %": 91.67
+  },
+  "Marjorie (Marge) Dursley": {
+    "Position": "Postdoc",
+    "Department": "MID",
+    "Kontering HCT (%)": 25.0,
+    "Bemnnad HCT Gru (%)": 24.22,
+    "Responsible VT": ["DA232-4X"],
+    "VT Courses": [
+      { "Course Code": "XX1040 V", "Short Name": "Kumquat", "Work %": 0.5 },
+      { "Course Code": "XX1044", "Short Name": "Longan", "Work %": 5.0 },
+      { "Course Code": "XX1000", "Short Name": "Apple", "Work %": 12.6 }
+    ],
+    "Gru VT (%)": 18.1,
+    "Responsible HT": [],
+    "HT Courses": [
+      { "Course Code": "XX1004 H", "Short Name": "Bilberry", "Work %": 0.5 }
+    ],
+    "Gru HT (%)": 0.5,
+    "Self-development &Friskvård (%)": 5.63,
+    "Extra (%)": 0.0,
+    "Balance (%)": -0.78,
+    "GRU balance 19": -21.56,
+    "GRU balance 20": -22.35,
+    "Årsarbetstid %": 100.0
+  },
+  "Petunia Dursley (née Evans)": {
+    "Position": "Bitr Lektor",
+    "Department": "MID",
+    "Kontering HCT (%)": 30.0,
+    "Bemnnad HCT Gru (%)": 29.51,
+    "Responsible VT": ["DM128-9X"],
+    "VT Courses": [
+      { "Course Code": "XX1048", "Short Name": "Marionberry", "Work %": 9.6 },
+      { "Course Code": "XX1000", "Short Name": "Apple", "Work %": 4.0 }
+    ],
+    "Gru VT (%)": 13.6,
+    "Responsible HT": ["DM2904-6"],
+    "HT Courses": [
+      { "Course Code": "XX1020", "Short Name": "Dragonfruit", "Work %": 8.5 },
+      { "Course Code": "XX1025", "Short Name": "Goji berry", "Work %": 0.6 }
+    ],
+    "Gru HT (%)": 9.1,
+    "Self-development &Friskvård (%)": 6.75,
+    "Extra (%)": 0.0,
+    "Balance (%)": -0.49,
+    "GRU balance 19": -18.39,
+    "GRU balance 20": -18.88,
+    "Årsarbetstid %": 0.0
+  },
+  "Vernon Dursley": {
+    "Position": "Doktorand",
+    "Department": "MID",
+    "Kontering HCT (%)": 0.0,
+    "Bemnnad HCT Gru (%)": 18.0,
+    "Responsible VT": [],
+    "VT Courses": [
+      { "Course Code": "XX1039", "Short Name": "Kiwifruit", "Work %": 11.3 },
+      { "Course Code": "XX1000", "Short Name": "Apple", "Work %": 4.3 }
+    ],
+    "Gru VT (%)": 15.5,
+    "Responsible HT": [],
+    "HT Courses": [],
+    "Gru HT (%)": 0.0,
+    "Self-development &Friskvård (%)": 0.0,
+    "Extra (%)": 3.0,
+    "Balance (%)": 18.0,
+    "GRU balance 19": 12.16,
+    "GRU balance 20": 30.16,
+    "Årsarbetstid %": 0.0
+  },
+  "Marietta Edgecombe": {
+    "Position": "Doktorand",
+    "Department": "MID",
+    "Kontering HCT (%)": 0.0,
+    "Bemnnad HCT Gru (%)": 0.0,
+    "Responsible VT": [],
+    "VT Courses": [],
+    "Gru VT (%)": 0.0,
+    "Responsible HT": [],
+    "HT Courses": [],
+    "Gru HT (%)": 0.0,
+    "Self-development &Friskvård (%)": 0.0,
+    "Extra (%)": 0.0,
+    "Balance (%)": 0.0,
+    "GRU balance 19": -4.91,
+    "GRU balance 20": -4.91,
+    "Årsarbetstid %": 0.0
+  },
+  "Seamus Finnigan": {
+    "Position": "External",
+    "Department": "External",
+    "Kontering HCT (%)": 20.0,
+    "Bemnnad HCT Gru (%)": 20.84,
+    "Responsible VT": [],
+    "VT Courses": [],
+    "Gru VT (%)": 0.0,
+    "Responsible HT": ["DH2465"],
+    "HT Courses": [
+      { "Course Code": "XX1006", "Short Name": "Blackcurrant", "Work %": 14.2 },
+      { "Course Code": "XX1012", "Short Name": "Chico fruit", "Work %": 2.2 }
+    ],
+    "Gru HT (%)": 16.3,
+    "Self-development &Friskvård (%)": 4.5,
+    "Extra (%)": 0.0,
+    "Balance (%)": 0.84,
+    "GRU balance 19": 0.0,
+    "GRU balance 20": 0.84,
+    "Årsarbetstid %": 0.0
+  },
+  "Filius Flitwick": {
+    "Position": "Professor",
+    "Department": "TMH",
+    "Kontering HCT (%)": 12.0,
+    "Bemnnad HCT Gru (%)": 12.27,
+    "Responsible VT": ["DT2212"],
+    "VT Courses": [
+      { "Course Code": "XX1065", "Short Name": "Peach", "Work %": 7.6 },
+      { "Course Code": "XX1071", "Short Name": "Prune", "Work %": 0.4 }
+    ],
+    "Gru VT (%)": 8.0,
+    "Responsible HT": ["DT2215"],
+    "HT Courses": [
+      { "Course Code": "XX1066", "Short Name": "Pear", "Work %": 0.0 },
+      { "Course Code": "XX1023", "Short Name": "Feijoa", "Work %": 1.6 }
+    ],
+    "Gru HT (%)": 1.6,
+    "Self-development &Friskvård (%)": 2.7,
+    "Extra (%)": 0.0,
+    "Balance (%)": 0.27,
+    "GRU balance 19": 0.0,
+    "GRU balance 20": 0.27,
+    "Årsarbetstid %": 0.0
+  },
+  "Florean Fortescue": {
+    "Position": "Professor",
+    "Department": "TMH",
+    "Kontering HCT (%)": 30.0,
+    "Bemnnad HCT Gru (%)": 20.04,
+    "Responsible VT": [],
+    "VT Courses": [],
+    "Gru VT (%)": 0.0,
+    "Responsible HT": ["DT2140"],
+    "HT Courses": [
+      { "Course Code": "XX1034", "Short Name": "Jackfruit", "Work %": 13.3 }
+    ],
+    "Gru HT (%)": 13.3,
+    "Self-development &Friskvård (%)": 6.75,
+    "Extra (%)": 0.0,
+    "Balance (%)": -9.96,
+    "GRU balance 19": 0.0,
+    "GRU balance 20": -9.96,
+    "Årsarbetstid %": 0.0
+  },
+  "Cornelius Fudge": {
+    "Position": "Professor",
+    "Department": "TMH",
+    "Kontering HCT (%)": 26.0,
+    "Bemnnad HCT Gru (%)": 26.03,
+    "Responsible VT": ["DT1175"],
+    "VT Courses": [
+      { "Course Code": "XX1071", "Short Name": "Prune", "Work %": 10.1 },
+      { "Course Code": "XX1065", "Short Name": "Peach", "Work %": 0.9 },
+      { "Course Code": "XX1048", "Short Name": "Marionberry", "Work %": 2.1 }
+    ],
+    "Gru VT (%)": 13.2,
+    "Responsible HT": ["DT2410"],
+    "HT Courses": [
+      { "Course Code": "XX1035", "Short Name": "Jambul", "Work %": 6.8 },
+      { "Course Code": "XX1013", "Short Name": "Cloudberry", "Work %": 0.1 },
+      { "Course Code": "XX1066", "Short Name": "Pear", "Work %": 0.0 }
+    ],
+    "Gru HT (%)": 7.0,
+    "Self-development &Friskvård (%)": 5.85,
+    "Extra (%)": 0.0,
+    "Balance (%)": 0.03,
+    "GRU balance 19": 0.0,
+    "GRU balance 20": 0.03,
+    "Årsarbetstid %": 0.0
+  },
+  "Gellert Grindelwald": {
+    "Position": "Lektor",
+    "Department": "TMH",
+    "Kontering HCT (%)": 14.0,
+    "Bemnnad HCT Gru (%)": 14.04,
+    "Responsible VT": ["DM1590"],
+    "VT Courses": [
+      { "Course Code": "XX1067", "Short Name": "Persimmon", "Work %": 10.4 },
+      { "Course Code": "XX1065", "Short Name": "Peach", "Work %": 0.5 }
+    ],
+    "Gru VT (%)": 10.9,
+    "Responsible HT": [],
+    "HT Courses": [],
+    "Gru HT (%)": 0.0,
+    "Self-development &Friskvård (%)": 3.15,
+    "Extra (%)": 0.0,
+    "Balance (%)": 0.04,
+    "GRU balance 19": 0.0,
+    "GRU balance 20": 0.04,
+    "Årsarbetstid %": 0.0
+  },
+  "Frank Longbottom": {
+    "Position": "Professor",
+    "Department": "TMH",
+    "Kontering HCT (%)": 5.0,
+    "Bemnnad HCT Gru (%)": 4.95,
+    "Responsible VT": [],
+    "VT Courses": [
+      { "Course Code": "XX1000", "Short Name": "Apple", "Work %": 3.8 }
+    ],
+    "Gru VT (%)": 3.8,
+    "Responsible HT": [],
+    "HT Courses": [],
+    "Gru HT (%)": 0.0,
+    "Self-development &Friskvård (%)": 1.13,
+    "Extra (%)": 0.0,
+    "Balance (%)": -0.05,
+    "GRU balance 19": 0.0,
+    "GRU balance 20": -0.05,
+    "Årsarbetstid %": 0.0
+  },
+  "Rubeus Hagrid": {
+    "Position": "Professor",
+    "Department": "TMH",
+    "Kontering HCT (%)": 8.0,
+    "Bemnnad HCT Gru (%)": 7.68,
+    "Responsible VT": [],
+    "VT Courses": [
+      { "Course Code": "XX1000", "Short Name": "Apple", "Work %": 2.4 }
+    ],
+    "Gru VT (%)": 2.4,
+    "Responsible HT": [],
+    "HT Courses": [
+      { "Course Code": "XX1034", "Short Name": "Jackfruit", "Work %": 3.5 }
+    ],
+    "Gru HT (%)": 3.5,
+    "Self-development &Friskvård (%)": 1.8,
+    "Extra (%)": 0.0,
+    "Balance (%)": -0.32,
+    "GRU balance 19": 0.0,
+    "GRU balance 20": -0.32,
+    "Årsarbetstid %": 0.0
+  },
+  "Astoria Greengrass": {
+    "Position": "Lektor",
+    "Department": "TMH",
+    "Kontering HCT (%)": 1.0,
+    "Bemnnad HCT Gru (%)": 0.58,
+    "Responsible VT": [],
+    "VT Courses": [],
+    "Gru VT (%)": 0.0,
+    "Responsible HT": [],
+    "HT Courses": [
+      { "Course Code": "XX1023", "Short Name": "Feijoa", "Work %": 0.4 }
+    ],
+    "Gru HT (%)": 0.4,
+    "Self-development &Friskvård (%)": 0.23,
+    "Extra (%)": 0.0,
+    "Balance (%)": -0.42,
+    "GRU balance 19": 0.0,
+    "GRU balance 20": -0.42,
+    "Årsarbetstid %": 0.0
+  },
+  "Ernie Macmillan": {
+    "Position": "Professor",
+    "Department": "TMH",
+    "Kontering HCT (%)": 0.0,
+    "Bemnnad HCT Gru (%)": 6.09,
+    "Responsible VT": [],
+    "VT Courses": [
+      { "Course Code": "XX1071", "Short Name": "Prune", "Work %": 0.4 }
+    ],
+    "Gru VT (%)": 0.4,
+    "Responsible HT": [],
+    "HT Courses": [
+      { "Course Code": "XX1036", "Short Name": "Jujube", "Work %": 5.7 }
+    ],
+    "Gru HT (%)": 5.7,
+    "Self-development &Friskvård (%)": 0.0,
+    "Extra (%)": 0.0,
+    "Balance (%)": 6.09,
+    "GRU balance 19": 0.0,
+    "GRU balance 20": 6.09,
+    "Årsarbetstid %": 0.0
+  },
+  "Merope Gaunt": {
+    "Position": "Doktorand",
+    "Department": "TMH",
+    "Kontering HCT (%)": 1.0,
+    "Bemnnad HCT Gru (%)": 0.0,
+    "Responsible VT": [],
+    "VT Courses": [],
+    "Gru VT (%)": 0.0,
+    "Responsible HT": [],
+    "HT Courses": [],
+    "Gru HT (%)": 0.0,
+    "Self-development &Friskvård (%)": 0.0,
+    "Extra (%)": 0.0,
+    "Balance (%)": -1.0,
+    "GRU balance 19": 0.0,
+    "GRU balance 20": -1.0,
+    "Årsarbetstid %": 0.0
+  },
+  "Morfin Gaunt": {
+    "Position": "Doktorand",
+    "Department": "TMH",
+    "Kontering HCT (%)": 4.5,
+    "Bemnnad HCT Gru (%)": 0.0,
+    "Responsible VT": [],
+    "VT Courses": [],
+    "Gru VT (%)": 0.0,
+    "Responsible HT": [],
+    "HT Courses": [],
+    "Gru HT (%)": 0.0,
+    "Self-development &Friskvård (%)": 0.0,
+    "Extra (%)": 0.0,
+    "Balance (%)": -4.5,
+    "GRU balance 19": 0.0,
+    "GRU balance 20": -4.5,
+    "Årsarbetstid %": 0.0
+  },
+  "Anthony Goldstein": {
+    "Position": "Doktorand",
+    "Department": "TMH",
+    "Kontering HCT (%)": 3.25,
+    "Bemnnad HCT Gru (%)": 0.0,
+    "Responsible VT": [],
+    "VT Courses": [],
+    "Gru VT (%)": 0.0,
+    "Responsible HT": [],
+    "HT Courses": [],
+    "Gru HT (%)": 0.0,
+    "Self-development &Friskvård (%)": 0.0,
+    "Extra (%)": 0.0,
+    "Balance (%)": -3.25,
+    "GRU balance 19": 0.0,
+    "GRU balance 20": -3.25,
+    "Årsarbetstid %": 0.0
+  },
+  "Fenrir Greyback": {
+    "Position": "Doktorand",
+    "Department": "TMH",
+    "Kontering HCT (%)": 1.88,
+    "Bemnnad HCT Gru (%)": 0.0,
+    "Responsible VT": [],
+    "VT Courses": [],
+    "Gru VT (%)": 0.0,
+    "Responsible HT": [],
+    "HT Courses": [],
+    "Gru HT (%)": 0.0,
+    "Self-development &Friskvård (%)": 0.0,
+    "Extra (%)": 0.0,
+    "Balance (%)": -1.88,
+    "GRU balance 19": 0.0,
+    "GRU balance 20": -1.88,
+    "Årsarbetstid %": 0.0
+  },
+  "Gregory Goyle": {
+    "Position": "Doktorand",
+    "Department": "TMH",
+    "Kontering HCT (%)": 1.97,
+    "Bemnnad HCT Gru (%)": 0.0,
+    "Responsible VT": [],
+    "VT Courses": [],
+    "Gru VT (%)": 0.0,
+    "Responsible HT": [],
+    "HT Courses": [],
+    "Gru HT (%)": 0.0,
+    "Self-development &Friskvård (%)": 0.0,
+    "Extra (%)": 0.0,
+    "Balance (%)": -1.97,
+    "GRU balance 19": 0.0,
+    "GRU balance 20": -1.97,
+    "Årsarbetstid %": 0.0
+  },
+  "Hermione Granger": {
+    "Position": "Doktorand",
+    "Department": "TMH",
+    "Kontering HCT (%)": 1.8,
+    "Bemnnad HCT Gru (%)": 0.0,
+    "Responsible VT": [],
+    "VT Courses": [],
+    "Gru VT (%)": 0.0,
+    "Responsible HT": [],
+    "HT Courses": [],
+    "Gru HT (%)": 0.0,
+    "Self-development &Friskvård (%)": 0.0,
+    "Extra (%)": 0.0,
+    "Balance (%)": -1.8,
+    "GRU balance 19": 0.0,
+    "GRU balance 20": -1.8,
+    "Årsarbetstid %": 0.0
+  },
+  "Griselda Marchbanks": {
+    "Position": "Doktorand",
+    "Department": "TMH",
+    "Kontering HCT (%)": 2.0,
+    "Bemnnad HCT Gru (%)": 1.81,
+    "Responsible VT": [],
+    "VT Courses": [],
+    "Gru VT (%)": 0.0,
+    "Responsible HT": [],
+    "HT Courses": [
+      { "Course Code": "XX1034", "Short Name": "Jackfruit", "Work %": 1.8 }
+    ],
+    "Gru HT (%)": 1.8,
+    "Self-development &Friskvård (%)": 0.0,
+    "Extra (%)": 0.0,
+    "Balance (%)": -0.19,
+    "GRU balance 19": 0.0,
+    "GRU balance 20": -0.19,
+    "Årsarbetstid %": 0.0
+  },
+  "Olympe Maxime": {
+    "Position": "Doktorand",
+    "Department": "TMH",
+    "Kontering HCT (%)": 2.0,
+    "Bemnnad HCT Gru (%)": 1.81,
+    "Responsible VT": [],
+    "VT Courses": [],
+    "Gru VT (%)": 0.0,
+    "Responsible HT": [],
+    "HT Courses": [
+      { "Course Code": "XX1034", "Short Name": "Jackfruit", "Work %": 1.8 }
+    ],
+    "Gru HT (%)": 1.8,
+    "Self-development &Friskvård (%)": 0.0,
+    "Extra (%)": 0.0,
+    "Balance (%)": -0.19,
+    "GRU balance 19": 0.0,
+    "GRU balance 20": -0.19,
+    "Årsarbetstid %": 0.0
+  },
+  "Cormac McLaggen": {
+    "Position": "Doktorand",
+    "Department": "TMH",
+    "Kontering HCT (%)": 0.0,
+    "Bemnnad HCT Gru (%)": 0.0,
+    "Responsible VT": [],
+    "VT Courses": [],
+    "Gru VT (%)": 0.0,
+    "Responsible HT": [],
+    "HT Courses": [],
+    "Gru HT (%)": 0.0,
+    "Self-development &Friskvård (%)": 0.0,
+    "Extra (%)": 0.0,
+    "Balance (%)": 0.0,
+    "GRU balance 19": 0.0,
+    "GRU balance 20": 0.0,
+    "Årsarbetstid %": 0.0
+  },
+  "Lab handl Teknolog TMH": {
+    "Position": "Teknolog",
+    "Department": "TMH",
+    "Kontering HCT (%)": 0.0,
+    "Bemnnad HCT Gru (%)": 13.18,
+    "Responsible VT": [],
+    "VT Courses": [
+      { "Course Code": "XX1071", "Short Name": "Prune", "Work %": 3.2 },
+      { "Course Code": "XX1065", "Short Name": "Peach", "Work %": 1.8 }
+    ],
+    "Gru VT (%)": 4.9,
+    "Responsible HT": [],
+    "HT Courses": [
+      { "Course Code": "XX1034", "Short Name": "Jackfruit", "Work %": 3.3 },
+      { "Course Code": "XX1035", "Short Name": "Jambul", "Work %": 4.9 }
+    ],
+    "Gru HT (%)": 8.2,
+    "Self-development &Friskvård (%)": 0.0,
+    "Extra (%)": 0.0,
+    "Balance (%)": 13.18,
+    "GRU balance 19": 0.0,
+    "GRU balance 20": 0.0,
+    "Årsarbetstid %": 0.0
+  },
+  "Draco Malfoy": {
+    "Position": "Professor",
+    "Department": "RPL",
+    "Kontering HCT (%)": 1.0,
+    "Bemnnad HCT Gru (%)": 0.35,
+    "Responsible VT": [],
+    "VT Courses": [],
+    "Gru VT (%)": 0.0,
+    "Responsible HT": [],
+    "HT Courses": [
+      { "Course Code": "XX1034", "Short Name": "Jackfruit", "Work %": 0.4 }
+    ],
+    "Gru HT (%)": 0.4,
+    "Self-development &Friskvård (%)": 0.0,
+    "Extra (%)": 0.0,
+    "Balance (%)": -0.15,
+    "GRU balance 19": 0.0,
+    "GRU balance 20": 0.0,
+    "Årsarbetstid %": 0.0
+  },
+  "Garrick Ollivander": {
+    "Position": "Lektor",
+    "Department": "RPL",
+    "Kontering HCT (%)": 1.0,
+    "Bemnnad HCT Gru (%)": 1.0,
+    "Responsible VT": [],
+    "VT Courses": [
+      { "Course Code": "XX1000", "Short Name": "Apple", "Work %": 1.0 }
+    ],
+    "Gru VT (%)": 1.0,
+    "Responsible HT": [],
+    "HT Courses": [],
+    "Gru HT (%)": 0.0,
+    "Self-development &Friskvård (%)": 0.0,
+    "Extra (%)": 0.0,
+    "Balance (%)": 0.0,
+    "GRU balance 19": 0.0,
+    "GRU balance 20": 0.0,
+    "Årsarbetstid %": 0.0
+  },
+  "Madam Hooch": {
+    "Position": "Lektor",
+    "Department": "CST",
+    "Kontering HCT (%)": 6.0,
+    "Bemnnad HCT Gru (%)": 4.41,
+    "Responsible VT": [],
+    "VT Courses": [],
+    "Gru VT (%)": 0.0,
+    "Responsible HT": [],
+    "HT Courses": [
+      { "Course Code": "XX1023", "Short Name": "Feijoa", "Work %": 3.1 }
+    ],
+    "Gru HT (%)": 3.1,
+    "Self-development &Friskvård (%)": 1.35,
+    "Extra (%)": 0.0,
+    "Balance (%)": -1.59,
+    "GRU balance 19": 0.0,
+    "GRU balance 20": -6.0,
+    "Årsarbetstid %": 0.0
+  },
+  "Mafalda Hopkirk": {
+    "Position": "Lektor",
+    "Department": "CST",
+    "Kontering HCT (%)": 17.0,
+    "Bemnnad HCT Gru (%)": 20.22,
+    "Responsible VT": ["DH2323"],
+    "VT Courses": [
+      { "Course Code": "XX1063", "Short Name": "Papaya", "Work %": 10.4 },
+      { "Course Code": "XX1000", "Short Name": "Apple", "Work %": 3.0 }
+    ],
+    "Gru VT (%)": 13.4,
+    "Responsible HT": [],
+    "HT Courses": [
+      { "Course Code": "XX1031", "Short Name": "Honeyberry", "Work %": 0.3 },
+      { "Course Code": "XX1023", "Short Name": "Feijoa", "Work %": 0.7 },
+      { "Course Code": "XX1025", "Short Name": "Goji berry", "Work %": 1.1 },
+      { "Course Code": "XX1034", "Short Name": "Jackfruit", "Work %": 0.9 }
+    ],
+    "Gru HT (%)": 3.0,
+    "Self-development &Friskvård (%)": 3.83,
+    "Extra (%)": 0.0,
+    "Balance (%)": 3.22,
+    "GRU balance 19": 0.0,
+    "GRU balance 20": -17.0,
+    "Årsarbetstid %": 0.0
+  },
+  "Helga Hufflepuff": {
+    "Position": "Adjunkt",
+    "Department": "CST",
+    "Kontering HCT (%)": 5.7,
+    "Bemnnad HCT Gru (%)": 5.17,
+    "Responsible VT": [],
+    "VT Courses": [],
+    "Gru VT (%)": 0.0,
+    "Responsible HT": [],
+    "HT Courses": [
+      { "Course Code": "XX1032", "Short Name": "Huckleberry", "Work %": 3.9 }
+    ],
+    "Gru HT (%)": 3.9,
+    "Self-development &Friskvård (%)": 1.28,
+    "Extra (%)": 0.0,
+    "Balance (%)": -0.53,
+    "GRU balance 19": 0.0,
+    "GRU balance 20": -5.7,
+    "Årsarbetstid %": 0.0
+  },
+  "Angelina Johnson": {
+    "Position": "Lektor",
+    "Department": "CST",
+    "Kontering HCT (%)": 47.0,
+    "Bemnnad HCT Gru (%)": 43.33,
+    "Responsible VT": ["DH2321"],
+    "VT Courses": [
+      { "Course Code": "XX1062", "Short Name": "Tangerine", "Work %": 14.2 },
+      { "Course Code": "XX1000", "Short Name": "Apple", "Work %": 5.4 }
+    ],
+    "Gru VT (%)": 19.6,
+    "Responsible HT": ["DH2413"],
+    "HT Courses": [
+      { "Course Code": "XX1032", "Short Name": "Huckleberry", "Work %": 10.1 },
+      { "Course Code": "XX1031", "Short Name": "Honeyberry", "Work %": 0.3 },
+      { "Course Code": "XX1025", "Short Name": "Goji berry", "Work %": 0.7 },
+      { "Course Code": "XX1034", "Short Name": "Jackfruit", "Work %": 2.1 }
+    ],
+    "Gru HT (%)": 13.2,
+    "Self-development &Friskvård (%)": 10.58,
+    "Extra (%)": 0.0,
+    "Balance (%)": -3.67,
+    "GRU balance 19": 0.0,
+    "GRU balance 20": -47.0,
+    "Årsarbetstid %": 0.0
+  },
+  "Igor Karkaroff": {
+    "Position": "Forskare",
+    "Department": "CST",
+    "Kontering HCT (%)": 40.0,
+    "Bemnnad HCT Gru (%)": 50.05,
+    "Responsible VT": [],
+    "VT Courses": [
+      { "Course Code": "XX1039", "Short Name": "Kiwifruit", "Work %": 5.3 },
+      { "Course Code": "XX1000", "Short Name": "Apple", "Work %": 14.0 }
+    ],
+    "Gru VT (%)": 19.3,
+    "Responsible HT": ["DH2650", "DH2655"],
+    "HT Courses": [
+      { "Course Code": "XX1030", "Short Name": "Guava", "Work %": 9.5 },
+      { "Course Code": "XX1012", "Short Name": "Chico fruit", "Work %": 7.9 },
+      { "Course Code": "XX1031", "Short Name": "Honeyberry", "Work %": 0.3 },
+      { "Course Code": "XX1032", "Short Name": "Huckleberry", "Work %": 1.3 },
+      { "Course Code": "XX1006", "Short Name": "Blackcurrant", "Work %": 1.0 },
+      { "Course Code": "XX1025", "Short Name": "Goji berry", "Work %": 0.4 },
+      { "Course Code": "XX1034", "Short Name": "Jackfruit", "Work %": 1.4 }
+    ],
+    "Gru HT (%)": 21.8,
+    "Self-development &Friskvård (%)": 9.0,
+    "Extra (%)": 0.0,
+    "Balance (%)": 10.05,
+    "GRU balance 19": 0.0,
+    "GRU balance 20": -7.28,
+    "Årsarbetstid %": 0.0
+  },
+  "Bertha Jorkins": {
+    "Position": "Professor",
+    "Department": "CST",
+    "Kontering HCT (%)": 38.0,
+    "Bemnnad HCT Gru (%)": 41.23,
+    "Responsible VT": ["DD2258", "DH2320"],
+    "VT Courses": [
+      { "Course Code": "XX1064", "Short Name": "Passionfruit", "Work %": 0.3 },
+      { "Course Code": "XX1061", "Short Name": "Mandarine", "Work %": 8.3 },
+      { "Course Code": "XX1000", "Short Name": "Apple", "Work %": 8.5 }
+    ],
+    "Gru VT (%)": 17.1,
+    "Responsible HT": ["DD2257", "DD2470"],
+    "HT Courses": [
+      { "Course Code": "XX1033", "Short Name": "Jabuticaba", "Work %": 8.6 },
+      { "Course Code": "XX1031", "Short Name": "Honeyberry", "Work %": 4.7 },
+      { "Course Code": "XX1022", "Short Name": "Elderberry", "Work %": 2.4 }
+    ],
+    "Gru HT (%)": 15.6,
+    "Self-development &Friskvård (%)": 8.55,
+    "Extra (%)": 0.0,
+    "Balance (%)": 3.23,
+    "GRU balance 19": 0.0,
+    "GRU balance 20": 0.38,
+    "Årsarbetstid %": 0.0
+  },
+  "Viktor Krum": {
+    "Position": "Doktorand",
+    "Department": "CST",
+    "Kontering HCT (%)": 17.5,
+    "Bemnnad HCT Gru (%)": 18.99,
+    "Responsible VT": [],
+    "VT Courses": [
+      { "Course Code": "XX1061", "Short Name": "Mandarine", "Work %": 9.9 },
+      { "Course Code": "XX1063", "Short Name": "Papaya", "Work %": 2.3 }
+    ],
+    "Gru VT (%)": 12.2,
+    "Responsible HT": [],
+    "HT Courses": [
+      { "Course Code": "XX1033", "Short Name": "Jabuticaba", "Work %": 6.8 }
+    ],
+    "Gru HT (%)": 6.8,
+    "Self-development &Friskvård (%)": 0.0,
+    "Extra (%)": 0.0,
+    "Balance (%)": 1.49,
+    "GRU balance 19": 0.0,
+    "GRU balance 20": -17.5,
+    "Årsarbetstid %": 0.0
+  },
+  "Bellatrix Lestrange": {
+    "Position": "Doktorand",
+    "Department": "CST",
+    "Kontering HCT (%)": 20.0,
+    "Bemnnad HCT Gru (%)": 21.97,
+    "Responsible VT": [],
+    "VT Courses": [
+      { "Course Code": "XX1061", "Short Name": "Mandarine", "Work %": 9.9 },
+      { "Course Code": "XX1062", "Short Name": "Tangerine", "Work %": 5.8 },
+      { "Course Code": "XX1063", "Short Name": "Papaya", "Work %": 2.1 }
+    ],
+    "Gru VT (%)": 17.7,
+    "Responsible HT": [],
+    "HT Courses": [
+      { "Course Code": "XX1033", "Short Name": "Jabuticaba", "Work %": 4.2 }
+    ],
+    "Gru HT (%)": 4.2,
+    "Self-development &Friskvård (%)": 0.0,
+    "Extra (%)": 0.0,
+    "Balance (%)": 1.97,
+    "GRU balance 19": 0.0,
+    "GRU balance 20": -20.0,
+    "Årsarbetstid %": 0.0
+  },
+  "Gilderoy Lockhart": {
+    "Position": "Doktorand",
+    "Department": "CST",
+    "Kontering HCT (%)": 2.0,
+    "Bemnnad HCT Gru (%)": 2.13,
+    "Responsible VT": [],
+    "VT Courses": [
+      { "Course Code": "XX1063", "Short Name": "Papaya", "Work %": 2.1 }
+    ],
+    "Gru VT (%)": 2.1,
+    "Responsible HT": [],
+    "HT Courses": [],
+    "Gru HT (%)": 0.0,
+    "Self-development &Friskvård (%)": 0.0,
+    "Extra (%)": 0.0,
+    "Balance (%)": 0.13,
+    "GRU balance 19": 0.0,
+    "GRU balance 20": -2.0,
+    "Årsarbetstid %": 0.0
+  },
+  "Rodolphus Lestrange": {
+    "Position": "Doktorand",
+    "Department": "CST",
+    "Kontering HCT (%)": 8.5,
+    "Bemnnad HCT Gru (%)": 10.77,
+    "Responsible VT": [],
+    "VT Courses": [
+      { "Course Code": "XX1063", "Short Name": "Papaya", "Work %": 6.5 }
+    ],
+    "Gru VT (%)": 6.5,
+    "Responsible HT": [],
+    "HT Courses": [
+      { "Course Code": "XX1030", "Short Name": "Guava", "Work %": 0.9 },
+      { "Course Code": "XX1023", "Short Name": "Feijoa", "Work %": 3.3 }
+    ],
+    "Gru HT (%)": 4.3,
+    "Self-development &Friskvård (%)": 0.0,
+    "Extra (%)": 0.0,
+    "Balance (%)": 2.27,
+    "GRU balance 19": 0.0,
+    "GRU balance 20": 21.61,
+    "Årsarbetstid %": 0.0
+  },
+  "Lab handl Teknolog CST": {
+    "Position": "NA",
+    "Department": "NA",
+    "Kontering HCT (%)": 0.0,
+    "Bemnnad HCT Gru (%)": 0.0,
+    "Responsible VT": [],
+    "VT Courses": [],
+    "Gru VT (%)": 0.0,
+    "Responsible HT": [],
+    "HT Courses": [],
+    "Gru HT (%)": 0.0,
+    "Self-development &Friskvård (%)": 0.0,
+    "Extra (%)": 0.0,
+    "Balance (%)": 0.0,
+    "GRU balance 19": 0.0,
+    "GRU balance 20": 0.0,
+    "Årsarbetstid %": 0.0
+  },
+  "Neville Longbottom": {
+    "Position": "Lektor",
+    "Department": "COS",
+    "Kontering HCT (%)": 14.0,
+    "Bemnnad HCT Gru (%)": 14.18,
+    "Responsible VT": [],
+    "VT Courses": [],
+    "Gru VT (%)": 0.0,
+    "Responsible HT": ["IC2005"],
+    "HT Courses": [
+      { "Course Code": "XX1029", "Short Name": "Grapefruit", "Work %": 11.0 }
+    ],
+    "Gru HT (%)": 11.0,
+    "Self-development &Friskvård (%)": 3.15,
+    "Extra (%)": 0.0,
+    "Balance (%)": 0.18,
+    "GRU balance 19": 0.0,
+    "GRU balance 20": -14.0,
+    "Årsarbetstid %": 0.0
+  },
+  "Remus Lupin": {
+    "Position": "Lektor",
+    "Department": "SCS",
+    "Kontering HCT (%)": 25.0,
+    "Bemnnad HCT Gru (%)": 0.0,
+    "Responsible VT": [],
+    "VT Courses": [],
+    "Gru VT (%)": 0.0,
+    "Responsible HT": [],
+    "HT Courses": [],
+    "Gru HT (%)": 0.0,
+    "Self-development &Friskvård (%)": 0.0,
+    "Extra (%)": 0.0,
+    "Balance (%)": -25.0,
+    "GRU balance 19": 0.0,
+    "GRU balance 20": -25.0,
+    "Årsarbetstid %": 0.0
+  },
+  "NN Doktorand": {
+    "Position": "Doktorand",
+    "Department": "MID",
+    "Kontering HCT (%)": 4.0,
+    "Bemnnad HCT Gru (%)": 32.72,
+    "Responsible VT": [],
+    "VT Courses": [
+      { "Course Code": "XX1067", "Short Name": "Persimmon", "Work %": 2.8 },
+      { "Course Code": "XX1071", "Short Name": "Prune", "Work %": 5.7 }
+    ],
+    "Gru VT (%)": 8.4,
+    "Responsible HT": [],
+    "HT Courses": [
+      { "Course Code": "XX1000", "Short Name": "Apple", "Work %": 8.5 },
+      { "Course Code": "XX1008", "Short Name": "Boysenberry", "Work %": 6.2 },
+      { "Course Code": "XX1036", "Short Name": "Jujube", "Work %": 5.3 },
+      { "Course Code": "XX1019", "Short Name": "Date", "Work %": 0.3 },
+      { "Course Code": "XX1034", "Short Name": "Jackfruit", "Work %": 4.0 }
+    ],
+    "Gru HT (%)": 24.3,
+    "Self-development &Friskvård (%)": 0.0,
+    "Extra (%)": 0.0,
+    "Balance (%)": 28.97,
+    "GRU balance 19": 0.0,
+    "GRU balance 20": -3.75,
+    "Årsarbetstid %": 0.0
+  },
+  "UNKNOWN MID": {
+    "Position": "Forskare",
+    "Department": "MID",
+    "Kontering HCT (%)": 0.0,
+    "Bemnnad HCT Gru (%)": 38.38,
+    "Responsible VT": [],
+    "VT Courses": [
+      { "Course Code": "XX1069", "Short Name": "Plantain", "Work %": 1.6 },
+      { "Course Code": "XX1039", "Short Name": "Kiwifruit", "Work %": 5.3 },
+      { "Course Code": "XX1040 V", "Short Name": "Kumquat", "Work %": 7.1 },
+      { "Course Code": "XX1068", "Short Name": "Physalis", "Work %": 1.8 },
+      { "Course Code": "XX1059", "Short Name": "Blood orange", "Work %": 1.7 }
+    ],
+    "Gru VT (%)": 17.5,
+    "Responsible HT": ["DM1595"],
+    "HT Courses": [
+      { "Course Code": "XX1038", "Short Name": "Kiwano", "Work %": 5.3 },
+      { "Course Code": "XX1036", "Short Name": "Jujube", "Work %": 1.6 },
+      { "Course Code": "XX1002", "Short Name": "Avocado", "Work %": 4.8 },
+      { "Course Code": "XX1023", "Short Name": "Feijoa", "Work %": 0.4 },
+      { "Course Code": "XX1026", "Short Name": "Gooseberry", "Work %": 0.0 },
+      { "Course Code": "XX1022", "Short Name": "Elderberry", "Work %": 2.4 },
+      { "Course Code": "XX1025", "Short Name": "Goji berry", "Work %": 2.7 }
+    ],
+    "Gru HT (%)": 17.1,
+    "Self-development &Friskvård (%)": 3.8,
+    "Extra (%)": 0.0,
+    "Balance (%)": 38.38,
+    "GRU balance 19": 0.0,
+    "GRU balance 20": 0.0,
+    "Årsarbetstid %": 0.0
+  },
+  "Lab handl Teknolog MID": {
+    "Position": "Teknolog",
+    "Department": "MID",
+    "Kontering HCT (%)": 0.0,
+    "Bemnnad HCT Gru (%)": 113.7,
+    "Responsible VT": [],
+    "VT Courses": [
+      { "Course Code": "XX1040 V", "Short Name": "Kumquat", "Work %": 6.0 },
+      { "Course Code": "XX1047 V", "Short Name": "Mangosteen", "Work %": 27.6 },
+      { "Course Code": "XX1046", "Short Name": "Mango", "Work %": 1.9 },
+      { "Course Code": "XX1049", "Short Name": "Melon", "Work %": 6.7 },
+      { "Course Code": "XX1068", "Short Name": "Physalis", "Work %": 6.0 },
+      { "Course Code": "XX1050", "Short Name": "Cantaloupe", "Work %": 6.9 },
+      { "Course Code": "XX1056", "Short Name": "Nance", "Work %": 2.2 }
+    ],
+    "Gru VT (%)": 57.3,
+    "Responsible HT": [],
+    "HT Courses": [
+      { "Course Code": "XX1004 H", "Short Name": "Bilberry", "Work %": 5.3 },
+      { "Course Code": "XX1005", "Short Name": "Blackberry", "Work %": 2.2 },
+      { "Course Code": "XX1027 H", "Short Name": "Grape", "Work %": 41.8 },
+      { "Course Code": "XX1002", "Short Name": "Avocado", "Work %": 4.1 },
+      { "Course Code": "XX1013", "Short Name": "Cloudberry", "Work %": 1.6 },
+      { "Course Code": "XX1023", "Short Name": "Feijoa", "Work %": 0.4 },
+      { "Course Code": "XX1015", "Short Name": "Cranberry", "Work %": 1.1 },
+      { "Course Code": "XX1019", "Short Name": "Date", "Work %": 0.0 }
+    ],
+    "Gru HT (%)": 56.4,
+    "Self-development &Friskvård (%)": 0.0,
+    "Extra (%)": 0.0,
+    "Balance (%)": 113.7,
+    "GRU balance 19": 0.0,
+    "GRU balance 20": 0.0,
+    "Årsarbetstid %": 0.0
+  },
+  "Fö Extern MID": {
+    "Position": "External",
+    "Department": "External",
+    "Kontering HCT (%)": 0.0,
+    "Bemnnad HCT Gru (%)": 30.11,
+    "Responsible VT": [],
+    "VT Courses": [
+      { "Course Code": "XX1069", "Short Name": "Plantain", "Work %": 5.2 },
+      { "Course Code": "XX1039", "Short Name": "Kiwifruit", "Work %": 5.3 },
+      { "Course Code": "XX1040 V", "Short Name": "Kumquat", "Work %": 0.9 },
+      { "Course Code": "XX1044", "Short Name": "Longan", "Work %": 1.4 },
+      { "Course Code": "XX1045 V", "Short Name": "Lychee", "Work %": 1.1 },
+      { "Course Code": "XX1047 V", "Short Name": "Mangosteen", "Work %": 1.2 },
+      { "Course Code": "XX1046", "Short Name": "Mango", "Work %": 0.4 },
+      { "Course Code": "XX1051", "Short Name": "Honeydew", "Work %": 0.7 },
+      { "Course Code": "XX1058", "Short Name": "Orange", "Work %": 0.6 },
+      { "Course Code": "XX1000", "Short Name": "Apple", "Work %": 2.0 }
+    ],
+    "Gru VT (%)": 18.8,
+    "Responsible HT": [],
+    "HT Courses": [
+      { "Course Code": "XX1004 H", "Short Name": "Bilberry", "Work %": 0.9 },
+      { "Course Code": "XX1006", "Short Name": "Blackcurrant", "Work %": 0.8 },
+      { "Course Code": "XX1011 H", "Short Name": "Cherimoya", "Work %": 1.4 },
+      { "Course Code": "XX1027 H", "Short Name": "Grape", "Work %": 1.2 },
+      { "Course Code": "XX1002", "Short Name": "Avocado", "Work %": 1.0 },
+      { "Course Code": "XX1013", "Short Name": "Cloudberry", "Work %": 1.2 },
+      { "Course Code": "XX1015", "Short Name": "Cranberry", "Work %": 2.1 },
+      { "Course Code": "XX1017", "Short Name": "Custard apple", "Work %": 0.4 },
+      { "Course Code": "XX1018", "Short Name": "Damson", "Work %": 1.2 },
+      { "Course Code": "XX1019", "Short Name": "Date", "Work %": 0.9 },
+      { "Course Code": "XX1025", "Short Name": "Goji berry", "Work %": 0.3 }
+    ],
+    "Gru HT (%)": 11.4,
+    "Self-development &Friskvård (%)": 0.0,
+    "Extra (%)": 0.0,
+    "Balance (%)": 30.11,
+    "GRU balance 19": 0.0,
+    "GRU balance 20": 0.0,
+    "Årsarbetstid %": 0.0
+  }
+}

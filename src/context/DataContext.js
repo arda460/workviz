@@ -18,15 +18,13 @@ const DataProvider = props => {
 
   const getData = async () => {
     try {
-      const teacherSimpleData = await d3.csv("./Data/2020-small-dash.csv");
-      const sum20Data = await d3.json("./Data/summary20.json");
-      const HT20Data = await d3.json("./Data/HT20.json");
-      const VT20Data = await d3.json("./Data/VT20.json");
+      const sum20Data = await d3.json("./Data/anon_summary.json");
+      const HT20Data = await d3.json("./Data/anonHT20.json");
+      const VT20Data = await d3.json("./Data/anonVT20.json");
 
       const colors = DistributeColors(HT20Data, VT20Data);
 
       setColorDist(colors);
-      setteacherSimple(teacherSimpleData);
       setTeacherData(sum20Data);
       setHT20(HT20Data);
       setVT20(VT20Data);
