@@ -7,24 +7,24 @@
         "Responsible VT": [],
         "VT Courses": [
             {
-                "Course Code": "DA232-4X",
-                "Short Name": "exjobb",
+                "Course Code": "TT4485",
+                "Short Name": "trlob",
                 "Work %": 3.3
             },
             {
-                "Course Code": "DM128-9X",
-                "Short Name": "mkand",
+                "Course Code": "GA8830",
+                "Short Name": "olsen",
                 "Work %": 1.9
             }
         ],
         "Gru VT (%)": 5.2,
         "Responsible HT": [
-            "DH2466"
+            "HH8090"
         ],
         "HT Courses": [
             {
-                "Course Code": "DH2466",
-                "Short Name": "indmdi",
+                "Course Code": "HH8090",
+                "Short Name": "telut",
                 "Work %": 1.3
             }
         ],
@@ -42,39 +42,39 @@
         "Kontering HCT (%)": 40.0,
         "Bemnnad HCT Gru (%)": 38.61,
         "Responsible VT": [
-            "DH2628",
-            "DH2629"
+            "HH4799",
+            "HH1823"
         ],
         "VT Courses": [
             {
-                "Course Code": "DH2628",
-                "Short Name": "ixd-metod",
+                "Course Code": "HH4799",
+                "Short Name": "timegri",
                 "Work %": 6.5
             },
             {
-                "Course Code": "DH2629",
-                "Short Name": "ixd-reflect",
+                "Course Code": "HH1823",
+                "Short Name": "optidiv",
                 "Work %": 5.7
             },
             {
-                "Course Code": "DA232-4X",
-                "Short Name": "exjobb",
+                "Course Code": "TT4485",
+                "Short Name": "trlob",
                 "Work %": 4.0
             }
         ],
         "Gru VT (%)": 16.2,
         "Responsible HT": [
-            "DM2630"
+            "GA3330"
         ],
         "HT Courses": [
             {
-                "Course Code": "DM2630",
-                "Short Name": "uxdesign",
+                "Course Code": "GA3330",
+                "Short Name": "farmo",
                 "Work %": 11.1
             },
             {
-                "Course Code": "DM2679",
-                "Short Name": "improint",
+                "Course Code": "GA9233",
+                "Short Name": "plangib",
                 "Work %": 2.4
             }
         ],
@@ -94,8 +94,8 @@
         "Responsible VT": [],
         "VT Courses": [
             {
-                "Course Code": "DH1620",
-                "Short Name": "mdid",
+                "Course Code": "HH1660",
+                "Short Name": "fargo",
                 "Work %": 5.6
             }
         ],
@@ -103,8 +103,8 @@
         "Responsible HT": [],
         "HT Courses": [
             {
-                "Course Code": "DM1578",
-                "Short Name": "proint",
+                "Course Code": "GA9943",
+                "Short Name": "power",
                 "Work %": 2.3
             }
         ],
@@ -122,39 +122,39 @@
         "Kontering HCT (%)": 52.5,
         "Bemnnad HCT Gru (%)": 37.81,
         "Responsible VT": [
-            "DH2642 V"
+            "HH9910"
         ],
         "VT Courses": [
             {
-                "Course Code": "DH2642 V",
-                "Short Name": "iprogd",
+                "Course Code": "HH9910",
+                "Short Name": "uno",
                 "Work %": 9.9
             },
             {
-                "Course Code": "DA232-4X",
-                "Short Name": "exjobb",
+                "Course Code": "TT4485",
+                "Short Name": "trlob",
                 "Work %": 3.4
             }
         ],
         "Gru VT (%)": 13.2,
         "Responsible HT": [
-            "DH2642 H",
-            "DH2643"
+            "HH7070",
+            "HH5544"
         ],
         "HT Courses": [
             {
-                "Course Code": "DH2642 H",
-                "Short Name": "iprogdh",
+                "Course Code": "HH7070",
+                "Short Name": "typer",
                 "Work %": 9.3
             },
             {
-                "Course Code": "DH2643",
-                "Short Name": "adviprog",
+                "Course Code": "HH5544",
+                "Short Name": "improv",
                 "Work %": 2.8
             },
             {
-                "Course Code": "DM2799",
-                "Short Name": "improj",
+                "Course Code": "GA4566",
+                "Short Name": "jarmoin",
                 "Work %": 0.6
             }
         ],
@@ -172,22 +172,22 @@
         "Kontering HCT (%)": 25.0,
         "Bemnnad HCT Gru (%)": 22.17,
         "Responsible VT": [
-            "DT2300"
+            "RS1013"
         ],
         "VT Courses": [
             {
-                "Course Code": "DT2300",
-                "Short Name": "ljudintv",
+                "Course Code": "RS1013",
+                "Short Name": "justfo",
                 "Work %": 6.1
             },
             {
-                "Course Code": "DT2213",
-                "Short Name": "muscom",
+                "Course Code": "RS1006",
+                "Short Name": "kaupa",
                 "Work %": 0.6
             },
             {
-                "Course Code": "DA232-4X",
-                "Short Name": "exjobb",
+                "Course Code": "TT4485",
+                "Short Name": "trlob",
                 "Work %": 3.3
             }
         ],
@@ -195,23 +195,23 @@
         "Responsible HT": [],
         "HT Courses": [
             {
-                "Course Code": "DM1578",
-                "Short Name": "proint",
+                "Course Code": "GA9943",
+                "Short Name": "power",
                 "Work %": 1.5
             },
             {
-                "Course Code": "DM1581",
-                "Short Name": "intromedia",
+                "Course Code": "GA1433",
+                "Short Name": "outrotele",
                 "Work %": 0.3
             },
             {
-                "Course Code": "DM2350",
-                "Short Name": "humper",
+                "Course Code": "GA4040",
+                "Short Name": "hytro",
                 "Work %": 3.1
             },
             {
-                "Course Code": "DT2140",
-                "Short Name": "mintint",
+                "Course Code": "RS1010",
+                "Short Name": "fresho",
                 "Work %": 1.7
             }
         ],
@@ -231,13 +231,13 @@
         "Responsible VT": [],
         "VT Courses": [
             {
-                "Course Code": "DA232-4X",
-                "Short Name": "exjobb",
+                "Course Code": "TT4485",
+                "Short Name": "trlob",
                 "Work %": 3.3
             },
             {
-                "Course Code": "DM128-9X",
-                "Short Name": "mkand",
+                "Course Code": "GA8830",
+                "Short Name": "olsen",
                 "Work %": 4.5
             }
         ],
@@ -245,8 +245,8 @@
         "Responsible HT": [],
         "HT Courses": [
             {
-                "Course Code": "DM1578",
-                "Short Name": "proint",
+                "Course Code": "GA9943",
+                "Short Name": "power",
                 "Work %": 1.5
             }
         ],
@@ -266,18 +266,18 @@
         "Responsible VT": [],
         "VT Courses": [
             {
-                "Course Code": "DM2720",
-                "Short Name": "halikt",
+                "Course Code": "GA2999",
+                "Short Name": "brall",
                 "Work %": 1.1
             },
             {
-                "Course Code": "DA232-4X",
-                "Short Name": "exjobb",
+                "Course Code": "TT4485",
+                "Short Name": "trlob",
                 "Work %": 4.0
             },
             {
-                "Course Code": "DM128-9X",
-                "Short Name": "mkand",
+                "Course Code": "GA8830",
+                "Short Name": "olsen",
                 "Work %": 3.5
             }
         ],
@@ -285,13 +285,13 @@
         "Responsible HT": [],
         "HT Courses": [
             {
-                "Course Code": "DM1578",
-                "Short Name": "proint",
+                "Course Code": "GA9943",
+                "Short Name": "power",
                 "Work %": 1.5
             },
             {
-                "Course Code": "DM2573",
-                "Short Name": "hallutv",
+                "Course Code": "GA6030",
+                "Short Name": "telegib",
                 "Work %": 5.1
             }
         ],
@@ -311,13 +311,13 @@
         "Responsible VT": [],
         "VT Courses": [
             {
-                "Course Code": "DH2628",
-                "Short Name": "ixd-metod",
+                "Course Code": "HH4799",
+                "Short Name": "timegri",
                 "Work %": 6.3
             },
             {
-                "Course Code": "DA232-4X",
-                "Short Name": "exjobb",
+                "Course Code": "TT4485",
+                "Short Name": "trlob",
                 "Work %": 4.0
             }
         ],
@@ -325,8 +325,8 @@
         "Responsible HT": [],
         "HT Courses": [
             {
-                "Course Code": "DM2799",
-                "Short Name": "improj",
+                "Course Code": "GA4566",
+                "Short Name": "jarmoin",
                 "Work %": 4.6
             }
         ],
@@ -344,17 +344,17 @@
         "Kontering HCT (%)": 28.0,
         "Bemnnad HCT Gru (%)": 23.97,
         "Responsible VT": [
-            "DH1609"
+            "HH4030"
         ],
         "VT Courses": [
             {
-                "Course Code": "DH1609",
-                "Short Name": "komminf",
+                "Course Code": "HH4030",
+                "Short Name": "redlib",
                 "Work %": 13.9
             },
             {
-                "Course Code": "DA232-4X",
-                "Short Name": "exjobb",
+                "Course Code": "TT4485",
+                "Short Name": "trlob",
                 "Work %": 2.4
             }
         ],
@@ -362,8 +362,8 @@
         "Responsible HT": [],
         "HT Courses": [
             {
-                "Course Code": "DM2575",
-                "Short Name": "mmproint",
+                "Course Code": "GA2230",
+                "Short Name": "teleman",
                 "Work %": 1.5
             }
         ],
@@ -381,49 +381,49 @@
         "Kontering HCT (%)": 52.5,
         "Bemnnad HCT Gru (%)": 45.34,
         "Responsible VT": [
-            "DM2556"
+            "GA9010"
         ],
         "VT Courses": [
             {
-                "Course Code": "DM2556",
-                "Short Name": "intcom",
+                "Course Code": "GA9010",
+                "Short Name": "unouno",
                 "Work %": 12.0
             },
             {
-                "Course Code": "DH1609",
-                "Short Name": "komminf",
+                "Course Code": "HH4030",
+                "Short Name": "redlib",
                 "Work %": 0.5
             },
             {
-                "Course Code": "DA232-4X",
-                "Short Name": "exjobb",
+                "Course Code": "TT4485",
+                "Short Name": "trlob",
                 "Work %": 12.0
             },
             {
-                "Course Code": "DM128-9X",
-                "Short Name": "mkand",
+                "Course Code": "GA8830",
+                "Short Name": "olsen",
                 "Work %": 3.8
             }
         ],
         "Gru VT (%)": 28.2,
         "Responsible HT": [
-            "DM2575",
-            "DM2584"
+            "GA2230",
+            "GA4970"
         ],
         "HT Courses": [
             {
-                "Course Code": "DM2575",
-                "Short Name": "mmproint",
+                "Course Code": "GA2230",
+                "Short Name": "teleman",
                 "Work %": 3.9
             },
             {
-                "Course Code": "DM2584",
-                "Short Name": "mmproj",
+                "Course Code": "GA4970",
+                "Short Name": "multimario",
                 "Work %": 1.2
             },
             {
-                "Course Code": "DM2579",
-                "Short Name": "mep",
+                "Course Code": "GA3422",
+                "Short Name": "metro",
                 "Work %": 0.3
             }
         ],
@@ -441,50 +441,50 @@
         "Kontering HCT (%)": 60.0,
         "Bemnnad HCT Gru (%)": 63.08,
         "Responsible VT": [
-            "DH1620",
-            "DH2624"
+            "HH1660",
+            "HH3315"
         ],
         "VT Courses": [
             {
-                "Course Code": "DH1620",
-                "Short Name": "mdid",
+                "Course Code": "HH1660",
+                "Short Name": "fargo",
                 "Work %": 14.9
             },
             {
-                "Course Code": "DH2624",
-                "Short Name": "mdidcl",
+                "Course Code": "HH3315",
+                "Short Name": "kefi",
                 "Work %": 3.5
             },
             {
-                "Course Code": "DM128-9X",
-                "Short Name": "mkand",
+                "Course Code": "GA8830",
+                "Short Name": "olsen",
                 "Work %": 4.7
             }
         ],
         "Gru VT (%)": 23.1,
         "Responsible HT": [
-            "DH1622",
-            "DM2799"
+            "HH2323",
+            "GA4566"
         ],
         "HT Courses": [
             {
-                "Course Code": "DH1622",
-                "Short Name": "mdi-media",
+                "Course Code": "HH2323",
+                "Short Name": "mel-gib",
                 "Work %": 15.9
             },
             {
-                "Course Code": "DM2799",
-                "Short Name": "improj",
+                "Course Code": "GA4566",
+                "Short Name": "jarmoin",
                 "Work %": 6.4
             },
             {
-                "Course Code": "DA232-4X",
-                "Short Name": "exjobb",
+                "Course Code": "TT4485",
+                "Short Name": "trlob",
                 "Work %": 4.0
             },
             {
-                "Course Code": "DM1581",
-                "Short Name": "intromedia",
+                "Course Code": "GA1433",
+                "Short Name": "outrotele",
                 "Work %": 0.1
             }
         ],
@@ -520,17 +520,17 @@
         "Kontering HCT (%)": 30.0,
         "Bemnnad HCT Gru (%)": 28.92,
         "Responsible VT": [
-            "DM2720"
+            "GA2999"
         ],
         "VT Courses": [
             {
-                "Course Code": "DM2720",
-                "Short Name": "halikt",
+                "Course Code": "GA2999",
+                "Short Name": "brall",
                 "Work %": 6.5
             },
             {
-                "Course Code": "DA232-4X",
-                "Short Name": "exjobb",
+                "Course Code": "TT4485",
+                "Short Name": "trlob",
                 "Work %": 5.0
             }
         ],
@@ -538,23 +538,23 @@
         "Responsible HT": [],
         "HT Courses": [
             {
-                "Course Code": "DH2408",
-                "Short Name": "utvard",
+                "Course Code": "HH4865",
+                "Short Name": "inngel",
                 "Work %": 0.7
             },
             {
-                "Course Code": "DM1581",
-                "Short Name": "intromedia",
+                "Course Code": "GA1433",
+                "Short Name": "outrotele",
                 "Work %": 0.3
             },
             {
-                "Course Code": "DM2573",
-                "Short Name": "hallutv",
+                "Course Code": "GA6030",
+                "Short Name": "telegib",
                 "Work %": 7.7
             },
             {
-                "Course Code": "DM2799",
-                "Short Name": "improj",
+                "Course Code": "GA4566",
+                "Short Name": "jarmoin",
                 "Work %": 1.9
             }
         ],
@@ -572,33 +572,33 @@
         "Kontering HCT (%)": 30.0,
         "Bemnnad HCT Gru (%)": 36.45,
         "Responsible VT": [
-            "DM2624",
-            "DT2213"
+            "GA2010",
+            "RS1006"
         ],
         "VT Courses": [
             {
-                "Course Code": "DM2624",
-                "Short Name": "itfunk",
+                "Course Code": "GA2010",
+                "Short Name": "witboi",
                 "Work %": 11.2
             },
             {
-                "Course Code": "DT2213",
-                "Short Name": "muscom",
+                "Course Code": "RS1006",
+                "Short Name": "kaupa",
                 "Work %": 9.4
             },
             {
-                "Course Code": "DT2300",
-                "Short Name": "ljudintv",
+                "Course Code": "RS1013",
+                "Short Name": "justfo",
                 "Work %": 0.4
             },
             {
-                "Course Code": "DA232-4X",
-                "Short Name": "exjobb",
+                "Course Code": "TT4485",
+                "Short Name": "trlob",
                 "Work %": 4.0
             },
             {
-                "Course Code": "DM128-9X",
-                "Short Name": "mkand",
+                "Course Code": "GA8830",
+                "Short Name": "olsen",
                 "Work %": 4.7
             }
         ],
@@ -619,48 +619,48 @@
         "Kontering HCT (%)": 43.75,
         "Bemnnad HCT Gru (%)": 42.77,
         "Responsible VT": [
-            "DH2400 V"
+            "HH4932"
         ],
         "VT Courses": [
             {
-                "Course Code": "DH2400 V",
-                "Short Name": "interakv",
+                "Course Code": "HH4932",
+                "Short Name": "notip",
                 "Work %": 3.9
             },
             {
-                "Course Code": "DH2670",
-                "Short Name": "haptik",
+                "Course Code": "HH1088",
+                "Short Name": "senso",
                 "Work %": 0.4
             },
             {
-                "Course Code": "DA232-4X",
-                "Short Name": "exjobb",
+                "Course Code": "TT4485",
+                "Short Name": "trlob",
                 "Work %": 3.8
             }
         ],
         "Gru VT (%)": 8.1,
         "Responsible HT": [
-            "DM2679"
+            "GA9233"
         ],
         "HT Courses": [
             {
-                "Course Code": "DM2679",
-                "Short Name": "improint",
+                "Course Code": "GA9233",
+                "Short Name": "plangib",
                 "Work %": 9.3
             },
             {
-                "Course Code": "DH2400 H",
-                "Short Name": "interak",
+                "Course Code": "HH4545",
+                "Short Name": "outrak",
                 "Work %": 6.1
             },
             {
-                "Course Code": "DM2601",
-                "Short Name": "mixd",
+                "Course Code": "GA3090",
+                "Short Name": "plain",
                 "Work %": 7.2
             },
             {
-                "Course Code": "DM2799",
-                "Short Name": "improj",
+                "Course Code": "GA4566",
+                "Short Name": "jarmoin",
                 "Work %": 2.3
             }
         ],
@@ -680,8 +680,8 @@
         "Responsible VT": [],
         "VT Courses": [
             {
-                "Course Code": "DH2670",
-                "Short Name": "haptik",
+                "Course Code": "HH1088",
+                "Short Name": "senso",
                 "Work %": 1.1
             }
         ],
@@ -722,34 +722,34 @@
         "Responsible VT": [],
         "VT Courses": [
             {
-                "Course Code": "DH1620",
-                "Short Name": "mdid",
+                "Course Code": "HH1660",
+                "Short Name": "fargo",
                 "Work %": 0.5
             },
             {
-                "Course Code": "DM2624",
-                "Short Name": "itfunk",
+                "Course Code": "GA2010",
+                "Short Name": "witboi",
                 "Work %": 1.1
             },
             {
-                "Course Code": "DA232-4X",
-                "Short Name": "exjobb",
+                "Course Code": "TT4485",
+                "Short Name": "trlob",
                 "Work %": 3.8
             }
         ],
         "Gru VT (%)": 5.4,
         "Responsible HT": [
-            "DH1621"
+            "HH1259"
         ],
         "HT Courses": [
             {
-                "Course Code": "DH1621",
-                "Short Name": "mdi-intro",
+                "Course Code": "HH1259",
+                "Short Name": "gel-in",
                 "Work %": 4.4
             },
             {
-                "Course Code": "DH1622",
-                "Short Name": "mdi-media",
+                "Course Code": "HH2323",
+                "Short Name": "mel-gib",
                 "Work %": 0.5
             }
         ],
@@ -769,30 +769,30 @@
         "Responsible VT": [],
         "VT Courses": [
             {
-                "Course Code": "DA232-4X",
-                "Short Name": "exjobb",
+                "Course Code": "TT4485",
+                "Short Name": "trlob",
                 "Work %": 2.0
             }
         ],
         "Gru VT (%)": 2.0,
         "Responsible HT": [
-            "DM1581",
-            "DM2500"
+            "GA1433",
+            "GA3499"
         ],
         "HT Courses": [
             {
-                "Course Code": "DM1581",
-                "Short Name": "intromedia",
+                "Course Code": "GA1433",
+                "Short Name": "outrotele",
                 "Work %": 9.5
             },
             {
-                "Course Code": "DM2500",
-                "Short Name": "distans",
+                "Course Code": "GA3499",
+                "Short Name": "vector",
                 "Work %": 8.6
             },
             {
-                "Course Code": "DM1578",
-                "Short Name": "proint",
+                "Course Code": "GA9943",
+                "Short Name": "power",
                 "Work %": 2.9
             }
         ],
@@ -812,30 +812,30 @@
         "Responsible VT": [],
         "VT Courses": [
             {
-                "Course Code": "DA232-4X",
-                "Short Name": "exjobb",
+                "Course Code": "TT4485",
+                "Short Name": "trlob",
                 "Work %": 6.0
             },
             {
-                "Course Code": "DM128-9X",
-                "Short Name": "mkand",
+                "Course Code": "GA8830",
+                "Short Name": "olsen",
                 "Work %": 3.5
             }
         ],
         "Gru VT (%)": 9.5,
         "Responsible HT": [
-            "DM1578",
-            "DM2517"
+            "GA9943",
+            "GA2500"
         ],
         "HT Courses": [
             {
-                "Course Code": "DM1578",
-                "Short Name": "proint",
+                "Course Code": "GA9943",
+                "Short Name": "power",
                 "Work %": 13.0
             },
             {
-                "Course Code": "DM2517",
-                "Short Name": "xmlpub",
+                "Course Code": "GA2500",
+                "Short Name": "tgif",
                 "Work %": 0.0
             }
         ],
@@ -853,44 +853,44 @@
         "Kontering HCT (%)": 77.5,
         "Bemnnad HCT Gru (%)": 68.65,
         "Responsible VT": [
-            "DM2585"
+            "GA1088"
         ],
         "VT Courses": [
             {
-                "Course Code": "DM2585",
-                "Short Name": "aisoc",
+                "Course Code": "GA1088",
+                "Short Name": "juler",
                 "Work %": 5.8
             },
             {
-                "Course Code": "DM2582",
-                "Short Name": "mlabv",
+                "Course Code": "GA6010",
+                "Short Name": "eldfjall",
                 "Work %": 4.1
             },
             {
-                "Course Code": "DM2583",
-                "Short Name": "bdatav",
+                "Course Code": "GA5152",
+                "Short Name": "brask",
                 "Work %": 2.0
             },
             {
-                "Course Code": "DA232-4X",
-                "Short Name": "exjobb",
+                "Course Code": "TT4485",
+                "Short Name": "trlob",
                 "Work %": 6.3
             }
         ],
         "Gru VT (%)": 18.2,
         "Responsible HT": [
-            "DM2572",
-            "DM2712"
+            "GA9023",
+            "GA1299"
         ],
         "HT Courses": [
             {
-                "Course Code": "DM2572",
-                "Short Name": "teori",
+                "Course Code": "GA9023",
+                "Short Name": "mathmix",
                 "Work %": 14.0
             },
             {
-                "Course Code": "DM2712",
-                "Short Name": "vetmetimt2",
+                "Course Code": "GA1299",
+                "Short Name": "hal-gib",
                 "Work %": 19.0
             }
         ],
@@ -910,8 +910,8 @@
         "Responsible VT": [],
         "VT Courses": [
             {
-                "Course Code": "DH1620",
-                "Short Name": "mdid",
+                "Course Code": "HH1660",
+                "Short Name": "fargo",
                 "Work %": 11.3
             }
         ],
@@ -919,13 +919,13 @@
         "Responsible HT": [],
         "HT Courses": [
             {
-                "Course Code": "DA232-4X",
-                "Short Name": "exjobb",
+                "Course Code": "TT4485",
+                "Short Name": "trlob",
                 "Work %": 4.3
             },
             {
-                "Course Code": "DM2601",
-                "Short Name": "mixd",
+                "Course Code": "GA3090",
+                "Short Name": "plain",
                 "Work %": 7.6
             }
         ],
@@ -945,35 +945,35 @@
         "Responsible VT": [],
         "VT Courses": [
             {
-                "Course Code": "DM1590",
-                "Short Name": "mlmed",
+                "Course Code": "GA1678",
+                "Short Name": "trojeg",
                 "Work %": 6.9
             },
             {
-                "Course Code": "DT2300",
-                "Short Name": "ljudintv",
+                "Course Code": "RS1013",
+                "Short Name": "justfo",
                 "Work %": 0.3
             },
             {
-                "Course Code": "DA232-4X",
-                "Short Name": "exjobb",
+                "Course Code": "TT4485",
+                "Short Name": "trlob",
                 "Work %": 2.0
             }
         ],
         "Gru VT (%)": 9.2,
         "Responsible HT": [
-            "DM1135",
-            "DM2350"
+            "GA2230",
+            "GA4040"
         ],
         "HT Courses": [
             {
-                "Course Code": "DM1135",
-                "Short Name": "mmss",
+                "Course Code": "GA2230",
+                "Short Name": "filtro",
                 "Work %": 7.6
             },
             {
-                "Course Code": "DM2350",
-                "Short Name": "humper",
+                "Course Code": "GA4040",
+                "Short Name": "hytro",
                 "Work %": 9.9
             }
         ],
@@ -991,43 +991,43 @@
         "Kontering HCT (%)": 20.0,
         "Bemnnad HCT Gru (%)": 15.59,
         "Responsible VT": [
-            "DH2632 V"
+            "HH1824"
         ],
         "VT Courses": [
             {
-                "Course Code": "DH2632 V",
-                "Short Name": "mdisemv",
+                "Course Code": "HH1824",
+                "Short Name": "gravit",
                 "Work %": 4.0
             },
             {
-                "Course Code": "DH1620",
-                "Short Name": "mdid",
+                "Course Code": "HH1660",
+                "Short Name": "fargo",
                 "Work %": 0.5
             },
             {
-                "Course Code": "DA232-4X",
-                "Short Name": "exjobb",
+                "Course Code": "TT4485",
+                "Short Name": "trlob",
                 "Work %": 3.8
             }
         ],
         "Gru VT (%)": 8.2,
         "Responsible HT": [
-            "DH2632 H"
+            "HH4588"
         ],
         "HT Courses": [
             {
-                "Course Code": "DH2632 H",
-                "Short Name": "mdisemh",
+                "Course Code": "HH4588",
+                "Short Name": "astro",
                 "Work %": 6.6
             },
             {
-                "Course Code": "DH1622",
-                "Short Name": "mdi-media",
+                "Course Code": "HH2323",
+                "Short Name": "mel-gib",
                 "Work %": 0.5
             },
             {
-                "Course Code": "DM1581",
-                "Short Name": "intromedia",
+                "Course Code": "GA1433",
+                "Short Name": "outrotele",
                 "Work %": 0.3
             }
         ],
@@ -1048,12 +1048,12 @@
         "VT Courses": [],
         "Gru VT (%)": 0.0,
         "Responsible HT": [
-            "DH2400 H"
+            "HH4545"
         ],
         "HT Courses": [
             {
-                "Course Code": "DH2400 H",
-                "Short Name": "interak",
+                "Course Code": "HH4545",
+                "Short Name": "outrak",
                 "Work %": 7.5
             }
         ],
@@ -1073,13 +1073,13 @@
         "Responsible VT": [],
         "VT Courses": [
             {
-                "Course Code": "DH1609",
-                "Short Name": "komminf",
+                "Course Code": "HH4030",
+                "Short Name": "redlib",
                 "Work %": 11.3
             },
             {
-                "Course Code": "DM2556",
-                "Short Name": "intcom",
+                "Course Code": "GA9010",
+                "Short Name": "unouno",
                 "Work %": 6.8
             }
         ],
@@ -1087,8 +1087,8 @@
         "Responsible HT": [],
         "HT Courses": [
             {
-                "Course Code": "DM1581",
-                "Short Name": "intromedia",
+                "Course Code": "GA1433",
+                "Short Name": "outrotele",
                 "Work %": 0.3
             }
         ],
@@ -1111,8 +1111,8 @@
         "Responsible HT": [],
         "HT Courses": [
             {
-                "Course Code": "DH2408",
-                "Short Name": "utvard",
+                "Course Code": "HH4865",
+                "Short Name": "inngel",
                 "Work %": 0.4
             }
         ],
@@ -1130,12 +1130,12 @@
         "Kontering HCT (%)": 0.0,
         "Bemnnad HCT Gru (%)": 11.41,
         "Responsible VT": [
-            "DM2518"
+            "GA7018"
         ],
         "VT Courses": [
             {
-                "Course Code": "DM2518",
-                "Short Name": "mobut",
+                "Course Code": "GA7018",
+                "Short Name": "keisari",
                 "Work %": 11.4
             }
         ],
@@ -1158,13 +1158,13 @@
         "Responsible VT": [],
         "VT Courses": [
             {
-                "Course Code": "DH2632 V",
-                "Short Name": "mdisemv",
+                "Course Code": "HH1824",
+                "Short Name": "gravit",
                 "Work %": 5.5
             },
             {
-                "Course Code": "DA232-4X",
-                "Short Name": "exjobb",
+                "Course Code": "TT4485",
+                "Short Name": "trlob",
                 "Work %": 3.2
             }
         ],
@@ -1172,8 +1172,8 @@
         "Responsible HT": [],
         "HT Courses": [
             {
-                "Course Code": "DH2632 H",
-                "Short Name": "mdisemh",
+                "Course Code": "HH4588",
+                "Short Name": "astro",
                 "Work %": 8.1
             }
         ],
@@ -1191,28 +1191,28 @@
         "Kontering HCT (%)": 40.0,
         "Bemnnad HCT Gru (%)": 37.07,
         "Responsible VT": [
-            "DA232-4X"
+            "TT4485"
         ],
         "VT Courses": [
             {
-                "Course Code": "DA232-4X",
-                "Short Name": "exjobb",
+                "Course Code": "TT4485",
+                "Short Name": "trlob",
                 "Work %": 14.3
             }
         ],
         "Gru VT (%)": 14.3,
         "Responsible HT": [
-            "DM2601"
+            "GA3090"
         ],
         "HT Courses": [
             {
-                "Course Code": "DM2601",
-                "Short Name": "mixd",
+                "Course Code": "GA3090",
+                "Short Name": "plain",
                 "Work %": 13.0
             },
             {
-                "Course Code": "DM1578",
-                "Short Name": "proint",
+                "Course Code": "GA9943",
+                "Short Name": "power",
                 "Work %": 0.7
             }
         ],
@@ -1250,18 +1250,18 @@
         "Responsible VT": [],
         "VT Courses": [
             {
-                "Course Code": "DT2213",
-                "Short Name": "muscom",
+                "Course Code": "RS1006",
+                "Short Name": "kaupa",
                 "Work %": 4.2
             },
             {
-                "Course Code": "DT2300",
-                "Short Name": "ljudintv",
+                "Course Code": "RS1013",
+                "Short Name": "justfo",
                 "Work %": 2.5
             },
             {
-                "Course Code": "DA232-4X",
-                "Short Name": "exjobb",
+                "Course Code": "TT4485",
+                "Short Name": "trlob",
                 "Work %": 4.3
             }
         ],
@@ -1269,18 +1269,18 @@
         "Responsible HT": [],
         "HT Courses": [
             {
-                "Course Code": "DM1581",
-                "Short Name": "intromedia",
+                "Course Code": "GA1433",
+                "Short Name": "outrotele",
                 "Work %": 1.8
             },
             {
-                "Course Code": "DM2350",
-                "Short Name": "humper",
+                "Course Code": "GA4040",
+                "Short Name": "hytro",
                 "Work %": 1.7
             },
             {
-                "Course Code": "DT2140",
-                "Short Name": "mintint",
+                "Course Code": "RS1010",
+                "Short Name": "fresho",
                 "Work %": 1.0
             }
         ],
@@ -1298,39 +1298,39 @@
         "Kontering HCT (%)": 66.5,
         "Bemnnad HCT Gru (%)": 57.57,
         "Responsible VT": [
-            "DM1580",
-            "DM2582",
-            "DM2583"
+            "GA2310",
+            "GA6010",
+            "GA5152"
         ],
         "VT Courses": [
             {
-                "Course Code": "DM1580",
-                "Short Name": "video",
+                "Course Code": "GA2310",
+                "Short Name": "gofetch",
                 "Work %": 12.9
             },
             {
-                "Course Code": "DM2582",
-                "Short Name": "mlabv",
+                "Course Code": "GA6010",
+                "Short Name": "eldfjall",
                 "Work %": 7.3
             },
             {
-                "Course Code": "DM2583",
-                "Short Name": "bdatav",
+                "Course Code": "GA5152",
+                "Short Name": "brask",
                 "Work %": 8.2
             },
             {
-                "Course Code": "DD2258",
-                "Short Name": "visintro",
+                "Course Code": "IH5610",
+                "Short Name": "naestum",
                 "Work %": 2.6
             },
             {
-                "Course Code": "DM2585",
-                "Short Name": "aisoc",
+                "Course Code": "GA1088",
+                "Short Name": "juler",
                 "Work %": 4.1
             },
             {
-                "Course Code": "DA232-4X",
-                "Short Name": "exjobb",
+                "Course Code": "TT4485",
+                "Short Name": "trlob",
                 "Work %": 4.3
             }
         ],
@@ -1338,13 +1338,13 @@
         "Responsible HT": [],
         "HT Courses": [
             {
-                "Course Code": "DM1578",
-                "Short Name": "proint",
+                "Course Code": "GA9943",
+                "Short Name": "power",
                 "Work %": 2.9
             },
             {
-                "Course Code": "DM1581",
-                "Short Name": "intromedia",
+                "Course Code": "GA1433",
+                "Short Name": "outrotele",
                 "Work %": 0.3
             }
         ],
@@ -1362,17 +1362,17 @@
         "Kontering HCT (%)": 14.58,
         "Bemnnad HCT Gru (%)": 19.14,
         "Responsible VT": [
-            "DM1588"
+            "GA1670"
         ],
         "VT Courses": [
             {
-                "Course Code": "DM1588",
-                "Short Name": "sensmed",
+                "Course Code": "GA1670",
+                "Short Name": "sstid",
                 "Work %": 12.8
             },
             {
-                "Course Code": "DA232-4X",
-                "Short Name": "exjobb",
+                "Course Code": "TT4485",
+                "Short Name": "trlob",
                 "Work %": 4.0
             }
         ],
@@ -1380,8 +1380,8 @@
         "Responsible HT": [],
         "HT Courses": [
             {
-                "Course Code": "DM2350",
-                "Short Name": "humper",
+                "Course Code": "GA4040",
+                "Short Name": "hytro",
                 "Work %": 2.4
             }
         ],
@@ -1401,8 +1401,8 @@
         "Responsible VT": [],
         "VT Courses": [
             {
-                "Course Code": "DH2670",
-                "Short Name": "haptik",
+                "Course Code": "HH1088",
+                "Short Name": "senso",
                 "Work %": 1.4
             }
         ],
@@ -1425,13 +1425,13 @@
         "Responsible VT": [],
         "VT Courses": [
             {
-                "Course Code": "DT2300",
-                "Short Name": "ljudintv",
+                "Course Code": "RS1013",
+                "Short Name": "justfo",
                 "Work %": 4.5
             },
             {
-                "Course Code": "DA232-4X",
-                "Short Name": "exjobb",
+                "Course Code": "TT4485",
+                "Short Name": "trlob",
                 "Work %": 4.3
             }
         ],
@@ -1439,23 +1439,23 @@
         "Responsible HT": [],
         "HT Courses": [
             {
-                "Course Code": "DH1622",
-                "Short Name": "mdi-media",
+                "Course Code": "HH2323",
+                "Short Name": "mel-gib",
                 "Work %": 6.2
             },
             {
-                "Course Code": "DM1579",
-                "Short Name": "meph",
+                "Course Code": "GA4397",
+                "Short Name": "triopp",
                 "Work %": 4.1
             },
             {
-                "Course Code": "DM1581",
-                "Short Name": "intromedia",
+                "Course Code": "GA1433",
+                "Short Name": "outrotele",
                 "Work %": 2.1
             },
             {
-                "Course Code": "DT2140",
-                "Short Name": "mintint",
+                "Course Code": "RS1010",
+                "Short Name": "fresho",
                 "Work %": 1.0
             }
         ],
@@ -1475,29 +1475,29 @@
         "Responsible VT": [],
         "VT Courses": [
             {
-                "Course Code": "DM128-9X",
-                "Short Name": "mkand",
+                "Course Code": "GA8830",
+                "Short Name": "olsen",
                 "Work %": 15.2
             }
         ],
         "Gru VT (%)": 15.2,
         "Responsible HT": [
-            "DM2573"
+            "GA6030"
         ],
         "HT Courses": [
             {
-                "Course Code": "DM2573",
-                "Short Name": "hallutv",
+                "Course Code": "GA6030",
+                "Short Name": "telegib",
                 "Work %": 12.1
             },
             {
-                "Course Code": "DM2679",
-                "Short Name": "improint",
+                "Course Code": "GA9233",
+                "Short Name": "plangib",
                 "Work %": 2.4
             },
             {
-                "Course Code": "DM2799",
-                "Short Name": "improj",
+                "Course Code": "GA4566",
+                "Short Name": "jarmoin",
                 "Work %": 1.2
             }
         ],
@@ -1517,35 +1517,35 @@
         "Responsible VT": [],
         "VT Courses": [
             {
-                "Course Code": "DT2300",
-                "Short Name": "ljudintv",
+                "Course Code": "RS1013",
+                "Short Name": "justfo",
                 "Work %": 1.6
             },
             {
-                "Course Code": "DA232-4X",
-                "Short Name": "exjobb",
+                "Course Code": "TT4485",
+                "Short Name": "trlob",
                 "Work %": 7.3
             }
         ],
         "Gru VT (%)": 8.9,
         "Responsible HT": [
-            "DM1579",
-            "DM2579"
+            "GA4397",
+            "GA3422"
         ],
         "HT Courses": [
             {
-                "Course Code": "DM1579",
-                "Short Name": "meph",
+                "Course Code": "GA4397",
+                "Short Name": "triopp",
                 "Work %": 11.6
             },
             {
-                "Course Code": "DM2579",
-                "Short Name": "mep",
+                "Course Code": "GA3422",
+                "Short Name": "metro",
                 "Work %": 4.1
             },
             {
-                "Course Code": "DM2350",
-                "Short Name": "humper",
+                "Course Code": "GA4040",
+                "Short Name": "hytro",
                 "Work %": 1.6
             }
         ],
@@ -1563,23 +1563,23 @@
         "Kontering HCT (%)": 0.0,
         "Bemnnad HCT Gru (%)": 34.36,
         "Responsible VT": [
-            "DM2562",
-            "DM2563"
+            "GA2415",
+            "GA1664"
         ],
         "VT Courses": [
             {
-                "Course Code": "DM2562",
-                "Short Name": "ledh",
+                "Course Code": "GA2415",
+                "Short Name": "impertog",
                 "Work %": 12.1
             },
             {
-                "Course Code": "DM2563",
-                "Short Name": "ledprojh",
+                "Course Code": "GA1664",
+                "Short Name": "thop",
                 "Work %": 13.3
             },
             {
-                "Course Code": "DA232-4X",
-                "Short Name": "exjobb",
+                "Course Code": "TT4485",
+                "Short Name": "trlob",
                 "Work %": 9.0
             }
         ],
@@ -1600,28 +1600,28 @@
         "Kontering HCT (%)": 25.0,
         "Bemnnad HCT Gru (%)": 28.75,
         "Responsible VT": [
-            "DH2670"
+            "HH1088"
         ],
         "VT Courses": [
             {
-                "Course Code": "DH2670",
-                "Short Name": "haptik",
+                "Course Code": "HH1088",
+                "Short Name": "senso",
                 "Work %": 8.4
             }
         ],
         "Gru VT (%)": 8.4,
         "Responsible HT": [
-            "DH2408"
+            "HH4865"
         ],
         "HT Courses": [
             {
-                "Course Code": "DH2408",
-                "Short Name": "utvard",
+                "Course Code": "HH4865",
+                "Short Name": "inngel",
                 "Work %": 13.0
             },
             {
-                "Course Code": "DT2140",
-                "Short Name": "mintint",
+                "Course Code": "RS1010",
+                "Short Name": "fresho",
                 "Work %": 1.7
             }
         ],
@@ -1644,8 +1644,8 @@
         "Responsible HT": [],
         "HT Courses": [
             {
-                "Course Code": "DH1622",
-                "Short Name": "mdi-media",
+                "Course Code": "HH2323",
+                "Short Name": "mel-gib",
                 "Work %": 5.8
             }
         ],
@@ -1665,18 +1665,18 @@
         "Responsible VT": [],
         "VT Courses": [
             {
-                "Course Code": "DH1620",
-                "Short Name": "mdid",
+                "Course Code": "HH1660",
+                "Short Name": "fargo",
                 "Work %": 5.3
             },
             {
-                "Course Code": "DA232-4X",
-                "Short Name": "exjobb",
+                "Course Code": "TT4485",
+                "Short Name": "trlob",
                 "Work %": 3.0
             },
             {
-                "Course Code": "DM128-9X",
-                "Short Name": "mkand",
+                "Course Code": "GA8830",
+                "Short Name": "olsen",
                 "Work %": 3.5
             }
         ],
@@ -1684,8 +1684,8 @@
         "Responsible HT": [],
         "HT Courses": [
             {
-                "Course Code": "DM2630",
-                "Short Name": "uxdesign",
+                "Course Code": "GA3330",
+                "Short Name": "farmo",
                 "Work %": 5.5
             }
         ],
@@ -1703,22 +1703,22 @@
         "Kontering HCT (%)": 25.0,
         "Bemnnad HCT Gru (%)": 24.22,
         "Responsible VT": [
-            "DA232-4X"
+            "TT4485"
         ],
         "VT Courses": [
             {
-                "Course Code": "DH2400 V",
-                "Short Name": "interakv",
+                "Course Code": "HH4932",
+                "Short Name": "notip",
                 "Work %": 0.5
             },
             {
-                "Course Code": "DH2629",
-                "Short Name": "ixd-reflect",
+                "Course Code": "HH1823",
+                "Short Name": "optidiv",
                 "Work %": 5.0
             },
             {
-                "Course Code": "DA232-4X",
-                "Short Name": "exjobb",
+                "Course Code": "TT4485",
+                "Short Name": "trlob",
                 "Work %": 12.6
             }
         ],
@@ -1726,8 +1726,8 @@
         "Responsible HT": [],
         "HT Courses": [
             {
-                "Course Code": "DH2400 H",
-                "Short Name": "interak",
+                "Course Code": "HH4545",
+                "Short Name": "outrak",
                 "Work %": 0.5
             }
         ],
@@ -1745,33 +1745,33 @@
         "Kontering HCT (%)": 30.0,
         "Bemnnad HCT Gru (%)": 29.51,
         "Responsible VT": [
-            "DM128-9X"
+            "GA8830"
         ],
         "VT Courses": [
             {
-                "Course Code": "DM128-9X",
-                "Short Name": "mkand",
+                "Course Code": "GA8830",
+                "Short Name": "olsen",
                 "Work %": 9.6
             },
             {
-                "Course Code": "DA232-4X",
-                "Short Name": "exjobb",
+                "Course Code": "TT4485",
+                "Short Name": "trlob",
                 "Work %": 4.0
             }
         ],
         "Gru VT (%)": 13.6,
         "Responsible HT": [
-            "DM2904-6"
+            "GA2080"
         ],
         "HT Courses": [
             {
-                "Course Code": "DM2904-6",
-                "Short Name": "indmed",
+                "Course Code": "GA2080",
+                "Short Name": "gbs-intro",
                 "Work %": 8.5
             },
             {
-                "Course Code": "DM2799",
-                "Short Name": "improj",
+                "Course Code": "GA4566",
+                "Short Name": "jarmoin",
                 "Work %": 0.6
             }
         ],
@@ -1791,13 +1791,13 @@
         "Responsible VT": [],
         "VT Courses": [
             {
-                "Course Code": "DH1620",
-                "Short Name": "mdid",
+                "Course Code": "HH1660",
+                "Short Name": "fargo",
                 "Work %": 11.3
             },
             {
-                "Course Code": "DA232-4X",
-                "Short Name": "exjobb",
+                "Course Code": "TT4485",
+                "Short Name": "trlob",
                 "Work %": 4.3
             }
         ],
@@ -1839,17 +1839,17 @@
         "VT Courses": [],
         "Gru VT (%)": 0.0,
         "Responsible HT": [
-            "DH2465"
+            "HH9090"
         ],
         "HT Courses": [
             {
-                "Course Code": "DH2465",
-                "Short Name": "del",
+                "Course Code": "HH9090",
+                "Short Name": "fartel",
                 "Work %": 14.2
             },
             {
-                "Course Code": "DH2655",
-                "Short Name": "kid",
+                "Course Code": "HH2998",
+                "Short Name": "manber",
                 "Work %": 2.2
             }
         ],
@@ -1867,33 +1867,33 @@
         "Kontering HCT (%)": 12.0,
         "Bemnnad HCT Gru (%)": 12.27,
         "Responsible VT": [
-            "DT2212"
+            "RS2230"
         ],
         "VT Courses": [
             {
-                "Course Code": "DT2212",
-                "Short Name": "musak",
+                "Course Code": "RS2230",
+                "Short Name": "elon",
                 "Work %": 7.6
             },
             {
-                "Course Code": "DT1175",
-                "Short Name": "ljud",
+                "Course Code": "RS0138",
+                "Short Name": "fargo",
                 "Work %": 0.4
             }
         ],
         "Gru VT (%)": 8.0,
         "Responsible HT": [
-            "DT2215"
+            "RS1233"
         ],
         "HT Courses": [
             {
-                "Course Code": "DT2215",
-                "Short Name": "indmus",
+                "Course Code": "RS1233",
+                "Short Name": "ofmouse",
                 "Work %": 0.0
             },
             {
-                "Course Code": "DM2350",
-                "Short Name": "humper",
+                "Course Code": "GA4040",
+                "Short Name": "hytro",
                 "Work %": 1.6
             }
         ],
@@ -1914,12 +1914,12 @@
         "VT Courses": [],
         "Gru VT (%)": 0.0,
         "Responsible HT": [
-            "DT2140"
+            "RS1010"
         ],
         "HT Courses": [
             {
-                "Course Code": "DT2140",
-                "Short Name": "mintint",
+                "Course Code": "RS1010",
+                "Short Name": "fresho",
                 "Work %": 13.3
             }
         ],
@@ -1937,43 +1937,43 @@
         "Kontering HCT (%)": 26.0,
         "Bemnnad HCT Gru (%)": 26.03,
         "Responsible VT": [
-            "DT1175"
+            "RS0138"
         ],
         "VT Courses": [
             {
-                "Course Code": "DT1175",
-                "Short Name": "ljud",
+                "Course Code": "RS0138",
+                "Short Name": "fargo",
                 "Work %": 10.1
             },
             {
-                "Course Code": "DT2212",
-                "Short Name": "musak",
+                "Course Code": "RS2230",
+                "Short Name": "elon",
                 "Work %": 0.9
             },
             {
-                "Course Code": "DM128-9X",
-                "Short Name": "mkand",
+                "Course Code": "GA8830",
+                "Short Name": "olsen",
                 "Work %": 2.1
             }
         ],
         "Gru VT (%)": 13.2,
         "Responsible HT": [
-            "DT2410"
+            "RS1280"
         ],
         "HT Courses": [
             {
-                "Course Code": "DT2410",
-                "Short Name": "autek",
+                "Course Code": "RS1280",
+                "Short Name": "apotek",
                 "Work %": 6.8
             },
             {
-                "Course Code": "DM1581",
-                "Short Name": "intromedia",
+                "Course Code": "GA1433",
+                "Short Name": "outrotele",
                 "Work %": 0.1
             },
             {
-                "Course Code": "DT2215",
-                "Short Name": "indmus",
+                "Course Code": "RS1233",
+                "Short Name": "ofmouse",
                 "Work %": 0.0
             }
         ],
@@ -1991,17 +1991,17 @@
         "Kontering HCT (%)": 14.0,
         "Bemnnad HCT Gru (%)": 14.04,
         "Responsible VT": [
-            "DM1590"
+            "GA1678"
         ],
         "VT Courses": [
             {
-                "Course Code": "DM1590",
-                "Short Name": "mlmed",
+                "Course Code": "GA1678",
+                "Short Name": "trojeg",
                 "Work %": 10.4
             },
             {
-                "Course Code": "DT2212",
-                "Short Name": "musak",
+                "Course Code": "RS2230",
+                "Short Name": "elon",
                 "Work %": 0.5
             }
         ],
@@ -2024,8 +2024,8 @@
         "Responsible VT": [],
         "VT Courses": [
             {
-                "Course Code": "DA232-4X",
-                "Short Name": "exjobb",
+                "Course Code": "TT4485",
+                "Short Name": "trlob",
                 "Work %": 3.8
             }
         ],
@@ -2048,8 +2048,8 @@
         "Responsible VT": [],
         "VT Courses": [
             {
-                "Course Code": "DA232-4X",
-                "Short Name": "exjobb",
+                "Course Code": "TT4485",
+                "Short Name": "trlob",
                 "Work %": 2.4
             }
         ],
@@ -2057,8 +2057,8 @@
         "Responsible HT": [],
         "HT Courses": [
             {
-                "Course Code": "DT2140",
-                "Short Name": "mintint",
+                "Course Code": "RS1010",
+                "Short Name": "fresho",
                 "Work %": 3.5
             }
         ],
@@ -2081,8 +2081,8 @@
         "Responsible HT": [],
         "HT Courses": [
             {
-                "Course Code": "DM2350",
-                "Short Name": "humper",
+                "Course Code": "GA4040",
+                "Short Name": "hytro",
                 "Work %": 0.4
             }
         ],
@@ -2102,8 +2102,8 @@
         "Responsible VT": [],
         "VT Courses": [
             {
-                "Course Code": "DT1175",
-                "Short Name": "ljud",
+                "Course Code": "RS0138",
+                "Short Name": "fargo",
                 "Work %": 0.4
             }
         ],
@@ -2111,8 +2111,8 @@
         "Responsible HT": [],
         "HT Courses": [
             {
-                "Course Code": "DM1135",
-                "Short Name": "mmss",
+                "Course Code": "GA2230",
+                "Short Name": "filtro",
                 "Work %": 5.7
             }
         ],
@@ -2243,8 +2243,8 @@
         "Responsible HT": [],
         "HT Courses": [
             {
-                "Course Code": "DT2140",
-                "Short Name": "mintint",
+                "Course Code": "RS1010",
+                "Short Name": "fresho",
                 "Work %": 1.8
             }
         ],
@@ -2267,8 +2267,8 @@
         "Responsible HT": [],
         "HT Courses": [
             {
-                "Course Code": "DT2140",
-                "Short Name": "mintint",
+                "Course Code": "RS1010",
+                "Short Name": "fresho",
                 "Work %": 1.8
             }
         ],
@@ -2306,13 +2306,13 @@
         "Responsible VT": [],
         "VT Courses": [
             {
-                "Course Code": "DT1175",
-                "Short Name": "ljud",
+                "Course Code": "RS0138",
+                "Short Name": "fargo",
                 "Work %": 3.2
             },
             {
-                "Course Code": "DT2212",
-                "Short Name": "musak",
+                "Course Code": "RS2230",
+                "Short Name": "elon",
                 "Work %": 1.8
             }
         ],
@@ -2320,13 +2320,13 @@
         "Responsible HT": [],
         "HT Courses": [
             {
-                "Course Code": "DT2140",
-                "Short Name": "mintint",
+                "Course Code": "RS1010",
+                "Short Name": "fresho",
                 "Work %": 3.3
             },
             {
-                "Course Code": "DT2410",
-                "Short Name": "autek",
+                "Course Code": "RS1280",
+                "Short Name": "apotek",
                 "Work %": 4.9
             }
         ],
@@ -2349,8 +2349,8 @@
         "Responsible HT": [],
         "HT Courses": [
             {
-                "Course Code": "DT2140",
-                "Short Name": "mintint",
+                "Course Code": "RS1010",
+                "Short Name": "fresho",
                 "Work %": 0.4
             }
         ],
@@ -2370,8 +2370,8 @@
         "Responsible VT": [],
         "VT Courses": [
             {
-                "Course Code": "DA232-4X",
-                "Short Name": "exjobb",
+                "Course Code": "TT4485",
+                "Short Name": "trlob",
                 "Work %": 1.0
             }
         ],
@@ -2397,8 +2397,8 @@
         "Responsible HT": [],
         "HT Courses": [
             {
-                "Course Code": "DM2350",
-                "Short Name": "humper",
+                "Course Code": "GA4040",
+                "Short Name": "hytro",
                 "Work %": 3.1
             }
         ],
@@ -2416,17 +2416,17 @@
         "Kontering HCT (%)": 17.0,
         "Bemnnad HCT Gru (%)": 20.22,
         "Responsible VT": [
-            "DH2323"
+            "HH2023"
         ],
         "VT Courses": [
             {
-                "Course Code": "DH2323",
-                "Short Name": "dgi",
+                "Course Code": "HH2023",
+                "Short Name": "cia",
                 "Work %": 10.4
             },
             {
-                "Course Code": "DA232-4X",
-                "Short Name": "exjobb",
+                "Course Code": "TT4485",
+                "Short Name": "trlob",
                 "Work %": 3.0
             }
         ],
@@ -2434,23 +2434,23 @@
         "Responsible HT": [],
         "HT Courses": [
             {
-                "Course Code": "DD2470",
-                "Short Name": "atcg",
+                "Course Code": "IH4000",
+                "Short Name": "astro",
                 "Work %": 0.3
             },
             {
-                "Course Code": "DM2350",
-                "Short Name": "humper",
+                "Course Code": "GA4040",
+                "Short Name": "hytro",
                 "Work %": 0.7
             },
             {
-                "Course Code": "DM2799",
-                "Short Name": "improj",
+                "Course Code": "GA4566",
+                "Short Name": "jarmoin",
                 "Work %": 1.1
             },
             {
-                "Course Code": "DT2140",
-                "Short Name": "mintint",
+                "Course Code": "RS1010",
+                "Short Name": "fresho",
                 "Work %": 0.9
             }
         ],
@@ -2473,8 +2473,8 @@
         "Responsible HT": [],
         "HT Courses": [
             {
-                "Course Code": "DH2413",
-                "Short Name": "agi",
+                "Course Code": "HH4533",
+                "Short Name": "ratur",
                 "Work %": 3.9
             }
         ],
@@ -2492,43 +2492,43 @@
         "Kontering HCT (%)": 47.0,
         "Bemnnad HCT Gru (%)": 43.33,
         "Responsible VT": [
-            "DH2321"
+            "HH1250"
         ],
         "VT Courses": [
             {
-                "Course Code": "DH2321",
-                "Short Name": "ivis",
+                "Course Code": "HH1250",
+                "Short Name": "superm",
                 "Work %": 14.2
             },
             {
-                "Course Code": "DA232-4X",
-                "Short Name": "exjobb",
+                "Course Code": "TT4485",
+                "Short Name": "trlob",
                 "Work %": 5.4
             }
         ],
         "Gru VT (%)": 19.6,
         "Responsible HT": [
-            "DH2413"
+            "HH4533"
         ],
         "HT Courses": [
             {
-                "Course Code": "DH2413",
-                "Short Name": "agi",
+                "Course Code": "HH4533",
+                "Short Name": "ratur",
                 "Work %": 10.1
             },
             {
-                "Course Code": "DD2470",
-                "Short Name": "atcg",
+                "Course Code": "IH4000",
+                "Short Name": "astro",
                 "Work %": 0.3
             },
             {
-                "Course Code": "DM2799",
-                "Short Name": "improj",
+                "Course Code": "GA4566",
+                "Short Name": "jarmoin",
                 "Work %": 0.7
             },
             {
-                "Course Code": "DT2140",
-                "Short Name": "mintint",
+                "Course Code": "RS1010",
+                "Short Name": "fresho",
                 "Work %": 2.1
             }
         ],
@@ -2548,55 +2548,55 @@
         "Responsible VT": [],
         "VT Courses": [
             {
-                "Course Code": "DH1620",
-                "Short Name": "mdid",
+                "Course Code": "HH1660",
+                "Short Name": "fargo",
                 "Work %": 5.3
             },
             {
-                "Course Code": "DA232-4X",
-                "Short Name": "exjobb",
+                "Course Code": "TT4485",
+                "Short Name": "trlob",
                 "Work %": 14.0
             }
         ],
         "Gru VT (%)": 19.3,
         "Responsible HT": [
-            "DH2650",
-            "DH2655"
+            "HH2020",
+            "HH2998"
         ],
         "HT Courses": [
             {
-                "Course Code": "DH2650",
-                "Short Name": "spel",
+                "Course Code": "HH2020",
+                "Short Name": "spencer",
                 "Work %": 9.5
             },
             {
-                "Course Code": "DH2655",
-                "Short Name": "kid",
+                "Course Code": "HH2998",
+                "Short Name": "manber",
                 "Work %": 7.9
             },
             {
-                "Course Code": "DD2470",
-                "Short Name": "atcg",
+                "Course Code": "IH4000",
+                "Short Name": "astro",
                 "Work %": 0.3
             },
             {
-                "Course Code": "DH2413",
-                "Short Name": "agi",
+                "Course Code": "HH4533",
+                "Short Name": "ratur",
                 "Work %": 1.3
             },
             {
-                "Course Code": "DH2465",
-                "Short Name": "del",
+                "Course Code": "HH9090",
+                "Short Name": "fartel",
                 "Work %": 1.0
             },
             {
-                "Course Code": "DM2799",
-                "Short Name": "improj",
+                "Course Code": "GA4566",
+                "Short Name": "jarmoin",
                 "Work %": 0.4
             },
             {
-                "Course Code": "DT2140",
-                "Short Name": "mintint",
+                "Course Code": "RS1010",
+                "Short Name": "fresho",
                 "Work %": 1.4
             }
         ],
@@ -2614,45 +2614,45 @@
         "Kontering HCT (%)": 38.0,
         "Bemnnad HCT Gru (%)": 41.23,
         "Responsible VT": [
-            "DD2258",
-            "DH2320"
+            "IH5610",
+            "HH1010"
         ],
         "VT Courses": [
             {
-                "Course Code": "DD2258",
-                "Short Name": "visintro",
+                "Course Code": "IH5610",
+                "Short Name": "naestum",
                 "Work %": 0.3
             },
             {
-                "Course Code": "DH2320",
-                "Short Name": "visgra",
+                "Course Code": "HH1010",
+                "Short Name": "borda",
                 "Work %": 8.3
             },
             {
-                "Course Code": "DA232-4X",
-                "Short Name": "exjobb",
+                "Course Code": "TT4485",
+                "Short Name": "trlob",
                 "Work %": 8.5
             }
         ],
         "Gru VT (%)": 17.1,
         "Responsible HT": [
-            "DD2257",
-            "DD2470"
+            "IH3055",
+            "IH4000"
         ],
         "HT Courses": [
             {
-                "Course Code": "DD2257",
-                "Short Name": "viz",
+                "Course Code": "IH3055",
+                "Short Name": "khalifo",
                 "Work %": 8.6
             },
             {
-                "Course Code": "DD2470",
-                "Short Name": "atcg",
+                "Course Code": "IH4000",
+                "Short Name": "astro",
                 "Work %": 4.7
             },
             {
-                "Course Code": "DM2679",
-                "Short Name": "improint",
+                "Course Code": "GA9233",
+                "Short Name": "plangib",
                 "Work %": 2.4
             }
         ],
@@ -2672,13 +2672,13 @@
         "Responsible VT": [],
         "VT Courses": [
             {
-                "Course Code": "DH2320",
-                "Short Name": "visgra",
+                "Course Code": "HH1010",
+                "Short Name": "borda",
                 "Work %": 9.9
             },
             {
-                "Course Code": "DH2323",
-                "Short Name": "dgi",
+                "Course Code": "HH2023",
+                "Short Name": "cia",
                 "Work %": 2.3
             }
         ],
@@ -2686,8 +2686,8 @@
         "Responsible HT": [],
         "HT Courses": [
             {
-                "Course Code": "DD2257",
-                "Short Name": "viz",
+                "Course Code": "IH3055",
+                "Short Name": "khalifo",
                 "Work %": 6.8
             }
         ],
@@ -2707,18 +2707,18 @@
         "Responsible VT": [],
         "VT Courses": [
             {
-                "Course Code": "DH2320",
-                "Short Name": "visgra",
+                "Course Code": "HH1010",
+                "Short Name": "borda",
                 "Work %": 9.9
             },
             {
-                "Course Code": "DH2321",
-                "Short Name": "ivis",
+                "Course Code": "HH1250",
+                "Short Name": "superm",
                 "Work %": 5.8
             },
             {
-                "Course Code": "DH2323",
-                "Short Name": "dgi",
+                "Course Code": "HH2023",
+                "Short Name": "cia",
                 "Work %": 2.1
             }
         ],
@@ -2726,8 +2726,8 @@
         "Responsible HT": [],
         "HT Courses": [
             {
-                "Course Code": "DD2257",
-                "Short Name": "viz",
+                "Course Code": "IH3055",
+                "Short Name": "khalifo",
                 "Work %": 4.2
             }
         ],
@@ -2747,8 +2747,8 @@
         "Responsible VT": [],
         "VT Courses": [
             {
-                "Course Code": "DH2323",
-                "Short Name": "dgi",
+                "Course Code": "HH2023",
+                "Short Name": "cia",
                 "Work %": 2.1
             }
         ],
@@ -2771,8 +2771,8 @@
         "Responsible VT": [],
         "VT Courses": [
             {
-                "Course Code": "DH2323",
-                "Short Name": "dgi",
+                "Course Code": "HH2023",
+                "Short Name": "cia",
                 "Work %": 6.5
             }
         ],
@@ -2780,13 +2780,13 @@
         "Responsible HT": [],
         "HT Courses": [
             {
-                "Course Code": "DH2650",
-                "Short Name": "spel",
+                "Course Code": "HH2020",
+                "Short Name": "spencer",
                 "Work %": 0.9
             },
             {
-                "Course Code": "DM2350",
-                "Short Name": "humper",
+                "Course Code": "GA4040",
+                "Short Name": "hytro",
                 "Work %": 3.3
             }
         ],
@@ -2825,12 +2825,12 @@
         "VT Courses": [],
         "Gru VT (%)": 0.0,
         "Responsible HT": [
-            "IC2005"
+            "AF8320"
         ],
         "HT Courses": [
             {
-                "Course Code": "IC2005",
-                "Short Name": "ixd-IC",
+                "Course Code": "AF8320",
+                "Short Name": "usertop",
                 "Work %": 11.0
             }
         ],
@@ -2868,13 +2868,13 @@
         "Responsible VT": [],
         "VT Courses": [
             {
-                "Course Code": "DM1590",
-                "Short Name": "mlmed",
+                "Course Code": "GA1678",
+                "Short Name": "trojeg",
                 "Work %": 2.8
             },
             {
-                "Course Code": "DT1175",
-                "Short Name": "ljud",
+                "Course Code": "RS0138",
+                "Short Name": "fargo",
                 "Work %": 5.7
             }
         ],
@@ -2882,28 +2882,28 @@
         "Responsible HT": [],
         "HT Courses": [
             {
-                "Course Code": "DA232-4X",
-                "Short Name": "exjobb",
+                "Course Code": "TT4485",
+                "Short Name": "trlob",
                 "Work %": 8.5
             },
             {
-                "Course Code": "DH1622",
-                "Short Name": "mdi-media",
+                "Course Code": "HH2323",
+                "Short Name": "mel-gib",
                 "Work %": 6.2
             },
             {
-                "Course Code": "DM1135",
-                "Short Name": "mmss",
+                "Course Code": "GA2230",
+                "Short Name": "filtro",
                 "Work %": 5.3
             },
             {
-                "Course Code": "DM2579",
-                "Short Name": "mep",
+                "Course Code": "GA3422",
+                "Short Name": "metro",
                 "Work %": 0.3
             },
             {
-                "Course Code": "DT2140",
-                "Short Name": "mintint",
+                "Course Code": "RS1010",
+                "Short Name": "fresho",
                 "Work %": 4.0
             }
         ],
@@ -2923,69 +2923,69 @@
         "Responsible VT": [],
         "VT Courses": [
             {
-                "Course Code": "DH1609",
-                "Short Name": "komminf",
+                "Course Code": "HH4030",
+                "Short Name": "redlib",
                 "Work %": 1.6
             },
             {
-                "Course Code": "DH1620",
-                "Short Name": "mdid",
+                "Course Code": "HH1660",
+                "Short Name": "fargo",
                 "Work %": 5.3
             },
             {
-                "Course Code": "DH2400 V",
-                "Short Name": "interakv",
+                "Course Code": "HH4932",
+                "Short Name": "notip",
                 "Work %": 7.1
             },
             {
-                "Course Code": "DM1588",
-                "Short Name": "sensmed",
+                "Course Code": "GA1670",
+                "Short Name": "sstid",
                 "Work %": 1.8
             },
             {
-                "Course Code": "DM2624",
-                "Short Name": "itfunk",
+                "Course Code": "GA2010",
+                "Short Name": "witboi",
                 "Work %": 1.7
             }
         ],
         "Gru VT (%)": 17.5,
         "Responsible HT": [
-            "DM1595"
+            "GA5255"
         ],
         "HT Courses": [
             {
-                "Course Code": "DM1595",
-                "Short Name": "progim",
+                "Course Code": "GA5255",
+                "Short Name": "helgav",
                 "Work %": 5.3
             },
             {
-                "Course Code": "DM1135",
-                "Short Name": "mmss",
+                "Course Code": "GA2230",
+                "Short Name": "filtro",
                 "Work %": 1.6
             },
             {
-                "Course Code": "DM1579",
-                "Short Name": "meph",
+                "Course Code": "GA4397",
+                "Short Name": "triopp",
                 "Work %": 4.8
             },
             {
-                "Course Code": "DM2350",
-                "Short Name": "humper",
+                "Course Code": "GA4040",
+                "Short Name": "hytro",
                 "Work %": 0.4
             },
             {
-                "Course Code": "DM2584",
-                "Short Name": "mmproj",
+                "Course Code": "GA4970",
+                "Short Name": "multimario",
                 "Work %": 0.0
             },
             {
-                "Course Code": "DM2679",
-                "Short Name": "improint",
+                "Course Code": "GA9233",
+                "Short Name": "plangib",
                 "Work %": 2.4
             },
             {
-                "Course Code": "DM2799",
-                "Short Name": "improj",
+                "Course Code": "GA4566",
+                "Short Name": "jarmoin",
                 "Work %": 2.7
             }
         ],
@@ -3005,38 +3005,38 @@
         "Responsible VT": [],
         "VT Courses": [
             {
-                "Course Code": "DH2400 V",
-                "Short Name": "interakv",
+                "Course Code": "HH4932",
+                "Short Name": "notip",
                 "Work %": 6.0
             },
             {
-                "Course Code": "DH2642 V",
-                "Short Name": "iprogd",
+                "Course Code": "HH9910",
+                "Short Name": "uno",
                 "Work %": 27.6
             },
             {
-                "Course Code": "DH2670",
-                "Short Name": "haptik",
+                "Course Code": "HH1088",
+                "Short Name": "senso",
                 "Work %": 1.9
             },
             {
-                "Course Code": "DM1580",
-                "Short Name": "video",
+                "Course Code": "GA2310",
+                "Short Name": "gofetch",
                 "Work %": 6.7
             },
             {
-                "Course Code": "DM1588",
-                "Short Name": "sensmed",
+                "Course Code": "GA1670",
+                "Short Name": "sstid",
                 "Work %": 6.0
             },
             {
-                "Course Code": "DM2518",
-                "Short Name": "mobut",
+                "Course Code": "GA7018",
+                "Short Name": "keisari",
                 "Work %": 6.9
             },
             {
-                "Course Code": "DM2583",
-                "Short Name": "bdatav",
+                "Course Code": "GA5152",
+                "Short Name": "brask",
                 "Work %": 2.2
             }
         ],
@@ -3044,43 +3044,43 @@
         "Responsible HT": [],
         "HT Courses": [
             {
-                "Course Code": "DH2400 H",
-                "Short Name": "interak",
+                "Course Code": "HH4545",
+                "Short Name": "outrak",
                 "Work %": 5.3
             },
             {
-                "Course Code": "DH2408",
-                "Short Name": "utvard",
+                "Course Code": "HH4865",
+                "Short Name": "inngel",
                 "Work %": 2.2
             },
             {
-                "Course Code": "DH2642 H",
-                "Short Name": "iprogdh",
+                "Course Code": "HH7070",
+                "Short Name": "typer",
                 "Work %": 41.8
             },
             {
-                "Course Code": "DM1579",
-                "Short Name": "meph",
+                "Course Code": "GA4397",
+                "Short Name": "triopp",
                 "Work %": 4.1
             },
             {
-                "Course Code": "DM1581",
-                "Short Name": "intromedia",
+                "Course Code": "GA1433",
+                "Short Name": "outrotele",
                 "Work %": 1.6
             },
             {
-                "Course Code": "DM2350",
-                "Short Name": "humper",
+                "Course Code": "GA4040",
+                "Short Name": "hytro",
                 "Work %": 0.4
             },
             {
-                "Course Code": "DM2500",
-                "Short Name": "distans",
+                "Course Code": "GA3499",
+                "Short Name": "vector",
                 "Work %": 1.1
             },
             {
-                "Course Code": "DM2579",
-                "Short Name": "mep",
+                "Course Code": "GA3422",
+                "Short Name": "metro",
                 "Work %": 0.0
             }
         ],
@@ -3100,53 +3100,53 @@
         "Responsible VT": [],
         "VT Courses": [
             {
-                "Course Code": "DH1609",
-                "Short Name": "komminf",
+                "Course Code": "HH4030",
+                "Short Name": "redlib",
                 "Work %": 5.2
             },
             {
-                "Course Code": "DH1620",
-                "Short Name": "mdid",
+                "Course Code": "HH1660",
+                "Short Name": "fargo",
                 "Work %": 5.3
             },
             {
-                "Course Code": "DH2400 V",
-                "Short Name": "interakv",
+                "Course Code": "HH4932",
+                "Short Name": "notip",
                 "Work %": 0.9
             },
             {
-                "Course Code": "DH2629",
-                "Short Name": "ixd-reflect",
+                "Course Code": "HH1823",
+                "Short Name": "optidiv",
                 "Work %": 1.4
             },
             {
-                "Course Code": "DH2632 V",
-                "Short Name": "mdisemv",
+                "Course Code": "HH1824",
+                "Short Name": "gravit",
                 "Work %": 1.1
             },
             {
-                "Course Code": "DH2642 V",
-                "Short Name": "iprogd",
+                "Course Code": "HH9910",
+                "Short Name": "uno",
                 "Work %": 1.2
             },
             {
-                "Course Code": "DH2670",
-                "Short Name": "haptik",
+                "Course Code": "HH1088",
+                "Short Name": "senso",
                 "Work %": 0.4
             },
             {
-                "Course Code": "DM2556",
-                "Short Name": "intcom",
+                "Course Code": "GA9010",
+                "Short Name": "unouno",
                 "Work %": 0.7
             },
             {
-                "Course Code": "DT2213",
-                "Short Name": "muscom",
+                "Course Code": "RS1006",
+                "Short Name": "kaupa",
                 "Work %": 0.6
             },
             {
-                "Course Code": "DA232-4X",
-                "Short Name": "exjobb",
+                "Course Code": "TT4485",
+                "Short Name": "trlob",
                 "Work %": 2.0
             }
         ],
@@ -3154,58 +3154,58 @@
         "Responsible HT": [],
         "HT Courses": [
             {
-                "Course Code": "DH2400 H",
-                "Short Name": "interak",
+                "Course Code": "HH4545",
+                "Short Name": "outrak",
                 "Work %": 0.9
             },
             {
-                "Course Code": "DH2465",
-                "Short Name": "del",
+                "Course Code": "HH9090",
+                "Short Name": "fartel",
                 "Work %": 0.8
             },
             {
-                "Course Code": "DH2632 H",
-                "Short Name": "mdisemh",
+                "Course Code": "HH4588",
+                "Short Name": "astro",
                 "Work %": 1.4
             },
             {
-                "Course Code": "DH2642 H",
-                "Short Name": "iprogdh",
+                "Course Code": "HH7070",
+                "Short Name": "typer",
                 "Work %": 1.2
             },
             {
-                "Course Code": "DM1579",
-                "Short Name": "meph",
+                "Course Code": "GA4397",
+                "Short Name": "triopp",
                 "Work %": 1.0
             },
             {
-                "Course Code": "DM1581",
-                "Short Name": "intromedia",
+                "Course Code": "GA1433",
+                "Short Name": "outrotele",
                 "Work %": 1.2
             },
             {
-                "Course Code": "DM2500",
-                "Short Name": "distans",
+                "Course Code": "GA3499",
+                "Short Name": "vector",
                 "Work %": 2.1
             },
             {
-                "Course Code": "DM2572",
-                "Short Name": "teori",
+                "Course Code": "GA9023",
+                "Short Name": "mathmix",
                 "Work %": 0.4
             },
             {
-                "Course Code": "DM2573",
-                "Short Name": "hallutv",
+                "Course Code": "GA6030",
+                "Short Name": "telegib",
                 "Work %": 1.2
             },
             {
-                "Course Code": "DM2579",
-                "Short Name": "mep",
+                "Course Code": "GA3422",
+                "Short Name": "metro",
                 "Work %": 0.9
             },
             {
-                "Course Code": "DM2799",
-                "Short Name": "improj",
+                "Course Code": "GA4566",
+                "Short Name": "jarmoin",
                 "Work %": 0.3
             }
         ],

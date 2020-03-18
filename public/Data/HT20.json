@@ -1,5 +1,5 @@
 {
-    "DA232-4X": {
+    "TT4485": {
         "Period": [
             "1",
             "2",
@@ -161,7 +161,7 @@
             }
         },
         "% no 1": "100%",
-        "short name": "exjobb",
+        "short name": "trlob",
         "% no 2": "100%",
         "Credits": "30",
         "Financial Outcome": "−1071 351",
@@ -202,7 +202,7 @@
             "Marjorie (Marge) Dursley"
         ]
     },
-    "DA234X": {
+    "TT4366": {
         "Period": [
             "1",
             "2",
@@ -243,7 +243,7 @@
             }
         },
         "% no 1": "100%",
-        "short name": "mmexjobb",
+        "short name": "atrolob",
         "% no 2": "100%",
         "Credits": "30",
         "Financial Outcome": "0",
@@ -281,7 +281,7 @@
         "Emplyee cost+LKP": "0",
         "Responsible": []
     },
-    "DM1579": {
+    "GA4397": {
         "Period": [
             "1",
             "2"
@@ -316,7 +316,7 @@
             }
         },
         "% no 1": "100%",
-        "short name": "meph",
+        "short name": "triopp",
         "% no 2": "95%",
         "Credits": "6",
         "Financial Outcome": "−13 086",
@@ -356,7 +356,7 @@
             "Elphias Doge"
         ]
     },
-    "DH1621": {
+    "HH1259": {
         "Period": [
             "1",
             "summer"
@@ -371,7 +371,7 @@
             }
         },
         "% no 1": "100%",
-        "short name": "mdi-intro",
+        "short name": "gel-in",
         "% no 2": "95%",
         "Credits": "3",
         "Financial Outcome": "−165 815",
@@ -411,7 +411,7 @@
             "Reginald Cattermole"
         ]
     },
-    "DH2400 H": {
+    "HH4545": {
         "Period": [
             "1"
         ],
@@ -438,7 +438,7 @@
             }
         },
         "% no 1": "100%",
-        "short name": "interak",
+        "short name": "outrak",
         "% no 2": "95%",
         "Credits": "7.5",
         "Financial Outcome": "152 787",
@@ -478,7 +478,7 @@
             "Vincent Crabbe"
         ]
     },
-    "DH2408": {
+    "HH4865": {
         "Period": [
             "2"
         ],
@@ -506,7 +506,7 @@
             }
         },
         "% no 1": "100%",
-        "short name": "utvard",
+        "short name": "inngel",
         "% no 2": "90%",
         "Credits": "6",
         "Financial Outcome": "−120 509",
@@ -546,7 +546,7 @@
             "Argus Filch"
         ]
     },
-    "DH2465": {
+    "HH9090": {
         "Period": [
             "1",
             "2"
@@ -569,7 +569,7 @@
             }
         },
         "% no 1": "100%",
-        "short name": "del",
+        "short name": "fartel",
         "% no 2": "90%",
         "Credits": "6",
         "Financial Outcome": "51 855",
@@ -609,7 +609,7 @@
             "Seamus Finnigan"
         ]
     },
-    "DH2466": {
+    "HH8090": {
         "Period": [
             "1",
             "2",
@@ -625,7 +625,7 @@
             }
         },
         "% no 1": "100%",
-        "short name": "indmdi",
+        "short name": "telut",
         "% no 2": "33%",
         "Credits": "6",
         "Financial Outcome": "−31 600",
@@ -665,7 +665,7 @@
             "Hannah Abbott"
         ]
     },
-    "DH1622": {
+    "HH2323": {
         "Period": [
             "1"
         ],
@@ -697,7 +697,7 @@
             }
         },
         "% no 1": "100%",
-        "short name": "mdi-media",
+        "short name": "mel-gib",
         "% no 2": "95%",
         "Credits": "7.5",
         "Financial Outcome": "517 475",
@@ -737,7 +737,7 @@
             "Terry Boot"
         ]
     },
-    "DM2712": {
+    "GA1299": {
         "Period": [
             "2"
         ],
@@ -751,7 +751,7 @@
             }
         },
         "% no 1": "100%",
-        "short name": "vetmetimt2",
+        "short name": "hal-gib",
         "% no 2": "95%",
         "Credits": "6",
         "Financial Outcome": "77 170",
@@ -791,7 +791,7 @@
             "Penelope Clearwater"
         ]
     },
-    "DM2630": {
+    "GA3330": {
         "Period": [
             "1",
             "2"
@@ -813,7 +813,7 @@
             }
         },
         "% no 1": "100%",
-        "short name": "uxdesign",
+        "short name": "farmo",
         "% no 2": "99%",
         "Credits": "9",
         "Financial Outcome": "−116 785",
@@ -853,7 +853,7 @@
             "Ludo Bagman"
         ]
     },
-    "DH2632 H": {
+    "HH4588": {
         "Period": [
             "1",
             "2"
@@ -873,7 +873,7 @@
             }
         },
         "% no 1": "100%",
-        "short name": "mdisemh",
+        "short name": "astro",
         "% no 2": "95%",
         "Credits": "3",
         "Financial Outcome": "−74 218",
@@ -913,7 +913,7 @@
             "Arabella Figg"
         ]
     },
-    "DH2655": {
+    "HH2998": {
         "Period": [
             "1",
             "2"
@@ -931,7 +931,7 @@
             }
         },
         "% no 1": "100%",
-        "short name": "kid",
+        "short name": "manber",
         "% no 2": "95%",
         "Credits": "9",
         "Financial Outcome": "−73 263",
@@ -971,7 +971,7 @@
             "Igor Karkaroff"
         ]
     },
-    "DM1581": {
+    "GA1433": {
         "Period": [
             "1",
             "2"
@@ -1026,7 +1026,7 @@
             }
         },
         "% no 1": "100%",
-        "short name": "intromedia",
+        "short name": "outrotele",
         "% no 2": "99%",
         "Credits": "6",
         "Financial Outcome": "177 487",
@@ -1066,7 +1066,7 @@
             "Mary Cattermole"
         ]
     },
-    "DM1578": {
+    "GA9943": {
         "Period": [
             "1",
             "2",
@@ -1104,7 +1104,7 @@
             }
         },
         "% no 1": "100%",
-        "short name": "proint",
+        "short name": "power",
         "% no 2": "99%",
         "Credits": "2.33",
         "Financial Outcome": "−141 362",
@@ -1144,7 +1144,7 @@
             "Cho Chang"
         ]
     },
-    "DM2500": {
+    "GA3499": {
         "Period": [
             "2"
         ],
@@ -1165,7 +1165,7 @@
             }
         },
         "% no 1": "100%",
-        "short name": "distans",
+        "short name": "vector",
         "% no 2": "95%",
         "Credits": "7.5",
         "Financial Outcome": "−29 688",
@@ -1205,7 +1205,7 @@
             "Mary Cattermole"
         ]
     },
-    "DM2517": {
+    "GA2500": {
         "Period": [
             "2"
         ],
@@ -1224,7 +1224,7 @@
             }
         },
         "% no 1": "100%",
-        "short name": "xmlpub",
+        "short name": "tgif",
         "% no 2": "90%",
         "Credits": "7.5",
         "Financial Outcome": "0",
@@ -1264,7 +1264,7 @@
             "Cho Chang"
         ]
     },
-    "DM2572": {
+    "GA9023": {
         "Period": [
             "1"
         ],
@@ -1282,7 +1282,7 @@
             }
         },
         "% no 1": "100%",
-        "short name": "teori",
+        "short name": "mathmix",
         "% no 2": "95%",
         "Credits": "7.5",
         "Financial Outcome": "−148 489",
@@ -1322,7 +1322,7 @@
             "Penelope Clearwater"
         ]
     },
-    "DM2573": {
+    "GA6030": {
         "Period": [
             "2"
         ],
@@ -1354,7 +1354,7 @@
             }
         },
         "% no 1": "100%",
-        "short name": "hallutv",
+        "short name": "telegib",
         "% no 2": "100%",
         "Credits": "7.5",
         "Financial Outcome": "20 449",
@@ -1394,7 +1394,7 @@
             "Cedric Diggory"
         ]
     },
-    "DM2579": {
+    "GA3422": {
         "Period": [
             "2"
         ],
@@ -1419,7 +1419,7 @@
             }
         },
         "% no 1": "100%",
-        "short name": "mep",
+        "short name": "metro",
         "% no 2": "99%",
         "Credits": "7.5",
         "Financial Outcome": "125 085",
@@ -1459,7 +1459,7 @@
             "Elphias Doge"
         ]
     },
-    "DM2904-6": {
+    "GA2080": {
         "Period": [
             "1",
             "2",
@@ -1473,7 +1473,7 @@
             }
         },
         "% no 1": "100%",
-        "short name": "indmed",
+        "short name": "gbs-intro",
         "% no 2": "99%",
         "Credits": "7.5",
         "Financial Outcome": "−62 420",
@@ -1513,7 +1513,7 @@
             "Petunia Dursley (née Evans)"
         ]
     },
-    "DM2601": {
+    "GA3090": {
         "Period": [
             "1"
         ],
@@ -1538,7 +1538,7 @@
             }
         },
         "% no 1": "100%",
-        "short name": "mixd",
+        "short name": "plain",
         "% no 2": "95%",
         "Credits": "7.5",
         "Financial Outcome": "78 457",
@@ -1578,7 +1578,7 @@
             "Mundungus Fletcher"
         ]
     },
-    "DM2679": {
+    "GA9233": {
         "Period": [
             "1",
             "2",
@@ -1606,7 +1606,7 @@
             }
         },
         "% no 1": "100%",
-        "short name": "improint",
+        "short name": "plangib",
         "% no 2": "99%",
         "Credits": "1",
         "Financial Outcome": "−342 734",
@@ -1646,7 +1646,7 @@
             "Frank Bryce"
         ]
     },
-    "DM2350": {
+    "GA4040": {
         "Period": [
             "1",
             "2"
@@ -1705,7 +1705,7 @@
             }
         },
         "% no 1": "100%",
-        "short name": "humper",
+        "short name": "hytro",
         "% no 2": "90%",
         "Credits": "7.5",
         "Financial Outcome": "37 508",
@@ -1745,7 +1745,7 @@
             "Michael Corner"
         ]
     },
-    "DM2575": {
+    "GA2230": {
         "Period": [
             "1",
             "2",
@@ -1765,7 +1765,7 @@
             }
         },
         "% no 1": "100%",
-        "short name": "mmproint",
+        "short name": "teleman",
         "% no 2": "99%",
         "Credits": "2",
         "Financial Outcome": "−98 683",
@@ -1805,7 +1805,7 @@
             "Susan Bones"
         ]
     },
-    "DM2799": {
+    "GA4566": {
         "Period": [
             "2"
         ],
@@ -1865,7 +1865,7 @@
             }
         },
         "% no 1": "100%",
-        "short name": "improj",
+        "short name": "jarmoin",
         "% no 2": "99%",
         "Credits": "7.5",
         "Financial Outcome": "154 130",
@@ -1905,7 +1905,7 @@
             "Terry Boot"
         ]
     },
-    "DM2584": {
+    "GA4970": {
         "Period": [
             "2"
         ],
@@ -1922,7 +1922,7 @@
             }
         },
         "% no 1": "100%",
-        "short name": "mmproj",
+        "short name": "multimario",
         "% no 2": "99%",
         "Credits": "7.5",
         "Financial Outcome": "143 753",
@@ -1962,7 +1962,7 @@
             "Susan Bones"
         ]
     },
-    "DH2642 H": {
+    "HH7070": {
         "Period": [
             "1",
             "2"
@@ -1985,7 +1985,7 @@
             }
         },
         "% no 1": "100%",
-        "short name": "iprogdh",
+        "short name": "typer",
         "% no 2": "90%",
         "Credits": "7.5",
         "Financial Outcome": "800 157",
@@ -2025,7 +2025,7 @@
             "Marcus Belby"
         ]
     },
-    "IC1007": {
+    "AF9000": {
         "Period": [
             "1"
         ],
@@ -2040,7 +2040,7 @@
             }
         },
         "% no 1": "100%",
-        "short name": "mdi-IC",
+        "short name": "telein",
         "% no 2": "99%",
         "Credits": "7.5",
         "Financial Outcome": "0",
@@ -2078,7 +2078,7 @@
         "Emplyee cost+LKP": "0",
         "Responsible": []
     },
-    "IC2005": {
+    "AF8320": {
         "Period": [
             "2"
         ],
@@ -2093,7 +2093,7 @@
             }
         },
         "% no 1": "100%",
-        "short name": "ixd-IC",
+        "short name": "usertop",
         "% no 2": "99%",
         "Credits": "7.5",
         "Financial Outcome": "−87 164",
@@ -2133,7 +2133,7 @@
             "Neville Longbottom"
         ]
     },
-    "DH2650": {
+    "HH2020": {
         "Period": [
             "1",
             "2"
@@ -2155,7 +2155,7 @@
             }
         },
         "% no 1": "75%",
-        "short name": "spel",
+        "short name": "spencer",
         "% no 2": "95%",
         "Credits": "6",
         "Financial Outcome": "117 593",
@@ -2195,7 +2195,7 @@
             "Igor Karkaroff"
         ]
     },
-    "DD2470": {
+    "IH4000": {
         "Period": [
             "2"
         ],
@@ -2218,7 +2218,7 @@
             }
         },
         "% no 1": "100%",
-        "short name": "atcg",
+        "short name": "astro",
         "% no 2": "85%",
         "Credits": "6",
         "Financial Outcome": "−133 428",
@@ -2258,7 +2258,7 @@
             "Bertha Jorkins"
         ]
     },
-    "DH2413": {
+    "HH4533": {
         "Period": [
             "1",
             "2"
@@ -2282,7 +2282,7 @@
             }
         },
         "% no 1": "100%",
-        "short name": "agi",
+        "short name": "ratur",
         "% no 2": "90%",
         "Credits": "9",
         "Financial Outcome": "14 907",
@@ -2322,7 +2322,7 @@
             "Angelina Johnson"
         ]
     },
-    "DD2257": {
+    "IH3055": {
         "Period": [
             "1"
         ],
@@ -2347,7 +2347,7 @@
             }
         },
         "% no 1": "100%",
-        "short name": "viz",
+        "short name": "khalifo",
         "% no 2": "90%",
         "Credits": "7.5",
         "Financial Outcome": "117 909",
@@ -2387,7 +2387,7 @@
             "Bertha Jorkins"
         ]
     },
-    "DT2140": {
+    "RS1010": {
         "Period": [
             "2"
         ],
@@ -2445,7 +2445,7 @@
             }
         },
         "% no 1": "100%",
-        "short name": "mintint",
+        "short name": "fresho",
         "% no 2": "95%",
         "Credits": "7.5",
         "Financial Outcome": "23 202",
@@ -2485,7 +2485,7 @@
             "Florean Fortescue"
         ]
     },
-    "DT2410": {
+    "RS1280": {
         "Period": [
             "2"
         ],
@@ -2507,7 +2507,7 @@
             }
         },
         "% no 1": "100%",
-        "short name": "autek",
+        "short name": "apotek",
         "% no 2": "90%",
         "Credits": "7.5",
         "Financial Outcome": "−183 139",
@@ -2547,7 +2547,7 @@
             "Cornelius Fudge"
         ]
     },
-    "DM1135": {
+    "GA2230": {
         "Period": [
             "2"
         ],
@@ -2578,7 +2578,7 @@
             }
         },
         "% no 1": "100%",
-        "short name": "mmss",
+        "short name": "filtro",
         "% no 2": "80%",
         "Credits": "7.5",
         "Financial Outcome": "304 511",
@@ -2618,7 +2618,7 @@
             "Michael Corner"
         ]
     },
-    "DH2643": {
+    "HH5544": {
         "Period": [
             "1"
         ],
@@ -2639,7 +2639,7 @@
             }
         },
         "% no 1": "100%",
-        "short name": "adviprog",
+        "short name": "improv",
         "% no 2": "80%",
         "Credits": "7.5",
         "Financial Outcome": "283 747",
@@ -2679,7 +2679,7 @@
             "Marcus Belby"
         ]
     },
-    "DM1595": {
+    "GA5255": {
         "Period": [
             "1"
         ],
@@ -2700,7 +2700,7 @@
             }
         },
         "% no 1": "100%",
-        "short name": "progim",
+        "short name": "helgav",
         "% no 2": "80%",
         "Credits": "7.5",
         "Financial Outcome": "572 934",
